@@ -1,0 +1,7 @@
+-F /usr/local/bin/pandoc-tablenos
+-F pandoc-crossref
+-F pandoc-citeproc
+--csl .template/ieee.csl
+--metadata-file=.template/metadata.yml
+--lua-filter=.template/pandoc/date.lua
+--lua-filter=.template/pandoc/gls.lua

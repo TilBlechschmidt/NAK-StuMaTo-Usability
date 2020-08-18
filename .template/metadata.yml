@@ -1,0 +1,30 @@
+geometry: margin=2cm, bottom=3cm
+papersize: a4
+
+lang: de-DE
+
+fontsize: 12pt
+fontfamily: times
+monofont: inconsolata
+
+hyphens: URL
+breakurl: true
+link-citations: true
+
+Deckblatt: true
+toc: true
+lot: false
+lof: false
+glossaryafter: true
+
+natbib: true
+
+tablenos-warning-level: 1
+
+figPrefix:
+  - "Abbildung"
+  - "Abbildungen"
+
+secPrefix:
+  - "Abschnitt"
+  - "Abschnitten"
