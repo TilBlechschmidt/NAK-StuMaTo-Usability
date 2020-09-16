@@ -1,9 +1,9 @@
 ---
-    header-title: Transferleistung 1
-    title: Optimierung der Build-Dauer eines Web Application Bundler durch Anpassung der Konfiguration und dessen Auswirkung auf den Entwicklungsprozess
+    header-title: Usabilityanalyse StuMaTo
+    title: Usabilitiyanalyse nach dem Szenario-Based-Design der Studentenverwaltungsplattform StuMaTo
 
-    author: Max Mustermann
-    Zenturie: A22f
+    author: Til Blechschmidt, Hendrik Reiter, Hans Rißer 
+    Zenturie: A17
     Studiengang: Angewandte Informatik
     Matrikelnummer: 1337
 
@@ -13,19 +13,14 @@
     bibliography: src/bibliography.yaml
 ---
 
-# Possent ventis hanc delubra (+CPU)
+# Einleitung
 
-## Colophonius curvum stetit sospes
+## Projektvorstellung
+Die PPI AG ist ein mittelständiges Unternehmen im Bereich Softwareconsulting für Banken und Versicherungen mit etwa 600 Mitarbeitern. Dabei bildet die PPI AG schon langjährig Duale Studenten an der Nordakademie aus. Angefangen mit Studenten der Wirtschaftsinformatik werden mittlerweile auch Studenten in den Studiengängen Betriebswirtschaftslehre und Angewandte Informatik ausgebildet. Zudem wurde auch das Portfolio an Hochschulen ausgeweitet. So bildet die PPI AG nicht nur Studenten an der Nordakademie, sondern auch an der Wirtschaftsakademie Schleswig-Holstein, Hamburg School of Business Administration und an Technischen Hochschule Mittelhessen aus. 
 
-Lorem markdownum Hiems elaborque totum porrigit. Pereuntem tamen Cereris
-**habenas** sum captus quoque, videt, actum auras atria, memorantur arborea
-offer postquam Lichan; inmensos.
+Um das Studium der Studenten besser managen zu können wurde StuMaTo ins Leben gerufen. StuMaTo steht dabei für Student Management Tool. Dabei ist StuMaTo als Webseite umgesetzt, die sich nur aus dem interenen Netzwerk der PPI AG erreichbar ist. Es wurde von den Studenten selber entwicklet. 
 
-1. Crede crudelis rescindere rapit collabitur capillis inpar
-2. Cum fuerit eheu Scyrumve
-3. Lycaon flammiferis subit
-4. Urbem cadme servitii tibi leve vestem pendentia
-5. Postquam fronti alios mentis despondet ingenti Mater
+Im Jahr 2018 wurde eine Neuentwicklung von StuMaTo an eine Gruppe von drei aktiven Studenten beauftragt, um StuMaTo sowohl technisch auf den neusten Stand zu bringen als auch nutzerfreundlicher zu werden. Diese zweite Version von StuMaTo soll in dieser Arbeit anhand des Scenario-Based-Design auf ihre Usability hin analysiert werden. 
 
 ## Quae cuncta {#sec:section1}
 
