@@ -82,8 +82,6 @@ Stattdessen soll eine heuristische Evaluation aller drei Autoren, unabhängig vo
 
 Diese parallele heuristische Analyse befolgt diesen Ablauf:
 
-
-
 1. Kriteriensynthese (in @sec:heuristic:method:criteria genauer beschrieben)
 2. Unabhängige Prüfung inkl. Notieren der Probleme
 3. Erstellung einer gemeinsamen Gesamtliste
@@ -91,20 +89,44 @@ Diese parallele heuristische Analyse befolgt diesen Ablauf:
 5. Gewichtung und Probleme diskutieren und zusammenfassen
 6. Klare und lokalisierte Probleme erfassen und gewichten
 7. Aus breiteren Trends innerhalb der Probleme Problemfelder erfassen
-8. Aus 7. problematische Prozesse und Zustände zum weiteren Test durch Nutzer identifizieren
+8. Daraus problematische Prozesse und Zustände zum weiteren Test durch Nutzer identifizieren
 9. Im Nachgang zu den Nutzertests Nutzerergebnisse mit Expertenbewertung vergleichen
+
+
+
+Die Vorbedingung dieses Ablaufes ist die vorangegangene Kontextanalyse.
+
+Punkt 1 bis 5 des dargestellten Ablaufes formen eine klassische heuristische Analyse dar, welche besonders darauf gerichtet ist, Beeinflussungen zwischen den Evaluatoren zu vermeiden, indem stets erst am letzten möglichen Zeitpunkt ein Vergleich der Ergebnisse stattfindet. So werden zur Vereinheitlichung der Analyse und zur Sicherstellung auswertbarer Ergebnisse zwar dieselben Kriterien verwendet, die Bewertung der Anwendung anhand dieser erfolgt jedoch parallel. Nach der Zusammenführung der gefundenen Probleme erfolgt auch die Gewichtung dieser wieder parallel.
+
+Punkt 6 bist 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen eine sinnvolle Verarbeitung innerhalb des vorgestellen Analyserahmens.
+
+Punkt 9 dient der Rückkopplung an die Bewertung und kann dazu dienen, die in Punkt 8 erstellten Problemfelder zu bewerten und Fehler in der Bestimmung von Problemen in Punkt 6 zu erkennen. Letzteres ist besonders wichtig, um in der späteren Gestaltungsphase nicht fehlgeleitete, sich negativ auswirkende Änderungen vorzunehmen. Ersteres hingegen ist die Grundlage für größere Veränderungen in der Gestaltungsphase.
 
 
 
 ### Bestimmung formaler Kriterien {#sec:heuristic:method:criteria}
 
-1. Nielsen & Shneiderman mergen
 
-2. Unnötige Kriterien eliminieren
 
-   
+Die Heuristiken, welche zur Bewertung in dieser Phase der Analyse verwendet werden, werden durch eine Verbindung der Kriterien nach Nielsen und der Kriterien nach Shneiderman festgelegt. Diese sind publiziert und anerkannt und haben dadurch eine kanonische Beschreibung. Die Verbindung beider Kriterienmengen dient dabei der Vergrößerung des Bewertungsspektrums und der Verringerung der Abhängigkeit zu einer Person, die diese publiziert hat. 
+
+Diese Kriterien werden zunächst von uns definiert, sehr ähnliche miteinander verbunden und redundante Kriterien werden eliminiert. Anschließend erfolgt eine Darstellung aller Kriterien in ihrem finalen Zustand.
+
+Die Synthese der Kriterien erfolgt gemeinschaftlich, um allen eine Mitsprache zu erteilen und dennoch einen einheitlichen Konsens zu erreichen. Eine noch größere Unabhängigkeit der Evaluationen durch die Erstellung eigener Kriterien je Evaluator wurde vermieden, da diese die subjektiven Ansichten des Evaluators nicht nur in die Bewertung des Ist- sondern auch die Festlegung des Sollzustandes einbezogen hätte. Dies könnte entgegen zu den Zielen des parallelen Konzeptes eine Erhöhung der Subjektivität zur Folge haben und könnte ebenfalls durch Meinungsverschiedenheiten zwischen den Evaluatoren zu einem späteren Zeitpunkt die Auswertung erschweren.
+
+
+
+### 
 
 ### Parameter
+
+
+
+`TODO`
+
+Hier sind übrige Parameter der Analyse und Auswertungen aufgeführt und begründet.
+
+
 
 - Analyse
   - Kriterien oben angegeben
@@ -114,16 +136,16 @@ Diese parallele heuristische Analyse befolgt diesen Ablauf:
 
 - Auswertung
 
-  #### 
-
   - Gegenseitige Präsentation
-  - Gemeinsame Absprache und Synthese der Gesamtliste
+- Gemeinsame Absprache und Synthese der Gesamtliste
   - Einzelne Gewichtung der Gesamtliste
   - Gemeinsame Gewichtung der Gesamtliste
 
 
 
 ## Analysekriterien
+
+`TODO`
 
 Kriterien
 Nielsen:
