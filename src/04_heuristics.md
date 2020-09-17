@@ -116,85 +116,101 @@ Die Synthese der Kriterien erfolgt gemeinschaftlich, um allen eine Mitsprache zu
 
 
 
-### 
-
-### Parameter
-
-
-
-`TODO`
-
-Hier sind übrige Parameter der Analyse und Auswertungen aufgeführt und begründet.
-
-
-
-- Analyse
-  - Kriterien oben angegeben
-  - jeder allein
-  - Gewichtung von bis
-  - folgende Dokumentationsart
-
-- Auswertung
-
-  - Gegenseitige Präsentation
-- Gemeinsame Absprache und Synthese der Gesamtliste
-  - Einzelne Gewichtung der Gesamtliste
-  - Gemeinsame Gewichtung der Gesamtliste
-
-
-
 ## Analysekriterien
 
 `TODO`
 
-Kriterien
-Nielsen:
-Sichtbarkeit Systemstatus
-Übereinstimmung zwischen System und realer Welt
-Benutzerkontrolle und Freiheit
-Konsistenz und Standards
-Fehler vermeiden
-Erkennen vor Erinnern
-Flexibilität und Effizienz
-Ästhetisches und minimalistisches Design
-Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern
-Hilfe und Dokumentation
+ [Nielsen](http://informaticathomas.nl/heuristicsNielsen.pdf)
 
-Shneiderman:
-Konsistenz
-Berücksichtigung unterschiedlicher Erfahrungen
-Rückmeldungen auf Aktionen des Benutzers
-Abgeschlossene Operationen
-Fehler verhindern
-Einfaches Undo/Redo
-Benutzerbestimmte Eingaben
-Geringe Belastung des Kurzzeitgedächtnis
-
-Merge
-Sichtbarkeit Systemstatus
-Übereinstimmung zwischen System und realer Welt
-Benutzerkontrolle und Freiheit
-Konsistenz und Standards
-Fehler vermeiden
-Erkennen vor Erinnern
-Flexibilität und Effizienz
-Ästhetisches und minimalistisches Design weil subjektiv as fuck
-Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern
-Hilfe und Dokumentation
-Konsistenz Überschneidung mit "Konsistenz und Standards"
-Berücksichtigung unterschiedlicher Erfahrungen
-Rückmeldungen auf Aktionen des Benutzers Enthalten in "Sichbarkeit Systemstatus" und "Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern"
-Abgeschlossene Operationen
-Fehler verhindern Überschneidung mit "Fehler vermeiden"
-Einfaches Undo/Redo
-Benutzerbestimmte Eingaben Überschneidung mit "Benutzerkontrolle und Freiheit"
-Geringe Belastung des Kurzzeitgedächtnis Überschneidung mit "Erkennen vor Erinnern"
-
-Wichtig! Beschreiben, warum die Kriterien rausgeflogen sind.
+1. **Visibility of system status**
+The system should always keep users informed about what is going on, through appropriate feedback within reasonable time. 
+2. **Match between system and the real world**
+    The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order. 
+3. **User control and freedom**
+    Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
+4. **Consistency and standards**
+    Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.
+5. **Error prevention**
+    Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
+6. **Recognition rather than recall**
+    Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.
+7. **Flexibility and efficiency of use**
+    Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
+8. **Aesthetic and minimalist design**
+    Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
+9. **Help users recognize, diagnose, and recover from errors** 
+    Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution. 
+10. **Help and documentation**
+    Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
 
 
 
-| Kriterium                                                    | Bedeutung                                                    |
+[Shneiderman](https://www.cs.umd.edu/users/ben/goldenrules.html)
+
+1. **Strive for consistency.**
+   Consistent sequences of actions should be required in similar situations; identical terminology should be used in prompts, menus, and help screens; and consistent color, layout, capitalization, fonts, and so on, should be employed throughout. Exceptions, such as required confirmation of the delete command or no echoing of passwords, should be comprehensible and limited in number
+2. **Seek universal usability.**
+    Recognize the needs of diverse users and design for plasticity, facilitating transformation of content. Novice to expert differences, age ranges, disabilities, international variations, and technological diversity each enrich the spectrum of requirements that guides design. Adding features for novices, such as explanations, and features for experts, such as shortcuts and faster pacing, enriches the interface design and improves perceived quality.
+
+3. **Offer informative feedback.**
+    For every user action, there should be an interface feedback. For frequent and minor actions, the response can be modest, whereas for infrequent and major actions, the response should be more substantial. Visual presentation of the objects of interest provides a convenient environment for showing changes explicitly (see the discussion of direct manipulation in Chapter 7).
+
+4. **Design dialogs to yield closure.**
+    Sequences of actions should be organized into groups with a beginning, middle, and end. Informative feedback at the completion of a group of actions gives users the satisfaction of accomplishment, a sense of relief, a signal to drop contingency plans from their minds, and an indicator to prepare for the next group of actions. For example, e-commerce websites move users from selecting products to the checkout, ending with a clear confirmation page that completes the transaction.
+
+5. **Prevent errors.**
+    As much as possible, design the interface so that users cannot make serious errors; for example, gray out menu items that are not appropriate and do not allow alphabetic characters in numeric entry fields (Section 3.3.5). If users make an error, the interface should offer simple, constructive, and specific instructions for recovery. For example, users should not have to retype an entire name-address form if they enter an invalid zip code but rather should be guided to repair only the faulty part. Erroneous actions should leave the interface state unchanged, or the interface should give instructions about restoring the state.
+
+6. **Permit easy reversal of actions.**
+    As much as possible, actions should be reversible. This feature relieves anxiety, since users know that errors can be undone, and encourages exploration of unfamiliar options. The units of reversibility may be a single action, a data-entry task, or a complete group of actions, such as entry of a name-address block.
+
+7. **Keep users in control.**
+    Experienced users strongly desire the sense that they are in charge of the interface and that the interface responds to their actions. They don’t want surprises or changes in familiar behavior, and they are annoyed by tedious data-entry sequences, difficulty in obtaining necessary information, and inability to produce their desired result.
+
+8. **Reduce short-term memory load.**
+    Humans’ limited capacity for information processing in short-term memory (the rule of thumb is that people can remember “seven plus or minus two chunks” of information) requires that designers avoid interfaces in which users must remember information from one display and then use that information on another display. It means that cellphones should not require reentry of phone numbers, website locations should remain visible, and lengthy forms should be compacted to fit a single display.
+
+
+
+| Nielsen                                                 | Shneiderman                      | Extrahiertes Kriterium                      | Bemerkung                                  |
+| ------------------------------------------------------- | -------------------------------- | ------------------------------------------- | ------------------------------------------ |
+| Visibility of system status                             | Offer informative feedback.      | Sichtbarer Systemstatus und Statusmeldungen | sehr ähnlich, enthalten einander teilweise |
+| Match between system and the real world                 |                                  | Realitätsnahe Semantik und Vokabular        |                                            |
+| User control and freedom                                | Permit easy reversal of actions. | Reversibilität und Abbruchmöglichkeit       | S in N enthalten                           |
+| Consistency and standards                               | Strive for consistency.          | Konsistenz und Standardtreue                | Für den Nutzer gleiches Problem            |
+| Error prevention                                        | Prevent errors.                  | Fehlerprävention                            | Identisch                                  |
+| Recognition rather than recall                          | Reduce short-term memory load.   | Erkennen vor Erinnern                       | Identisch                                  |
+| Flexibility and efficiency of use                       | Seek universal usability.        | Universelle Benutzbarkeit und Anpassbarkeit | N in S enthalten                           |
+| Aesthetic and minimalist design                         |                                  | Relevanz der Kommunikation                  |                                            |
+| Help users recognize, diagnose, and recover from errors |                                  | Konstruktive Fehlerbehandlung               |                                            |
+| Help and documentation                                  |                                  | Hilfe und Dokumentation                     |                                            |
+|                                                         | Design dialogs to yield closure. | Abgeschlossene Aktionen                     |                                            |
+|                                                         | Keep users in control.           | Benutzerbestimmte Eingaben                  |                                            |
+
+Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria}
+
+- [ ] Teilweise Zitat der Übersetzungen kennzeichnen
+
+
+
+| Kriterium                                   | Altes Kriterium                                              | ok?                                                     |
+| ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| Sichtbarer Systemstatus und Statusmeldungen | Sichtbarkeit Systemstatus                                    | :thumbsdown: Statusmeldungen  in Beschreibung aufnehmen |
+| Realitätsnahe Semantik und Vokabular        | Übereinstimmung zwischen System und realer Welt              | :thumbsdown: Vorher komplett falsch beschrieben         |
+| Reversibilität und Abbruchmöglichkeit       | Einfaches Undo / Redo                                        | :thumbsup:                                              |
+| Konsistenz und Standardtreue                | Konsistenz und Standards                                     | :thumbsup:                                              |
+| Fehlerprävention                            | Fehler vermeiden                                             | :thumbsup:                                              |
+| Erkennen vor Erinnern                       | Erkennen vor Erinnern                                        | :thumbsup:                                              |
+| Universelle Benutzbarkeit & Anpassbarkeit   | Berücksichtigung unterschiedlicher Erfahrungen               | :thumbsdown: Anpassbarkeit                              |
+| Relevanz der Kommunikation                  | :no_entry_sign:                                              | :thumbsdown: Neu                                        |
+| Konstruktive Fehlerbehandlung               | Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern | :thumbsup:                                              |
+| Hilfe und Dokumentation                     | Hilfe und Dokumentation                                      | :thumbsup:                                              |
+| Abgeschlossene Aktionen                     | Abgeschlossene Operationen                                   | :thumbsup:                                              |
+| Benutzerbestimmte Eingaben                  | Flexibilität und Effizienz / Benutzerkontrolle und Freiheit  | :thumbsdown:                                            |
+
+Table: Alte vs neue Kriterien der Heuristischen Evaluation {#tbl:vscriteria}
+
+| Altes Kriterium                                              | Bedeutung                                                    |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | Sichtbarkeit Systemstatus                                    | Relevante interne Zustände des Systems werden dem Nutzer mitgeteilt, z.B. spezielle Modi in denen er sich befindet, Ladezeiten, Fehlerzustände, Speicherzustand. Besonders auch der Status als Reaktion |
 | Übereinstimmung zwischen System und realer Welt              | Das System enthält die aktuellen, tatsächlichen Zustände der echten Fachlichkeit und zeigt weder veraltete Werte an, noch unsinnige. |
@@ -206,10 +222,27 @@ Wichtig! Beschreiben, warum die Kriterien rausgeflogen sind.
 | Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern | Rückmeldung auf Aktionen des Users Treten Fehler auf, ermöglicht das System dem User mithilfe verständlicher diagnostischer Hinweise zu reagieren. |
 | Hilfe und Dokumentation                                      | Es existiert eine Möglichkeit auf Hilfestellungen und Verhaltensdokumentation des Systems zuzugreifen. |
 | Berücksichtigung unterschiedlicher Erfahrungen               | Die Anwendung kann von Anwendungen mit verschiedenen Fähigkeitsstufen und Erfahrungen verwendet werden. |
-| Abgeschlossene Operationen                                   | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein workflow beendet ist.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation. |
+| Abgeschlossene Operationen                                   | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein Arbeitsabschnitt beendet ist.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation. |
 | Einfaches Undo/Redo                                          | Eine Nutzer kann seine Aktionen rückgänig machen und auch das Rückgangigmachen rückgängig machen. |
 
-Table: Beispiel Tabelle {#tbl:criteria}
+Table: Alte Kriterien der Heuristischen Evaluation {#tbl:oldcriteria}
+
+| Kriterium                                   | Beschreibung                                                 |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| Sichtbarer Systemstatus und Statusmeldungen |                                                              |
+| Realitätsnahe Semantik und Vokabular        |                                                              |
+| Reversibilität und Abbruchmöglichkeit       | Der Nutzer behält die Kontroller über den Kontrollfluss, er kann Aktionen abbrechen, sie rückgängig machen und rückgängig gemachte Aktionen wiederholen. So wird dem Nutzer die Angst vor den Konsequenzen ungewollter Aktionen genommen. |
+| Konsistenz und Standardtreue                | Die Anwendung zeigt für ähnliche Situationen ein gleichartiges Verhalten und ist demnach wiedererkennbar. Sie hält sich an bekannte Standards in anderen Systemen, um auch im Bezug zu diesen Wiedererkennbarkeit zu ermöglichen und erlernbar zu sein. |
+| Fehlerprävention                            | Der Nutzer wird vom System daran gehindert, destruktive Handlungen – vor allem unabsichtlich – auszuführen oder das System in Fehlzustände zu leiten. Das System ist des Weiteren klar und verständlich, um auch Verwechslungen und daraus folgende semantische Fehler zu vermeiden. Unsinnige Eingaben werden nicht zugelassen. |
+| Erkennen vor Erinnern                       | Das Kurzzeitgedächtnis des Nutzers wird geschont, indem ein intuitives Verständnis ermöglicht wird und indem Daten nicht über mehrere Ansichten hinweg gemerkt werden müssen. Dringend notwendige Informationen können stets aus der aktuellen Ansicht erlangt werden. |
+| Universelle Benutzbarkeit & Anpassbarkeit   | Die Anwendung kann von Anwendern unterschiedlichster mit verschiedenen Eigenschaften, Fähigkeitsstufen und Erfahrungen verwendet werden. Sowohl Anfänger, als auch Experten werden vom System adäquat unterstützt, ohne die jeweils andere Gruppe zu beeinträchtigen. Die Anwendung ist dazu auf die Bedürfnisse von Nutzern anpassbar. |
+| Relevanz der Kommunikation                  |                                                              |
+| Konstruktive Fehlerbehandlung               | Treten Fehler auf, ermöglicht das System dem User mithilfe verständlicher diagnostischer Hinweise zu reagieren. Diese Hinweise sind menschenlesbar und bieten wertvolle, konstruktive Hinweise auf potentielle Fehlerursachen und zu Behebungsmöglichkeiten. |
+| Hilfe und Dokumentation                     | Es existiert eine Möglichkeit auf Hilfestellungen und Verhaltensdokumentation des Systems zuzugreifen, falls es nötig ist. |
+| Abgeschlossene Aktionen                     | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein Arbeitsabschnitt beendet ist – idealerweise bereits vor dem Abschluss.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation. |
+| Benutzerbestimmte Eingaben                  |                                                              |
+
+Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
 ## Ergebnisse
 
