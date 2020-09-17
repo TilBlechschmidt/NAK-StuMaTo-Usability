@@ -37,6 +37,20 @@ Wenn der Proband sich für eine Aufgabe entschieden hat kann er mit einem Klick 
 
 ### Abgeschlossene Aufgabe in Profil eintragen
 
+Bei dieser Aufgabe muss der Proband in sein eigenes Profil zurückkehren. Hier kann er in der Kategorie Einsätze die Aufgabe eintragen. Hier müssen der Titel, Beginn und Ende der Aufgabe eingetragen werden. Optional kann eine Kurzbeschreibung zur Aufgabe hinzugefügt werden. Der eingetragene Titel muss dabei der Originaltitel der Aufgabe sein.   
+
 ### Transferleistung in Profil eintragen
 
+Bei dieser Aufgabe muss der Proband drei Unteraufgaben erledigen. 
+
+Erstens muss die Transferleistung im Profil unter Wissenschaftliche Arbeiten hinzufügen. Dabei muss er eine Datei hochladen, die dem Probanden im Downloads-Ordner des Rechners zur Verfügung gestellt wird. Bei dem Upload muss eine Kategorie angegeben werden. Hier muss der Proband die Kategorie Transferleistung/Praxisbericht wählen. Zudem müssen ein Erstellungsdatum und ein Titel der Transferleistung eingegeben werden. Optional kann auch eine Kurzbeschreibung des Themas hinzugefügt werden.
+Zweitens muss die Credit Point Ansicht aktualisiert werden. Eine bestandene Transferleistung gibt fünf CreditPoints. Diese müssen zu der Ansicht hinzugefügt werden.
+
+Drittens muss die Zeit eingetragen werden, in der die Transferleistung bearbeitet worden ist. Dazu muss zunächst eine neue Aufgabe erstellt werden, die den Status abgeschlossen hat. Dies ist notwendig, da sich sonst andere auf diese Aufgabe bewerben könnten, was nicht gewünscht ist. Die Aufgabe für die Transferleistung kann in der Aufgabenübersicht erstellt werden. Danach kann die Aufgabe in im Profil unter der Kategorie Einsätze analog zur vorherigen Aufgabe hinzugefügt werden. Ein entsprechender Hinweis zu diesem Workflow befindet sich im FAQ. 
+
 ### Mitstudenten für neues Projekt finden
+
+Beim Finden eines Studenten gibt es zwei Varianten vorzugehen.
+
+Variante eins ist es sich einen Mitstudenten auszusuchen und mit diesem außerhalb der Anwendung Kontakt aufzunehmen. Der Studenten können dabei in der Studentenübersicht oder über die Suche gefunden werden. Interessant bei der Auswahl der Studenten ist es, dass diese in dem Zeitraum der Aufgabe verfügbar sind und das diese über die geforderten Fähigkeiten verfügen. Nach Skills kann auch in der Suchfunktion gesucht werden.
+Variante zwei ist es eine neue Aufgabe in StuMaTo zu erstellen und zu warten bis sich ein Mitstudent darauf bewirbt. Bei der Erstellung der Aufgabe muss sich zunächst zwischen Daueraufgabe und Einzelaufgabe entschieden werden. Hierbei handelt es sich um eine Einzelaufgabe, da diese einen einmaligen Charakter und einen festen zeitlichen Rahmen, den Rest der Praxispahse, hat. Bei der Erstellung der Aufgabe muss sich der Proband als Ansprechpartner auswählen. Zudem müssen Titel und Beschreibung hinzugefügt werden. Des Weiteren muss ein zeitlicher Rahmen für die Aufgabe festgelegt werden. Dabei müssen ein Start- und Enddatum angegeben werden und eine Aufwandsschätzung in Personentagen angegeben werden. Auch ein Standort muss für die Aufgabe hinzugefügt werden. Dieser ist in diesem Fall Hamburg. Bei den eingesetzten Skills ist es zudem sinnvoll, dass hier ein Skill Marketing hinzugefügt wird. Dieser ist noch nicht in der Datenbank, somit muss dieser noch zur Datenbank hinzugefügt werden. Bei der Möglichen Vorangegangenen Aufgaben kann die Aufgabe StuMaTo-Entwicklung angegeben werden. Wenn die Aufgabe erstellt ist, ist auch die letzte Aufgabe für den Probanden und somit der Usabilitytest beendet.  
