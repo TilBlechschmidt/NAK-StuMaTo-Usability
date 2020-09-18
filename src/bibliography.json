@@ -11,7 +11,7 @@
       }
     ],
     "container-title": "Bern: Verlag Hans Huber",
-    "id": "sarodnick2011methoden",
+    "id": "heur:brau/sarodnick",
     "issued": {
       "date-parts": [
         [
@@ -30,7 +30,7 @@
         "given": "Markus"
       }
     ],
-    "id": "dahm2006grundlagen",
+    "id": "heur:dahm",
     "issued": {
       "date-parts": [
         [
@@ -40,6 +40,65 @@
     },
     "publisher": "Pearson Studium München",
     "title": "Grundlagen der mensch-computer-interaktion",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Jakob"
+      }
+    ],
+    "id": "heur:nielsen",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "publisher": "http://www.nngroup.com/articles/ten-usability-heuristics/",
+    "title": "Ten usability heuristics",
+    "type": "no-type"
+  },
+  {
+    "author": [
+      {
+        "family": "Shneiderman",
+        "given": "Ben"
+      },
+      {
+        "family": "Plaisant",
+        "given": "Catherine"
+      },
+      {
+        "family": "Cohen",
+        "given": "Maxine"
+      },
+      {
+        "family": "Jacobs",
+        "given": "Steven"
+      },
+      {
+        "family": "Elmqvist",
+        "given": "Niklas"
+      },
+      {
+        "family": "Diakopoulos",
+        "given": "Nicholas"
+      }
+    ],
+    "id": "heur:shneiderman",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "Pearson",
+    "title": "Designing the user interface: Strategies for effective human-computer interaction",
+    "title-short": "Designing the user interface",
     "type": "book"
   }
 ]

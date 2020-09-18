@@ -108,7 +108,7 @@ Diese Kriterien werden zunächst von uns definiert, sehr ähnliche miteinander v
 
 Die Synthese der Kriterien erfolgt gemeinschaftlich, um allen eine Mitsprache zu erteilen und dennoch einen einheitlichen Konsens zu erreichen. Eine noch größere Unabhängigkeit der Evaluationen durch die Erstellung eigener Kriterien je Evaluator wurde vermieden, da diese die subjektiven Ansichten des Evaluators nicht nur in die Bewertung des Ist- sondern auch die Festlegung des Sollzustandes einbezogen hätte. Dies könnte entgegen zu den Zielen des parallelen Konzeptes eine Erhöhung der Subjektivität zur Folge haben und könnte ebenfalls durch Meinungsverschiedenheiten zwischen den Evaluatoren zu einem späteren Zeitpunkt die Auswertung erschweren.
 
- Die im Folgenden verwendeten Kriterien aus `TODO citation` sind im Anhang unter @heuristiken-nach-shneiderman und @heuristiken-nach-nielsen beschrieben. 
+ Die im Folgenden verwendeten Kriterien aus `TODO citation` sind im Anhang unter @sec:heuristiken-shneiderman und @sec:heuristiken-nielsen beschrieben.
 
 Alle hier verwendeten Kriterien werden jedoch zugunsten des Leseflusses ins Deutsche übersetzt und teilweise dabei leicht verändert. Des Weiteren erhalten Sie eine originale Beschreibung nach dem Verständnis der heuristischen Evaluatoren, welches durch die Konsultation der eben genannten Beschreibungen gebildet wurde. Diese erneute Beschreibung und Bezeichnung sollen Missverständnisse zwischen Lesern und Evaluatoren vermeiden. Sollte bei der Verwendung der existierenden Kriterien ein abweichendes Verständnis der Kriterien bei Leser und Evaluator herrschen, würde dies die Aussagekraft der Analyse für den Leser mindern. 
 
@@ -122,15 +122,14 @@ Von den Kriterien nach Nielsen werden folgende Kriterien übernommen:
 
 - "Aesthetic and Minimalist Design" als "Relevanz der Kommunikation", da dieses Kriterium sich besonders auf die Vermeidung überflüssiger Informationen und weniger auf die eher subjektive Beschreibung der Ästhetik bezieht
 - "Help users recognize, diagnose, and recover from errors" als "Konstruktive Fehlerbehandlung", da der Fokus darauf liegt, dem Nutzer konkret bei der Behandlung eines Fehlers zu unterstützen
-- "Help and Documentation" nach `SARODNICK UND BRAU` als "Hilfe und Dokumentation" 
+- "Help and Documentation" nach [@heur:brau/sarodnick] als "Hilfe und Dokumentation" 
 
 - "Match between system and the real world" als "Realitätsnahe Semantik und Vokabular", da die Bedeutung des Kriteriums sich besonders auf realitätsnahe Metaphorik konzentriert und weniger auf den Zustand der Welt und des Systems.
 
 Von den Kriterien nach Shneiderman werden folgende Kriterien übernommen:
 
 - "Design dialogs to yield closure" als "Abgeschlossene Aktionen"
-- "Keep users in control" nach `DAHM` als "Benutzerbestimmte Eingaben"
-
+- "Keep users in control" nach [@heur:dahm] als "Benutzerbestimmte Eingaben"
 
 
 Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgrund auftretender Redundanz oder thematischer Ähnlichkeit kombiniert:
@@ -141,35 +140,33 @@ Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgru
 
 - "Error prevention" und "Prevent errors." sind als identische Kriterien in "Fehlerprävention" zusammengefasst.
 
-- "Recognition rather than recall" und "Reduce short-term memory load." sind ebenfalls in ihrer Intention identisch und wurden nach `SARODNICK UND BRAU` als "Erkennen vor Erinnern" kombiniert
+- "Recognition rather than recall" und "Reduce short-term memory load." sind ebenfalls in ihrer Intention identisch und wurden nach [@heur:brau/sarodnick] als "Erkennen vor Erinnern" kombiniert
 - "Flexibility and efficiency of use" und "Seek universal usability.", da ersteres in letzterem Kriterium enthalten ist. Dies ist als "Universelle Benutzbarkeit und Anpassbarkeit" bezeichnet.
 
+Das Ergebnis dieses Verfahrens ist in +@tbl:mergecriteria und +@tbl:criteria aufgeführt.
 
-
-Das Ergebnis dieses Verfahrens ist in `TODO` aufgeführt. 
-
-
-
-| Nielsen                                                 | Extrahiertes Kriterium                                  | Shneiderman                                             |
-| ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
-| Match between system and the real world                 | Realitätsnahe Semantik und Vokabular                    |                                                         |
-| Aesthetic and minimalist design                         | Relevanz der Kommunikation                              |                                                         |
-| Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung                           |                                                         |
-| Help and documentation                                  | Hilfe und Dokumentation                                 |                                                         |
-|                                                         | Abgeschlossene Aktionen                                 | Design dialogs to yield closure.                        |
-|                                                         | Benutzerbestimmte Eingaben                              | Keep users in control.                                  |
-| User control and freedom                                | Reversibilität und Abbruchmöglichkeit                   | Permit easy reversal of actions.                        |
-| Visibility of system status                             | Sichtbarer Systemstatus und Statusmeldungen             | Offer informative feedback.                             |
-| Consistency and standards                               | Konsistenz und Standardtreue                            | Strive for consistency.                                 |
-| Error prevention                                        | Fehlerprävention                                        | Prevent errors.                                         |
-| Recognition rather than recall                          | Erkennen vor Erinnern                                   | Reduce short-term memory load.                          |
-| Flexibility and efficiency of use                       | Universelle Benutzbarkeit und Anpassbarkeit             | Seek universal usability.                               |
+| Nielsen                                                 | Extrahiertes Kriterium                      | Shneiderman                      |
+| ------------------------------------------------------- | ------------------------------------------- | -------------------------------- |
+| Match between system and the real world                 | Realitätsnahe Semantik und Vokabular        |                                  |
+| Aesthetic and minimalist design                         | Relevanz der Kommunikation                  |                                  |
+| Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung               |                                  |
+| Help and documentation                                  | Hilfe und Dokumentation                     |                                  |
+|                                                         |                                             |                                  |
+|                                                         | Abgeschlossene Aktionen                     | Design dialogs to yield closure. |
+|                                                         | Benutzerbestimmte Eingaben                  | Keep users in control.           |
+|                                                         |                                             |                                  |
+| User control and freedom                                | Reversibilität und Abbruchmöglichkeit       | Permit easy reversal of actions. |
+| Visibility of system status                             | Sichtbarer Systemstatus und Statusmeldungen | Offer informative feedback.      |
+| Consistency and standards                               | Konsistenz und Standardtreue                | Strive for consistency.          |
+| Error prevention                                        | Fehlerprävention                            | Prevent errors.                  |
+| Recognition rather than recall                          | Erkennen vor Erinnern                       | Reduce short-term memory load.   |
+| Flexibility and efficiency of use                       | Universelle Benutzbarkeit und Anpassbarkeit | Seek universal usability.        |
 
 Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria}
 
 
 
-Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in @heuristik-beschreibungen werden die folgenden Beschreibungen synthetisiert:
+Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang @sec:heuristik-beschreibungen] werden die folgenden Beschreibungen synthetisiert:
 
 | Bezeichner | Kriterium | Beschreibung |
 | --- | ----- | ------------ |
@@ -297,11 +294,11 @@ Table: Problemfunde Til {#tbl:heur:til}
 
 ### Gemeinsame Ungewichtete Ergebnisliste
 
-| Bezeichner | Problem | Fundort | Kriterium |
-| ---------- | ------- | ------- | --------- |
-|            |         |         |           |
-|            |         |         |           |
-|            |         |         |           |
+| Kriterium#Bezeichner | Problem | Fundort |
+| -------------------- | ------- | ------- |
+|                      |         |         |
+|                      |         |         |
+|                      |         |         |
 
 Table: Problemfunde {#tbl:heur:findings}
 

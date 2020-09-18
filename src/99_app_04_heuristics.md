@@ -1,8 +1,8 @@
-## Heuristik-Beschreibungen
+## Heuristik-Beschreibungen {#sec:heuristik-beschreibungen}
 
-### Heuristiken nach Shneiderman
+### Heuristiken nach Shneiderman{#sec:heuristiken-shneiderman}
 
-[Shneiderman](https://www.cs.umd.edu/users/ben/goldenrules.html)
+Die folgenden Heuristiken nach Shneiderman wurden aus [@heur:shneiderman] übernommen.
 
 1. **Strive for consistency.**
    Consistent sequences of actions should be required in similar situations; identical terminology should be used in prompts, menus, and help screens; and consistent color, layout, capitalization, fonts, and so on, should be employed throughout. Exceptions, such as required confirmation of the delete command or no echoing of passwords, should be comprehensible and limited in number
@@ -27,9 +27,9 @@
 8. **Reduce short-term memory load.**
    Humans’ limited capacity for information processing in short-term memory (the rule of thumb is that people can remember “seven plus or minus two chunks” of information) requires that designers avoid interfaces in which users must remember information from one display and then use that information on another display. It means that cellphones should not require reentry of phone numbers, website locations should remain visible, and lengthy forms should be compacted to fit a single display.
 
-### Heuristiken nach Nielsen
+### Heuristiken nach Nielsen{#sec:heuristiken-nielsen}
 
- [Nielsen](http://informaticathomas.nl/heuristicsNielsen.pdf)
+Die folgenden Heuristiken nach Nielsen wurden aus [@heur:nielsen] übernommen.
 
 1. **Visibility of system status**
    The system should always keep users informed about what is going on, through appropriate feedback within reasonable time. 
