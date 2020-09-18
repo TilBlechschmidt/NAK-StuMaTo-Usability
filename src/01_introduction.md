@@ -12,6 +12,7 @@
     # This can be replaced with any valid bibliography file (.yaml, .json, .bib)
     bibliography: src/bibliography.yaml
 ---
+\renewcommand{\arraystretch}{1.5}
 
 # Einleitung
 
