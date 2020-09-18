@@ -1,6 +1,4 @@
-# Analysephase
-
-## Kontextanalyse
+# Kontextanalyse
 
 Die Kontextanalyse hat zum Ziel zu bestimmen in welchem Zusammenhang StuMaTo verwendet wird. Dabei sollen die Hauptnutzer identifiziert werden. Zudem soll analysiert werden, wie sie das aktuelle StuMaTo verwenden und welche Erwartungen, Erfahrungen und Probleme sie bei der Benutzung gemacht haben.
 
