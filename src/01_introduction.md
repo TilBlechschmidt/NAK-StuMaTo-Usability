@@ -10,7 +10,7 @@
     keywords: [keyword1, keyword2]
     
     # This can be replaced with any valid bibliography file (.yaml, .json, .bib)
-    bibliography: src/bibliography.yaml
+    bibliography: src/bibliography.json
 ---
 \renewcommand{\arraystretch}{1.5}
 

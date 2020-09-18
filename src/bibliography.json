@@ -1,0 +1,45 @@
+[
+  {
+    "author": [
+      {
+        "family": "Sarodnick",
+        "given": "Florian"
+      },
+      {
+        "family": "Brau",
+        "given": "Henning"
+      }
+    ],
+    "container-title": "Bern: Verlag Hans Huber",
+    "id": "sarodnick2011methoden",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "title": "Methoden der usability evaluation: Wissenschaftliche grundlagen und praktische anwendung.",
+    "title-short": "Methoden der usability evaluation",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Dahm",
+        "given": "Markus"
+      }
+    ],
+    "id": "dahm2006grundlagen",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "publisher": "Pearson Studium München",
+    "title": "Grundlagen der mensch-computer-interaktion",
+    "type": "book"
+  }
+]
