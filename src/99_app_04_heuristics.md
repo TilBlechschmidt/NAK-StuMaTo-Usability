@@ -1,4 +1,4 @@
-## Heuristiken
+## Heuristik-Beschreibungen
 
 ### Heuristiken nach Shneiderman
 

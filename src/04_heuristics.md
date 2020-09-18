@@ -76,8 +76,6 @@ Aus demselben Grund, welcher auch gegen die Verwendung eines nutzerunterstützte
 
 Stattdessen soll eine heuristische Evaluation aller drei Autoren, unabhängig voneinander, die großen Probleme der klassischen heuristischen Evaluation — ihre geringe Reliabilität und Objektivität – einschränken und durch den anschließenden Vergleich aus den Problemlisten eine gemeinsame, gewichtete Problemliste synthetisieren.
 
-
-
 ### Ablaufplan 
 
 Diese parallele heuristische Analyse befolgt diesen Ablauf:
@@ -102,11 +100,7 @@ Punkt 6 bist 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen
 
 Punkt 9 dient der Rückkopplung an die Bewertung und kann dazu dienen, die in Punkt 8 erstellten Problemfelder zu bewerten und Fehler in der Bestimmung von Problemen in Punkt 6 zu erkennen. Letzteres ist besonders wichtig, um in der späteren Gestaltungsphase nicht fehlgeleitete, sich negativ auswirkende Änderungen vorzunehmen. Ersteres hingegen ist die Grundlage für größere Veränderungen in der Gestaltungsphase.
 
-
-
 ### Bestimmung formaler Kriterien {#sec:heuristic:method:criteria}
-
-
 
 Die Heuristiken, welche zur Bewertung in dieser Phase der Analyse verwendet werden, werden durch eine Verbindung der Kriterien nach Nielsen und der Kriterien nach Shneiderman festgelegt. Diese sind publiziert und anerkannt und haben dadurch eine kanonische Beschreibung. Die Verbindung beider Kriterienmengen dient dabei der Vergrößerung des Bewertungsspektrums und der Verringerung der Abhängigkeit zu einer Person, die diese publiziert hat. 
 
@@ -156,44 +150,29 @@ Das Ergebnis dieses Verfahrens ist in `TODO` aufgeführt.
 
 
 
-| Nielsen                                                 | Extrahiertes Kriterium                      | Shneiderman                      |
-| ------------------------------------------------------- | ------------------------------------------- | -------------------------------- |
-| Visibility of system status                             | Sichtbarer Systemstatus und Statusmeldungen | Offer informative feedback.      |
-| Match between system and the real world                 | Realitätsnahe Semantik und Vokabular        |                                  |
-| User control and freedom                                | Reversibilität und Abbruchmöglichkeit       | Permit easy reversal of actions. |
-| Consistency and standards                               | Konsistenz und Standardtreue                | Strive for consistency.          |
-| Error prevention                                        | Fehlerprävention                            | Prevent errors.                  |
-| Recognition rather than recall                          | Erkennen vor Erinnern                       | Reduce short-term memory load.   |
-| Flexibility and efficiency of use                       | Universelle Benutzbarkeit und Anpassbarkeit | Seek universal usability.        |
-| Aesthetic and minimalist design                         | Relevanz der Kommunikation                  |                                  |
-| Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung               |                                  |
-| Help and documentation                                  | Hilfe und Dokumentation                     |                                  |
-|                                                         | Abgeschlossene Aktionen                     | Design dialogs to yield closure. |
-|                                                         | Benutzerbestimmte Eingaben                  | Keep users in control.           |
+| Nielsen                                                 | Extrahiertes Kriterium                                  | Shneiderman                                             |
+| ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
+| Match between system and the real world                 | Realitätsnahe Semantik und Vokabular                    |                                                         |
+| Aesthetic and minimalist design                         | Relevanz der Kommunikation                              |                                                         |
+| Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung                           |                                                         |
+| Help and documentation                                  | Hilfe und Dokumentation                                 |                                                         |
+|                                                         | Abgeschlossene Aktionen                                 | Design dialogs to yield closure.                        |
+|                                                         | Benutzerbestimmte Eingaben                              | Keep users in control.                                  |
+| User control and freedom                                | Reversibilität und Abbruchmöglichkeit                   | Permit easy reversal of actions.                        |
+| Visibility of system status                             | Sichtbarer Systemstatus und Statusmeldungen             | Offer informative feedback.                             |
+| Consistency and standards                               | Konsistenz und Standardtreue                            | Strive for consistency.                                 |
+| Error prevention                                        | Fehlerprävention                                        | Prevent errors.                                         |
+| Recognition rather than recall                          | Erkennen vor Erinnern                                   | Reduce short-term memory load.                          |
+| Flexibility and efficiency of use                       | Universelle Benutzbarkeit und Anpassbarkeit             | Seek universal usability.                               |
 
 Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria}
 
 
 
-| Kriterium                                   | Altes Kriterium                                              | ok?                                                     |
-| ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| Sichtbarer Systemstatus und Statusmeldungen | Sichtbarkeit Systemstatus                                    | :thumbsdown: Statusmeldungen  in Beschreibung aufnehmen |
-| Realitätsnahe Semantik und Vokabular        | Übereinstimmung zwischen System und realer Welt              | :thumbsdown: Vorher komplett falsch beschrieben         |
-| Reversibilität und Abbruchmöglichkeit       | Einfaches Undo / Redo                                        | :thumbsup:                                              |
-| Konsistenz und Standardtreue                | Konsistenz und Standards                                     | :thumbsup:                                              |
-| Fehlerprävention                            | Fehler vermeiden                                             | :thumbsup:                                              |
-| Erkennen vor Erinnern                       | Erkennen vor Erinnern                                        | :thumbsup:                                              |
-| Universelle Benutzbarkeit & Anpassbarkeit   | Berücksichtigung unterschiedlicher Erfahrungen               | :thumbsdown: Anpassbarkeit                              |
-| Relevanz der Kommunikation                  | :no_entry_sign:                                              | :thumbsdown: Neu                                        |
-| Konstruktive Fehlerbehandlung               | Unterstützung beim Erkennen, Verstehen und Bearbeiten von Fehlern | :thumbsup:                                              |
-| Hilfe und Dokumentation                     | Hilfe und Dokumentation                                      | :thumbsup:                                              |
-| Abgeschlossene Aktionen                     | Abgeschlossene Operationen                                   | :thumbsup:                                              |
-| Benutzerbestimmte Eingaben                  | Flexibilität und Effizienz / Benutzerkontrolle und Freiheit  | :thumbsdown:                                            |
+Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in @heuristik-beschreibungen werden die folgenden Beschreibungen synthetisiert:
 
-Table: Alte vs neue Kriterien der Heuristischen Evaluation {#tbl:vscriteria}
- 
 | Bezeichner | Kriterium | Beschreibung |
-| ------ | -------- | ------------ |
+| --- | ----- | ------------ |
 | STATUS     | Sichtbarer Systemstatus und Statusmeldungen | Relevante interne Zustände des Systems werden dem Nutzer mitgeteilt, z.B. spezielle Modi in denen er sich befindet, Ladezeiten, Fehlerzustände, oder der Speicherzustand der aktuell betrachteten Daten. Besonders wichtig sind hier auch Statusmeldungen als Reaktion auf Aktionen des Nutzers.                                        |
 | REAL       | Realitätsnahe Semantik und Vokabular        | Das System verwendet Begriffe und Metaphern aus der realen Welt, mit denen eine intuitive Verbindung hergestellt werden kann. So erscheint das System für den Nutzer durch seine Erfahrung mit der Welt logisch und sinnvoll.                                                                                                           |
 | UNDO       | Reversibilität und Abbruchmöglichkeit       | Der Nutzer behält die Kontroller über den Kontrollfluss, er kann Aktionen abbrechen, sie rückgängig machen und rückgängig gemachte Aktionen wiederholen. So wird dem Nutzer die Angst vor den Konsequenzen ungewollter Aktionen genommen.                                                                                               |
@@ -209,6 +188,8 @@ Table: Alte vs neue Kriterien der Heuristischen Evaluation {#tbl:vscriteria}
 
 Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
+
+
 ## Ergebnisse
 
 
@@ -217,31 +198,100 @@ Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
 #### Hendrik
 
-| Problem                         | Kriterium | Fundort |
-| ------------------------------- | --------- | ------- |
-| Ein Undo/Redo ist nicht möglich | UNDO      | /       |
-|                                 |           |         |
-|                                 |           |         |
+| Kriterium          | Probleme                                                     | Fundort         |
+| ------------------ | ------------------------------------------------------------ | --------------- |
+| ?                  | Keine Aufgaben sind im Startbereich zu sehen                 |                 |
+| ?                  | Bei löschen der Aufgaben ist kein Icon für das Löschen zu finden |                 |
+| RELEV              | Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig. | Dashboard       |
+| ERR-PREV / CONTROL | Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke. | Aufgabendetails |
+| CONSIST            | Die Webseite verwendet kein HTTPS, wodurch potentiell Unsicherheit entsteht. | Gesamt          |
+| ADAPT              | Kontraste im Darkmode sind nicht gut, Elemente könnten übersehen werden. | Gesamt          |
+| Aktualität?        | Ehemalig Studenten werden als Studenten geführt              |                 |
+| Aktualität?        | Profile sind wenig gepflegt                                  |                 |
+| Aktualität?        | Standort von Aufgabe ist schlecht dokumentiert               |                 |
+| Aktualität?        | Semesterangaben sind bei einigen Studenten um ein Semester versetzt |                 |
+| CLOSURE            | Bei Bearbeitung des Studentenprofils ist der Abschluss von Aufgaben nicht klar, es kann ewig ohne klare Abfolge editiert werden. |                 |
+| CLOSURE            | Kenntnisse speichern ist schrecklich                         |                 |
+| ?                  | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll |                 |
+| CONSIST            | Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist |                 |
+| CONTROL            | Die "Verfügbarkeit"-Zeitlinie ist nicht auf das aktuelle Datum gerichtet. |                 |
+| CONTROL            | Beim Anlegen eines neuen Kalendereintrags sind Aufgaben schwer auffindbar und können nicht neu angelegt werden. |                 |
+| CONTROL            | Es können nicht alle wissenschaftlichen Arbeiten auf einmal gesucht / gefunden werden. | Gesamt          |
+| ERR-PREV           | Bei der Erstellung neuer Skills wird keine Validierung vorgenommen. |                 |
+| HELP               | Das FAQ ist nicht wirklich gut.                              | FAQ             |
+| CONSIST            | Studenten in den Aufgaben sehen aus, als könnte man sie anklicken, aber nichts passiert  danach |                 |
+| CONSIST            | Kenntnisse sehen beim Anlegen einer Aufgabe aus als wären sie anklickbar. `TODO` |                 |
+| STATUS             | Wenn Zustand von Mitarbeitern geändert, wird dies nicht in der UI angezeigt. |                 |
+| UNDO               | Ein Undo/Redo ist nicht möglich                              |                 |
+
 Table: Problemfunde Hendrik {#tbl:heur:hendrik}
 
 #### Hans
 
-### 
+| Kriterium             | Problem                                                      | Fundort |
+| --------------------- | ------------------------------------------------------------ | ------- |
+| Aktualität? ERR-PREV? | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. |         |
+| Aktualität? ERR-PREV? | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. |         |
+| ADAPT                 | Kontraste im dunklen Modus sind häufig schlecht, Beispiele dafür sind der Dark-Mode-Schalter selbst, Lade-Spinner oder die Kennzeichnung aktuell ausgewählter Tabs. |         |
+| ADAPT                 | Viele UI-Elemente basieren pur auf Icons ohne Schrift, selbst ohne Hovertexte. Das ist für Nutzer, die nicht mit der Symbolik vertraut sind, oder sich aufgrund körperlicher Einschränkungen auf Screenreader verlassen, ein Erschwernis. (Z.B. häufig hinzufügen, editieren, etc.) |         |
+| ADAPT                 | Es gibt keine Anpassungsmöglichkeiten außerhalb des Farbschemas, der Nutzer kann zum Beispiel Layouts, graphische Optionen oder ähnliches nicht an sich anpassen. |         |
+| ADAPT                 | Es existieren keine beschleunigenden Features für Experten. Es existieren allgemein keine Tastaturkürzel für Aktionen. |         |
+| ADAPT                 | Bei abweichender Bildschirmgröße sind Inhalte häufig außerhalb des initialen Bildschirms und es muss gescrollt werden und die Anwendung ist nicht für mobile Anwendungen optimiert. |         |
+| CLOSURE/STATUS        | Feedback zu erfolgreichen Aktionen teilweise schwer mitzubekommen oder gar nicht existent `(wo?)` |         |
+| CLOSURE               | siehe so etwas wie Speichern von CP                          |         |
+| CONSIST               | FAQ und Dateinamen verwenden eine andere Schriftart.         |         |
+| CONSIST               | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. `(z.B. Profil CP widget)` |         |
+| CONSIST               | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. |         |
+| CONTROL               | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. |         |
+| CONTROL               | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. |         |
+| CONTROL               | Ein Klick auf einen Skill führt ohne Vorwarnung oder Kennzeichnung eine Weiterleitung auf externe Websites, welche von Nutzern angegeben werden. |         |
+| CONTROL               | Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden. |         |
+| ERR-HANDLE            | Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen. |         |
+| ERR-HANDLE            | Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien) |         |
+| ERR-HANDLE            | `Verändern und Speichern von Skill-Slidern`                  |         |
+| ERR-PREV              | Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet. |         |
+| ERR-PREV              | Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen wird |         |
+| ERR-PREV              | Notwendige Felder beim Anlegen von Aufgaben erst im Nachhinein angezeigt |         |
+| ERR-PREV              | Aktionsbuttons werden häufig mit Aktionen wie "ok" betitelt, eine sprechende Bezeichnung der Aktion, die folgt, wäre besser. |         |
+| ERR-PREV              | Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite |         |
+| ERR-HANDLE / STATUS   | Bei dem Versuch der Erstellung einer Hochschule ohne Namen kommt ein intransparenter, langer Ladevorgang ohne anschließende Misserfolgsmeldung. |         |
+| ERR-PREV              | `Katastrophales "Skills"-Widget`                             |         |
+| HELP                  | Kaum nützliche Hover-Texte.                                  |         |
+| HELP                  | Kein abrufbarer Hilfe-Dialog, FAQ ist dürftig.               |         |
+| HELP                  | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. |         |
+| RECOG                 | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. |         |
+| RECOG/STATUS          | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. |         |
+| STATUS                | Es gibt keinen schnellen Indikator für den eingeloggten Benutzer. |         |
+| STATUS                | Es ist leicht zu übersehen, dass das Editieren von CP noch aktiv ist. |         |
+| UNDO                  | Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen |         |
 
-| Problem | Fundort | Kriterium |
-| ------- | ------- | --------- |
-|         |         |           |
-|         |         |           |
-|         |         |           |
 Table: Problemfunde Hans {#tbl:heur:hans}
 
 #### Til
 
-| Problem | Fundort | Kriterium |
-| ------- | ------- | --------- |
-|         |         |           |
-|         |         |           |
-|         |         |           |
+| **Kriterium**   | Probleme                                                     | Fundort                    |
+| --------------- | ------------------------------------------------------------ | -------------------------- |
+| RELEV           | Suche ist **zu** "fuzzy" und zeigt sehr viele irrelevante Ergebnisse an. | Hinzufügen von Kenntnissen |
+| ADAPT           | Keine Anpassbarkeit vorhanden.                               | Gesamt                     |
+| CONSIST         | Keine expliziten Speicher-Buttons an einigen Orten (Inkonsistenz) |                            |
+| CONSIST         | Layout (Spacings etc.) ist teilweise uneinheitlich.          |                            |
+| CONSIST         | Vertikale / Horizontale Einrückung nicht gleichmäßig         |                            |
+| CONSIST         | Teilweise geringer Kontrast im Dark Mode.                    | Gesamt                     |
+| CONSIST         | Layout von Suchergebnissen ist nicht einheitlich.            | Suche                      |
+| CONSIST         | Kein Such-Button, wenn ein vorherige Query noch drin steht   | Suche                      |
+| CONSIST         | Suchfeld wird von Passwort Managern als Password Feld erkannt | Suche                      |
+| CONTROL         | Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen. |                            |
+| CONTROL         | Bei Einsätzen können nur existierende Aufgaben eingetragen werden. |                            |
+| CONTROL         | Einsatze können nicht direkt gelöscht werden                 |                            |
+| CONTROL / ADAPT | Neuanordnung von Einsätzen ist nicht einfach möglich         |                            |
+| ERR-HANDLE      | Keine Fehlermeldung beim Scheitern des Hochladens von TFLs   |                            |
+| ERR-PREV        | Der "Speichern"-Button / -Prozess ist nicht offensichtlich und kann übersehen werden. |                            |
+| ERR-PREV        | Wenn man eine Kenntnis verändert, nicht speichert und dann eine neue Kenntnis hinzufügt dann werden die Änderungen an der ersten Kenntnis verworfen. |                            |
+| HELP            | FAQ ist vorhanden, Inhalt ist in Ordnung aber der Umfang ist zu gering. | FAQ                        |
+| HELP            | Teilweise Tooltips vorhanden, teilweise aber auch nicht.     | Gesamt                     |
+| RELEV           | Teilweise sind unnütze UI Elemente vorhanden (kein Inhalt)   |                            |
+| UNDO            | Nicht möglich und keine Nachvollziehbarkeit                  | Gesamt                     |
+
 Table: Problemfunde Til {#tbl:heur:til}
 
 
