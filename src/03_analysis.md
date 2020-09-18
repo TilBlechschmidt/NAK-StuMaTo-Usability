@@ -44,10 +44,16 @@ F := Finja
 
 ### Ablauf des Dualen Studiums
 
+Das Duale Studium an der Nordakademie ist in Blöcken organisiert. Dabei sind die Blöcke der Theoriephase zehn Wochen lang. Neun Wochen davon sind Präsenzunterricht und in der letzten Woche werden Prüfungen geschrieben. In der Praxisphase müssen für die Nordakademie noch Transfersleistungen geschrieben. Dieses sind kurze wissenschaftliche Arbeiten im Umfang von etwa zehn Seiten, in denen der Student darlegt, wie er die Theorie aus dem Studium in der Praxis angewendet hat. Für die Bearbeitung der Transferleistungen wird den Studenten der PPI AG eine Bearbeitungszeit in der Arbeitszeit von einer Woche eingeräumt. Die Theoriephasen können auch unterschiedlich ausfallen. So gibt es für die Studenten die Möglichkeit, ein Semester im Ausland zu verbringen. Ein anderes Semester mussten die Studenten aufgrund des Coronavirus von zuhause aus abhalten. 
+
+Nach sieben Semestern Studium und 3,5 Jahren Regelstudienzeit ist das Duale Studium in der Regel beendet, sofern alle Prüfungen absolviert und bestanden worden sind. Den Abschluss des Studiums stellt dabei die Bachelorarbeit dar. Für diese sind die Studenten in der PPI AG auch komplett freigestellt. (M)
+
+
 ### Kommunikation im Unternehmen
+
 Das Betriebsklima in der PPI AG wird insgesamt als sehr angenehm bezeichnet(S, T, M, F). Dabei ist das Verhältnis zu den Kollegen konstruktiv und es gibt ein gutes Verhältnis zwischen den Kollegen, welches sich in einigen Fällen über die Arbeit hinaus erstreckt (T). Es soll wohl auch vereinzelt persönliche Probleme zwischen einzelnen Kollegen geben, jedoch ist keiner der Befragten persönlich betroffen (H).
 Es konnten auch Unterschiede zwischen verschiedenen Standorten und Abteilungen festgestellt werden, jedoch wird sich insgesamt an einer einheitlichen Leitkultur orientiert (M). 
-Zu dieser Leitkultur gehört unter anderem die "Du"-Philosophie. In der PPI AG duzen sich ausnahmslos alle Mitarbeiter untereinander. Zudem gibt es die Open-Door-Politik, die besagt, dass alle Bürotüren immer offen stehen sollen und somit direkter Kontakt gefördert werden soll. Somit soll vor allem die Schwelle zwischen den Mitarbeitern und Vorgesetzten herabgesetzt werden . (H)
+Zu dieser Leitkultur gehört unter anderem die "Du"-Philosophie. In der PPI AG duzen sich ausnahmslos alle Mitarbeiter untereinander. Zudem gibt es die Open-Door-Politik, die besagt, dass alle Bürotüren immer offen stehen sollen und somit direkter Kontakt gefördert werden soll. Somit soll vor allem die Schwelle zwischen den Mitarbeitern und Vorgesetzten herabgesetzt werden. (H)
 Obwohl die Hierachie in der PPI AG möglichst flach gehalten werden soll, gibt es vier Hierachieebenen: Vorstand, Bereichsleitung, Abteilungs/Teamleitung und die Mitarbeiter. Diese Hierarchie ist im Tagesgeschäft aber gar nicht so spürbar (H, T). 
 
 
@@ -57,11 +63,6 @@ Der Student soll in einem Projekt zunächst Aufgben bearbeiten. Diese Aufgaben e
 Im Tagesgeschäft wird der Student als normaler Mitarbeiter betrachtet, jedoch wird ihm mehr Zeit in der Bearbeitung der Aufgaben eingeräumt. Dabei wird berücksichtigt, dass der Student die benötigten Fähigkeiten noch erlernen muss (F). Die meisten Studenten sind mit der Auswahl der Aufgaben zufrieden und bezeichnen diese als passend zu ihrem Wissensstand (T, M). Vereinzelt werden die Studenten als kostengünstige Arbeitskräfte gesehen, was sich auf die Aufgabenqualität auswirkt (T, F). Zudem sind einige Aufgaben auch nicht ideal geeignet, da sie zu schnell lösbar waren oder zu schwierig waren (M).  
 
 ### Aufgaben neben der Studentenbetreuung
-
-Dualer Student
-Softwaretest/entwicklung Forschungsaufgaben/Entwicklungsaufgaben (T)
-
-Studiere Semesterblöcken an der NAK 10 Wochen Blöcke, Ein Semester im Ausland, eins remote. Vorlesungen im Seminar stil. Studentenbeteiligung sind gewünscht. Schreibe Hausarbeiten, Klausuren, Vorträge. TFL werden manchmal in der Arbeitszeit geschrieben, aber diese sind Synthese aus Arbeits und Studienleistung. Koordinations bachelorarbeit auch in Arbeitszeit. (M)
 
 Softwaretestmanagement, momentan in großem Kundenprojekt. Kundeneinsatz ist zurzeit Remote. Ich habe einen Studenten Hauptamtlich betreut, 3 aushilfsweise. Testenwicklung/ Automatisierung Durchführung, Aufgaben verteilen. Eigentlicher Betreuer hatte Urlaub/Krankheit. (F)
 
