@@ -15,12 +15,12 @@
 | TASK.VIEW                       | Ansichtsdialog einer Aufgabe             | TASK.EDIT                        |
 | TASK.EDIT                       | Editierdialog einer Aufgabe              | TASK.SINGLE |
 | STUDENT.LIST                    | Auflistung aller Studenten |STUDENT.UNI|
-| STUDENT.UNI                     | Studentenprofil, Tab Uni |STUDENT.PRAXIS, STUDENT.UNI.*|
+| STUDENT.UNI                     | Studentenprofil, Tab Uni |STUDENT.WORK, STUDENT.UNI.*|
 | STUDENT.UNI.EDIT-STUDY          | Dialog zur Bearbeitung des eigenen Studienganges bzw. -fortschritts |STUDENT.UNI|
 | STUDENT.UNI.NEW-TFL             | Dialog zur Anlage einer neuen Transferleistung |STUDENT.UNI|
-| STUDENT.PRAXIS                  | Studentenprofil, Tab Praxis |STUDENT.PRAXIS.*|
-| STUDENT.PRAXIS.NEW-ENTRY  | Dialog zur Anlage eines neuen Kalendereintrages. |STUDENT.PRAXIS|
-| STUDENT.PRAXIS.EDIT-ENTRY | Dialog zur Bearbeitung eines Kalendereintrages. |STUDENT.PRAXIS|
+| STUDENT.WORK                  | Studentenprofil, Tab Praxis |STUDENT.WORK.*|
+| STUDENT.WORK.NEW-ENTRY  | Dialog zur Anlage eines neuen Kalendereintrages. |STUDENT.WORK|
+| STUDENT.WORK.EDIT-ENTRY | Dialog zur Bearbeitung eines Kalendereintrages. |STUDENT.WORK|
 | MANAGE.USER                     | Verwaltungsbereich für die Nutzerverwaltung. |MANAGE.*|
 | MANAGE.SKILLS                   | Verwaltungsbereich für die Kenntnisverwaltung. |MANAGE.*|
 | MANAGE.UNI                      | Verwaltungsbereich für die Hochschulverwaltung. |MANAGE.*|
@@ -63,11 +63,11 @@ Im folgenden sind zu den vorab katalogisierten Sichten Bildschirmabzüge zu find
 
 ![Ansicht STUDENT.UNI.NEW-TFL](src/images/image-20200919104312203.png)
 
-![Ansicht STUDENT.PRAXIS](src/images/image-20200919102754211.png)
+![Ansicht STUDENT.WORK](src/images/image-20200919102754211.png)
 
-![Ansicht STUDENT.PRAXIS.NEW-ENTRY](src/images/image-20200919102823202.png)
+![Ansicht STUDENT.WORK.NEW-ENTRY](src/images/image-20200919102823202.png)
 
-![Ansicht STUDENT.PRAXIS.EDIT-ENTRY](src/images/image-20200919104415404.png)
+![Ansicht STUDENT.WORK.EDIT-ENTRY](src/images/image-20200919104415404.png)
 
 ![Ansicht MANAGE.USER](src/images/image-20200919103132170.png)
 
