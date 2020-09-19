@@ -1,7 +1,5 @@
 # Heuristische Analyse
 
- 
-
 ## Methodik
 
 Diese Arbeit verwendet eine heuristische Analyse als Expertenreview-Verfahren um formale Abweichungen von Erfahrungswerten der Usability festzustellen.
@@ -166,6 +164,10 @@ Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria
 
 
 
+Da in der Kontextanalyse beanstandet wurde, dass das System schlecht gepflegt und nicht aktuell ist, wird außerdem das Kriterium der "Aktualität und Pflege" gesondert betrachtet. Dies ist ein Problem, welches die Usability des Systems einschränkt, ohne jedoch zwingend eine klassische Heuristik zu sein. Der Fakt, dass Inhalte veraltet sind, ist in sich kein Designfehler, der behoben werden kann, kann sehr wohl jedoch ein Symptom zugrundeliegender Probleme sein. Darum wurde dieses Kriterium dennoch geschaffen, um diese Nutzeraussagen nachzuvollziehen und detaillierter zu verstehen. Hierzu wurden durch `Hendrik` und `Til` Analysen im Produktivsystem vorgenommen, da sie als Mitarbeiter von `ppi` auf dieses Zugriff haben.
+
+
+
 Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang @sec:heuristik-beschreibungen] werden die folgenden Beschreibungen synthetisiert:
 
 | Bezeichner | Kriterium | Beschreibung |
@@ -182,6 +184,7 @@ Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang
 | HELP       | Hilfe und Dokumentation                     | Es existiert eine Möglichkeit auf Hilfestellungen und Verhaltensdokumentation des Systems zuzugreifen, falls es nötig ist.                                                                                                                                                                                                              |
 | CLOSURE    | Abgeschlossene Aktionen                     | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein Arbeitsabschnitt beendet ist – idealerweise bereits vor dem Abschluss.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation.                                                                                                                         |
 | CONTROL    | Benutzerbestimmte Eingaben                  | Die Handlungen im System werden durch den Nutzer bestimmt, er beherrscht die Interaktion mit dem System. Das System weicht nicht von den grundlegenden Erwartungen an die Konsequenzen einer  Nutzerhandlung hab und zwingt den Nutzer auch nicht, Handlungen oder Eingaben unnötig zu wiederholen.                                     |
+| UPTODATE | Aktualität und Pflege | Das System ist gut gepflegt und verwendbar, es existieren notwendige Datengrundlagen für eine bedeutsame und hilfreiche Interaktion zwischen Nutzer und System. Das System unterstützt die Interaktion zur Sicherstellung eines gepflegten Systems. |
 
 Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
@@ -197,19 +200,18 @@ Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
 | Kriterium          | Probleme                                                     | Fundort         |
 | ------------------ | ------------------------------------------------------------ | --------------- |
-| ?                  | Keine Aufgaben sind im Startbereich zu sehen                 |                 |
-| ?                  | Bei löschen der Aufgaben ist kein Icon für das Löschen zu finden |                 |
+| UPTODATE           | Keine Aufgaben sind im Startbereich zu sehen                 |                 |
 | RELEV              | Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig. | Dashboard       |
 | ERR-PREV / CONTROL | Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke. | Aufgabendetails |
 | CONSIST            | Die Webseite verwendet kein HTTPS, wodurch potentiell Unsicherheit entsteht. | Gesamt          |
 | ADAPT              | Kontraste im Darkmode sind nicht gut, Elemente könnten übersehen werden. | Gesamt          |
-| Aktualität?        | Ehemalig Studenten werden als Studenten geführt              |                 |
-| Aktualität?        | Profile sind wenig gepflegt                                  |                 |
-| Aktualität?        | Standort von Aufgabe ist schlecht dokumentiert               |                 |
-| Aktualität?        | Semesterangaben sind bei einigen Studenten um ein Semester versetzt |                 |
+| UPTODATE           | Ehemalige Studenten werden als Studenten geführt.            |                 |
+| UPTODATE           | Profile sind wenig gepflegt.                                 |                 |
+| UPTODATE           | Standort von Aufgabe ist schlecht dokumentiert.              |                 |
+| UPTODATE           | Semesterangaben sind bei einigen Studenten um ein Semester versetzt. |                 |
 | CLOSURE            | Bei Bearbeitung des Studentenprofils ist der Abschluss von Aufgaben nicht klar, es kann ewig ohne klare Abfolge editiert werden. |                 |
 | CLOSURE            | Kenntnisse speichern ist schrecklich                         |                 |
-| ?                  | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll |                 |
+| HELP               | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll, es existiert keine Dokumentation als Vergleichsreferenz. |                 |
 | CONSIST            | Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist |                 |
 | CONTROL            | Die "Verfügbarkeit"-Zeitlinie ist nicht auf das aktuelle Datum gerichtet. |                 |
 | CONTROL            | Beim Anlegen eines neuen Kalendereintrags sind Aufgaben schwer auffindbar und können nicht neu angelegt werden. |                 |
@@ -225,42 +227,42 @@ Table: Problemfunde Hendrik {#tbl:heur:hendrik}
 
 #### Hans
 
-| Kriterium             | Problem                                                      | Fundort |
-| --------------------- | ------------------------------------------------------------ | ------- |
-| Aktualität? ERR-PREV? | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. |         |
-| Aktualität? ERR-PREV? | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. |         |
-| ADAPT                 | Kontraste im dunklen Modus sind häufig schlecht, Beispiele dafür sind der Dark-Mode-Schalter selbst, Lade-Spinner oder die Kennzeichnung aktuell ausgewählter Tabs. |         |
-| ADAPT                 | Viele UI-Elemente basieren pur auf Icons ohne Schrift, selbst ohne Hovertexte. Das ist für Nutzer, die nicht mit der Symbolik vertraut sind, oder sich aufgrund körperlicher Einschränkungen auf Screenreader verlassen, ein Erschwernis. (Z.B. häufig hinzufügen, editieren, etc.) |         |
-| ADAPT                 | Es gibt keine Anpassungsmöglichkeiten außerhalb des Farbschemas, der Nutzer kann zum Beispiel Layouts, graphische Optionen oder ähnliches nicht an sich anpassen. |         |
-| ADAPT                 | Es existieren keine beschleunigenden Features für Experten. Es existieren allgemein keine Tastaturkürzel für Aktionen. |         |
-| ADAPT                 | Bei abweichender Bildschirmgröße sind Inhalte häufig außerhalb des initialen Bildschirms und es muss gescrollt werden und die Anwendung ist nicht für mobile Anwendungen optimiert. |         |
-| CLOSURE/STATUS        | Feedback zu erfolgreichen Aktionen teilweise schwer mitzubekommen oder gar nicht existent `(wo?)` |         |
-| CLOSURE               | siehe so etwas wie Speichern von CP                          |         |
-| CONSIST               | FAQ und Dateinamen verwenden eine andere Schriftart.         |         |
-| CONSIST               | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. `(z.B. Profil CP widget)` |         |
-| CONSIST               | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. |         |
-| CONTROL               | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. |         |
-| CONTROL               | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. |         |
-| CONTROL               | Ein Klick auf einen Skill führt ohne Vorwarnung oder Kennzeichnung eine Weiterleitung auf externe Websites, welche von Nutzern angegeben werden. |         |
-| CONTROL               | Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden. |         |
-| ERR-HANDLE            | Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen. |         |
-| ERR-HANDLE            | Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien) |         |
-| ERR-HANDLE            | `Verändern und Speichern von Skill-Slidern`                  |         |
-| ERR-PREV              | Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet. |         |
-| ERR-PREV              | Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen wird |         |
-| ERR-PREV              | Notwendige Felder beim Anlegen von Aufgaben erst im Nachhinein angezeigt |         |
-| ERR-PREV              | Aktionsbuttons werden häufig mit Aktionen wie "ok" betitelt, eine sprechende Bezeichnung der Aktion, die folgt, wäre besser. |         |
-| ERR-PREV              | Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite |         |
-| ERR-HANDLE / STATUS   | Bei dem Versuch der Erstellung einer Hochschule ohne Namen kommt ein intransparenter, langer Ladevorgang ohne anschließende Misserfolgsmeldung. |         |
-| ERR-PREV              | `Katastrophales "Skills"-Widget`                             |         |
-| HELP                  | Kaum nützliche Hover-Texte.                                  |         |
-| HELP                  | Kein abrufbarer Hilfe-Dialog, FAQ ist dürftig.               |         |
-| HELP                  | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. |         |
-| RECOG                 | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. |         |
-| RECOG/STATUS          | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. |         |
-| STATUS                | Es gibt keinen schnellen Indikator für den eingeloggten Benutzer. |         |
-| STATUS                | Es ist leicht zu übersehen, dass das Editieren von CP noch aktiv ist. |         |
-| UNDO                  | Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen |         |
+| Kriterium           | Problem                                                      | Fundort |
+| ------------------- | ------------------------------------------------------------ | ------- |
+| UPTODATE / ERR-PREV | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. |         |
+| UPTODATE / ERR-PREV | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. |         |
+| ADAPT               | Kontraste im dunklen Modus sind häufig schlecht, Beispiele dafür sind der Dark-Mode-Schalter selbst, Lade-Spinner oder die Kennzeichnung aktuell ausgewählter Tabs. |         |
+| ADAPT               | Viele UI-Elemente basieren pur auf Icons ohne Schrift, selbst ohne Hovertexte. Das ist für Nutzer, die nicht mit der Symbolik vertraut sind, oder sich aufgrund körperlicher Einschränkungen auf Screenreader verlassen, ein Erschwernis. (Z.B. häufig hinzufügen, editieren, etc.) |         |
+| ADAPT               | Es gibt keine Anpassungsmöglichkeiten außerhalb des Farbschemas, der Nutzer kann zum Beispiel Layouts, graphische Optionen oder ähnliches nicht an sich anpassen. |         |
+| ADAPT               | Es existieren keine beschleunigenden Features für Experten. Es existieren allgemein keine Tastaturkürzel für Aktionen. |         |
+| ADAPT               | Bei abweichender Bildschirmgröße sind Inhalte häufig außerhalb des initialen Bildschirms und es muss gescrollt werden und die Anwendung ist nicht für mobile Anwendungen optimiert. |         |
+| CLOSURE/STATUS      | Feedback zu erfolgreichen Aktionen teilweise schwer mitzubekommen oder gar nicht existent `(wo?)` |         |
+| CLOSURE             | siehe so etwas wie Speichern von CP                          |         |
+| CONSIST             | FAQ und Dateinamen verwenden eine andere Schriftart.         |         |
+| CONSIST             | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. `(z.B. Profil CP widget)` |         |
+| CONSIST             | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. |         |
+| CONTROL             | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. |         |
+| CONTROL             | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. |         |
+| CONTROL             | Ein Klick auf einen Skill führt ohne Vorwarnung oder Kennzeichnung eine Weiterleitung auf externe Websites, welche von Nutzern angegeben werden. |         |
+| CONTROL             | Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden. |         |
+| ERR-HANDLE          | Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen. |         |
+| ERR-HANDLE          | Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien) |         |
+| ERR-HANDLE          | `Verändern und Speichern von Skill-Slidern`                  |         |
+| ERR-PREV            | Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet. |         |
+| ERR-PREV            | Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen wird |         |
+| ERR-PREV            | Notwendige Felder beim Anlegen von Aufgaben erst im Nachhinein angezeigt |         |
+| ERR-PREV            | Aktionsbuttons werden häufig mit Aktionen wie "ok" betitelt, eine sprechende Bezeichnung der Aktion, die folgt, wäre besser. |         |
+| ERR-PREV            | Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite |         |
+| ERR-HANDLE / STATUS | Bei dem Versuch der Erstellung einer Hochschule ohne Namen kommt ein intransparenter, langer Ladevorgang ohne anschließende Misserfolgsmeldung. |         |
+| ERR-PREV            | `Katastrophales "Skills"-Widget`                             |         |
+| HELP                | Kaum nützliche Hover-Texte.                                  |         |
+| HELP                | Kein abrufbarer Hilfe-Dialog, FAQ ist dürftig.               |         |
+| HELP                | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. |         |
+| RECOG               | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. |         |
+| RECOG/STATUS        | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. |         |
+| STATUS              | Es gibt keinen schnellen Indikator für den eingeloggten Benutzer. |         |
+| STATUS              | Es ist leicht zu übersehen, dass das Editieren von CP noch aktiv ist. |         |
+| UNDO                | Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen |         |
 
 Table: Problemfunde Hans {#tbl:heur:hans}
 
@@ -288,6 +290,8 @@ Table: Problemfunde Hans {#tbl:heur:hans}
 | HELP            | Teilweise Tooltips vorhanden, teilweise aber auch nicht.     | Gesamt                     |
 | RELEV           | Teilweise sind unnütze UI Elemente vorhanden (kein Inhalt)   |                            |
 | UNDO            | Nicht möglich und keine Nachvollziehbarkeit                  | Gesamt                     |
+| UPTODATE        | Die Nutzerprofile sind nicht aktuell.                        |                            |
+| UPTODATE        | Es sind wenige Daten zu Transferleistungen verfügbar.        |                            |
 
 Table: Problemfunde Til {#tbl:heur:til}
 
