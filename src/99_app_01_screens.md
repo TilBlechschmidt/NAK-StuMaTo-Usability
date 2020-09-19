@@ -1,4 +1,4 @@
-## Anwendungsreferenz
+## Anwendungsreferenz {sec:appendix:screens}
 
 ### Sichten und Dialoge der Anwendung
 
