@@ -33,23 +33,246 @@ Die folgenden Heuristiken nach Nielsen wurden aus [@heur:nielsen] übernommen.
 
 1. **Visibility of system status**
    The system should always keep users informed about what is going on, through appropriate feedback within reasonable time. 
+   
 2. **Match between system and the real world**
    The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order. 
+   
 3. **User control and freedom**
    Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
+   
 4. **Consistency and standards**
    Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.
+   
 5. **Error prevention**
    Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
+   
 6. **Recognition rather than recall**
    Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.
+   
 7. **Flexibility and efficiency of use**
    Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions. 
+   
 8. **Aesthetic and minimalist design**
    Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
+   
 9. **Help users recognize, diagnose, and recover from errors** 
    Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution. 
+   
 10. **Help and documentation**
     Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
+    
+    
+
+## Rohergebnisse der Heuristischen Evaluation {#sec:heuristik-rohergebnisse}
+
+### Problemfunde je Evaluator
+
+#### Hans
+
+| Kriterium                 | Problem                                                      | Fundort              |
+| ------------------------- | ------------------------------------------------------------ | -------------------- |
+| ADAPT                     | Kontraste im dunklen Modus sind häufig schlecht, Beispiele dafür sind der Dark-Mode-Schalter selbst, Lade-Spinner oder die Kennzeichnung aktuell ausgewählter Tabs. | *                    |
+| ADAPT                     | Viele UI-Elemente basieren pur auf Icons ohne Schrift, selbst ohne Hovertexte. Das ist für Nutzer, die nicht mit der Symbolik vertraut sind, oder sich aufgrund körperlicher Einschränkungen auf Screenreader verlassen, ein Erschwernis. (Z.B. häufig hinzufügen, editieren, etc.) | z.B. TASKS.*         |
+| ADAPT                     | Es gibt keine Anpassungsmöglichkeiten außerhalb des Farbschemas, der Nutzer kann zum Beispiel Layouts, graphische Optionen oder ähnliches nicht an sich anpassen. | *                    |
+| ADAPT                     | Es existieren keine beschleunigenden Features für Experten. Es existieren allgemein keine Tastaturkürzel für Aktionen. | *                    |
+| ADAPT                     | Bei abweichender Bildschirmgröße sind Inhalte häufig außerhalb des initialen Bildschirms und es muss gescrollt werden und die Anwendung ist nicht für mobile Anwendungen optimiert. | *                    |
+| CLOSURE                   | Das Speichern von Credit Points gibt wenig Feedback bei der Bestätigung der Eingabe. Insgesamt ist es schwer ersichtlich, dass man die Eingabe noch manuell abschließen muss, der Prozess ist nicht atomar. | STUDENT.UNI          |
+| CLOSURE/STATUS            | Feedback zu erfolgreichen Aktionen teilweise schwer mitzubekommen oder gar nicht existent. (z.B. Kenntnisse speichern) | STUDENT.WORK         |
+| CONSIST                   | FAQ und Dateinamen verwenden eine andere Schriftart als der Rest der Anwendung. | FAQ, STUDENT.UNI     |
+| CONSIST                   | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit-Points) | STUDENT.UNI          |
+| CONSIST                   | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. | STUDENT.WORK         |
+| CONTROL                   | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. | STUDENT.WORK         |
+| CONTROL                   | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. | SEARCH               |
+| CONTROL                   | Ein Klick auf einen Skill führt ohne Vorwarnung oder Kennzeichnung eine Weiterleitung auf externe Websites, welche von Nutzern angegeben werden. | TASK.VIEW            |
+| CONTROL                   | Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden. | STUDENT.UNI          |
+| ERR-HANDLE                | Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen. | TASK.EDIT            |
+| ERR-HANDLE                | Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien) | STUDENT.UNI.NEW-TFL  |
+| ERR-HANDLE / STATUS       | Bei dem Versuch der Erstellung einer Hochschule ohne Namen kommt ein intransparenter, langer Ladevorgang ohne anschließende Misserfolgsmeldung. | MANAGE.UNI           |
+| ERR-PREV                  | Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet. | TASK.EDIT            |
+| ERR-PREV                  | Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen wird | TASK.EDIT            |
+| ERR-PREV                  | Notwendige Felder beim Anlegen von Aufgaben erst im Nachhinein angezeigt | TASK.EDIT            |
+| ERR-PREV                  | Aktionsbuttons werden häufig mit Aktionen wie "ok" betitelt, eine sprechende Bezeichnung der Aktion, die folgt, wäre besser. | *                    |
+| ERR-PREV                  | Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite | STUDENT.WORK         |
+| HELP                      | Kaum nützliche Hover-Texte.                                  | *                    |
+| HELP                      | Kein abrufbarer Hilfe-Dialog, FAQ ist dürftig.               | FAQ                  |
+| HELP                      | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. | *                    |
+| REAL                      | Alumni & Alumnae ist ein selten verwendeter Begriff, neue Studenten können damit vielleicht nicht viel anfangen. | STUDENT.LIST         |
+| REAL                      | Icons für offene / angefangen Aufgaben sind unbekannt und transportieren keine klare Nachricht. | TASK.VIEW            |
+| REAL                      | Die Bezeichnungen der Aufgabenkategorien haben keine klare Beziehung zum echten Leben. Wie lange dauern Einzel- vs. Daueraufgaben? Warum werden nur offene Aufgaben angezeigt? Wo ist das Archiv? (AW: in "Alle Aufgaben") | TASK.*               |
+| RECOG                     | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. | STUDENT.*            |
+| RECOG / STATUS / ERR-PREV | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. | STUDENT.*            |
+| RELEV                     | Die potentiell etwas längere Kurzbeschreibung bläht das Layout auf. Der Titel würde hier reichen. | STUDENT.UNI          |
+| RELEV                     | Credit Points werden auch dann angezeigt, wenn keine Daten vorhanden sind (auch auf fremden Profilen) | STUDENT.UNI          |
+| RELEV                     | Leere Timeline, leere Kenntnisse etc. werden angezeigt, ohne Mehrwert zu erbringen. | STUDENT.UNI          |
+| RELEV                     | Aufgaben können nicht nach (eigenen) Kenntnissen  gefiltert werden | TASK.*, SEARCH       |
+| RELEV                     | Zu jedem Studenten wird zusätzlich ein unnützes Nutzerkürzel angezeigt. | STUDENT.*, MANAGE.\* |
+| STATUS                    | Es gibt keinen schnellen Indikator für den eingeloggten Benutzer. | *                    |
+| STATUS                    | Es ist leicht zu übersehen, dass das Editieren von CP noch aktiv ist. | STUDENT.UNI          |
+| UNDO                      | Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen | *                    |
+| UPTODATE / ERR-PREV       | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. | TASK.*               |
+| UPTODATE / ERR-PREV       | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. | STUDENT.*            |
+
+Table: Problemfunde Hans {#tbl:heur:hans}
 
 
+
+#### Hendrik
+
+| Kriterium          | Probleme                                                     | Fundort                           |
+| ------------------ | ------------------------------------------------------------ | --------------------------------- |
+| ADAPT              | Kontraste im Darkmode sind nicht gut, Elemente könnten übersehen werden. | MANAGE, TASK.*, FAQ, STUDENT.WORK |
+| CLOSURE            | Bei Bearbeitung des Studentenprofils ist der Abschluss von Aufgaben nicht klar, es kann ewig ohne klare Abfolge editiert werden. | STUDENT.UNI, STUDENT.WORK         |
+| CLOSURE            | Das Verändern der Kenntnisse ruft keine Speicheroperation hervor und durch eine Speicheroperation wird keine Rückmeldung hervorgerufen, die die Aktion für den Nutzer abschließt | STUDENT.WORK                      |
+| CONSIST            | Die Webseite verwendet kein HTTPS, wodurch potentiell Unsicherheit entsteht. | *                                 |
+| CONSIST            | Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist | TASK.*                            |
+| CONSIST            | Studenten in den Aufgaben sehen aus, als könnte man sie anklicken, aber nichts passiert  danach | TASK.VIEW                         |
+| CONSIST            | Kenntnisse sehen beim Anlegen einer Aufgabe aus als wären sie anklickbar. | TASK.EDIT                         |
+| CONTROL            | Die "Verfügbarkeit"-Zeitlinie ist nicht auf das aktuelle Datum gerichtet. | STUDENT.UNI                       |
+| CONTROL            | Es können nicht alle wissenschaftlichen Arbeiten auf einmal gesucht / gefunden werden. | *                                 |
+| CONTROL / RECOG    | Beim Anlegen eines neuen Kalendereintrags sind Aufgaben schwer auffindbar und können nicht neu angelegt werden. Der Nutzer muss sich den Namen der Aufgabe gemerkt haben. | STUDENT.WORK.NEW-ENTRY            |
+| ERR-PREV           | Bei der Erstellung neuer Skills wird keine Validierung vorgenommen. | MANAGE.SKILLS                     |
+| ERR-PREV / CONTROL | Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke. | TASK.VIEW                         |
+| HELP               | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll, es existiert keine Dokumentation als Vergleichsreferenz. | STUDENT.WORK                      |
+| HELP               | Das FAQ ist nicht wirklich gut.                              | FAQ                               |
+| REAL               | Dauer-/Einzelaufgaben sind keine Worte aus der realen Welt, und sollen eher Aufgaben vs. Teams darstellen. | TASK.SINGLE, TASK.PERM            |
+| REAL               | Creditpoints für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. | STUDENT.UNI                       |
+| RELEV              | Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig. | DASH1                             |
+| STATUS             | Die Veränderung der Rolle eines Nutzers zieht keine Erfolgsmeldung nach sich. | MANAGE.USER                       |
+| UNDO               | Ein Undo/Redo ist nicht möglich                              | *                                 |
+| UPTODATE           | Keine Aufgaben sind im Startbereich zu sehen                 | TASK.ALL                          |
+| UPTODATE           | Ehemalige Studenten werden als Studenten geführt.            | STUDENT.LIST                      |
+| UPTODSATE          | Profile sind wenig gepflegt.                                 | STUDENT.*                         |
+| UPTODATE           | Standort von Aufgabe ist schlecht dokumentiert.              | TASK.*                            |
+| UPTODATE           | Semesterangaben sind bei einigen Studenten um ein Semester versetzt. | STUDENT.UNI                       |
+
+Table: Problemfunde Hendrik {#tbl:heur:hendrik}
+
+
+
+#### Til
+
+| Kriterium       | Probleme                                                     | Fundort                   |
+| --------------- | ------------------------------------------------------------ | ------------------------- |
+| ADAPT           | Keine Anpassbarkeit vorhanden.                               | *                         |
+| CONSIST         | Keine expliziten Speicher-Buttons an einigen Orten, an anderen schon. | STUDENT.*, MANAGE.\*      |
+| CONSIST         | Layout (Spacings etc.) ist teilweise uneinheitlich.          | TASK.*                    |
+| CONSIST         | Vertikale / Horizontale Einrückung nicht gleichmäßig / einheitlich in der Anwendung. | *                         |
+| CONSIST         | Teilweise geringer Kontrast im Dark Mode.                    | *                         |
+| CONSIST         | Layout von Suchergebnissen ist nicht einheitlich.            | SEARCH                    |
+| CONSIST         | Kein Such-Button, wenn ein vorherige Query noch drin steht   | SEARCH                    |
+| CONSIST         | Suchfeld wird von Passwort Managern als Password Feld erkannt | SEARCH                    |
+| CONTROL         | Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen. | TASK.EDIT, STUDENT.WORK   |
+| CONTROL         | Einsatze können nicht direkt gelöscht werden                 | STUDENT.WORK              |
+| CONTROL / ADAPT | Neuanordnung von Einsätzen ist nicht einfach möglich         | STUDENT.WORK              |
+| CONTROL / RECOG | Bei Einsätzen können nur existierende Aufgaben eingetragen werden. | STUDENT.WORK              |
+| ERR-HANDLE      | Keine Fehlermeldung beim Scheitern des Hochladens von TFLs   | STUDENT.UNI               |
+| ERR-PREV        | Der "Speichern"-Button / -Prozess ist nicht offensichtlich und kann übersehen werden. | STUDENT.WORK              |
+| ERR-PREV        | Wenn man eine Kenntnis verändert, nicht speichert und dann eine neue Kenntnis hinzufügt dann werden die Änderungen an der ersten Kenntnis verworfen. | STUDENT.WORK              |
+| ERR-PREV        | Wenn während des Editierens per Navigation die Seite gewechselt wird, werden Änderungen nicht gespeichert und es erfolgt keine Warnung. | TASK.EDIT                 |
+| HELP            | FAQ ist vorhanden, Inhalt ist in Ordnung aber der Umfang ist zu gering. | FAQ                       |
+| HELP            | Teilweise Tooltips vorhanden, teilweise aber auch nicht (z.B. Icon-Buttons wie Editieren oder Löschen). | z.B. TASK.* oder MANAGE.* |
+| REAL            | Einzelaufgaben vs. Daueraufgaben ist nicht sinnvoll          | TASK.SINGLE, TASK.PERM    |
+| REAL            | "Deine" Aufgaben ist irreführend, da hier eingestellte Aufgaben aufgeführt sind und nicht die, die ein User bearbeitet. | TASK.YOUR                 |
+| RELEV           | Die genaue Anzahl von Credit Points sind schwer zu pflegen und liefern vermutlich keinen sinnvollen Nutzen. | STUDENT.UNI               |
+| RELEV           | Die Informationsdichte ist zu gering                         | TASK.VIEW                 |
+| RELEV           | Die Suche nach Kenntnissen ist **zu** "fuzzy" und zeigt sehr viele irrelevante Ergebnisse an, auch wenn lieber eine neue Kenntnis erstellt werden soll. | TASK.EDIT, STUDENT.WORK   |
+| RELEV           | Teilweise sind unnütze UI Elemente vorhanden. (z.B. Labels "Kenntnisse" oder "Standort", obwohl dort keine Daten hinterlegt sind.) | TASK.VIEW                 |
+| UNDO            | UNDO nicht möglich und keine Nachvollziehbarkeit             | *                         |
+| UPTODATE        | Die Nutzerprofile sind nicht aktuell.                        | STUDENT.*                 |
+| UPTODATE        | Es sind wenige Daten zu Transferleistungen verfügbar.        | STUDENT.UNI               |
+
+Table: Problemfunde Til {#tbl:heur:til}
+
+
+
+### Gemeinsame Ungewichtete Ergebnisliste
+
+
+
+| Bezeichner           | Kriterium               | Problem                                                      | Fundorte                                                  |
+| :------------------- | :---------------------- | :----------------------------------------------------------- | :-------------------------------------------------------- |
+| RESPONSIVITY         | ADAPT                   | Bei abweichender Bildschirmgröße sind Inhalte häufig außerhalb des initialen Bildschirms und es muss gescrollt werden und die Anwendung ist nicht für mobile Anwendungen optimiert. | *                                                         |
+| ACCELERATORS         | ADAPT                   | Es existieren keine beschleunigenden Features für Experten. Es existieren allgemein keine Tastaturkürzel für Aktionen. | *                                                         |
+| SETTINGS             | ADAPT                   | Keine Einstellungen oder Anpassungsmöglichkeiten.            | *                                                         |
+| ICONS                | ADAPT                   | Viele UI-Elemente basieren pur auf Icons ohne Schrift oder Hovertexte. Das ist für Nutzer, die nicht mit der Symbolik vertraut sind, oder sich aufgrund körperlicher Einschränkungen auf Screenreader verlassen, ein Erschwernis. | z.B. TASKS.* (häufig hinzufügen, editieren)               |
+| DARK                 | ADAPT, CONSIST          | Schlechte Kontraste im Darkmode.                             | MANAGE, TASK.*, FAQ, STUDENT.WORK, Lade-Indikatoren,Tabs, |
+| ENDLESS-PROFILE      | CLOSURE                 | Bei Bearbeitung des Studentenprofils ist der Abschluss von Aufgaben nicht klar, es kann ewig ohne klare Abfolge editiert werden. | STUDENT.UNI, STUDENT.WORK                                 |
+| CP-FEEDBACK          | CLOSURE                 | Das Speichern von Credit Points gibt wenig Feedback bei der Bestätigung der Eingabe. Insgesamt ist es schwer ersichtlich, dass man die Eingabe noch manuell abschließen muss, der Prozess ist nicht atomar. | STUDENT.UNI                                               |
+| SKILLS-SAVED         | CLOSURE, STATUS         | Das Verändern der Kenntnisse ruft keine Speicheroperation hervor und durch eine Speicheroperation wird keine Rückmeldung hervorgerufen, die die Aktion für den Nutzer abschließt | STUDENT.WORK                                              |
+| ENGLISH-STATUS       | CONSIST                 | Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist | TASK.*                                                    |
+| SLIDER               | CONSIST                 | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. | STUDENT.WORK                                              |
+| HTTPS                | CONSIST                 | Die Webseite verwendet kein HTTPS, wodurch potentiell Unsicherheit entsteht. | *                                                         |
+| CUSTOM-UI            | CONSIST                 | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit-Points) | STUDENT.UNI                                               |
+| FONT                 | CONSIST                 | FAQ und Dateinamen verwenden eine andere Schriftart als der Rest der Anwendung. | FAQ, STUDENT.UNI                                          |
+| SEARCH-BUTTON        | CONSIST                 | Kein Such-Button, wenn ein vorherige Query noch drin steht   | SEARCH                                                    |
+| SAVE-CONCEPT         | CONSIST                 | Keine expliziten Speicher-Buttons an einigen Orten, an anderen schon. | STUDENT.*, MANAGE.*                                       |
+| CLICK-SKILLS         | CONSIST                 | Kenntnisse sehen beim Anlegen einer Aufgabe aus als wären sie anklickbar. | TASK.EDIT                                                 |
+| SPACING              | CONSIST                 | Layout (Spacings etc.) ist teilweise uneinheitlich.          | TASK.*                                                    |
+| OFFSETS              | CONSIST                 | Vertikale und Horizontale Einrückungen sind nicht einheitlich | *                                                         |
+| SEARCH-LAYOUT        | CONSIST                 | Layout von Suchergebnissen ist nicht einheitlich.            | SEARCH                                                    |
+| CLICK-STUDENTS       | CONSIST                 | Studenten in den Aufgaben sehen aus, als könnte man sie anklicken, aber nichts passiert danach | TASK.VIEW                                                 |
+| SEARCH-PASSWORD      | CONSIST                 | Suchfeld wird von Passwort Managern als Password Feld erkannt | SEARCH                                                    |
+| FILTER-RESET         | CONTROL                 | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. | SEARCH                                                    |
+| TIMELINE             | CONTROL                 | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. | STUDENT.WORK                                              |
+| EXTERNAL-WEBSITES    | CONTROL                 | Ein Klick auf einen Skill führt ohne Vorwarnung oder Kennzeichnung eine Weiterleitung auf externe Websites, welche von Nutzern angegeben werden. | TASK.VIEW                                                 |
+| TFL-EDIT             | CONTROL                 | Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden. | STUDENT.UNI                                               |
+| DELETE-CALENDAR      | CONTROL                 | Einsatze können nicht direkt gelöscht werden                 | STUDENT.WORK                                              |
+| ALL-TFLS             | CONTROL                 | Es können nicht alle wissenschaftlichen Arbeiten auf einmal gesucht / gefunden werden. | *                                                         |
+| NEW-SKILL-REENTRY    | CONTROL                 | Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen. | TASK.EDIT, STUDENT.WORK                                   |
+| REORDER-CALENDAR     | CONTROL, ADAPT          | Neuanordnung von Einsätzen ist nicht einfach möglich         | STUDENT.WORK                                              |
+| TASK-FOR-CALENDAR    | CONTROL, RECOG          | Beim Anlegen eines neuen Kalendereintrags sind Aufgaben schwer auffindbar und können nicht neu angelegt werden. Der Nutzer muss sich den Namen der Aufgabe gemerkt haben. | STUDENT.WORK.NEW-ENTRY                                    |
+| NO-ERROR-TFL-UPLOAD  | ERR-HANDLE              | Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien) | STUDENT.UNI.NEW-TFL                                       |
+| WHICH-REQUIRED       | ERR-HANDLE              | Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen. | TASK.EDIT                                                 |
+| OK-BUTTON            | ERR-PREV                | Aktionsbuttons werden häufig mit Aktionen wie "ok" betitelt, eine sprechende Bezeichnung der Aktion, die folgt, wäre besser. | *                                                         |
+| SKILLS-VALIDATION    | ERR-PREV                | Bei der Erstellung neuer Skills wird keine Validierung vorgenommen. | MANAGE.SKILLS                                             |
+| DIRTY-PROFILE-LEAVE  | ERR-PREV                | Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite | STUDENT.WORK                                              |
+| REQUIRED             | ERR-PREV                | Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet. | TASK.EDIT                                                 |
+| CANCEL-TASK-EDIT     | ERR-PREV                | Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen oder die Seite verlassen wird | TASK.EDIT                                                 |
+| ADD-SKILL-WITH-DIRTY | ERR-PREV                | Wenn man eine Kenntnis verändert, nicht speichert und dann eine neue Kenntnis hinzufügt dann werden die Änderungen an der ersten Kenntnis verworfen. | STUDENT.WORK                                              |
+| UNCLEAR-MAIL         | ERR-PREV, CONTROL       | Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke. | TASK.VIEW                                                 |
+| SKILLS-UNCLEAR       | HELP                    | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll, es existiert keine Dokumentation als Vergleichsreferenz. | STUDENT.WORK                                              |
+| HOVER                | HELP                    | Es fehlen des Öfteren Hover-Texte                            | \*, bspw. TASK.* für Icon-Buttons                         |
+| CONSEQUENCES         | HELP                    | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. | *                                                         |
+| FAQ                  | HELP                    | FAQ ist vorhanden, Inhalt ist in Ordnung aber der Umfang ist zu gering. | FAQ                                                       |
+| ALUMNAE              | REAL                    | Alumni & Alumnae ist ein selten verwendeter Begriff, neue Studenten können damit vielleicht nicht viel anfangen. | STUDENT.LIST                                              |
+| TASK-TABS            | REAL                    | Die Bezeichnungen der Aufgabenkategorien haben keine klare Beziehung zum echten Leben. Wie lange dauern Einzel- vs. Daueraufgaben? Warum werden nur offene Aufgaben angezeigt? Wo ist das Archiv? (AW: in "Alle Aufgaben") | TASK.*                                                    |
+| MISLEADING-YOUR      | REAL                    | Deine Aufgaben ist irreführend, da hier eingestellte Aufgaben aufgeführt sind und nicht die, die ein User bearbeitet. | TASK.YOUR                                                 |
+| CP-MEANING           | REAL                    | Creditpoints für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. | STUDENT.UNI                                               |
+| TASK-STATUS-ICON     | REAL                    | Icons für offene / angefangen Aufgaben sind unbekannt und transportieren keine klare Nachricht. | TASK.VIEW                                                 |
+| WHICH-PROFILE        | RECOG                   | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. | STUDENT.*                                                 |
+| UNSEEN-DIRTY         | RECOG, STATUS, ERR-PREV | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. | STUDENT.*                                                 |
+| DASH-REDUNDANT       | RELEV                   | Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig. | DASH1                                                     |
+| SEARCH-FUZZY         | RELEV                   | Die Suche nach Kenntnissen ist zu "fuzzy" und zeigt sehr viele irrelevante Ergebnisse an, auch wenn lieber eine neue Kenntnis erstellt werden soll. | TASK.EDIT, STUDENT.WORK                                   |
+| USELESS-LABELS       | RELEV                   | Teilweise sind unnütze UI Elemente vorhanden. (z.B. Labels "Kenntnisse" oder "Standort", obwohl dort keine Daten hinterlegt sind.) | TASK.VIEW                                                 |
+| CP-USELESS           | RELEV                   | Die genaue Anzahl von Credit Points sind schwer zu pflegen und liefern vermutlich keinen sinnvollen Nutzen. | TASK.VIEW                                                 |
+| TAKS-DENSITY         | RELEV                   | Die Informationsdichte ist zu gering                         | TASK.EDIT, STUDENT.WORK                                   |
+| TFL-DESCRIPTION      | RELEV                   | Die potentiell etwas längere Kurzbeschreibung von wissenschaftlichen Arbeiten bläht das Layout auf. Der Titel würde hier reichen. | STUDENT.UNI                                               |
+| EMPTY-CP             | RELEV                   | Credit Points werden auch dann angezeigt, wenn keine Daten vorhanden sind (auch auf fremden Profilen) | STUDENT.UNI                                               |
+| EMPTY-TIMELINE       | RELEV                   | Leere Timeline, leere Kenntnisse etc. werden angezeigt, ohne Mehrwert zu erbringen. | STUDENT.UNI                                               |
+| SKILL-FILTER         | RELEV                   | Aufgaben können nicht nach (eigenen) Kenntnissen gefiltert werden | TASK.*, SEARCH                                            |
+| USER-SHORTCUT        | RELEV                   | Zu jedem Studenten wird zusätzlich ein unnützes Nutzerkürzel angezeigt. | STUDENT.*, MANAGE.*                                       |
+| USER-ROLE-FEEDBACK   | STATUS                  | Die Veränderung der Rolle eines Nutzers zieht keine Erfolgsmeldung nach sich. | MANAGE.USER                                               |
+| LOGGED-IN            | STATUS                  | Es gibt keinen schnellen Indikator für den eingeloggten Benutzer. | *                                                         |
+| UNDO                 | UNDO                    | Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen | *                                                         |
+| OLD-STUDENTS         | UPTODATE                | Ehemalige Studenten werden als Studenten geführt.            | STUDENT.LIST                                              |
+| NO-TFL               | UPTODATE                | Es sind wenige Daten zu Transferleistungen verfügbar.        | STUDENT.UNI                                               |
+| NO-TASKS             | UPTODATE                | Keine Aufgaben sind im Startbereich zu sehen                 | TASK.ALL                                                  |
+| PROFILES             | UPTODATE                | Profile sind wenig gepflegt und nicht aktuell.               | STUDENT.*                                                 |
+| SEMESTERS-WRONG      | UPTODATE                | Semesterangaben sind bei einigen Studenten um ein Semester versetzt. | STUDENT.UNI                                               |
+| LOCATION             | UPTODATE                | Standort von Aufgabe ist schlecht dokumentiert.              | TASK.*                                                    |
+| IMPOSSIBLE-STUDENTS  | UPTODATE, ERR-PREV      | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. | STUDENT.*                                                 |
+| EXPIRED-TASKS        | UPTODATE, ERR-PREV      | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. | TASK.*                                                    |
+
+Table: Problemfunde {#tbl:heur:findings}
+
+
+
+### Gewichtete Ergebnisliste
+
+| Problembezeichner | Hans | Hendrik | Til  | Schwere |
+| ----------------- | ---- | ------- | ---- | ------- |
+|                   |      |         |      |         |
+|                   |      |         |      |         |
+|                   |      |         |      |         |
+
+Table: Gewichtete Problemfunde  {#tbl:heur:weighted}
