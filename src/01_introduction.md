@@ -5,7 +5,7 @@
     author: Til Blechschmidt, Hendrik Reiter, Hans Rißer 
     Zenturie: A17
     Studiengang: Angewandte Informatik
-    Matrikelnummer: 0,0,8075
+    Matrikelnummer: 0, 8077, 8075 
 
     keywords: [keyword1, keyword2]
     
