@@ -232,7 +232,7 @@ Der Ablauf nach [Abschnitt @sec:heuristic:plan] ist im [Anhang @sec:heuristik-ro
 
  Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. 
 
-
+![Relative Gewichtungshäufigkeit](src/images/pie.pdf)
 
 ![Gewichtungshäufigkeit je Kategorie](src/images/stacked-bar.pdf)
 
