@@ -76,7 +76,7 @@ Stattdessen soll eine heuristische Evaluation aller drei Autoren, unabhängig vo
 
 
 
-### Ablaufplan 
+### Ablaufplan {#sec:heuristic:plan}
 
 Diese parallele heuristische Analyse befolgt diesen Ablauf:
 
@@ -148,7 +148,7 @@ Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgru
 Das Ergebnis dieses Verfahrens ist in +@tbl:mergecriteria und +@tbl:criteria aufgeführt.
 
 | Nielsen                                                 | Extrahiertes Kriterium                      | Shneiderman                      |
-| ------------------------------------------------------- | ------------------------------------------- | -------------------------------- |
+| :------------------------------------------------------- | :-------------------------------------------: | --------------------------------: |
 | Match between system and the real world                 | Realitätsnahe Semantik und Vokabular        |                                  |
 | Aesthetic and minimalist design                         | Relevanz der Kommunikation                  |                                  |
 | Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung               |                                  |
@@ -174,8 +174,8 @@ Da in der Kontextanalyse beanstandet wurde, dass das System schlecht gepflegt un
 
 Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang @sec:heuristik-beschreibungen] werden die folgenden Beschreibungen synthetisiert:
 
-| Bezeichner | Kriterium | Beschreibung |
-| --- | ----- | ------------ |
+| Bezeichner | Kriterium                                   | Beschreibung                                                                                                                                                                                                                                                                                                                            |
+| ----------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ADAPT      | Universelle Benutzbarkeit & Anpassbarkeit   | Die Anwendung kann von Anwendern unterschiedlichster mit verschiedenen Eigenschaften, Fähigkeitsstufen und Erfahrungen verwendet werden. Sowohl Anfänger, als auch Experten werden vom System adäquat unterstützt, ohne die jeweils andere Gruppe zu beeinträchtigen. Die Anwendung ist dazu auf die Bedürfnisse von Nutzern anpassbar. |
 | CLOSURE    | Abgeschlossene Aktionen                     | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein Arbeitsabschnitt beendet ist – idealerweise bereits vor dem Abschluss.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation.                                                                                                                         |
 | CONSIST    | Konsistenz und Standardtreue                | Die Anwendung zeigt für ähnliche Situationen ein gleichartiges Verhalten und ist demnach wieder erkennbar. Sie hält sich an bekannte Standards in anderen Systemen, um auch im Bezug zu diesen Wiedererkennbarkeit zu ermöglichen und erlernbar zu sein.                                                                                |
@@ -188,7 +188,7 @@ Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang
 | RELEV      | Relevanz der Kommunikation                  | Das System beschränkt sich auf die Kommunikation der notwendigen Informationen. Überschüssige Kommunikation, welche lediglich die Sichtbarkeit wichtiger Informationen verschlechtert, werden vermieden.                                                                                                                                |
 | STATUS     | Sichtbarer Systemstatus und Statusmeldungen | Relevante interne Zustände des Systems werden dem Nutzer mitgeteilt, z.B. spezielle Modi in denen er sich befindet, Ladezeiten, Fehlerzustände, oder der Speicherzustand der aktuell betrachteten Daten. Besonders wichtig sind hier auch Statusmeldungen als Reaktion auf Aktionen des Nutzers.                                        |
 | UNDO       | Reversibilität und Abbruchmöglichkeit       | Der Nutzer behält die Kontroller über den Kontrollfluss, er kann Aktionen abbrechen, sie rückgängig machen und rückgängig gemachte Aktionen wiederholen. So wird dem Nutzer die Angst vor den Konsequenzen ungewollter Aktionen genommen.                                                                                               |
-| UPTODATE | Aktualität und Pflege | Das System ist gut gepflegt und verwendbar, es existieren notwendige Datengrundlagen für eine bedeutsame und hilfreiche Interaktion zwischen Nutzer und System. Das System unterstützt die Interaktion zur Sicherstellung eines gepflegten Systems. |
+| UPTODATE   | Aktualität und Pflege                       | Das System ist gut gepflegt und verwendbar, es existieren notwendige Datengrundlagen für eine bedeutsame und hilfreiche Interaktion zwischen Nutzer und System. Das System unterstützt die Interaktion zur Sicherstellung eines gepflegten Systems.                                                                                     |
 
 Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
@@ -196,7 +196,7 @@ Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
 ### Weitere Analyse-Parameter
 
-Die Funde aus der Bewertung der Anwendung nach den beschriebenen Heuristiken werden mit ihrem Fundort dokumentiert und gewichtet. Eine Zuordnung zu mehreren Heuristiken ist möglich, in der nachfolgenden Auswertung wird ein Problem dann je einmal unter jeder zugeordneten Heuristik aufgeführt, da ein Verstoß gegen mehrere Heuristiken damit auch mehrfach gewürdigt werden sollte. Zur Dokumentation des Fundortes werden die katalogisierten Ansichten und Dialoge aus [Anhang @sec:appendix:screens] verwendet. Ist ein Problem als Problem der gesamten Anwendung und nicht eines Dialogs im Besonderen zu verstehen, so wird kein Fundort zugeordnet. 
+Die Funde aus der Bewertung der Anwendung nach den beschriebenen Heuristiken werden mit ihrem Fundort dokumentiert und gewichtet. Eine Zuordnung zu mehreren Heuristiken ist möglich, in der nachfolgenden Auswertung wird ein Problem für Auswertungen bezüglich der Kriterien dann je einmal unter jeder zugeordneten Heuristik aufgeführt, da ein Verstoß gegen mehrere Heuristiken damit auch mehrfach gewürdigt werden sollte. In Auswertungen, die sich nicht spezifisch auf bestimmte Kriterien beziehen, wird ein Problem jedoch nicht mehrfach gezählt, um die Gesamtanzahl nicht zu verfälschen. Zur Dokumentation des Fundortes werden die katalogisierten Ansichten und Dialoge aus [Anhang @sec:appendix:screens] verwendet. Ist ein Problem als Problem der gesamten Anwendung und nicht eines Dialogs im Besonderen zu verstehen, so wird kein Fundort zugeordnet. 
 
 
 
@@ -204,50 +204,35 @@ Die Gewichtung von Problemen, dargestellt in +@tbl:weighting-definition, ist in 
 
 
 
-| Gewichtung | Bedeutung                                                    |
-| ---------- | ------------------------------------------------------------ |
-| 0          | Kein Usability-Problem                                       |
+| Gewichtung | Bedeutung                                                        |
+| ---------- | ---------------------------------------------------------------- |
+| 0          | Kein Usability-Problem                                           |
 | 1          | Könnte je nach Nutzer potentiell ein geringes Problem darstellen |
-| 2          | Kosmetisches Problem mit Einfluss auf das Nutzungserlebnis   |
-| 3          | Problem mit Einfluss auf den Erfolg einer Interaktion        |
+| 2          | Kosmetisches Problem mit Einfluss auf das Nutzungserlebnis       |
+| 3          | Problem mit Einfluss auf den Erfolg einer Interaktion            |
 
 Table: {#tbl:weighting-definition}
 
-## Ergebnisse
-
-Die Auflistung der Problemfunde je Evaluator (), aber auch die Vereinigung dieser sind als Rohergebnisse aus Gründen der Übersichtlichkeit in [Anhang @sec:heuristik-rohergebnisse] nachverfolgbar.  Ebenfalls dort nachzuschlagen ist die Gewichtung dieser Probleme je Evaluator.
-
-Hier erfolgt stattdessen eine Bearbeitung aggregierter Daten aus diesen Ergebnislisten.
 
 
-
-
-
-
-
-
-### Endgültiges Ergebnis
+Da mehrere Evaluatoren im Ablauf der erklärten Methodik eine Gewichtung abgeben, bevor diese in einer Gewichtung zusammengefasst werden, wird mit der folgenden Metrik zusätzlich ein Sinn für die Eindeutigkeit der Gewichtung unter den Evaluatoren geschaffen:
 
 Die Berechnung der Abweichung der Schwere eines Problems ist wie folgt und drückt damit die Summe der Differenzen zwischen den einzelnen Bewertungen aus.
 
-
-
-$$Sei~g(x),~x\geq1~die~Schwere~nach~Evaluator~Nr.~x.  $$
-
-$$Sei~n~die~Anzahl~der~Evaluatoren.$$
-
-$$Abweichung = \sum_{i=1}^{n}{\sum_{j=i+1}^{n}{|g(i)-g(j)|}}$$
-
-
+$$Sei~g(x),~x\geq1~die~Schwere~nach~Evaluator~Nr.~x. Sei~n~die~Anzahl~der~Evaluatoren.$$
+$$Abweichung~\Delta= \sum_{i=1}^{n}{\sum_{j=i+1}^{n}{|g(i)-g(j)|}}$$
 
 Eine höhere Abweichung ist demnach mit einer höheren "Kontroverse" zwischen den Bewertern ob der Schwere des Problems zu verstehen. Eine geringere Abweichung hingegen spricht für einen Konsens.
 
-| Bezeichner | Kriterium | Fundort | Beschreibung | Schwere | Abweichung |
-| ---------- | --------- | ------- | ------------ | ------- | ---------- |
-|            |           |         |              |         |            |
-|            |           |         |              |         |            |
-|            |           |         |              |         |            |
-Table: Finales Ergebnis der heuristischen Analyse {#tbl:heur:final}
+
+
+## Ergebnisse
+
+Der Ablauf nach [Abschnitt @sec:heuristic:plan] ist im [Anhang @sec:heuristik-rohergebnisse] gewissentlich dokumentiert. Die gemeinsame Problemliste ohne Gewichtung, welche zur Durchführung der Gewichtung verwendet wurde, ist nicht aufgeführt, da diese redundant zur finalen Ergebnisliste in +@tbl:heur:final ist. Stattdessen werden die einzelnen Gewichtungen anhand der Problembezeichner in der +@tbl:heur:weighted aufgeführt.
+
+ Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. 
+
+
 
 ![Gewichtungshäufigkeit je Kategorie](src/images/stacked-bar.pdf)
 
