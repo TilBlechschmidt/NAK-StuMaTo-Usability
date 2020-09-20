@@ -4,12 +4,18 @@
 
 Den Probanden werden folgende sechs Aufgaben gestellt:
 
-- Logge dich ein und sieh dich um!
-- Siehe dir dein Profil an und ergänze fehlende Inhalte!
-- Du hast Praxisphase vom 5.10 zum 28.11 in Hamburg. Suche dir für diesen Zeitraum eine Aufgabe!
-- Du hast diese Aufgabe nun abgeschlossen, trage sie in dein Profil ein!
-- In dieser Praxisphase hast du eine Transferleistung geschreiben. Diese hast du mittlerweile bestanden. Trage dies in dein Profil ein!
-- In der nächsten Praxisphase möchtest du ein Marketingprojekt für StuMaTo machen, finde über StuMaTo einen Mitstudenten mit dem du dieses Projekt durchführen kannst!
+1. Logge dich ein und sieh dich um!
+2. Siehe dir dein Profil an und ergänze fehlende Inhalte!
+3. Du hast Praxisphase vom 5.10 zum 28.11 in Hamburg. Suche dir für diesen Zeitraum eine Aufgabe!
+4. Du hast diese Aufgabe nun abgeschlossen, trage sie in dein Profil ein!
+5. In dieser Praxisphase hast du eine Transferleistung geschreiben. Diese hast du mittlerweile bestanden. Trage dies in dein Profil ein!
+6. In der nächsten Praxisphase möchtest du ein Marketingprojekt für StuMaTo machen, finde über StuMaTo einen Mitstudenten mit dem du dieses Projekt durchführen kannst!
+
+
+### Auswahl der Fragen
+
+Bei der großen Fülle an heuristischen Problemen, die gefunden wurden, müssen die Aufgaben eingegrenzt werden, da nicht auf alle heuristischen Probleme eingegangen werden kann. Die erste Einschränkung ist, dass nur Funktionalitäten im Usabilitytest aufgenommen werden sollen, die Studenten betreffen. Somit fallen alle Funktionalitäten, die nur für Betreuer zugänglich sind, wie Studenten-, Kenntnis- und Hochschulverwaltung raus. Der Schwerpunkt soll dann auf den Abläufen liegen, die von den Studenten verwendet werden und diese bei denen sie Probleme identifiziert haben. Die Daten werden dabei aus den Interviews gezogen. Dort nannten die Studenten bei der aktuellen Nutzung das Pflegen des eigenen Profils und das Ansehen von anderen Profilen. Das Pflegen des Profils wird in Aufgabe 2 behandelt, sowie in Aufgabe 4 und 5. Das Ansehen anderer Profile kann in Aufgabe 1 geschehen und in Aufgabe 6. Auch das Finden von Aufgaben wurde als Use-Case von StuMaTo genannt, jedoch wird es nicht sehr häufig genutzt. Um zu analysieren, welche Probleme es dabei entstehen, gibt es Aufgabe drei. Dabei wurde der Datenbestand der Aufgaben bewusst sehr klein gehalten, sowie es in den Interviews auch gennant worden ist. Zudem wurde in den Interviews genannt, dass StuMaTo eher selten, etwa alle zwei Monate einmal, benutzt wird. In Aufgabe 1 soll dabei herausgefunden, welche Informationen sich ein Nutzer rein intuitiv ohne feste Aufgabe ansieht. 
+Insgesamt wurde bei den Aufgaben darauf geachtet, dass möglichst viele Dialoge durchlaufen werden, um so in allen Dialogen Fehler aufzudecken.  
 
 Im folgenden sollen die möglichen Lösungen und Erwartungen an diese Aufgaben formuliert werden.
 

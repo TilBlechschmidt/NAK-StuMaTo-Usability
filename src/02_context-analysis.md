@@ -4,12 +4,14 @@ Die Kontextanalyse hat zum Ziel zu bestimmen in welchem Zusammenhang StuMaTo ver
 
 ## Auswahl der Methodik
 
-Für die Kontextanalyse kommen zunächst drei Methoden in Frage: Fragebogen, Interview und Fokusgruppe. Für diese Arbeit wurde sich für die Analyse über Interviews entschieden. Dabei wird zunächst der Studentenbetreuer in der Firma PPI AG, in der StuMaTo zum Einsatz kommt, befragt. Er wird gewählt, da dieser die längste Erfahrung mit der Verwaltung der Studenten und den besten Überblick über andere Nutzer und Stakeholder hat. Im Anschluss daran werden drei Studenten und ein Mitarbeiter, der schonmal Studenten betreut hat befragt. Somit werden die Sichtweisen aller im vorhinein identifizierten Nutzergruppen eingeholt.  
-Die Methode Interview wurde gewählt, da sie den Vorteil hat, dass man mit ihnen die kritischen Ereignisse während der Nutzung des Softwaresystems aufdeckt werden können. So können die individuellen Fehler und Hindernisse, die die Nutzer bei der Benutzung des Programmes erfährt am besten aufgedeckt werden. Zudem bieten sie die Möglichkeit, dass individuell auf den Befragten eingegangen werden kann und somit die Probleme unmittelbarer und detaillierter aufgedeckt werden können und auch neue Aspekte aufgedeckt werden können. Der Nachteil der Subjektivität der Interviews wird aus der Studentensicht, die in dieser Arbeit im Vordergrund steht, dadurch abgemildert, dass mehrere Studenten befragt werden. Somit kann bestimmt werden, ob gewisse Probleme nur Einzelmeinungen sind oder ob diese mehrer Studenten betreffen. Bei den beiden anderen Nutzergruppen Mitarbeiter und Studentenbetreuer wird jeweils nur ein Representant befragt. Dabei muss in der Analyse dieser Interviews beachtet werden, dass diese Ergebnisse durch eine gewisse Subjektivität der befragten verzehrt sein könnten.
+Für die Kontextanalyse kommen zunächst drei Methoden in Frage: Fragebogen, Interview und Fokusgruppe. 
+Methoden wie Beobachtungen, Dokumentenanalyse oder Nutzungstagebücher konnten im vorhinein ausgeschlossen werden, da Dokumente nicht existieren und Nutzungstagebücher als zu aufwendig eingestuft werden. Gegen Beobachtungen spricht, dass sich die Probanden durch die Corona-Situation im Homeoffice und somit ohne nicht in ihrer gewohnten Umgebung befinden. 
+So wurde sich für diese Arbeit für die Analyse über Interviews entschieden. Dabei wird zunächst der Studentenbetreuer in der Firma PPI AG, in der StuMaTo zum Einsatz kommt, befragt. Er wird gewählt, da dieser die längste Erfahrung mit der Verwaltung der Studenten und den besten Überblick über andere Nutzer und Stakeholder hat. Daraus sollen weitere Stakeholder identifiziert werden.
+Im Anschluss daran werden drei Studenten und ein Mitarbeiter, der schonmal Studenten betreut hat befragt. Somit werden die Sichtweisen aller im vorhinein identifizierten Nutzergruppen eingeholt.  
+Die Methode Interview wurde gewählt, da sie den Vorteil hat, dass man mit ihnen die kritischen Ereignisse während der Nutzung des Softwaresystems aufdeckt werden können. So können die individuellen Fehler und Hindernisse, die die Nutzer bei der Benutzung des Programmes erfährt am besten aufgedeckt werden. Zudem bieten sie die Möglichkeit, dass individuell auf den Befragten eingegangen werden kann und somit die Probleme unmittelbarer und detaillierter aufgedeckt werden können und auch neue Aspekte aufgedeckt werden können. Der Nachteil der Subjektivität der Interviews wird aus der Studentensicht, die in dieser Arbeit im Vordergrund steht, dadurch abgemildert, dass mehrere Studenten befragt werden. Somit kann bestimmt werden, ob gewisse Probleme nur Einzelmeinungen sind oder ob diese mehrere Studenten betreffen. Bei den beiden anderen Nutzergruppen Mitarbeiter und Studentenbetreuer wird jeweils nur ein Representant befragt. Dabei muss in der Analyse dieser Interviews beachtet werden, dass diese Ergebnisse durch eine gewisse Subjektivität der befragten verzehrt sein könnten.
 Der Nachteil der Aufwändigkeit von Interviews wird für diese Arbeit in Kauf genommen.
 Es wurde sich gegen eine Fokusgruppe entschieden, da sich bei dieser Methodik die Teilnehmer gegenseitig beeinflussen können. So wird die Stimme von sehr meinungsstarken Teilnehmern überrepräsentiert, während die Probleme weniger meinungsstarker Personen nicht aufgedeckt werden. Hier kann folglich ein verzerrtes Meinungsbild entstehen.
 Gegen die Methodik eines Fragebogens spricht, da standartisierte Fragen nicht immer passend sind. Hierbei werden nicht so viele Aspekte und Probleme aufdeckt wie bei einem Interview.   
-
 
 ## Auswahl der Interviewfragen
 
@@ -26,9 +28,9 @@ Die Interviewfragen wurden an die verschiedenen Nutzergruppen Student, Mitarbeit
 Die Fragen Bereich StuMaTo im Unternehmen sollen zeigen:
 
 - Wie StuMaTo aktuell verwendet wird
-- Häufigkeit und Intesität der Nutzung
 - Identifizierte Probleme von StuMaTo
-- Stimmung bei der Nutzung
+- Verbesserungsvorschläge für StuMaTo
+
 
 ## Ergebnisse der Kontextanalyse
 
@@ -64,6 +66,8 @@ Im Tagesgeschäft wird der Student als normaler Mitarbeiter betrachtet, jedoch w
 
 Softwaretestmanagement, momentan in großem Kundenprojekt. Kundeneinsatz ist zurzeit Remote. Ich habe einen Studenten Hauptamtlich betreut, 3 aushilfsweise. Testenwicklung/ Automatisierung Durchführung, Aufgaben verteilen. Eigentlicher Betreuer hatte Urlaub/Krankheit. (F)
 
+
+
 Die Studenten kommen in regelmäßigen Abständen aus der Uni. TFL/Urlaub muss dazwischen genommen  werden. Studenten brauchen dazwischen passende Aufgaben (F)
 
 
@@ -89,13 +93,13 @@ Auf Betreuerseitige wird für das Zuordnen der Studenten zu den Projekten ein Co
 ### Aktuelle Verwendung StuMaTo
 
 StuMaTo wird vor allem zum Pflegen des eigenen Profils verwendet. Dies dient vor allem zur Representation vor anderen Mitarbietern in der Firma (S). Dabei werden vor allem die Skills, die die Studenten über die Einsätze hin erlangt haben, in die Profile mit aufgenommen (M). 
-Zudem werden die Profile anderer Mitstudenten angesehen (S, M). Dabei werden sich gerne auch die Transferleistungen von höheren Jahrgängen angesehen (M). Im neuen StuMaTo können einzelne Klausuren nicht mehr als bestanden angegeben werden (M).  Auch durch die Aufgaben werden gelegentlich angesehen (T,S), jedoch ist die Aufgabensuche häufig nicht erfolgreich (T).
-Einzelne Mitarbeiter nutzen StuMaTo, um sich einen Überblick über die Studenten zu verschaffen (F). 
+Zudem werden die Profile anderer Mitstudenten angesehen (S, M). Dabei werden sich gerne auch die Transferleistungen von höheren Jahrgängen angesehen (M). Im neuen StuMaTo können einzelne Klausuren nicht mehr als bestanden angegeben werden (M). Auch durch die Aufgaben werden gelegentlich angesehen (T,S), jedoch ist die Aufgabensuche häufig nicht erfolgreich, da zu wenige im System verfügbar sind (T).Einzelne Mitarbeiter nutzen StuMaTo, um sich einen Überblick über die Studenten zu verschaffen (F). 
 Jedoch kennen nicht alle Mitarbeiter StuMaTo oder finden die Informationen darin nicht verlässlich (M). Dabei sind vor allem diese an aktuellem Semester und Skills der Studenten interessiert (F). Auf der Studentenbetreuerseite wird StuMaTo als Sammeltopf für Aufgaben verwendet (H). Zudem wird über StuMaTo nachverfolgt, welcher Student welche Aufgabe übernommen hat (H). Für die Nachverfolgung des Studienstandes wird StuMaTo eher weniger verwendet (H).
-StuMaTo wird von den Studenten etwa alle 2 Monate einmal benutzt oder einmal pro Semester (M,S,T). Bei einigen Studenten hat die Nutzung von StuMaTo übre die Zeit abgenommen und sie benutzen es kaum noch (T). Durchschnittlich wird StuMaTo von einem Studenten dabei 10 bis 15 Minuten lang benutzt (M,T). Auch von Mitarbeiterseite werden nur maximal alle zwei Monate Informationen von StuMaTo abgerufen (F).
+StuMaTo wird von den Studenten etwa alle 2 Monate einmal benutzt oder einmal pro Semester (M,S,T). Bei einigen Studenten hat die Nutzung von StuMaTo über die Zeit abgenommen und sie benutzen es kaum noch (T). Durchschnittlich wird StuMaTo von einem Studenten dabei 10 bis 15 Minuten lang benutzt (M,T). Auch von Mitarbeiterseite werden nur maximal alle zwei Monate Informationen von StuMaTo abgerufen (F).
 Die Studentenbetreuer verwenden StuMaTo hingegen häufiger. Am häufigsten wird es zum Quartalswechsel benutzt, da dann die Planungsphase für die Praxisphasen der Studenten beginnt. Dabei wird StuMaTo immer mal für eine bis fünf Minuten benutzt, ist aber über einen längeren Zeitraum geöffnet (H).
 
 ### Probleme in StuMaTo
+
 Das häufigstgenannte Problem von StuMaTo ist, dass es keine relevanten Informationen enthält (T,S). Dabei sind vor allem keine Aufgaben für Studenten in StuMaTo zu finden (S). Zudem soll es kaum Mitarbeiter geben, die sich die gepflegten Profile von StuMaTo ansehen (T). Die Mitarbeiter stellen keine Aufgaben in StuMatO ein, da sie kein Budget für Studenten oder einfach keine passende Aufgaben für sie haben (F).
 Die Studentenbetreuer vermissen in StuMaTo eine Übersicht über die Verfügbarkeit aller Studenten. Zudem ist es in StuMaTo nicht möglich Zuteilungen in StuMaTo zu machen, die noch nicht final sind (H).    
 
@@ -104,27 +108,7 @@ Die Studentenbetreuer vermissen in StuMaTo eine Übersicht über die Verfügbark
 Für StuMaTo gibt es verschiedene weitere Ideen. Am häufigsten wurde genannt, dass die sogenannten Mitarbeitermaster-Profile der PPI-Mitarbeiter aus den StuMaTo-Profilen generiert werden können. Diese enthalten ähnliche Informationen wie das StuMaTo-Profil und somit ist eine unnötige Doppelpflege der Daten notwendig (S, M). Zudem wird sich eine Rubrik mit allgemeinen Informationen für die Studenten gewünscht (S). Ein Student wünscht sich StuMaTo als zentrales Tool für die Studenten zu nutzen und andere Tools wie HR und Controllingsysteme anzubinden, sodass Urlaubstage aus StuMaTo heraus beantragt werden können und die Arbeitszeiten eingetragen werden können (M). Dafür wäre auch eine Kalendarfunktion notwendig (M). 
 Des Weiteren gibt es den Wunsch, dass die Wünsche der Studenten für die nächste Praxisphase über StuMaTo eingetragen werden können (H). Zudem könnten die Studentenabschlussprotokolle über StuMaTo bereitgestellt werden(H).
 
-### Weiteres
-Ja, definitiv. Übernahme der Studenten sollte beidseitiges Interesse haben. Student soll sich weiterentwickeln. Student sollte sich einsetzen die Aufgabe vernünfitg umsetzen. Aktive betreuung des Studenten. Student sollte Fragen stellen können und mehr Feedback bekommen. Klarer ANsprechpartner, aber fester Rahmen für Nachfragen und Feedback geben. in einigen Projekten klappt das ganz gut. Bei ZK war betreuung sehr gut, kleine Aufgaben, konnte häufig nachfragen. Nicht so gut war die Entwicklung, da es kein Feedback zwischen drin die Anforderungen geändert wurden. (M)
-
-Ein einzelner Betreuer (war mal schlechter)
-Patenbetreuung war letztes Jahr (2019) problematisch
-Altstudis waren nicht verfugbar
-Ex-Studis dann genommen
-Nicht alle habens gleich gut gemacht
-Meh. xD
-Kein riesen Optimierungsbedarf auch wenn es immer etwas zum optimieren gibt (subjektiv)
-Nichts lauft vollig falsch
-"Im groben okay"
-Irgendwas kommt immer hoch (H)
-
-Frage: Wie soll hier die Hierarchie sein?
-Vertrauensgepragt
-Studis sollen mit Sorgen/Angsten/Noten zu Betreuer kommen ohne "Angst" (sowohl fachlich als auch personlich)
-Kein Anspruch auf Preisgabe von personlichen Infos
-Aber meist hilfreich das einschatzen zu konnen
-Daher bemuhen das "Augenhohenverhaltnis" herzustellen
-
-
 ## Reflexion des Methodeneinsatzes
+
+Insgesamt ist der Einsatz von Interviews für die Analyse des Nutzungskontext positiv zu bewerten. Es sind lebendige Gespräche entstanden und durch einige Nachfragen konnten viele Informationen über den Nutzungskontext von StuMaTo gesammelt werden. Zudem konnten einige Probleme mit StuMaTo identifiziert werden. Negativ bei der Durchführung der Interviews ist anzumerken, dass eine explizite Nachfrage zu den Stakeholdern der Studenten im Unternehmen gefehlt hat. Diese Kategorie musste aus den anderen Fragen hergeleitet werden. Dies hat zwar halbwegs funktioniert, jedoch wäre die explizite Frage danach schön gewesen. 
 
