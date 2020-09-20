@@ -1,0 +1,104 @@
+[
+  {
+    "author": [
+      {
+        "family": "Sarodnick",
+        "given": "Florian"
+      },
+      {
+        "family": "Brau",
+        "given": "Henning"
+      }
+    ],
+    "container-title": "Bern: Verlag Hans Huber",
+    "id": "heur:brau/sarodnick",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "title": "Methoden der usability evaluation: Wissenschaftliche grundlagen und praktische anwendung.",
+    "title-short": "Methoden der usability evaluation",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Dahm",
+        "given": "Markus"
+      }
+    ],
+    "id": "heur:dahm",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "publisher": "Pearson Studium München",
+    "title": "Grundlagen der mensch-computer-interaktion",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Nielsen",
+        "given": "Jakob"
+      }
+    ],
+    "id": "heur:nielsen",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "publisher": "http://www.nngroup.com/articles/ten-usability-heuristics/",
+    "title": "Ten usability heuristics",
+    "type": "no-type"
+  },
+  {
+    "author": [
+      {
+        "family": "Shneiderman",
+        "given": "Ben"
+      },
+      {
+        "family": "Plaisant",
+        "given": "Catherine"
+      },
+      {
+        "family": "Cohen",
+        "given": "Maxine"
+      },
+      {
+        "family": "Jacobs",
+        "given": "Steven"
+      },
+      {
+        "family": "Elmqvist",
+        "given": "Niklas"
+      },
+      {
+        "family": "Diakopoulos",
+        "given": "Nicholas"
+      }
+    ],
+    "id": "heur:shneiderman",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "publisher": "Pearson",
+    "title": "Designing the user interface: Strategies for effective human-computer interaction",
+    "title-short": "Designing the user interface",
+    "type": "book"
+  }
+]
