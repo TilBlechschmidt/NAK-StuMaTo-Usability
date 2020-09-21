@@ -1,7 +1,7 @@
 import csv
-from csv import Error
 import numpy as np
 import matplotlib.pyplot as plt
+from numpy.lib.function_base import average
 
 
 
@@ -22,30 +22,29 @@ def groupProblemsByCriteria(problems):
             criteria[problem["criterion"]]=[problem]
     return criteria
 
-def extractWeightsPerCriterion(criteria):
+def extractAttributePerCriterion(criteria,attribute):
     result={}
-    listOfCriteriaToWeightsMaps=[{criterion:[problem["weight"]for problem in problems]} for criterion,problems in criteria.items()]
+    listOfCriteriaToWeightsMaps=[{criterion:[problem[attribute]for problem in problems]} for criterion,problems in criteria.items()]
     for criterion in listOfCriteriaToWeightsMaps:
         for c,weights in criterion.items():
             result[c]=weights
     return result
 
-def distinctWeightCountPerCriterion(weights):
+def distinctCountPerCriterion(criterionToAttributeList,defaults):
     result={}
-    for c,ws in weights.items():
-        result[c]={0:0,1:0,2:0,3:0}
+    for c,ws in criterionToAttributeList.items():
+        result[c]=dict(defaults)
         for w in ws:
             result[c][int(w)]+=1
     return result
 
 
-            
 def generateStackedBarChart():
     path ="C:/Development/Uni/NAK-StuMaTo-Usability/src/resources/auswertung-heur-expanded.csv"
     problems=readProblems(path)
     criteria = groupProblemsByCriteria(problems)
-    weights = extractWeightsPerCriterion(criteria)
-    distinctWeightCount=distinctWeightCountPerCriterion(weights)
+    weights = extractAttributePerCriterion(criteria,"weight")
+    distinctWeightCount=distinctCountPerCriterion(weights,{0:0,1:0,2:0,3:0})
 
     labels=[]
     weightFrequencies=[[],[],[],[]]
@@ -74,6 +73,29 @@ def generateStackedBarChart():
     plt.tight_layout()
     plt.savefig("../images/stacked-bar.pdf",dpi=1200)
 
+def avg(seq):
+    return float(sum(seq))/len(seq)
+
+def generateBarChartDev():
+    path ="C:/Development/Uni/NAK-StuMaTo-Usability/src/resources/auswertung-heur-expanded.csv"
+    problems=readProblems(path)
+    criteria = groupProblemsByCriteria(problems)
+    criteriaDevs=[avg([int(p["dev"]) for p in ps]) for _, ps in criteria.items()]
+
+    ind=np.arange(13)
+    width=0.5
+
+    plt.bar(ind,criteriaDevs,width)
+
+    plt.title("Durchschnittswert von $\Delta$")
+    plt.ylabel('$\Delta$')
+    
+    plt.xticks(ind,criteria.keys(),rotation="vertical")
+    plt.yticks(np.arange(0,3,0.5))
+    plt.tight_layout()
+    plt.savefig("../images/bar-dev.pdf",dpi=1200)
+
+
 def make_autopct(values):
     def my_autopct(pct):
         total = sum(values)
@@ -96,4 +118,4 @@ def generatePieChart():
     plt.savefig("../images/pie.pdf",dpi=1200)
 
 plt.style.use('seaborn-dark')
-generateStackedBarChart()
+generateBarChartDev()

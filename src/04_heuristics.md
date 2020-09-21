@@ -148,7 +148,7 @@ Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgru
 Das Ergebnis dieses Verfahrens ist in +@tbl:mergecriteria und +@tbl:criteria aufgeführt.
 
 | Nielsen                                                 | Extrahiertes Kriterium                      | Shneiderman                      |
-| :------------------------------------------------------- | :-------------------------------------------: | --------------------------------: |
+| :---------------------------------------------------- | :----------------------------------------------------: | ----------------------------------------------------: |
 | Match between system and the real world                 | Realitätsnahe Semantik und Vokabular        |                                  |
 | Aesthetic and minimalist design                         | Relevanz der Kommunikation                  |                                  |
 | Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung               |                                  |
@@ -175,7 +175,7 @@ Da in der Kontextanalyse beanstandet wurde, dass das System schlecht gepflegt un
 Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang @sec:heuristik-beschreibungen] werden die folgenden Beschreibungen synthetisiert:
 
 | Bezeichner | Kriterium                                   | Beschreibung                                                                                                                                                                                                                                                                                                                            |
-| ----------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------- | --------------------------------------------: | -------------------------------------------------------------------------------------------------------- |
 | ADAPT      | Universelle Benutzbarkeit & Anpassbarkeit   | Die Anwendung kann von Anwendern unterschiedlichster mit verschiedenen Eigenschaften, Fähigkeitsstufen und Erfahrungen verwendet werden. Sowohl Anfänger, als auch Experten werden vom System adäquat unterstützt, ohne die jeweils andere Gruppe zu beeinträchtigen. Die Anwendung ist dazu auf die Bedürfnisse von Nutzern anpassbar. |
 | CLOSURE    | Abgeschlossene Aktionen                     | Aktionen sind in sich klar abgeschlossen und es ist offensichtlich, wenn ein Arbeitsabschnitt beendet ist – idealerweise bereits vor dem Abschluss.  Ein Nutzer bekommt Feedback bei Abschluss einer Operation.                                                                                                                         |
 | CONSIST    | Konsistenz und Standardtreue                | Die Anwendung zeigt für ähnliche Situationen ein gleichartiges Verhalten und ist demnach wieder erkennbar. Sie hält sich an bekannte Standards in anderen Systemen, um auch im Bezug zu diesen Wiedererkennbarkeit zu ermöglichen und erlernbar zu sein.                                                                                |
@@ -211,7 +211,7 @@ Die Gewichtung von Problemen, dargestellt in +@tbl:weighting-definition, ist in 
 | 2          | Kosmetisches Problem mit Einfluss auf das Nutzungserlebnis       |
 | 3          | Problem mit Einfluss auf den Erfolg einer Interaktion            |
 
-Table: {#tbl:weighting-definition}
+Table: Definition der genutzten Gewichtungskategorien {#tbl:weighting-definition}
 
 
 
@@ -224,7 +224,7 @@ $$Abweichung~\Delta= \sum_{i=1}^{n}{\sum_{j=i+1}^{n}{|g(i)-g(j)|}}$$
 
 Eine höhere Abweichung ist demnach mit einer höheren "Kontroverse" zwischen den Bewertern ob der Schwere des Problems zu verstehen. Eine geringere Abweichung hingegen spricht für einen Konsens.
 
-
+\clearpage
 
 ## Ergebnisse
 
@@ -232,59 +232,127 @@ Der Ablauf nach [Abschnitt @sec:heuristic:plan] ist im [Anhang @sec:heuristik-ro
 
  Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. 
 
-![Relative Gewichtungshäufigkeit](src/images/pie.pdf)
-
-![Gewichtungshäufigkeit je Kategorie](src/images/stacked-bar.pdf)
-
-- Auswertungen:
-  - höchst gewichtete
-  - Visualisierung Gewichtung + Anzahl je Kriterium
-  - höchste Varianz der Gewichtung
-  - 
 
 
-### Ergebnisse (Hendrik)
+### Quantitative Gesamtkennzahlen
 
-Diese Heuristische Analyse wird im Produktivsystem von StuMaTo durchgeführt. Dies hat den Vorteil, dass sie mit denselben Daten befüllt sind, mit denen auch die Interviewten der Kontextanalyse bisher gearbeitet haben.
+Mit der bloßen Anzahl $N$ der Problemfunde und deren Gewichtungen $G$, sowie der Abweichungen $\Delta$ kann ein grober Überblick über die Datenmenge verschafft werden:
 
-Die meisten Fehler treten in StuMaTo in der Heuristik Übereinstimmung mit der Realen Welt auf. Zuerst fällt auf, dass im Startbereich keine Aufgaben verfügbar sind. Dies kann nicht mit der realen Welt übereinstimmen, da es Aufgaben geben muss, die von den Studenten bearbeitet werden können. Somit ist es auch nicht möglich sich auf eine Aufgabe zu bewerben.
-In der Studentenübersicht fällt aus, dass ehemalige Studenten weiterhin als Studenten geführt werden und nicht in der Kategorie Alumni & Alumnae gelistet sind. Zudem ist bei Studenten, die in einem Jahrgang sind, nicht immer dasselbe Semester angegeben. Hier unterschieden diese sich um ein Semester. Bei einem Blick in die Studentenprofile fallen die nächsten Probleme auf. In der Verfügbarkeitsübersicht werden die ältesten Daten zuerst angezeigt. Dies kann verwirren, da die aktuellsten Daten am relevantesten sind. Um diese einsehen zu können, muss mit der Scrollbar zunächst nach rechts gescrollt werden. Zudem ist das aktuelle Datum in dieser Verfügbarkeitssicht nicht einsehbar. In der Verfügbarkeitsübersicht fällt zudem auf, dass diese bei nahezu allen Studenten große Lücken aufweist. Dies ist eine Abweichung zur realen Welt, da alle Studenten in ihren Praxisphasen Aufgaben bearbeitet haben, die sie hätten in StuMaTo aufnehmen können. Positiv anzumerken ist jedoch, dass Semester- und Urlaubszeiten überall tadellos gepflegt sind. Wenn eine Aufgabe in die Verfügbarkeitsübersicht eingefügt werden soll tritt das Problem auf, dass viele Aufgaben nicht im System hinterlegt sind. Dies ist besonders kritisch, da bei der Aufgabe auch kein Freitextfeld referenziert werden kann. Zudem kann über diesen Dialog auch keine neue Aufgabe angelegt werden.
+Bei der Betrachtung der Rohmenge der Problemfunde ist $N=72$, wobei sowohl der Durchschnitt, als auch der Median von $G$ über alle Evaluatoren 2 ist. Dies ist nicht weiter verwunderlich, da aufgrund der festgelegten, diskreten Werte keine besonderen "Ausreißer" einen signifikanten Unterschied zwischen diesen erklären könnten. Diese Werte sind unter alle Evaluatoren des Weiteren sehr ähnlich, alle erreichten denselben Median und sehr ähnliche Durchschnitte (zwischen 1,93 | 1,96 | 2,11). Das arithmetische Mittel über die finalen Gewichtungen erreich einen leichten Anstieg auf 2,05. Der hier wirkende Effekt ist vermutlich, dass erst bei der Diskussion der Schwere der Probleme untereinander ein vollständiges Verständnis für diese eingetreten ist, wo sie vorher noch unterschätzt wurden.  
 
-In der Kategorie Sichtbarkeit des Systemstatus fallen kleinere Fehler auf. Bei den zugeordneten Studenten in einer Aufgabe, sieht es so aus als könne man auf sie klicken, jedoch passiert danach nichts. Dasselbe gilt für die Kenntnisse bei der Anlage einer neuen Aufgabe. Auch hier verändert sich der Cursor zur Hand, so dass der Nutzer erwarten würde, dass nach einem Klick eine Aktion ausgeführt wird. Dies ist jedoch nicht der Fall. Ein weiterer Verstoß gegen die Heuristik Sichtbarkeit des Systemstatus ist bei der Verwaltung der Studenten zu finden. Wenn die Rolle eines Mitarbeiters zu Student oder Betreuer geändert wird, bleibt in der GUI die Rolle des Studenten zunächst erhalten. Erst beim Neuladen der Seite wird die Rolle auch in der Oberfläche richtig angezeigt.
+Zur Betrachtung der der Daten nach Kategorien wurde als zweite Datengrundlage jeder Datensatz, dem mehrere Kategorien zugeordnet waren, dupliziert, um diese mehrfachen Datensatz in der Untersuchung der Kategorien verwenden zu können. Für eine Betrachtung von einzigartigen Kategorienmengen waren diese Mehrfachzuordnungen zu selten. In der einzigartigen Kombination einer zugeordneten Kategorie und eines Problems ergibt sich $N'=80$.
 
-
-1. Keine Aufgaben sind im Startbereich zu sehen
-2. Suchfeld wird vom Passwortmanager erkannt
-3. Ehemalig Studenten werden als Studenten geführt
-4. Verfügbarkeitsslider ist nicht auf das aktuelle Datum gezeigt
-5. Profile sind wenig gepflegt
-6. Standort von Aufgabe ist schlecht dokumentiert
-7. Semesterangaben sind bei einigen Studenten um ein Semester versetzt
-8. Es können nicht alle wissenschaftlichen Arbeiten auf einmal gefunden werden
-9. Studenten in den Aufgaben sehen aus, als könnte man sie anklicken, aber nicht passiert danach
-10. Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist 
-11. Meine Aufgabe kann ich bei neuer Kalendareintrag nicht finden.
-12. Ich kann da auch keine neue Aufgabe anlegen
-13. Kenntnisse sehen aus als wären sie clickbar beim Anlegen einer Aufgabe
-14. Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke
-15. Kontraste im Darkmode sind nicht gut, Elemente könnten übersehen werden
-16. Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll
-17. Kein https, Unsicherheit
-18. Wenn Zustand von Mitarbeiter geändert, wird dies nicht in der UI angezeigt
-19. Aufteilung Aufgaben/daueraufgaben
+In @fig:rel-weights ist die relative Häufigkeit der einzelnen Gewichtungskategorien ersichtlich.
 
 
+![Relative Gewichtungshäufigkeit](src/images/pie.pdf){#fig:rel-weights}
+
+Die Kategorie $0$ wurde in der finalen Ergebnisliste effektiv eliminiert, da diese aussagt, dass hier kein Problem vorliegt. Diese wurde zwar in den einzelnen Gewichtungen der Evaluatoren insgesamt 8 mal gewählt, jedoch kam es stets zu einer Einigung, welche die finale Gewichtung auf einen anderen Wert festgelegt hatte. Dabei wurde häufig die finale Gewichtung $1$ gewählt, da die Uneinigkeit darüber, ob ein Zustand überhaupt ein Problem ist, dafür spricht, dass dieses entsprechend der Definition der Gewichtung $1$ nutzergruppenabhängig sein könnte.
+
+Die anderen Kategorien sind weitesgehend ausgeglichen, auch wenn die Gewichtung $2$ am häufigsten auftritt. Dennoch spricht der Anteil von 30%, welcher auf die Gewichtung $3$ entfällt dafür, dass die Anwendung einige ernste Usability-Probleme hat.
+
+
+
+### Quantitativer Vergleich der Problemkategorien
+
+Ein quantitativer Vergleich der einzelnen Problemkategorien ist in @fig:weight-per-category und @fig:delta-per-category vorgenommen. Hier können zum einen die Häufigkeit, mit der Gewichtungen im finalen Ergebnis aufgetaucht sind, pro Kategorie nachverfolgt werden und gleichzeitig der Konsens zwischen den Evaluatoren bezüglich einer Kategorie betrachtet werden. 
+
+In der Häufigkeit der Problemgewichtungen sticht die Kategorie CONTROL mit einem besonders hohen Anteil von schweren Problemen heraus. Eben diese wird jedoch auch mit einem vergleichsweise hohen durchschnittlichen Abweichungswert heraus. Scheinbar scheinen hier also potentiell schwere Probleme aufzutreten, die jedoch nicht besonders klar verstanden sind. Das Kriterium CONSIST ist ebenfalls ein sehr umstrittenes Kriterium, welches zudem die größte absolute Problemhäufigkeit aufweist, wobei diese Probleme jedoch überwiegend kosmetischer Art oder sogar nutzergruppenabhängig sind. Noch umstrittener, wenn auch leicht weniger häufig sind die Probleme der Kategorie RELEV.
+
+Im Gegensatz hierzu fällt das Kriterium ERR-PREV auf: Trotz dessen, dass es eine hohe Zahl an Problemen aufweist, besteht hier eine weitaus geringere Abweichung zwischen den Evaluatoren.  Es erscheint dadurch klar, dass die Anwendung einiges Verbesserungspotential in der Fehlerprävention aufzuweisen hat. Die quantitativ unscheinbar wirkenden Kategorien CLOSURE, ERR-HANDLE und UNDO sind in völliger Einstimmigkeit bewertet worden. Hier treten des Weiteren vermehrt Probleme der Gewichtung $3$ auf. Da besonders ERR-HANDLE und UNDO besonders eng mit ERR-PREV verwandt sind, scheint generell ein größeres Problempotential in der Peripherie von Fehlern zu bestehen.  Der Umstand, dass die Kategorie UNDO lediglich ein Problem aufweist, wird hier von der Beschreibung dieses Problems, welches sich auf die gesamte Anwendung bezieht, überwogen: "Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen". 
+
+Das durch die Kontextanalyse mit aufgenommene Kriterium UPTODATE hat durchaus eine überdurchschnittliche Menge an Problemen, meist kosmetischer Natur, mit großer Varianz  hervorgerufen. Es sollte demnach in den Nutzertests weiterverfolgt werden, um mögliche Gründe für die schlechte Pflege des Systems herauszuarbeiten.
+
+\newpage
+
+\begin{figure}[t]
+\includegraphics{src/images/stacked-bar.pdf}
+\caption{Gewichtungshäufigkeit je Kategorie}
+\label{fig:weight-per-category}
+\end{figure}
+\begin{figure}[b ]
+\includegraphics{src/images/bar-dev.pdf}
+\caption{Durchschnittsabweichung je Kategorie}
+\label{fig:delta-per-category}
+\end{figure}
+
+\clearpage
+
+Entsprechend dieser Analyse der Aggregatsdaten erscheint es sinnvoll, besonders den Umgang mit Fehlern in der Anwendung in den folgenden Nutzertests zu untersuchen.  Eine Möglichkeit zur Nachverfolgung und zur Wiederherstellung von Systemzuständen sollte in der Designphase zumindest in Erwägung gezogen werden, besonders wenn Gebiete mit besonders hohen Fehlerquoten identifiziert werden können. Das Themengebiet Fehlerbehandlung kann damit ganzheitlich als Problemfeld entsprechend Ziel Nr. 2 der Heuristischen Evaluation betrachtet werden. Besonders kritisch sollte auch das Kriterium CONTROL betrachtet werden. Dieses ist in seiner Definition und in der Sicherheit der Probleme weniger klar, was eine Nachverfolgung und Verifikation in Nutzertests jedoch aufgrund der Signifikanz der potentiellen Probleme sehr interessant macht. Auch dieses Kriterium ist demnach so ein Problemfeld.
+
+Diese Aggregation zeigt jedoch keine Kriterien, welche besonders für ein Extraktion von klaren, lokalisierten und kosmetischen Problemen nach Ziel Nr. 1 geeignet wären - zum Einen, da Problemkriterien ohnehin eine relativ breite Klassifikation wären, welche für konkrete, lokale Probleme eher weit gefasst wäre, und zum Anderen, da die Kriterien mit einer großen Menge von kosmetischen Problemen (Gewichtung $2$) auch eine hohe Abweichung zwischen den Evaluatoren aufweisen. Demnach ist es nicht ohne Weiteres möglich, diese als eindeutig nutzerunfreundlich herauszustellen.
+
+
+
+### Betrachtung von einstimmig gewichteten Probleme
+
+ Aufgrund der Beschränkungen dieser Arbeit, können nicht alle Probleme in gleicher Art analysiert und für die weitere Betrachtung verwendet werden. Sehr wohl können jedoch bestimmte Probleme genauer betrachtet werden. Im vorangehenden Abschnitt wurden bereits einige Kriterien genannt, welche eine besonders geringe Abweichung zwischen den Evaluatoren vorwiesen. Hier wird auf diese Aggregation nach Kriterien verzichtet und es werden als Auszug der Gesamtdaten stattdessen Probleme betrachtet, welche einstimmig mit der Gewichtung $3$ oder $2$ versehen wurden.
+
+In +@tbl:critical-problems und +@tbl:cosmetical-problems sind deshalb jene Probleme, welche respektive eine einstimmige Gewichtung von $3$ oder $2$ erhalten haben, aufgelistet. 
+
+|      Bezeichner      |        Kriterium        |                         Beschreibung                         |                         Fundorte                          |
+| :------------------: | :---------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+|ENDLESS-PROFILE|CLOSURE|Bei Bearbeitung des Studentenprofils ist der Abschluss von Aufgaben nicht klar, es kann ewig ohne klare Abfolge editiert werden.|STUDENT.UNI, STUDENT.WORK|
+|CP-FEEDBACK|CLOSURE|Das Speichern von Credit Points gibt wenig Feedback bei der Bestätigung der Eingabe. Insgesamt ist es schwer ersichtlich, dass man die Eingabe noch manuell abschließen muss, der Prozess ist nicht atomar.|STUDENT.UNI|
+|SKILLS-SAVED|CLOSURE, STATUS|Das Verändern der Kenntnisse ruft keine Speicheroperation hervor und durch eine Speicheroperation wird keine Rückmeldung hervorgerufen, die die Aktion für den Nutzer abschließt|STUDENT.WORK|
+|TFL-EDIT|CONTROL|Eingetragene TFLs können nicht editiert, sondern nur neu angelegt werden.|STUDENT.UNI|
+|TASK-FOR-CALENDAR|CONTROL, RECOG|Beim Anlegen eines neuen Kalendereintrags sind Aufgaben schwer auffindbar und können nicht neu angelegt werden. Der Nutzer muss sich den Namen der Aufgabe gemerkt haben.|STUDENT.WORK.NEW-ENTRY|
+|NO-ERROR-TFL-UPLOAD|ERR-HANDLE|Bei einem provozierten Fehler wurde kontinuierlich gespeichert, ein Abbrechen war nicht möglich oder keine Fehlermeldung wurde angezeigt. (Hochladen von Dateien)|STUDENT.UNI.NEW-TFL|
+|DIRTY-PROFILE-LEAVE|ERR-PREV|Bei editierten Credit Points oder Kenntnissen im Profil keine Nachfrage beim Verlassen der Seite|STUDENT.WORK|
+|CANCEL-TASK-EDIT|ERR-PREV|Kein Nachfragen wenn geänderte Aufgabe nicht gespeichert und dann abgebrochen oder die Seite verlassen wird|TASK.EDIT|
+|ADD-SKILL-WITH-DIRTY|ERR-PREV|Wenn man eine Kenntnis verändert, nicht speichert und dann eine neue Kenntnis hinzufügt dann werden die Änderungen an der ersten Kenntnis verworfen.|STUDENT.WORK|
+|UNSEEN-DIRTY|RECOG, STATUS, ERR-PREV|Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist.|STUDENT.*|
+|UNDO|UNDO|Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen|*|
+|NO-TASKS|UPTODATE|Keine Aufgaben sind im Startbereich zu sehen|TASK.ALL|
+|PROFILES|UPTODATE|Profile sind wenig gepflegt und nicht aktuell.|STUDENT.*|
+Table: Kritische Probleme (einstimmig) {#tbl:critical-problems}
+
+
+
+Bei diesen kritischen Problemen fällt besonders die Häufigkeit der Fundorte STUDENT.\*, also aller Unterseiten der Seite "Studenten", insbesondere die Tabs der Studentenprofile, auf. Diese scheinen von kritischen Problemen geplagt zu sein. Die Probleme könnten hierbei vermehrt auch Veränderungen am Prozess, in dem sie auftreten, erfordern, oder aber nicht nur lokal relevant sind. So erscheint es wahrscheinlich, dass die Möglichkeit, Änderungen nachzuverfolgen und Zustände wiederherzustellen (Problem UNDO) einen aufwändigeren Design-Prozess erfordern könnte. Auch die Probleme TASK-FOR-CALENDAR, CP-FEEDBACK oder ENDLESS-PROFILE könnten einen solchen Aufwand erfordern. Andere, wie UNSEEN-DIRTY, CANCEL-TASK-EDIT, DIRTY-PROFILE-LEAVE, ADD-SKILL-WITH-DIRTY erfordern mehr Arbeit der Kategorie Implementierung, als Design.
+
+|      Bezeichner      |        Kriterium        |                         Beschreibung                         |                         Fundorte                          |
+| :------------------: | :---------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+|DARK|ADAPT, CONSIST|Schlechte Kontraste im Darkmode.|MANAGE, TASK.*, FAQ, STUDENT.WORK, Lade-Indikatoren,Tabs,|
+|SEARCH-LAYOUT|CONSIST|Layout von Suchergebnissen ist nicht einheitlich.|SEARCH|
+|NEW-SKILL-REENTRY|CONTROL|Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen.|TASK.EDIT, STUDENT.WORK|
+|WHICH-REQUIRED|ERR-HANDLE|Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen.|TASK.EDIT|
+|SKILLS-VALIDATION|ERR-PREV|Bei der Erstellung neuer Skills wird keine Validierung vorgenommen.|MANAGE.SKILLS|
+|REQUIRED|ERR-PREV|Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet.|TASK.EDIT|
+|HOVER|HELP|Es fehlen des Öfteren Hover-Texte|\*, bspw. TASK.* für Icon-Buttons|
+|DASH-REDUNDANT|RELEV|Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig.|DASH1|
+|EMPTY-TIMELINE|RELEV|Leere Timeline, leere Kenntnisse etc. werden angezeigt, ohne Mehrwert zu erbringen.|STUDENT.UNI|
+|EXPIRED-TASKS|UPTODATE, ERR-PREV|Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren.|TASK.*|
+Table: Kosmetische Probleme (einstimmig) {#tbl:cosmetical-problems}
+
+
+
+All diese Probleme können sehr simpel und ohne die Veränderung von bestehenden Prozessen bearbeitet werden und stellen eine Liste von Problemen entsprechend Ziel Nr. 1 dar. 
+
+
+
+### Fazit
+
+Obgleich der Umfang der in der heuristischen Evaluation gefunden Probleme sehr groß war, konnte hier eine Teilmenge dieser als unmittelbar interessant für die weitere Betrachtung in der Arbeit charakterisiert werden.
+
+Für die weitere Untersuchung in den Nutzertests haben sich hier der Umgang mit Fehlern nach den Heuristiken ERR-PREV, ERR-HANDLE und UNDO aufgrund ihrer problematischen und wenig umstrittenen Natur herauskristallisiert. Dabei sollte aufmerksam auch auf Probleme entsprechend der Heuristiken RELEV und CONTROL geachtet werden, welche noch problematischer, aber auch umstrittener waren. Auch wurden in +@tbl:critical-problems besonders kritische Probleme aufgeführt, welche sich zu großen Teilen in den Studentenprofilen wiederfinden. Diese Profile sollten deshalb der Kern der Nutzertests sein und der Design-Bestrebungen sein.
+
+Für eine Implementierung von positiv wirkenden Veränderungen ohne grobe Änderungen am Design wurde besonders +@tbl:cosmetical-problems herausgearbeitet.
 
 
 
 ## Reflexion der Methodik
 
-- Hätte etwas detailliertere durchgeführt werden können
-- mit der Methodik relativ zufrieden
-- errungene Ergebnisse:
-  - konnten Interviewvermutungen bestätigen?
-  - konnten für Nutzertests Schwerpunkte finden?
-- Zunächst Missverständnisse in der Bedeutung der Heuristiken
-  - große Schwäche
-- statistische Auswertung ist nur begrenzt aussagefähig, auch mit Gewichtung
-- eine klarere Definition / Methode, wie man "eindeutig nutzerunfreundliche Elemente" von zu untersuchenden Problemfeldern trennt wäre hilfreich 
+Die anwendete Methodik hat anhand dieser Anwendung zu einer Fülle an Ergebnissen geführt und war so durchaus erfolgreich und es konnten entsprechend der definierten Ziele sowohl Problemfelder für eine weitere Untersuchung in den Nutzertests, als auch eine Menge an eher trivialen Problemen, welche direkt Designveränderungen oder Implementierungsänderungen dienen könnten. Ebenfalls hat sich die geringe Pflege des Produktivsystems bestätigt, die es nun zu untersuchen gilt.
+
+Ein großes Problem dieser Methodik ist der erhöhte Aufwand, welche durch die Aggregation des Textmaterials in Probleme, welche keine Redundanz aufweisen, entsteht. Auch die Diskussion der gesammelten Problemfunde erhöhte diesen.
+
+Des Weiteren kam es zu Missverständnissen bezüglich der Bedeutung der Heuristiken, weshalb diese erneut geklärt und Teile der Analyse wiederholt werden mussten um eine Vergleichbarkeit zu ermöglichen. Hierin ist eine Schwäche der heuristischen Analyse, besonders mit mehreren Evaluatoren, zu sehen. Auch kann trotz der Maßnahmen zur Reduktion des Einflusses der subjektiven Ansichten der Evaluatoren keine Garantie für die Objektivität der Problemfunde gegeben werden. Hierbei ist eine Schwäche und Stärke zugleich, dass zwei der Evaluatoren bereits breite Vorkenntnisse durch ihre Mitarbeit in der Entwicklung der Anwendung hatten. 
+
+Ein weiteres Problem der Methodik ist der verstärkte Einsatz der Quantifizierung der Problemfunde in der Auswertung. Diese ist sehr hilfreich im Umgang mit der beachtlichen Problemmenge, aber auch problematisch, da die genutzten Metriken in ihrer Bestimmung auf mehreren subjektiven Einschätzungen fußten und des Weiteren in ihrer Art nicht unbedingt vergleichbar sind, zumal die Fundorte nur begrenzt Teil der Auswertung und kein Teil der Gewichtung eines Problems waren. Besonders offensichtlich wurde dies in der Betrachtung des Kriteriums UNDO, welches lediglich mit einem Problem beschrieben wurde, aber dennoch ein sehr wichtiges Problem darstellen kann. Hier wurde dementsprechende auf den qualitativen Unterschied aufmerksam gemacht.
+
+Auch die Definition der Gewichtungen selbst ist schwierig und kann aufgrund von Uneindeutigkeiten zu Missverständnissen führen. Sie waren hier auf die Ziele der Analyse zugeschnitten, aber die Unterscheidung von "eindeutig nutzerunfreundliche Elemente" von zu untersuchenden Problemfeldern ist nicht unproblematisch.
+
+Weiterhin können in diesem begrenzten Rahmen nicht alle Ergebnisse weiterverarbeitet werden - dies spricht allerdings gleichzeitig für die Menge an gefundenen Problemen. Für eine detailliertere,  tiefere Analyse, wäre jedoch nicht die Wahl einer anderen Methode, sondern vielmehr die Wahl eines kleineren Teilgebiets der Anwendung notwendig gewesen.
+
+ 
