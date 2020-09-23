@@ -1,3 +1,4 @@
+\newpage
 # Heuristische Analyse
 
 ## Methodik
@@ -89,7 +90,6 @@ Diese parallele heuristische Analyse befolgt diesen Ablauf:
 7. Aus breiteren Trends innerhalb der Probleme Problemfelder erfassen
 8. Daraus problematische Prozesse und Zustände zum weiteren Test durch Nutzer identifizieren
 9. Im Nachgang zu den Nutzertests Nutzerergebnisse mit Expertenbewertung vergleichen
-
 
 
 Die Vorbedingung dieses Ablaufes ist die vorangegangene Kontextanalyse.
@@ -196,13 +196,9 @@ Table: Verwendete Kriterien der Heuristischen Evaluation {#tbl:criteria}
 
 ### Weitere Analyse-Parameter
 
-Die Funde aus der Bewertung der Anwendung nach den beschriebenen Heuristiken werden mit ihrem Fundort dokumentiert und gewichtet. Eine Zuordnung zu mehreren Heuristiken ist möglich, in der nachfolgenden Auswertung wird ein Problem für Auswertungen bezüglich der Kriterien dann je einmal unter jeder zugeordneten Heuristik aufgeführt, da ein Verstoß gegen mehrere Heuristiken damit auch mehrfach gewürdigt werden sollte. In Auswertungen, die sich nicht spezifisch auf bestimmte Kriterien beziehen, wird ein Problem jedoch nicht mehrfach gezählt, um die Gesamtanzahl nicht zu verfälschen. Zur Dokumentation des Fundortes werden die katalogisierten Ansichten und Dialoge aus [Anhang @sec:appendix:screens] verwendet. Ist ein Problem als Problem der gesamten Anwendung und nicht eines Dialogs im Besonderen zu verstehen, so wird kein Fundort zugeordnet. 
-
-
+Die Funde aus der Bewertung der Anwendung nach den beschriebenen Heuristiken werden mit ihrem Fundort dokumentiert und gewichtet. Eine Zuordnung zu mehreren Heuristiken ist möglich, in der nachfolgenden Auswertung wird ein Problem für Auswertungen bezüglich der Kriterien dann je einmal unter jeder zugeordneten Heuristik aufgeführt, da ein Verstoß gegen mehrere Heuristiken damit auch mehrfach gewürdigt werden sollte. In Auswertungen, die sich nicht spezifisch auf bestimmte Kriterien beziehen, wird ein Problem jedoch nicht mehrfach gezählt, um die Gesamtanzahl nicht zu verfälschen. Zur Dokumentation des Fundortes werden die katalogisierten Ansichten und Dialoge aus [Anhang @sec:appendix:screens] verwendet. Ist ein Problem als Problem der gesamten Anwendung und nicht eines Dialogs im Besonderen zu verstehen, so wird kein Fundort zugeordnet.
 
 Die Gewichtung von Problemen, dargestellt in +@tbl:weighting-definition, ist in 4 Stufen aufgeteilt. Zu beachten ist hierbei die Bewertungsstufe 0. Diese wurde aufgenommen, da in der vorgestellten Methodik Evaluatoren auch eine Bewertung der Schwere von Problemen, die sie nicht angemerkt haben, vornehmen. So kann eine Uneinigkeit ob der gefundenen Probleme auch in der Auswertung noch dargestellt und nachvollzogen werden. Die ebenfalls unorthodox erscheinende Bewertungsstufe 1 signalisiert die Notwendigkeit, die Gültigkeit eines Problems vermehrt durch Nutzertests abzusichern, besonders wenn vermutet wird, dass damit nur potentiell bestimmte Nutzergruppen betroffen sind. Dies bedeutet allerdings nicht, dass ernsthafte Probleme, die "nur" eine gut verstandene, aber vielleicht kleine Nutzergruppe betreffen, hiermit bewertet werden sollen. So wären fehlende "Accessibility"-Features, welche nur eine Gruppe körperlich eingeschränkter Menschen betreffen, keineswegs pauschal in die Gewichtung 1 einzuordnen und damit geringer zu bewerten als kosmetische Probleme. Vielmehr steht die Unklarheit, ob Anforderungen, die eine gegebene Situation zum Problem machen würden, überhaupt gegeben sind.
-
-
 
 | Gewichtung | Bedeutung                                                        |
 | ---------- | ---------------------------------------------------------------- |
@@ -259,9 +255,7 @@ Ein quantitativer Vergleich der einzelnen Problemkategorien ist in @fig:weight-p
 
 In der Häufigkeit der Problemgewichtungen sticht die Kategorie CONTROL mit einem besonders hohen Anteil von schweren Problemen heraus. Eben diese wird jedoch auch mit einem vergleichsweise hohen durchschnittlichen Abweichungswert heraus. Scheinbar scheinen hier also potentiell schwere Probleme aufzutreten, die jedoch nicht besonders klar verstanden sind. Das Kriterium CONSIST ist ebenfalls ein sehr umstrittenes Kriterium, welches zudem die größte absolute Problemhäufigkeit aufweist, wobei diese Probleme jedoch überwiegend kosmetischer Art oder sogar nutzergruppenabhängig sind. Noch umstrittener, wenn auch leicht weniger häufig sind die Probleme der Kategorie RELEV.
 
-Im Gegensatz hierzu fällt das Kriterium ERR-PREV auf: Trotz dessen, dass es eine hohe Zahl an Problemen aufweist, besteht hier eine weitaus geringere Abweichung zwischen den Evaluatoren.  Es erscheint dadurch klar, dass die Anwendung einiges Verbesserungspotential in der Fehlerprävention aufzuweisen hat. Die quantitativ unscheinbar wirkenden Kategorien CLOSURE, ERR-HANDLE und UNDO sind in völliger Einstimmigkeit bewertet worden. Hier treten des Weiteren vermehrt Probleme der Gewichtung $3$ auf. Da besonders ERR-HANDLE und UNDO besonders eng mit ERR-PREV verwandt sind, scheint generell ein größeres Problempotential in der Peripherie von Fehlern zu bestehen.  Der Umstand, dass die Kategorie UNDO lediglich ein Problem aufweist, wird hier von der Beschreibung dieses Problems, welches sich auf die gesamte Anwendung bezieht, überwogen: "Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen". 
-
-Das durch die Kontextanalyse mit aufgenommene Kriterium UPTODATE hat durchaus eine überdurchschnittliche Menge an Problemen, meist kosmetischer Natur, mit großer Varianz  hervorgerufen. Es sollte demnach in den Nutzertests weiterverfolgt werden, um mögliche Gründe für die schlechte Pflege des Systems herauszuarbeiten.
+Im Gegensatz hierzu fällt das Kriterium ERR-PREV auf: Trotz dessen, dass es eine hohe Zahl an Problemen aufweist, besteht hier eine weitaus geringere Abweichung zwischen den Evaluatoren.  Es erscheint dadurch klar, dass die Anwendung einiges Verbesserungspotential in der Fehlerprävention aufzuweisen hat. Die quantitativ unscheinbar wirkenden Kategorien CLOSURE, ERR-HANDLE und UNDO sind in völliger Einstimmigkeit bewertet worden. Hier treten des Weiteren vermehrt Probleme der Gewichtung $3$ auf. 
 
 \newpage
 
@@ -278,11 +272,12 @@ Das durch die Kontextanalyse mit aufgenommene Kriterium UPTODATE hat durchaus ei
 
 \clearpage
 
+Da besonders ERR-HANDLE und UNDO besonders eng mit ERR-PREV verwandt sind, scheint generell ein größeres Problempotential in der Peripherie von Fehlern zu bestehen.  Der Umstand, dass die Kategorie UNDO lediglich ein Problem aufweist, wird hier von der Beschreibung dieses Problems, welches sich auf die gesamte Anwendung bezieht, überwogen: "Keine Möglichkeit, Änderungen rückgängig zu machen oder auch nur nachzuverfolgen". 
+Das durch die Kontextanalyse mit aufgenommene Kriterium UPTODATE hat durchaus eine überdurchschnittliche Menge an Problemen, meist kosmetischer Natur, mit großer Varianz  hervorgerufen. Es sollte demnach in den Nutzertests weiterverfolgt werden, um mögliche Gründe für die schlechte Pflege des Systems herauszuarbeiten.
+
 Entsprechend dieser Analyse der Aggregatsdaten erscheint es sinnvoll, besonders den Umgang mit Fehlern in der Anwendung in den folgenden Nutzertests zu untersuchen.  Eine Möglichkeit zur Nachverfolgung und zur Wiederherstellung von Systemzuständen sollte in der Designphase zumindest in Erwägung gezogen werden, besonders wenn Gebiete mit besonders hohen Fehlerquoten identifiziert werden können. Das Themengebiet Fehlerbehandlung kann damit ganzheitlich als Problemfeld entsprechend Ziel Nr. 2 der Heuristischen Evaluation betrachtet werden. Besonders kritisch sollte auch das Kriterium CONTROL betrachtet werden. Dieses ist in seiner Definition und in der Sicherheit der Probleme weniger klar, was eine Nachverfolgung und Verifikation in Nutzertests jedoch aufgrund der Signifikanz der potentiellen Probleme sehr interessant macht. Auch dieses Kriterium ist demnach so ein Problemfeld.
 
 Diese Aggregation zeigt jedoch keine Kriterien, welche besonders für ein Extraktion von klaren, lokalisierten und kosmetischen Problemen nach Ziel Nr. 1 geeignet wären - zum Einen, da Problemkriterien ohnehin eine relativ breite Klassifikation wären, welche für konkrete, lokale Probleme eher weit gefasst wäre, und zum Anderen, da die Kriterien mit einer großen Menge von kosmetischen Problemen (Gewichtung $2$) auch eine hohe Abweichung zwischen den Evaluatoren aufweisen. Demnach ist es nicht ohne Weiteres möglich, diese als eindeutig nutzerunfreundlich herauszustellen.
-
-
 
 ### Betrachtung von einstimmig gewichteten Probleme
 
@@ -354,5 +349,3 @@ Ein weiteres Problem der Methodik ist der verstärkte Einsatz der Quantifizierun
 Auch die Definition der Gewichtungen selbst ist schwierig und kann aufgrund von Uneindeutigkeiten zu Missverständnissen führen. Sie waren hier auf die Ziele der Analyse zugeschnitten, aber die Unterscheidung von "eindeutig nutzerunfreundliche Elemente" von zu untersuchenden Problemfeldern ist nicht unproblematisch.
 
 Weiterhin können in diesem begrenzten Rahmen nicht alle Ergebnisse weiterverarbeitet werden - dies spricht allerdings gleichzeitig für die Menge an gefundenen Problemen. Für eine detailliertere,  tiefere Analyse des gesamten Problembestandes, wäre jedoch nicht die Wahl einer anderen Methode, sondern vielmehr die Wahl eines kleineren Teilgebiets der Anwendung notwendig gewesen. Hier erfolgt stattdessen zur Demonstration der Methodik eine Einschränkung auf Teilgebiete der Problematik.
-
- 
