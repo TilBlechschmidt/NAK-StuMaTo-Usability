@@ -1,4 +1,4 @@
-# Nutzertests{@sec:lab}
+# Nutzertests {#sec:lab}
 
 ## Auswahl der Methodik
 

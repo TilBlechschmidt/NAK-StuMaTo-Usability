@@ -1,5 +1,5 @@
 \newpage
-# Heuristische Analyse{@sec:heur-anal}
+# Heuristische Analyse {#sec:heur-anal}
 
 ## Methodik
 
