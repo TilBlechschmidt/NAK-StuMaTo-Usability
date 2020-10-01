@@ -100,5 +100,29 @@
     "title": "Designing the user interface: Strategies for effective human-computer interaction",
     "title-short": "Designing the user interface",
     "type": "book"
-  }
+  },
+  {"author": [
+    {
+      "family": "Rosson",
+      "given": "Mary Beth"
+    },
+    {
+      "family": "Carroll",
+      "given": "John M."
+    }
+  ],
+  "id": "sbd",
+  "issued": {
+    "date-parts": [
+      [
+        2001
+      ]
+    ]
+  },
+  "publisher": "Morgan Kaufmann Publishers Inc.",
+  "publisher-place": "San Francisco, CA, USA",
+  "title": "Usability engineering: Scenario-based development of human-computer interaction",
+  "title-short": "Usability engineering",
+  "type": "book"
+}
 ]
