@@ -2,7 +2,14 @@
 
 ### Aktivitätsszenario Anfang Praxisphase
 
-Simon kommt aus der Theoriephase zurück zu seinem Unternehmen. Er ist leicht gestresst, da er 
+Simon kommt aus der Theoriephase zurück zu seinem Unternehmen. Er ist leicht gestresst, da er zwei Klausuren und eine Hausarbeit noch schreiben muss und parallel dazu eine Aufgabe für die kommende Praxisphase suchen muss. 
+Nach seinem letzten Entwicklungseinsatz hatte Simon angegeben, dass er einen Einsatz in der Softwareentwicklung absolvieren möchte. Automatisch werden Simon von seinem Agenten zwei Aufgaben vorgeschlagen, die genau in diesen Themenbereich Softwareentwicklung fallen. Zudem sind die Aufgaben so gefiltert worden, dass beide aktuell sind und an dem Standort von Simon stattfinden. Simon ist super glücklich, dass er die Informationen sofort erhält, ohne dass er sich erst durch verschiedne Menüs durchklicken musste. 
+Bei beiden Aufgaben bewirbt er sich über das System und bekommt die Rückmeldung, dass eine Mail an Studenten und Aufgabenbetreuer Versand worden ist.
+Eine gute Woche später ruft Simon StuMaTo erneut auf. Zuerst sieht Simon die Nachricht, dass er für einen der Praxiseinsätze angenommen wurde. Dabei wurde die Aufgabe automatisch in sein Profil hinzugefügt. Simon freut sich, dass er die Aufgabe bekommen hat und nichts weiter mehr in StuMaTo dafür machen muss.
+Sein Agent fragt Simon zudem noch, ob er weitere Informationen zu seinen letzten Theoriephasen hinzufügen möchte. Simon folgt aus Neugierde diesem Vorschlag. Er kann nun auch einfach seine Noten und CreditPoints aus den abgelaufenen Modulen dort einpflegen, sowie neue Fähigkeiten, die er im Studium erlernt hat dort hinterlegen. 
+Da fällt Simon die Note ein, die er gestern für seine Klausur erhalten hat. Die 2,0 aus der Datenbankenklausur trägt Simon so natürlcih gern ein. Zudem fügt er die neue Fähigkeit SQL in sein Profil hinzu.
+Auch wenn Simon zunächst gar nicht vor hatte diese Daten in seinem Profil zu pflegen, wurde er auf einfache Weise dazu gebracht, es doch zu tun. 
+
 
 ### Aktivitätsszenario Ende Praxisphase
 
