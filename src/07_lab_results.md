@@ -44,3 +44,16 @@ In der Nachbetrachtung des Usabilitytests sind die Probanden nach ihrem Gesamtei
 Insgesamt wurde StuMaTo als übersichtlich (P2,P1) und gut bedienbar (P2) beschrieben.
 Als Hauptprobleme wurden die beiden Workflows des Eintragens der Transferleistung(P2, P4) und das Finden von Studenten betrachtet (P2).
 Zudem wurde sich mehr Feedback bei dem Bewerben um eine Aufgabe gewünscht (P2), sowie dass über den Umfang einer Aufgabe verhandelt werden kann und somit die Aufgabe kleinteiliger eingeteilt werden können (P4).
+
+### Reflexion der Methodik
+
+Bezüglich der gewählten Methodik hat sich der Eye Tracker als besonders zielführend herausgestellt. Die Bildschirmaufzeichnungen haben eine signifikante Hilfe bei der Auswertung dargestellt und die Eye-Tracking Daten, welche im Video eingebettet waren, waren gelegentlich hilfreich. Die Heatmap Funktion der Software stellte sich jedoch als unbrauchbar für unsere Zwecke heraus, da bei dem Test ein externer Browser genutzt wurde. Dadurch waren keine Marker in den Daten vorhanden, welche Navigation zwischen Seiten identifizieren und es konnte nicht für Scrolling kompensiert werden. Außerdem stellte sich heraus, dass der Export der Daten teils signifikant länger als die Aufzeichnung dauerte. Zusätzlich hat sich ein Teilnehmer sehr viel vor dem Bildschirm bewegt und entsprechend wiesen die Daten dort starke Lücken auf. In Zukunft sollte explizit darauf hingewiesen werden, dass der Nutzer still sitzen soll.
+
+Die nächste eingesetzte Methodik war der Face Reader. Während der Aufzeichnungen sind mehrfach technische Probleme aufgetreten^[Die Anwendung ist beim Speichern abgestürzt und hat die Projektdatei dabei beschädigt. Außerdem ist die Verbindung zur Webcam mehrfach unterbrochen worden (bis zu dem Punkt wo ein vollständiger Kalt-Start des Rechners und eine Neuinstallation der Treiber notwendig war)], welche einen Großteil der Daten unbrauchbar machten. Die verbleibenden Daten stellten sich ebenfalls als mäßig nützlich heraus. Dies liegt vermutlich an der sehr rudimentären Kalibrierung zu Beginn (um präzisere Daten zu erhalten müsste jeder Teilnehmer einzeln explizit über einen längeren Zeitraum kalibriert werden). Auch hier trat das Problem mit den starken Bewegungen von einem Teilnehmer auf, was dazu führte, dass die Software das Gesicht nicht richtig erkannt hat. Die Daten wurden schlussendlich nicht in die Analyse-Ergebnisse mit eingebunden.
+
+Die externen Videoaufzeichnungen durch die vorhandenen Kameras im Raum wurden ebenfalls verworfen, da auf den Videos keine signifikanten Informationen vorhanden waren. Gestik und Mimik waren entweder nicht vorhanden oder nicht erkennbar bzw. haben keinen nennenswerten Rückschluss auf die Nutzbarkeit der Anwendung gegeben.
+
+Zusätzlich zu den Audioaufzeichnungen durch die externen Kameras wurde eine sekundäre Audioaufzeichnung durchgeführt. Dies stellte sich als sehr nützlich heraus, da die Qualität signifikant besser war und auch unterschwellige Geräusche wie z.B. ein Säufzen des Nutzers hörbar gemacht hat. Diese Aufzeichnungen wurden mit den Videos des Eye Tracker zusammengefasst und dann ausgewertet. Dabei wurden die Notizen des Interviewers referenziert. Die zusätzliche Audio-Spur ermöglichte es eine direkte Verbindung von den Notizen zu dem Bildschirminhalt herzustellen.
+
+- Interviews
+  - TODO Hendrik
