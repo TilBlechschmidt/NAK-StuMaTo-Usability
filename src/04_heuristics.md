@@ -1,5 +1,5 @@
 \newpage
-# Heuristische Analyse
+# Heuristische Analyse {#sec:heur-anal}
 
 ## Methodik
 
@@ -9,8 +9,7 @@ Dies wirkt einerseits ergänzend zu den späteren Nutzerverfahren, welche tatsä
 
 Dabei wird im Erfahrungsrahmen der Experten Bezug auf die Artefakte und Erkenntnisse der Kontextanalyse genommen, um aus dem Kontext der Anwendung ein erstes Verständnis für Eigenarten, aber auch besondere Anforderungen von StuMaTo zu erlangen.
 
-
-
+<!-- TODO muss das hier wirklich sein? mehr auf die Szenarien münzen! -->
 ### Ziele
 
 Der Zweck der heuristischen Analyse ist eine Vertiefung des Verständnisses für problematische Zustände in der Anwendung.
