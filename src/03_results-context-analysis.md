@@ -1,1 +1,0 @@
-## Ergebnisse Kontextanalyse
