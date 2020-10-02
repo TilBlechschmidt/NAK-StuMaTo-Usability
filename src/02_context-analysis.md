@@ -36,6 +36,12 @@ Die Fragen Bereich StuMaTo im Unternehmen sollen zeigen:
 
 ### Stakeholder der Studentenverwaltung
 
+|    Name                         | Bedeutung                                                        | Einfluss |
+| ------------------------------- | ---------------------------------------------------------------- | -------- |
+| Studentenbetreuer               | Kein Usability-Problem                                           | Hoch     |
+| Abteilungen/ Aufgabenbetreuer   | Könnte je nach Nutzer potentiell ein geringes Problem darstellen | Mittel   |
+| Studenten                       | Kosmetisches Problem mit Einfluss auf das Nutzungserlebnis       | Mittel   |
+
 ### Ablauf des Dualen Studiums
 
 Das Duale Studium an der Nordakademie ist in Blöcken organisiert. Dabei sind die Blöcke der Theoriephase zehn Wochen lang. Neun Wochen davon sind Präsenzunterricht und in der letzten Woche werden Prüfungen geschrieben. In der Praxisphase müssen für die Nordakademie noch Transfersleistungen geschrieben. Dieses sind kurze wissenschaftliche Arbeiten im Umfang von etwa zehn Seiten, in denen der Student darlegt, wie er die Theorie aus dem Studium in der Praxis angewendet hat. Für die Bearbeitung der Transferleistungen wird den Studenten der PPI AG eine Bearbeitungszeit in der Arbeitszeit von einer Woche eingeräumt. Die Theoriephasen können auch unterschiedlich ausfallen. So gibt es für die Studenten die Möglichkeit, ein Semester im Ausland zu verbringen. Ein anderes Semester mussten die Studenten aufgrund des Coronavirus von zuhause aus abhalten. 
@@ -55,15 +61,6 @@ Obwohl die Hierachie in der PPI AG möglichst flach gehalten werden soll, gibt e
 
 Der Student soll in einem Projekt zunächst Aufgben bearbeiten. Diese Aufgaben erhält der Student von einem Aufgabenbetreuer. Dabei gibt es für jeden Studenten genau einen Aufgabenbetreuer, der die Verantwortung für diesen eine Praxisphase lang übernimmt. Zudem hat der Studenten verschiedene weitere Ansprechpartner in seinem Projekt. Der Aufgabenbetreuer ist dabei aber der Hauptansprechpartner und übernimmt die Einarbeitung. Zudem liefert der Aufgabenbetreuer am Ende eines Praxiseinsatzes Feedback an den Studentenbetreuer (S2). Dabei wird die Kommmuniktion mit dem Aufgabenbetreuer vorwiegend als positiv bezeichnet (S1). Jedoch sind einige Betreuer manchmal schlecht erreichbar (S,T) oder es fehlt ihnen an Kompetenz (S2). Im Verlauf des Studium nimmt die Relevanz des Aufgabenbetreuers ab, da die Studenten dann eigenverantwortlicher arbeiten (S1).
 Im Tagesgeschäft wird der Student als normaler Mitarbeiter betrachtet, jedoch wird ihm mehr Zeit in der Bearbeitung der Aufgaben eingeräumt. Dabei wird berücksichtigt, dass der Student die benötigten Fähigkeiten noch erlernen muss (M1). Die meisten Studenten sind mit der Auswahl der Aufgaben zufrieden und bezeichnen diese als passend zu ihrem Wissensstand (T, M). Vereinzelt werden die Studenten als kostengünstige Arbeitskräfte gesehen, was sich auf die Aufgabenqualität auswirkt (T, F). Zudem sind einige Aufgaben auch nicht ideal geeignet, da sie zu schnell lösbar waren oder zu schwierig waren (S3).  
-
-### Aufgaben neben der Studentenbetreuung
-
-Softwaretestmanagement, momentan in großem Kundenprojekt. Kundeneinsatz ist zurzeit Remote. Ich habe einen Studenten Hauptamtlich betreut, 3 aushilfsweise. Testenwicklung/ Automatisierung Durchführung, Aufgaben verteilen. Eigentlicher Betreuer hatte Urlaub/Krankheit. (M1)
-
-
-
-Die Studenten kommen in regelmäßigen Abständen aus der Uni. TFL/Urlaub muss dazwischen genommen  werden. Studenten brauchen dazwischen passende Aufgaben (M1)
-
 
 ### Vermittlung der Aufgaben
 

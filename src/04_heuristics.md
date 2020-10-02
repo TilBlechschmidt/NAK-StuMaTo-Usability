@@ -208,8 +208,6 @@ Die Gewichtung von Problemen, dargestellt in +@tbl:weighting-definition, ist in 
 
 Table: Definition der genutzten Gewichtungskategorien {#tbl:weighting-definition}
 
-
-
 Da mehrere Evaluatoren im Ablauf der erklärten Methodik eine Gewichtung abgeben, bevor diese in einer Gewichtung zusammengefasst werden, wird mit der folgenden Metrik zusätzlich ein Sinn für die Eindeutigkeit der Gewichtung unter den Evaluatoren geschaffen:
 
 Die Berechnung der Abweichung der Schwere eines Problems ist wie folgt und drückt damit die Summe der Differenzen zwischen den einzelnen Bewertungen aus.
