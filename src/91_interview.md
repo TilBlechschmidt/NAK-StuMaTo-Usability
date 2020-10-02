@@ -2,6 +2,50 @@
 
 ### Interview Studentenbetreuer (B1)
 
+1. Welche Aufgabe übernimmst du im Unternehmen?
+
+Ich bin ziemlich breit aufgestellt. Ich habe getestet, entwickelt, Teams geleitet und war als Berater beim Kunden vor Ort. 
+Zudem bin ich als Studentenbetreuer aktiv. In dieser Rolle habe ich viel mit StuMaTo zu tun.
+Es ist das wesentliche Tool zur Verwaltung von Infos rund um Studis. Insgesamt umfasst das Betreuen der Studenten 30% bis 40% der Arbeitszeit.
+Manchmal ist es ein schwierige Abwegung, was wichtiger ist, meine Tagesgeschäftsaufgaben oder die Betreuung der Studenten. Die Studi-Aufgaben sind meist nicht zeitkritisch, haben aber Deadlines.
+So stellt die Studentenverwaltung immer mal Ablenkung dar.
+
+2. Wie ist das Betriebsklima in der Firma?
+
+Grundsätzlich ist das Betriebsklima gut. Es gibt zwar Leute oder Ecken Projekte wo es besser oder schlechter läuft. Manchmal gibt es 
+persönliche Probleme mit einzelnen Personen, in meinem Umfeld war aber immer alles sehr gut.
+
+3. Wie läuft das Studium für einen Studenten hier ab?
+
+Das Studium läuft quartalsweise ab. Dabei wechseln sich Praxiszeit im Unternehmen und Theorie in der  Hochschule ab
+Der Studentenbetreuer, also ich, gestalte die Zeit der Studis im Unternehmen.
+Dabei bin ich bemüht eine möglichst große Breite in der Ausbildung sicherzustellen.
+
+4. Welche hierarchischen Strukturen existieren in der Firma und wie beeinflussen sie die Studenten?
+
+Natürlich gibt es Hierachien in der Firma, es kann ja
+nicht jeder Leute einstellen. Insgesamt gibt es vier Hierarchiestufen, Vorstand, Bereichsleiter, Team/Abteilungsleiter und die Mitarbeiter. 
+Im Tagesgeschäft sollen diese Hierachien aber nicht sichtbar sein. Direkter Kontakt sollte zwischen allen im Unternehmen möglich sein. Zudem duzen sich alle im Unternehmen. Dies soll die Schwelle zu den Vorgesetzten herabzusetzen. Zudem gibt es die Open-Door-Politik, die Besagt, dass jeder zu jedem ins Büro kommen kann, um mit ihm zu reden. Auch die Vorstandsbüros sind immer offen. 
+Auch ich versuche immer offen für die Anliegen meiner Studis zu sein. Der Kontakt zu ihnen soll vertrauensgeprägt sein. Sie sollen mit Sorgen, Ängsten und Noten zum Betreuer kommen ohne Angst zu haben. Aufgaben werden trotzdem verteilt und Studis können zwar Wünsche äußern, aber es ist kein Wunschkonzert.
+
+5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
+
+
+
+6. Wie werden Studenten in ihren Abteilungen betreut?
+7. Welche Art von Aufgaben erhalten Studenten und wie erhalten sie diese?
+8. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
+9. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
+10. Wofür verwendest du StuMaTo?
+11. Wie häufig verwendest du StuMaTo?
+12. Benutzt du StuMaTo gerne?
+13. Wie lange bist du auf StuMaTo, wen du es nutzt?
+14. Erleichtert StuMaTo das Finden von Aufgaben?
+15. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
+16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
+17. Hast du Zeitdruck, wenn du StuMaTo benutzt?
+
+
 ### Interview Student 1 (S1 - Tim)
 
 1. Welche Aufgabe übernimmst du im Unternehmen?
