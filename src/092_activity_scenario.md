@@ -16,9 +16,6 @@ Die beiden Aufgaben, welchen ihm der Agent in seinem Startbereich vorgeschlagen,
 
 Eine gute Woche später ruft Simon StuMaTo erneut auf. *Zuerst sieht Simon die Nachricht, dass er für einen der Praxiseinsätze in Absprache mit dem Studentenbetreuer angenommen wurde.* Dabei wurde die Aufgabe automatisch in sein Profil hinzugefügt. Simon freut sich, dass er die Aufgabe bekommen hat und *nichts weiter mehr in StuMaTo dafür machen muss, in seinem Profil kann er den Einsatz wiederfinden.*
 
- 
-
-
 ## Aktivitätsszenario Ende Praxisphase
 
 Am Ende seiner Praxisphase öffnet Simon StuMaTo. Im neuen Dashboard fühlt er sich schon wie zu Hause und er lässt sich erneut durch seinen neuen Agenten durch die Anwendung führen. Dieser gratuliert ihm zur absolvierten Praxisphase schlägt ihm sofort vor, dass er doch seinen Einsatz dokumentieren solle. Simon mag die neue Funktion, da er so schneller die Daten für seinen Praxiseinsatz erfassen kann und der Prozess weniger Teilschritte enthält. Hier kann er seine gemeisterte Herausforderung beschreiben und auf fertiggestellte Ergebnisse verweisen. Simon lässt die letzten Monate Revue passieren -- er hat viel gelernt und freut sich, am Ende ein Produkt und damit auch seine Fähigkeiten darstellen zu können. 
