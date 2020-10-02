@@ -1,5 +1,15 @@
 # Aktivitätsdesign
 
+## Auswahl der Werkzeuge
+
+Mit dem Aktivitätsdesign beginnt im Folgenden die Designphase des SBD. Dazu sollen den beiden dargestellten Problemszenarien Aktivitätsszenarien dargestellt werden, welche sich darauf konzentrieren, die Nutzererfahrung der enthaltenen Prozesse zu optimieren.
+
+Dazu haben wir uns entschieden, die Begrifflichkeit und das Selbstverständnis der Anwendung zu verändern und gleichzeitig zu präzisieren. Dies geschieht unter der Erstellung eines Leitbildes, welches in der Folge Metaphern für die Anwendung gebiert und somit greifbarere Begrifflichkeiten zur Transportation eines Selbstverständnisses ermöglicht. Daraufhin wird unter der Verwendung dieser neuen Begrifflichkeiten das Aktivitätsszenario zur Darstellung der veränderten Prozesse dargestellt. Das Aktivitätsszenario orientiert sich stark anhand der kursiv markierten Nachteile der Problemszenarien, die dagegen stehenden Veränderungen des Aktivitätsdesigns sind ebenso gekennzeichnet.
+
+Abschließend erfolgt hierfür eine Gestaltungsbegründung, welche mithilfe einer Claims Analysis durchgeführt wird.  
+
+
+
 ## Leitbild
 
 Als Methodik um ein Leitbild zu finden wurde ein Brainstorming zwischen allen Autoren durchgeführt. Dabei sind mehrere Vorschläge aufgekommen, welche nach einiger Überlegung verworfen wurden. Das Leitbild "Hotel" wurde abgelehnt, da hier keine Arbeit von dem Besucher verrichtet wird. Als nächstes kam der Vorschlag eines Kanban-Board, welches jedoch passiv ist und daher eher das aktuelle System repräsentiert als ein Leitbild für ein Zielsystem darzustellen. Ein weiteres Leitbild war Projektmanagement/ein Projektmanager, welches nicht gewählt wurde, da es in dem Zielsystem kein Team gibt sondern es lediglich eine Person ist, die ein Ziel erreichen will.
@@ -11,3 +21,4 @@ Das Gestaltungsziel ist die bestmögliche Darstellung der Talenten in der Firma.
 ## Metaphern
 
 Zu Beginn haben wir den Begriff der Phasen. Dieser ist selbst keine Metapher und stellt einen Oberbegriff für Theorie-/Praxisphasen dar. Einer Phase können mehrere Herausforderungen und Errungenschaften zugeordnet werden. Dann gibt es die Metapher von Talenten, welche im Laufe ihrer Ausbildung zu Stars werden. Sie stellen sich verschiedenen Herausforderungen (Klausuren, Projektaufgaben, Hausarbeiten, TFLs etc.) und sammeln dabei Errungenschaften (Bestandene Herausforderungen oder anderweitige Leistungen). Es gibt verschiedene <HIER BEGRIFF EINFÜGEN (Berufungen, Schools, Gilden, Kategorien, Haus)> in denen Talente wachsen können. <TODO DAZU MEHR SCHREIBEN>. Des Weiteren gibt es noch den zuvor bereits eingeführten Begriff des Agenten, welcher die Talente nach ihren Errungenschaften in ihren vergangenen Phasen befragt. Sie kümmern sich sozusagen um die Talente. Der Begriff von Aufgaben aus dem alten System wurde durch die bereits genannte Metapher von Herausforderungen ersetzt. Diese umfassen dabei ein breiteres Spektrum als der alte Begriff es tat. Sie können dadurch auch Dinge wie Workshops in der Firma oder sonstige Angebote abdecken. Ein Talent nimmt eine Herausforderung an statt wie bisher Interesse an einer Aufgabe zu melden. Das Konzept von wissenschaftlichen Arbeiten und Einsätzen wird durch die Metapher von Errungenschaften ersetzt. Diese Generalisierung erlaubt eine bessere Integration von Sonderfällen wie der Anbindung externer Datenquellen (z.B. JIRA, Git, Nordakademie CIS) und ermöglicht die Abbildung von den Inhalten der Theoriephasen.
+
