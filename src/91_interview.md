@@ -30,23 +30,61 @@ Auch ich versuche immer offen für die Anliegen meiner Studis zu sein. Der Konta
 
 5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
 
-
+Das Ziel ist es, die Ausbildung so breit wie möglich über die Ausbildung hinweg zu staffeln. Dabei versuche ich 
+Aufgaben zu finden, die zum Studi und Ausbildungsstand passen. Dabei möchte ich
+den Wünschen der Studis soweit wie möglich gerecht werden. 
+Dabei bin ich auf die Projekte angewiesen, dass diese mit Aufgaben auf mich zu kommen.  
+In einigen Projekten ist es bekannter, dass es Studenten gibt, in anderen weniger.
+Ab und zu ist es aber auch umgekehrt der Fall und ich gehe auf die Projekte zu.
+Eigentlich kommen beide Fälle gleich häufig vor.
 
 6. Wie werden Studenten in ihren Abteilungen betreut?
-7. Welche Art von Aufgaben erhalten Studenten und wie erhalten sie diese?
-8. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
-9. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
-10. Wofür verwendest du StuMaTo?
-11. Wie häufig verwendest du StuMaTo?
-12. Benutzt du StuMaTo gerne?
-13. Wie lange bist du auf StuMaTo, wen du es nutzt?
-14. Erleichtert StuMaTo das Finden von Aufgaben?
-15. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
-16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
-17. Hast du Zeitdruck, wenn du StuMaTo benutzt?
 
+Den Erstkontakt zwischen Abteilung und Studi stelle ich per Mail her. Dabei gibt es in für den Studenten immer genau einen fachlichen Betreuer. 
+Es gab schlechte Erfahrungen, wenn mehrere Betreuer zugeordnet waren, da sich keiner  verantwortlich gefühlt hat.
+Vor dem Anfang der Praxisphase geht der Studei dann auf den Betreuer zu. 
 
-### Interview Student 1 (S1 - Tim)
+7. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
+
+Ich she Keinen großen Optimierungsbedarf, auch wenn es immer etwas zum optimieren gibt. 
+Ich denke nichts läuft völlig falsch.
+
+8. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
+
+Für das Sammeln von Aufgaben nutze ich
+StuMaTo. Zudem gibt es in Confluence  einen Sammeltopf von eigenen Ideen. Für die Verteilung der Aufgaben gibt es eine 
+Excel Tabelle und auch hier wird der 
+Confluencespace genutzt.
+Die Abschlussprotokolle werden in Word geschrieben und per Mail an die Studis versand.
+
+9. Wofür verwendest du StuMaTo?
+
+Ich benutze StuMaTo vor allem als Sammeltopf für Aufgaben von extern. Zudem tracke ich die Studis, was sie wie wo wann gemacht haben.
+Um den Studienstand zu überprüfen nutze ich es eher selten, da nutze ich eher Abschlussgespräche und deren Protokoll.
+
+10. Wie häufig verwendest du StuMaTo?
+
+Die Verwendung ist saisonal schwankend. In Planungsphasen, um den Quartalswechsel herum, nutze ich es am meisten ansonsten eher selten.
+Insgesamt nutze ich es zehn bis fünfzehnmal pro Quartal. Durchschnittliche Nutzungszeit ist zwischen ein und fünf Minuten. Meistens habe ich dann aber im Hintergrund für ein bis zwei Stunden offen.
+
+11. Benutzt du StuMaTo gerne?
+
+Ja, mich stört daran nicht. Jedoch ist häufig nicht klar, welche Aufgaben noch aktuell sind.
+
+12. Erleichtert StuMaTo das Finden von Aufgaben?
+
+Ja, definitiv. Es erzwingt eine Struktur von Aufgaben, die die Leute einstellen.
+Es werden jedoch nicht genügend hochwertige Aufgaben eingestellt, weshalb der Prozentsatz der Aufgaben, die über StuMaTo vermittelt werden recht gering ist. 
+
+13. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
+
+Ich gucke in StuMaTo und sammle Aufgaben, die über StuMaTo verteilbar sind. Die Aufgaben, die geeignet sind übernehme ich in mein Backlog. Zudem sehe ich mir die Studis an und gucke nach deren Kenntnissen und Wünschen.
+
+14. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
+
+Man könnte den Workflow mit dem Zuordnen aus dem Confluence-Space übernehmen. So könnte doppelte Datenhaltung vermieden werden. Zudem sollten Studenten Wunschvorstellungen für ihre Praxisphasen übernehmen können.
+
+### Interview Student 1 (S1)
 
 1. Welche Aufgabe übernimmst du im Unternehmen?
 
@@ -126,28 +164,76 @@ Mehr Personen sollten Aufgaben in StuMaTo  einstellen, dabei sollte die Aufgabe 
 Nein.
 
 
-### Interview Student 2 (S2 - Sandra)
+### Interview Student 2 (S2)
 
 1. Welche Aufgabe übernimmst du im Unternehmen?
+
+Ich unterstütze verschiedene Teams in allen Bereichen.
+
 2. Wie ist das Betriebsklima in der Firma?
+
+Ich empfinde das Betriebsklima als sehr gut und angenehm.
+
 3. Wie läuft das Studium für einen Studenten hier ab?
+
+Es gibt immer einen blockweisen Wechsel zwischen Arbeit und Uni. Zudem gibt es am Ende einer Praxisphase eine Absprache zwischen Studi und Studentenbetreuer und am Anfang einer Praxisphase eine Zuweisung zu einer Abteilung.
+
 4. Welche hierarchischen Strukturen existieren in der Firma und wie beeinflussen sie die Studenten?
+ 
+Es gibt mehrere Ebenen, aber immer einen direkten Vorgesetzten und Betreuer.
+
 5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
+
+Der Student wird der Abteilung zugewiesen und meldet sich dann bei Ansprechpartner. Manchmal kommt auch die Abteilung auf den Studenten zu.
+
 6. Wie werden Studenten in ihren Abteilungen betreut?
+
+Die Aufgaben werden dem Studenten zugewiesen. Dabei werden ihm direkte Erklärungen gegeben. Am Ende gibt es von der Abteilung Feedback an Studentenbetreuer.
+
 7. Welche Art von Aufgaben erhalten Studenten und wie erhalten sie diese?
+
+Die Aufgaben werden bom Betreuer vorgegeben. Dies geschieht per Mail oder Telefonat. Manchmal habe ich mir eine Aufgabe selbst gesucht und abgesprochen. Häufig werden Teilaufgaben von großen Projekten bearbeitet.
+
 8. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
+
+Die Betreuerauswahl innerhalb von Projekten könnte besser sein. Manchmal fehlt es den Betreuern an Kompetenz. Teilweise ist der
+Vorgesetzte schlecht ansprechbar.
+
 9. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
+
+Ich benutze die Kommunkationstools Jabber und Zulip. Dabei verläuft die Kommunikation nicht sonderlich zügig. Insgesamt gitb es zu viele Kommunikationswege. Ich habe keine Ahnung, wer wo erreichbar ist.
+
 10. Wofür verwendest du StuMaTo?
+
+Ich benutze es zur Präsentation gegenüber anderen Mitarbeitern. Ob sich das jemand anschaut ist mir unbekannt.
+
 11. Wie häufig verwendest du StuMaTo?
+
+Etwa alle 2 Monate
+
 12. Benutzt du StuMaTo gerne?
+
+Jein. Mich stört das neben den Mitarbeiter-Master-Profilen auch noch das StuMaTo-Profil gepflegt werden muss.
+
 13. Wie lange bist du auf StuMaTo, wen du es nutzt?
+
+Ich pflege mein eigenes Profil und sehe mir Angebote gelegentlich an. Manchmal schaue ich auf die Profile anderer Studenten.
+Wenn ich es benutze, dann doch sehr intensiv.
+
 14. Erleichtert StuMaTo das Finden von Aufgaben?
-15. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
-16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
-17. Hast du Zeitdruck, wenn du StuMaTo benutzt?
 
+Bei Aufgaben ein klares nein, da keine sinnvollen Aufgaben eingetragen sind. Andere Studenten kann man jedoch gut finden.
 
-### Interview Student 3 (S3 - Moritz)
+15. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
+
+Die Infos aus dem StuMaTo-Profil sollten automatisch in die Mitarbeiter-Master-Profile übertragen werden.
+Zudem sollte es eine Rubrik mit allgemeinen Infos an die Studenten geben.
+
+16. Hast du Zeitdruck, wenn du StuMaTo benutzt?
+
+Nein, wenn ich Zeit habe, gucke ich drauf.
+
+### Interview Student 3 (S3)
 
 1. Welche Aufgabe übernimmst du im Unternehmen?
 
