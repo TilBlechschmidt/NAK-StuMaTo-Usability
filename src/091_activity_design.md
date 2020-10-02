@@ -1,4 +1,4 @@
-# Aktivitätsdesign (TODO Place somewhere reasonable)
+# Aktivitätsdesign
 
 ## Leitbild
 
