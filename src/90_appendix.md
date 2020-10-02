@@ -54,8 +54,3 @@ Antwort 1
 Antwort 1
 
 17. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
-
-
-## Abbildungen
-
-Hier gehören Abbildungen hin, die nicht in den Hauptteil passen!
