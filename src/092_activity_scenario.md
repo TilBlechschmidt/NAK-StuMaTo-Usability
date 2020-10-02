@@ -1,5 +1,3 @@
-# Aktivitätsdesign
-
 ## Aktivitätsszenario Anfang Praxisphase
 
 Simon kommt aus der Theoriephase zurück zu seinem Unternehmen. Er ist leicht gestresst, da er zwei Klausuren und eine Hausarbeit noch schreiben muss und parallel dazu eine Aufgabe für die kommende Praxisphase suchen muss. 
