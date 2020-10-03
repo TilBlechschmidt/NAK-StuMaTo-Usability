@@ -85,12 +85,29 @@ Zuletzt fragt der Agent Simon nach seinen Kenntnissen. "Ah genau", erinnert er s
 
 Er begutachtet die fertige Profilseite. Hier werden nun alle Informationen zu seiner Praxisphase auf einen Blick angezeigt, die vorherige Aufteilung diente besonders dem Editieren. Das findet er praktisch. Wenn man nur ein Profil betrachten will, ist diese Zusammenfassung viel besser. Simon sieht, wie seine Kenntnisse aktualisiert wurden und seine Transferleistung in der Transferleistungsübersicht mit aufgeführt worden ist. Ohne sich groß weiter mit seinem Profil befassen zu müssen, kann Simon StuMaTo wieder verlassen. 
 
-
 ## Gestaltungsbegründung
 
-Das **Dashboard** wurde einmal grundlegend überarbeitet. In der heuristischen Analyse ist bereits aufgefallen, dass das vorherige Dashboard keine relevanten Informationen bereitgestellt hat. Nun soll der Nutzer über das Dashboard Vorschläge erhalten, was er machen kann. dabei werden die Vorschläge an die aktuelle Situation des Studenten angepasst. Somit soll der Nutzer schneller zu den Funktionen gelangen, die er gerade ausführen möchte. Vor einer Praxisphase wird er daran erinnert, dass er sich eine Aufgabe suchen soll. Am Ende von einer Theoriephase oder Praxisphase folgt die Erinnerung, dass der Student seine Daten aktualisieren soll. Durch die Vorschläge gelangt der Nutzer schneller an die Stellen im StuMaTo, an die er möchte. Somit werden die zuvor als zu lang kritisierten Workflows verkürzt. Die neue Funktionalität wird "Nachricht des Agenten" genannt, um in dem neu entwicklten Leitbild der Talentagentur zu bleiben. Die Nachrichtenübersicht soll dabei auf dem Dashboard im Mittelpunkt stehen, da sie die neue Hauptfunktionalität ist. Das Element Ansicht ist dabei groß innerhalb der Nachricht designed, damit sie dem Nutzer schnell auffällt. Es gibt auch die Möglichkeit, den Text sich nicht mehr anzeigen zu lassen, falls der Nutzer diese Nachricht nicht mehr sehen möchte. Dieses Element zum Ausblenden der Nachricht wird dabei kleiner gestaltet, da die Nachrichten des Agenten immer so gewählt sein sollen, dass sie für den Nutzer relevant sind. Die Reihenfolge der Nachrichten wird auch danach gerichtet, was das System denkt, welche Aktion für den Nutzer am relevantesten ist. Die relevanteste Nachricht wird oben angezeigt, da der natürliche Lesefluss des Menschen von oben nach unten führt. Der Nutzer soll so die relevantesten Informationen zuerst sehen.
+<!-- Feedback von Hans, falls Telegram nicht funzt: -->
 
-Zudem wurde ein neuer **Praxisphasen-Dialog** erstellt. Die Grundidee ist es den Nutzer mehr durch das Pflegen seines Profils zu unterstützen. Somit wird der Nutzer an das Aktualisieren aller Daten nach einer Praxisphase erinnern. Somit wird das Problem aus der Kontextanalyse angegangen, dass die Daten in StuMaTo nicht aktuell sind. Der neue Dialog wird in zwei Teile unterteilt **Herausforderungen** und **Errungenschaften**. Die Herausforderungen sind eine Übersicht über die Aufgaben, die der Student in einer Praxisphase bearbeitet hat. Hier können jetzt auch mehrere Aufgaben zu einer Praxisphase hinzugefügt werden. Zudem müssen Start- und Enddaten nicht mehr manuell eingetragen werden, was in der Vorgängerversion zu einigen Problemen geführt hat. Die Herausforderungen werden nun auch automatisch zum Profil hinzugefügt, wenn sie aus StuMaTo übernommen werden. Eine Aufgabe kann nun in dieser Übersicht als abgeschlossen markiert werden. Dies öffnet einen Dialog, der den Nutzer dazu motiviert, seine Daten in seine Profildaten weiter zu pflegen. (-> Agentensystem)
+<!-- Finde den Stil im Großen und Ganzen gut, habe nur wo ichs gesehen habe Kleinigkeiten angepasst und TODOS hinzugefügt, da ich gerade nicht mehr in Top-Form bin. Da wir allerdings von "Claims-Analysis" gesprochen haben, habe ich einfach als Auflistung eine Zusammenfassung als Liste gemacht -->
+
+Das **Dashboard** wurde grundlegend überarbeitet. In der heuristischen Analyse ist bereits aufgefallen, dass das vorherige Dashboard keine relevanten Informationen bereitgestellt hat. Nun soll der Nutzer über das Dashboard Vorschläge erhalten, welche Aktionen in der aktuellen Situation möglich sind und welche relevanten Veränderungen am Status passiert. Dabei werden die Vorschläge an die aktuelle Situation des Studenten angepasst, damit der Nutzer schneller zu den Funktionen gelangen kann, die er gerade ausführen möchte. Vor einer Praxisphase wird er daran erinnert, dass er sich eine Aufgabe suchen soll. Am Ende von einer Theoriephase oder Praxisphase folgt die Erinnerung, dass der Student seine Daten aktualisieren soll. Durch die Vorschläge gelangt der Nutzer schneller an die Stellen im StuMaTo, an die er möchte. Somit werden die zuvor als zu lang kritisierten Workflows verkürzt. Die neue Funktionalität wird "Nachricht des Agenten" genannt, um in dem neu entwickelten Leitbild der Talentagentur zu bleiben. Dieses Dashboard ermöglicht eine kontextabhängige, dynamische Navigation interessanter Informationen, welche komplementär zur statischen Navigation existiert. Die Nachrichtenübersicht soll dabei auf dem Dashboard im Mittelpunkt stehen, da sie die neue Hauptfunktionalität ist. Das Element "Ansicht" ist dabei groß innerhalb der Nachricht designt, damit sie dem Nutzer schnell auffällt. Es gibt auch die Möglichkeit, den Text sich nicht mehr anzeigen zu lassen, falls der Nutzer diese Nachricht nicht mehr sehen möchte. Dieses Element zum Ausblenden der Nachricht wird dabei kleiner gestaltet, da die Nachrichten des Agenten immer so gewählt sein sollen, dass sie für den Nutzer relevant sind. Die Reihenfolge der Nachrichten wird auch danach gerichtet, was das System denkt, welche Aktion für den Nutzer am relevantesten ist. Die relevanteste Nachricht wird oben angezeigt, da der natürliche Lesefluss des Menschen von oben nach unten führt. Der Nutzer soll so die relevantesten Informationen zuerst sehen.
+
+**Claims:**
+
+\+ Schnellere Navigation
+
+\+ Priorisierung aktuellen Geschehens
+
+\+ Regt zur Interaktion an
+
+\- Eine hohe Anzahl an Nachrichten könnte den Nutzer überwältigen
+
+
+
+Zudem wurde ein neuer **Praxisphasen-Dialog** erstellt. Die Grundidee ist es den Nutzer mehr durch das Pflegen seines Profils zu unterstützen. Somit wird der Nutzer an das Aktualisieren aller Daten nach einer Praxisphase erinnern. <!-- Die Erinnerung wird vor allem in dem neuen Agenten-Dialog gemacht. Du kannst diese Teile womöglich ein wenig in den Workflow zum Dokumentieren der Phasen auslagern. Die Separation würde ich damit begründen, dass die Informationsdarstellung anders sein sollte, wenn man anschauen will, als wenn man hinzufügt. Vielleicht würde ich sogar erst die Einfügen-Dialoge beschreiben, weil sie direkt mit Dashboard/Agent verbunden sind. Unten ist noch ein Kommentar dazu.-->
+
+Somit wird das Problem aus der Kontextanalyse angegangen, dass die Daten in StuMaTo nicht aktuell sind. Der neue Dialog wird in zwei Teile unterteilt **Herausforderungen** und **Errungenschaften**. Die Herausforderungen sind eine Übersicht über die Aufgaben, die der Student in einer Praxisphase bearbeitet hat. Hier können jetzt auch mehrere Aufgaben zu einer Praxisphase hinzugefügt werden. Zudem müssen Start- und Enddaten nicht mehr manuell eingetragen werden, was in der Vorgängerversion zu einigen Problemen geführt hat. Die Herausforderungen werden nun auch automatisch zum Profil hinzugefügt, wenn sie aus StuMaTo übernommen werden. Eine Aufgabe kann nun in dieser Übersicht als abgeschlossen markiert werden. Dies öffnet einen Dialog, der den Nutzer dazu motiviert, seine Daten in seine Profildaten weiter zu pflegen. (-> Agentensystem)
 Die Errungenschaften sind eine Möglichkeit erzeugte Artefakte der Praxisphase zuzuordenen. Diese Artefakte können Transferleistungen, Seminare und Weitere Errungenschaften sein. Dieser Prozess wurde als Vereinfachung des Transferleistungs-Workflows gestaltet. Bei dem Hinzufügen der Transferlesitung muss nun auch kein Datum mehr hinzugefügt werden, bei denen den Nutzern nicht klar war, was es zu bedeuten hat. Zudem ist sie automatisch der Praxisphase zugeordnet und es muss keine abgeschlossene Aufgabe erstellt werden. Auch die CreditPoints für die Transferleistung werden automatisch dem Profil hinzugefügt, um noch mehr Konsistenz herzustellen. Somit ist der Prozess deutlich verschlankt worden. Diese Möglichkeit wurde genutzt, um gelich andere Artefakte, die bei Praxisphasen entstehen direkt mit in das Profil hinzuzufügen.  
 
 - Herausforderungen oben
@@ -108,13 +125,47 @@ Die Errungenschaften sind eine Möglichkeit erzeugte Artefakte der Praxisphase z
 		- Bearbeiten bestehender Inhalte abseits
 	- Hinzufügen mittig unter bestehenden Inhalten direkt im Blickfeld
 
-Es ist auch ein neuer **Theoriephasen-Dialog** entstanden. Dieser wurde mit der selben Intetion erstellt wie der Praxisphasen-Dialog und ist auch sehr an diesen angelehnt. Zusätzlich implementiert dieser Dialog, dass Klausurergebnisse in ihn eingetragen werden können. Im Ursprungsdesign konnten die Nutzer nicht erinnern wie viele CreditPoints sie aktuell haben. Somit kam der Wunsch nach einer Modulliste auf, in der man nur noch abhaken musste, welche Klausuren bestanden worden sind. Um die Ähnlichkeit zum Praxisphasendialog zu wahren, um den Nutzer ein vertrautes Bild zu geben, ist die Struktur aus Herausforderungen und Errungenschaften erhalten geblieben. Die Herausforderungen sind in diesem Fall die Klausuren, welche automatisch den einzelnen Theoriephasen zugeordnet sind. Somit sind diese direkt im Profil zu finden. Durch das Abhaken der Klausuren wird jeweils ein Dialog geöffnet, in dem der Nutzer nach neu erlangten Kenntnissen gefragt wird. Dies dient dazu, den Nutzer laufend an Aktualisierung seiner Kenntnisse zu denken. Gerade nach Klausuren, die mit Abschluss eines Studienmoduls einher gehen, ist es wahrscheinlich, dass neue Kenntnisse erlangt oder bestehende Kenntnisse verbessert werden.
+Es ist auch ein neuer **Theoriephasen-Dialog** entstanden. Dieser wurde mit der selben Intention erstellt wie der Praxisphasen-Dialog und ist auch sehr an diesen angelehnt. Zusätzlich implementiert dieser Dialog, dass Klausurergebnisse in ihn eingetragen werden können. Im Ursprungsdesign konnten die Nutzer nicht erinnern wie viele Credit Points sie aktuell haben. Somit kam der Wunsch nach einer Modulliste auf, in der man nur noch abhaken musste, welche Klausuren bestanden worden sind. Um die Ähnlichkeit zum Praxisphasendialog zu wahren, um den Nutzer ein vertrautes Bild zu geben, ist die Struktur aus Herausforderungen und Errungenschaften erhalten geblieben. Die Herausforderungen sind in diesem Fall die Klausuren, welche automatisch den einzelnen Theoriephasen zugeordnet sind. Somit sind diese direkt im Profil zu finden. Durch das Abhaken der Klausuren wird jeweils ein Dialog geöffnet, in dem der Nutzer nach neu erlangten Kenntnissen gefragt wird. Dies dient dazu, den Nutzer laufend an Aktualisierung seiner Kenntnisse zu denken. Gerade nach Klausuren, die mit Abschluss eines Studienmoduls einher gehen, ist es wahrscheinlich, dass neue Kenntnisse erlangt oder bestehende Kenntnisse verbessert werden.
 
-Auch die **Aufgabenübersicht** hat einige Updates bekommen. Das Suchen einer Aufgabe sollte dadurch vereinfacht werden, dass es vorgeschlagene Aufgaben gibt. So wird dem Nutzer das lässtige Suchen nach Aufgaben abgenommen und von den Daten her invalide Aufgaben werden vorgefiltert. Die empfohlenen Aufgaben werden dabei deutlich von den anderen Aufgaben abgesetzt, damit die Aufmerksamkeit des Nutzers genau auf die für ihn relevanten Aufgaben gelenkt wird. Zudem wurde sich entschieden die Trennung zwischen Einzel- und Daueraufgaben aufzuheben, da sind von jedem im Nutzertest verstanden worden ist. Beim Bekunden von Interesse an einer Aufgabe wurde jetzt ein Freitextfeld hinzugefügt, in dem die Mail an den Auftraggeber bearbeitbar ist. So können Nachfragen gestellt werden und über den Umfang der Arbeit diskutiert werden. Dies wurde von den Nutzern in dem Interview nach dem Usabilitytest gewünscht.   
+**Claims:** <!-- Praxis/Theoriephasen-Dialog zusammen, weil quasi gleich -->
+
+\+ Kompakte Darstellung in logischer Einheit "Semester"
+
+\+ Schlankere Darstellung ohne die genauen Zeitpunkte, die hier nicht benötigt sind
+
+\+ Gliederung in ähnliche Konzepte: Gemeisterte, langfristige Herausforderungen sind immer oben, Kurzfristigere Errungenschaften sind immer unten
+
+\+ Trennung von momentanen, deskriptiven Daten wie Kenntnissen und abgeschlossenen, zeitlichen Daten wie Herausforderungen / Errungenschaften
+
+\- Zusätzliche Dialoge
+
+
+
+Auch die **Aufgabenübersicht** hat einige Updates bekommen. Das Suchen einer Aufgabe sollte dadurch vereinfacht werden, dass es vorgeschlagene Aufgaben gibt. So wird dem Nutzer das lästige Suchen nach Aufgaben vereinfacht und Aufgaben werden vorgefiltert, um unpassende Längen oder Standorte, aber auch abgelaufene Aufgaben werden als irrelevant weniger sichtbar dargestellt. Die empfohlenen Aufgaben werden dabei deutlich von den anderen Aufgaben abgesetzt, damit die Aufmerksamkeit des Nutzers genau auf die für ihn relevanten Aufgaben gelenkt wird. Zudem wurde sich entschieden die Trennung zwischen Einzel- und Daueraufgaben aufzuheben, da diese im Nutzertest zur Verwirrung geführt hat und keinen inhärenten Unterschied für die Entscheidung eines Studenten bedeutet hat. Die Aufgaben werden nun alle gemeinsam aufgeführt. Beim Bekunden von Interesse an einer Aufgabe wurde eine Darstellung der Nachricht an den Auftraggeber hinzugefügt. Diese kann wenn nötig editiert werden, so können Nachfragen gestellt werden und über den Umfang der Arbeit diskutiert werden. Dies wurde von den Nutzern in dem Interview nach dem Usabilitytest gewünscht.   
+
+**Claims:**
+
+\+ Aufgehobene Aufteilung der Aufgaben vermeidet die aufgetretene Verwirrung
+
+\+ Verbesserte Darstellung von Aufgaben mit höherer Wahrscheinlichkeit, interessant zu sein, kann die Suchzeit verringern 
+
+\+ Darstellung der Mail erlaubt Transparenz
+
+\- Schlecht Vorschläge können zu schlechterer Sichtbarkeit von Aufgaben führen
+
+\- Durch die Trennung kann eine geringere Anzahl von Aufgaben gezeigt werden
+
+
+
+<!-- TODO: vor allem der Agenten-Workflow zum Dokumentieren der Phasen ist wichtig, dabei geht es hauptsächlich um die Reduktion der vorhandenen Informationen auf die aktuell wichtigen. -> Vermeiden vom Information Overload, Erinnerung an jeden Schritt, Vorgabe einer Reihenfolge. -> Hat außerdem jederzeit die Info über den Fortschritt. Potentiell: man kann hier die Heuristik ENDLESS-PROFILE referenzieren, allerdings könnte das zu Interaktionsfokussiert sein -->
 
 
 
 ## Reflexion des Informationdesigns
+
+
+
+<!-- TODO: Sehr umfangreich, erstellung vieler Prototypen, war mit Papierprototypen gut möglich. Wegen der dynamischen Umgestaltung sind Elemente des Interaktionsdesigns leicht in das Informationsdesign eingeflossen, auch weil kein Interaktionsdesign stattfindet, Claims mussten zur detaillierteren Darstellung noch   begründet werden; Informationsszenarien sind leicht von den Aktivitätsszenarien abgewichen, weil jetzt Fokus auf "alle geänderte Dialoge zeigen"; Spätere Verfeinerung des Designs erforderte Überarbeitung des Szenarios -->
 
 
 
