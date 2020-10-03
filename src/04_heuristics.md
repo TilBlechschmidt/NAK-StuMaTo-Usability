@@ -16,10 +16,8 @@ Der Zweck der heuristischen Analyse ist eine Vertiefung des Verständnisses für
 
 Daraus ergeben sich hier zwei hauptsächliche Ziele:
 
-1. Die Identifikation von eindeutig nutzerunfreundlichen Elementen zur Verwendung in der Gestaltungsphase. Diese sollten klar nutzerfeindlich und von lokalisierter Natur sein, sodass daraus entspringende Gestaltungsvorschläge unbestreitbar sinnvoll sind und keine übergreifenden Prozesse verändern.
+1. Die Identifikation von eindeutig nutzerunfreundlichen Elementen zur Verwendung in den Details der Gestaltungsphase. Diese sollten klar nutzerfeindlich und von lokalisierter Natur sein, sodass daraus entspringende Gestaltungsvorschläge unbestreitbar sinnvoll sind und keine übergreifenden Prozesse verändern.
 2. Die Identifikation von Problemfeldern, welche einer genaueren Untersuchung bedürfen und somit eine Richtlinie für die Direktion von Nutzertests oder weiteren Analysen darstellen. Diese können, durch eine Rücksprache mit Stakeholdern und durch weitere Untersuchung entweder zu Problemelementen nach Punkt 1 überführt werden, oder zu überregionalen Änderungen am Design des Systems führen.
-
-Mögliche Zielartefakte sind demnach Auflistungen dieser.
 
 
 
@@ -30,49 +28,13 @@ Die vorliegende Untersuchung konzentriert sich auf eine heuristische Analyse unt
 Dies deckt sich vor allem mit dem Ziel, formale Kriterien durch Expertenwissen nachzuprüfen.
 Es ist hierdurch möglich, mit gering gehaltenem Zeitaufwand eine Basis für folgende Untersuchungen durch Nutzerverfahren zu schaffen, sodass diese Nutzerverfahren nicht ausschließlich auf der Grundlage der Kontextanalyse geplant werden. Die enge Verbindung mit den Nutzerverfahren erlaubt es, mithilfe dieser zusätzlich Fehleinschätzungen während der heuristischen Analyse aufzudecken.
 
-Das Verfahren der heuristischen Evaluation erlaubt des Weiteren eine Abdeckung von formalen Kriterien mit begrenztem Expertenwissen und das sowohl in der Form einer summativen, als auch einer formativen Analyse.
+Das Verfahren der heuristischen Evaluation erlaubt des Weiteren eine Abdeckung von formalen Kriterien mit begrenztem Expertenwissen und das sowohl in der Form einer summativen, als auch einer formativen Analyse. Alternative Expertenverfahren wären zum Beispiel das Walkthrough-Verfahren und das DaTech-Prüfverfahren. Diese wurden jedoch unter Bevorzugung der heuristischen Evaluation nicht gewählt. 
 
+Das Walkthrough-Verfahren wurde vermieden, da die starke Vertrautheit zweier der Autoren mit dem System die explorative Untersuchung des Systems eingeschränkt hätte, eine Einbeziehung von Nutzern zu diesem Zeitpunkt aufgrund des Mehraufwandes bei  geringem Mehrwert noch nicht in Anbetracht gezogen wurde und hier der Fokus auf formale Kriterien, welche nicht unbedingt von Nutzern ersetzt werden kann, bei diesem Verfahren fehlt.
 
+Auch das DaTech-Prüfverfahren wurde umgangen, da die notwendige Erfahrung der Experten mit diesem nicht gegeben ist, ein Zertifizierungsverfahren nicht angestrebt ist und die grundlegenden Prinzipien des Verfahrens bei geringerem Aufwand in einer Heuristischen Analyse überprüft werden können.
 
-Alternative Expertenverfahren wären zum Beispiel das Walkthrough-Verfahren und das DaTech-Prüfverfahren. Diese wurden jedoch unter Bevorzugung der heuristischen Evaluation nicht gewählt. 
-
-
-
-**Gegen die Verwendung des Walkthrough-Verfahren sprachen die folgenden Punkte:**
-
-- Zwei der Autoren hatten bereits eine starke Vertrautheit mit dem System, welches eine große Stärke dieses Verfahrens, die Ermittlung der explorativen Erlernbarkeit, unterminiert hätten.
-
-  
-
-- Die Verwendung dieses Verfahrens mithilfe von Nutzern wurde nicht in Erwägung gezogen, da dies einen deutlichen logistischen Aufwand für einen geringen Mehrwert darstellt, da fokussierte Nutzertests in einem Usability-Labor bereits vorgesehen waren.
-
-
-
-- Dieses Verfahren einen geringen Fokus auf formale Usability-Prinzipien legt. Diese Prinzipien können jedoch für bestimmte Problemklassen eine präzisere Begründung für Usability-Probleme liefern, als eine subjektive Nutzer-Einschätzung. Die Berücksichtigung der Einschätzungen von Nutzern ist jedoch bereits durch die Nutzertests geplant und eine ausgeglichene Einschätzung von mehreren Seiten ist uns wichtig.
-
-
-
-**Gegen die Verwendung des DaTech-Prüfverfahrens sprachen die folgenden Punkte:**
-
-- Unter der Nutzung des DaTech-Prüfverfahrens ist die Unterscheidung zwischen einer schadhaften Abweichung und einer vorteilhaften alternativen Gestaltung sehr wichtig. Diese erfordert jedoch eine Erfahrung der durchführenden Experten, die wir nicht für uns beanspruchen können.
-
-
-
-- Eine Zertifizierung der Anwendung ist weder Ziel noch besonders hilfreich.
-
-
-
-- Grundlegende Prinzipien des Handbuchs sind ebenfalls in den Heuristiken der heuristischen Evaluation vorhanden.
-
-
-
-- Zum Verständnis des komplexen Prüfhandbuches wäre eine deutlich längere Einarbeitung notwendig, welche nicht in einer sinnvollen Relation zum Nutzen des Einsatzes in dieser Arbeit stünde, zumal der Nutzen, den dieses Verfahren gesondert und im Vergleich zu anderen Verfahren zusätzlich bringt, unklar ist.
-
-
-
-Aus demselben Grund, welcher auch gegen die Verwendung eines nutzerunterstützten Walkthroughs vorgebracht wurde, wurde sich gegen die Anwendung einer kooperativen heuristischen Evaluation entschieden. 
-
-Stattdessen soll eine heuristische Evaluation aller drei Autoren, unabhängig voneinander, die großen Probleme der klassischen heuristischen Evaluation — ihre geringe Reliabilität und Objektivität – einschränken und durch den anschließenden Vergleich aus den Problemlisten eine gemeinsame, gewichtete Problemliste synthetisieren.
+Aus demselben Grund, welcher auch gegen die Verwendung eines nutzerunterstützten Walkthroughs vorgebracht wurde, wurde sich gegen die Anwendung einer kooperativen heuristischen Evaluation entschieden. Stattdessen soll eine heuristische Evaluation aller drei Autoren, unabhängig voneinander, die großen Probleme der klassischen heuristischen Evaluation — ihre geringe Reliabilität und Objektivität – einschränken und durch den anschließenden Vergleich aus den Problemlisten eine gemeinsame, gewichtete Problemliste synthetisieren.
 
 
 
@@ -144,32 +106,13 @@ Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgru
 - "Recognition rather than recall" und "Reduce short-term memory load." sind ebenfalls in ihrer Intention identisch und wurden nach [@heur:brau/sarodnick] als "Erkennen vor Erinnern" kombiniert
 - "Flexibility and efficiency of use" und "Seek universal usability.", da ersteres in letzterem Kriterium enthalten ist. Dies ist als "Universelle Benutzbarkeit und Anpassbarkeit" bezeichnet.
 
-Das Ergebnis dieses Verfahrens ist in +@tbl:mergecriteria und +@tbl:criteria aufgeführt.
-
-| Nielsen                                                 | Extrahiertes Kriterium                      | Shneiderman                      |
-| :---------------------------------------------------- | :----------------------------------------------------: | ----------------------------------------------------: |
-| Match between system and the real world                 | Realitätsnahe Semantik und Vokabular        |                                  |
-| Aesthetic and minimalist design                         | Relevanz der Kommunikation                  |                                  |
-| Help users recognize, diagnose, and recover from errors | Konstruktive Fehlerbehandlung               |                                  |
-| Help and documentation                                  | Hilfe und Dokumentation                     |                                  |
-|                                                         |                                             |                                  |
-|                                                         | Abgeschlossene Aktionen                     | Design dialogs to yield closure. |
-|                                                         | Benutzerbestimmte Eingaben                  | Keep users in control.           |
-|                                                         |                                             |                                  |
-| User control and freedom                                | Reversibilität und Abbruchmöglichkeit       | Permit easy reversal of actions. |
-| Visibility of system status                             | Sichtbarer Systemstatus und Statusmeldungen | Offer informative feedback.      |
-| Consistency and standards                               | Konsistenz und Standardtreue                | Strive for consistency.          |
-| Error prevention                                        | Fehlerprävention                            | Prevent errors.                  |
-| Recognition rather than recall                          | Erkennen vor Erinnern                       | Reduce short-term memory load.   |
-| Flexibility and efficiency of use                       | Universelle Benutzbarkeit und Anpassbarkeit | Seek universal usability.        |
-
-Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria}
+Eine tabellarische Übersicht des Prozesses ist in +@tbl:mergecriteria (in [Anhang @sec:heur-merge]) ersichtlich, das Ergebnis dieses Verfahrens ist in +@tbl:criteria aufgeführt.
 
 
 
-Da in der Kontextanalyse beanstandet wurde, dass das System schlecht gepflegt und nicht aktuell ist, wird außerdem das Kriterium der "Aktualität und Pflege" gesondert betrachtet. Dies ist ein Problem, welches die Usability des Systems einschränkt, ohne jedoch zwingend eine klassische Heuristik zu sein. Der Fakt, dass Inhalte veraltet sind, ist in sich kein Designfehler, der behoben werden kann, kann sehr wohl jedoch ein Symptom zugrundeliegender Probleme sein. Darum wurde dieses Kriterium dennoch geschaffen, um diese Nutzeraussagen nachzuvollziehen und detaillierter zu verstehen. Hierzu wurden durch `Hendrik` und `Til` Analysen im Produktivsystem vorgenommen, da sie als Mitarbeiter von `ppi` auf dieses Zugriff haben.
+Da in der Kontextanalyse beanstandet wurde, dass das System schlecht gepflegt und nicht aktuell ist, wird außerdem das Kriterium der "Aktualität und Pflege" gesondert betrachtet. Dies ist ein Problem, welches die Usability des Systems einschränkt, ohne jedoch zwingend eine klassische Heuristik zu sein. Der Fakt, dass Inhalte veraltet sind, ist in sich kein Designfehler, der behoben werden kann, kann sehr wohl jedoch ein Symptom zugrundeliegender Probleme sein. Darum wurde dieses Kriterium dennoch geschaffen, um diese Nutzeraussagen nachzuvollziehen und detaillierter zu verstehen. Hierzu wurden durch zwei der Autoren Analysen im Produktivsystem vorgenommen, da sie als Mitarbeiter von ppi Zugriff auf dieses haben.
 
-<!-- TODO change names? -->
+
 
 Aus dem Verständnis dieser Kriterien entsprechend ihrer Beschreibung in [Anhang @sec:heuristik-beschreibungen] werden die folgenden Beschreibungen synthetisiert:
 
@@ -280,7 +223,9 @@ Diese Aggregation zeigt jedoch keine Kriterien, welche besonders für ein Extrak
 
  Aufgrund der Beschränkungen dieser Arbeit, können nicht alle Probleme in gleicher Art analysiert und für die weitere Betrachtung verwendet werden. Sehr wohl können jedoch bestimmte Probleme genauer betrachtet werden. Im vorangehenden Abschnitt wurden bereits einige Kriterien genannt, welche eine besonders geringe Abweichung zwischen den Evaluatoren vorwiesen. Hier wird auf diese Aggregation nach Kriterien verzichtet und es werden als Auszug der Gesamtdaten stattdessen Probleme betrachtet, welche einstimmig mit der Gewichtung $3$ oder $2$ versehen wurden.
 
-In +@tbl:critical-problems und +@tbl:cosmetical-problems sind deshalb jene Probleme, welche respektive eine einstimmige Gewichtung von $3$ oder $2$ erhalten haben, aufgelistet. 
+Die Probleme mit der Gewichtung 2 Probleme können sehr simpel und ohne die Veränderung von bestehenden Prozessen bearbeitet werden und stellen eine Liste von Problemen entsprechend Ziel Nr. 1 dar. Für diese Arbeit sind sie deshalb allerdings von geringerem Interesse und in +@tbl:cosmetical-problems im [Anhang @sec:heur:cosmetic] dargestellt.
+
+In +@tbl:critical-problems sind im Gegensatz dazu jene Probleme, welche eine einstimmige Gewichtung von $3$ erhalten haben, aufgelistet. 
 
 |      Bezeichner      |        Kriterium        |                         Beschreibung                         |                         Fundorte                          |
 | :------------------: | :---------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
@@ -302,24 +247,6 @@ Table: Kritische Probleme (einstimmig) {#tbl:critical-problems}
 
 
 Bei diesen kritischen Problemen fällt besonders die Häufigkeit der Fundorte STUDENT.\*, also aller Unterseiten der Seite "Studenten", insbesondere die Tabs der Studentenprofile, auf. Diese scheinen von kritischen Problemen geplagt zu sein. Die Probleme könnten hierbei vermehrt auch Veränderungen am Prozess, in dem sie auftreten, erfordern, oder aber nicht nur lokal relevant sind. So erscheint es wahrscheinlich, dass die Möglichkeit, Änderungen nachzuverfolgen und Zustände wiederherzustellen (Problem UNDO) einen aufwändigeren Design-Prozess erfordern könnte. Auch die Probleme TASK-FOR-CALENDAR, CP-FEEDBACK oder ENDLESS-PROFILE könnten einen solchen Aufwand erfordern. Andere, wie UNSEEN-DIRTY, CANCEL-TASK-EDIT, DIRTY-PROFILE-LEAVE, ADD-SKILL-WITH-DIRTY erfordern mehr Arbeit der Kategorie Implementierung, als Design.
-
-|      Bezeichner      |        Kriterium        |                         Beschreibung                         |                         Fundorte                          |
-| :------------------: | :---------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
-|DARK|ADAPT, CONSIST|Schlechte Kontraste im Darkmode.|MANAGE, TASK.*, FAQ, STUDENT.WORK, Lade-Indikatoren,Tabs,|
-|SEARCH-LAYOUT|CONSIST|Layout von Suchergebnissen ist nicht einheitlich.|SEARCH|
-|NEW-SKILL-REENTRY|CONTROL|Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen.|TASK.EDIT, STUDENT.WORK|
-|WHICH-REQUIRED|ERR-HANDLE|Wenn benötigte Felder in der Aufgabenerstellung ausgelassen werden, so zeigt die Fehlermeldung nicht direkt, welche Felder noch gefüllt werden müssen, sondern nur, dass Eingaben fehlen.|TASK.EDIT|
-|SKILLS-VALIDATION|ERR-PREV|Bei der Erstellung neuer Skills wird keine Validierung vorgenommen.|MANAGE.SKILLS|
-|REQUIRED|ERR-PREV|Benötigte Felder in der Aufgabenerstellung werden nicht vorher gekennzeichnet.|TASK.EDIT|
-|HOVER|HELP|Es fehlen des Öfteren Hover-Texte|\*, bspw. TASK.* für Icon-Buttons|
-|DASH-REDUNDANT|RELEV|Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig.|DASH1|
-|EMPTY-TIMELINE|RELEV|Leere Timeline, leere Kenntnisse etc. werden angezeigt, ohne Mehrwert zu erbringen.|STUDENT.UNI|
-|EXPIRED-TASKS|UPTODATE, ERR-PREV|Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren.|TASK.*|
-Table: Kosmetische Probleme (einstimmig) {#tbl:cosmetical-problems}
-
-
-
-All diese Probleme können sehr simpel und ohne die Veränderung von bestehenden Prozessen bearbeitet werden und stellen eine Liste von Problemen entsprechend Ziel Nr. 1 dar. 
 
 
 
