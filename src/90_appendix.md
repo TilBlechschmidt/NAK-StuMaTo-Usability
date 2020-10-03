@@ -15,6 +15,39 @@
 
 ## Interviewfragen
 
+
+
+### Einzelleistungen der Autoren
+
+Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen, ein jeder hat Kritik ausgeübt und Verbesserungen vorgenommen. In der nachfolgenden Auflistung steht jedoch die Nennung bestimmter Autoren dafür, dass diese eine Leistung hauptsächlich erbracht haben.
+
+| Leistung                                                     | Autoren                                 |
+| ------------------------------------------------------------ | --------------------------------------- |
+| Einleitung / Projektvorstellung                              | Hendrik Ken Reiter                      |
+| Einleitung / SBD                                             | Hans Peter Rißer                        |
+| Auswertung der Kontextanalyse und Formulierung des gesamten Abschnittes | Hendrik Ken Reiter                      |
+| Konzeptionierung der Kontextanalyse                          | Alle Autoren                            |
+| Durchführung der Interviews                                  | Hendrik Ken Reiter und Til Blechschmidt |
+| Auswertung der Heuristischen Evaluation und Formulierung des gesamten Abschnittes | Hans Peter Rißer                        |
+| Konzeptionierung und Durchführung der Heuristischen Evaluation | Alle Autoren                            |
+| Konzeptionierung, Planung und Durchführung der Nutzertests   | Alle Autoren                            |
+| Auswertung der Video- und Eyetracker-Daten zu den Nutzertests | Til Blechschmidt                        |
+| Auswertung der Nachbefragung der Nutzertests                 | Hendrik Ken Reiter                      |
+| Zusammenfassung der Ergebnisse der Nutzertests               | Hendrik Ken Reiter, Til Blechschmidt    |
+| Erstellung der Problemszenarios                              | Hans Peter Rißer, Hendrik Ken Reiter    |
+| Erarbeitung des Aktivitätsdesigns                            | Alle Autoren                            |
+| Beschreibung der Leitbilder und Metaphern                    | Til Blechschmidt, Hans Peter Rißer      |
+| Erstellung des Aktivitätsszenarios                           | Hans Peter Rißer, Hendrik Ken Reiter    |
+| Gestaltungsbegründung des Aktivitätsdesigns                  | Hans Peter Rißer                        |
+| Erarbeitung des Informationsdesigns                          | Alle Autoren                            |
+| Erstellung der Prototypen                                    | Til Blechschmidt, Hendrik Ken Reiter    |
+| Erstellung des Informationsszenarios                         | Hendrik Ken Reiter, Hans Peter Rißer    |
+| Gestaltungsbegründung des Informationsdesigns                | Til Blechschmidt, ...                   |
+| Beschreibung und Reflexion der Methodik in der Designphase (x2) | Hans Peter Rißer                        |
+| Formulierung des Fazits                                      | Til Blechschmidt                        |
+
+
+
 ### Firmenkontext und Umgang mit dem Dualen Studium im Unternehmen
 
 1. Welche Aufgaben übernimmst du im Unternehmen?
