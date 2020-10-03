@@ -74,7 +74,7 @@ Ich finde die Anwendung ist eine gute Idee, aber sie ist noch nicht so toll umge
 
 2. Was waren die größten Störfaktoren und was waren positive Momente?
 
-Gestört hat mich, dass man kann keine zwei Aufgaben auf einmal machen kann. Zudem haben sich die Daten der Creditpoints und bei den Aufgaben nach einer Zeit gelöscht. 
+Gestört hat mich, dass man kann keine zwei Aufgaben auf einmal machen kann. Zudem haben sich die Daten der Credit Points und bei den Aufgaben nach einer Zeit gelöscht. 
 
 3. Wie fandest du die Workflows?
 
@@ -89,4 +89,4 @@ Ich hätte wohl meine Kollegen gefragt, bevor ich die Aktionen durchgeführt hä
 Auf jeden Fall sollten Aufgaben parallel bearbeitbar sein. Zudem muss der Transferleistungsprozess einfacher. Auch der Kalendar ist unverständlich, wenn keine Daten eingetragen sind. Hier fehlt eine Legende. Zudem waren die Studentenprofile zu wenig gepflegt. Auch die Aufgabenübersicht finde ich nicht ansprechend. Des Weiteren ist mir der Unterschied zwischen Aufgaben und Daueraufgaben nicht klar. 
 Einige Fehler sind unverständlich und auf Englisch. Ich finde auch, dass das Kontaktieren der Studenten möglich sein sollte. Zudem sollte man wenn man sich auf eine Aufgabe bewirbt über Umfang der Aufgabe verhandeln verhandeln können. Zudem sollten die Aufgaben kleinteiliger aufgeteilt werden können.
 Auch das Finden von Studenten fand ich schwierig. Hier sollten die Studenten sortiert und gefiltert werden können.
-Zudem sollten CreditPoints automatisch erhöht werden können und bei hochgeladenen Transferleistungen oder bestandenen Klausuren erhöht werden. Zudem wäre eine Modulübersicht bei den Klausuren sinnvoll. Bei Seminaren sollten zudem auch halbe CreditPoints eingetragen werden können.
+Zudem sollten Credit Points automatisch erhöht werden können und bei hochgeladenen Transferleistungen oder bestandenen Klausuren erhöht werden. Zudem wäre eine Modulübersicht bei den Klausuren sinnvoll. Bei Seminaren sollten zudem auch halbe Credit Points eingetragen werden können.

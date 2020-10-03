@@ -93,7 +93,7 @@ Table: Herleitung der Kriterien der Heuristischen Evaluation {#tbl:mergecriteria
 | CLOSURE                   | Das Speichern von Credit Points gibt wenig Feedback bei der Bestätigung der Eingabe. Insgesamt ist es schwer ersichtlich, dass man die Eingabe noch manuell abschließen muss, der Prozess ist nicht atomar. | STUDENT.UNI          |
 | CLOSURE/STATUS            | Feedback zu erfolgreichen Aktionen teilweise schwer mitzubekommen oder gar nicht existent. (z.B. Kenntnisse speichern) | STUDENT.WORK         |
 | CONSIST                   | FAQ und Dateinamen verwenden eine andere Schriftart als der Rest der Anwendung. | FAQ, STUDENT.UNI     |
-| CONSIST                   | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit-Points) | STUDENT.UNI          |
+| CONSIST                   | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit Points) | STUDENT.UNI          |
 | CONSIST                   | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. | STUDENT.WORK         |
 | CONTROL                   | Die Verfügbarkeitssicht startet am Beginn der Aufzeichnung und nicht an einem vom Nutzer bestimmten Punkt bzw. am heutigen Datum. Es muss jedes Mal mühselig vorgescrollt werden. | STUDENT.WORK         |
 | CONTROL                   | Die Suchfilter sind nicht sofort verständlich in ihrer Bedeutung. Sie setzen sich bei einer neuen Sucheingabe zurück. | SEARCH               |
@@ -149,7 +149,7 @@ Table: Problemfunde Hans {#tbl:heur:hans}
 | HELP               | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll, es existiert keine Dokumentation als Vergleichsreferenz. | STUDENT.WORK                      |
 | HELP               | Das FAQ ist nicht wirklich gut.                              | FAQ                               |
 | REAL               | Dauer-/Einzelaufgaben sind keine Worte aus der realen Welt, und sollen eher Aufgaben vs. Teams darstellen. | TASK.SINGLE, TASK.PERM            |
-| REAL               | Creditpoints für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. | STUDENT.UNI                       |
+| REAL               | Credit Points für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. | STUDENT.UNI                       |
 | RELEV              | Dashboardbuttons führen immer zum selben, wenn man nicht eingeloggt ist. Die nicht funktionalen Buttons sind nicht notwendig. | DASH1                             |
 | STATUS             | Die Veränderung der Rolle eines Nutzers zieht keine Erfolgsmeldung nach sich. | MANAGE.USER                       |
 | UNDO               | Ein Undo/Redo ist nicht möglich                              | *                                 |
@@ -212,7 +212,7 @@ Table: Problemfunde Til {#tbl:heur:til}
 |    ENGLISH-STATUS    |         CONSIST         | Aufgabenstatus sind auf Englisch, wenn der Rest der Anwendung auf Deutsch ist |                          TASK.*                           |  1   |    0     |
 |        SLIDER        |         CONSIST         | Der Slider für Skills startet nicht ganz links und endet nicht ganz rechts. Dies ist leicht irritierend, da man vermuten kann, ein Bedienungsfehler wäre aufgetreten. |                       STUDENT.WORK                        |  2   |    4     |
 |        HTTPS         |         CONSIST         | Die Webseite verwendet kein HTTPS, wodurch potentiell Unsicherheit entsteht. |                             *                             |  1   |    4     |
-|      CUSTOM-UI       |         CONSIST         | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit-Points) |                        STUDENT.UNI                        |  2   |    2     |
+|      CUSTOM-UI       |         CONSIST         | Einige GUI-Elemente, sind speziell für die Anwendung entwickelt worden und sind nicht direkt intuitiv, sondern leicht verwirrend. (z.B. das Widget zur Bearbeitung der Credit Points) |                        STUDENT.UNI                        |  2   |    2     |
 |         FONT         |         CONSIST         | FAQ und Dateinamen verwenden eine andere Schriftart als der Rest der Anwendung. |                     FAQ, STUDENT.UNI                      |  1   |    2     |
 |    SEARCH-BUTTON     |         CONSIST         |  Kein Such-Button, wenn ein vorherige Query noch drin steht  |                          SEARCH                           |  3   |    4     |
 |     SAVE-CONCEPT     |         CONSIST         | Keine expliziten Speicher-Buttons an einigen Orten, an anderen schon. |                   STUDENT.\*, MANAGE.\*                   |  3   |    2     |
@@ -247,7 +247,7 @@ Table: Problemfunde Til {#tbl:heur:til}
 |       ALUMNAE        |          REAL           | Alumni & Alumnae ist ein selten verwendeter Begriff, neue Studenten können damit vielleicht nicht viel anfangen. |                       STUDENT.LIST                        |  1   |    2     |
 |      TASK-TABS       |          REAL           | Die Bezeichnungen der Aufgabenkategorien haben keine klare Beziehung zum echten Leben. Wie lange dauern Einzel- vs. Daueraufgaben? Warum werden nur offene Aufgaben angezeigt? Wo ist das Archiv? (AW: in "Alle Aufgaben") |                          TASK.*                           |  2   |    2     |
 |   MISLEADING-YOUR    |          REAL           | Deine Aufgaben ist irreführend, da hier eingestellte Aufgaben aufgeführt sind und nicht die, die ein User bearbeitet. |                         TASK.YOUR                         |  2   |    4     |
-|      CP-MEANING      |          REAL           | Creditpoints für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. |                        STUDENT.UNI                        |  1   |    0     |
+|      CP-MEANING      |          REAL           | Credit Points für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. |                        STUDENT.UNI                        |  1   |    0     |
 |   TASK-STATUS-ICON   |          REAL           | Icons für offene / angefangen Aufgaben sind unbekannt und transportieren keine klare Nachricht. |                         TASK.VIEW                         |  2   |    2     |
 |    WHICH-PROFILE     |          RECOG          | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. |                         STUDENT.*                         |  2   |    2     |
 |     UNSEEN-DIRTY     | RECOG, STATUS, ERR-PREV | Nicht abzusehen ob eine editierte Aufgabe,CP,Kenntnisse bereits gespeichert oder noch "dirty" ist. |                         STUDENT.*                         |  3   |    0     |
