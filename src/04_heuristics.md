@@ -10,6 +10,7 @@ Dies wirkt einerseits ergänzend zu den späteren Nutzerverfahren, welche tatsä
 Dabei wird im Erfahrungsrahmen der Experten Bezug auf die Artefakte und Erkenntnisse der Kontextanalyse genommen, um aus dem Kontext der Anwendung ein erstes Verständnis für Eigenarten, aber auch besondere Anforderungen von StuMaTo zu erlangen.
 
 <!-- TODO muss das hier wirklich sein? mehr auf die Szenarien münzen! -->
+
 ### Ziele
 
 Der Zweck der heuristischen Analyse ist eine Vertiefung des Verständnisses für problematische Zustände in der Anwendung.
@@ -57,7 +58,7 @@ Die Vorbedingung dieses Ablaufes ist die vorangegangene Kontextanalyse.
 
 Punkt 1 bis 5 des dargestellten Ablaufes formen eine klassische heuristische Analyse dar, welche besonders darauf gerichtet ist, Beeinflussungen zwischen den Evaluatoren zu vermeiden, indem stets erst am letzten möglichen Zeitpunkt ein Vergleich der Ergebnisse stattfindet. So werden zur Vereinheitlichung der Analyse und zur Sicherstellung auswertbarer Ergebnisse zwar dieselben Kriterien verwendet, die Bewertung der Anwendung anhand dieser erfolgt jedoch parallel. Nach der Zusammenführung der gefundenen Probleme erfolgt auch die Gewichtung dieser wieder parallel.
 
-Punkt 6 bist 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen eine sinnvolle Verarbeitung innerhalb des vorgestellen Analyserahmens.
+Punkt 6 bist 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen eine sinnvolle Verarbeitung innerhalb des vorgestellten Analyserahmens.
 
 Punkt 9 dient der Rückkopplung an die Bewertung und kann dazu dienen, die in Punkt 8 erstellten Problemfelder zu bewerten und Fehler in der Bestimmung von Problemen in Punkt 6 zu erkennen. Letzteres ist besonders wichtig, um in der späteren Gestaltungsphase nicht fehlgeleitete, sich negativ auswirkende Änderungen vorzunehmen. Ersteres hingegen ist die Grundlage für größere Veränderungen in der Gestaltungsphase.
 
@@ -166,7 +167,7 @@ Eine höhere Abweichung ist demnach mit einer höheren "Kontroverse" zwischen de
 
 Der Ablauf nach [Abschnitt @sec:heuristic:plan] ist im [Anhang @sec:heuristik-rohergebnisse] gewissentlich dokumentiert. Die gemeinsame Problemliste ohne Gewichtung, welche zur Durchführung der Gewichtung verwendet wurde, ist nicht aufgeführt, da diese redundant zur finalen Ergebnisliste in +@tbl:heur:final ist. Stattdessen werden die einzelnen Gewichtungen anhand der Problembezeichner in der +@tbl:heur:weighted aufgeführt.
 
- Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. In der Betrachtung der folgenden Daten ist zusätzlich zu beachten, dass einige der angemerkten Usability-Probleme vermutlich auch als reine Implementierungsfehler gesehen werden können. Sie wurden hier aber in keinster Weise ausgeschlossen. Das liegt darin begründet, dass eine Unterscheidung von schlechtem Design und schlechter Implementierung mangels Aussagekräftiger Systemspezifikation schwierig und potentiell willkürlich wäre, worunter die Qualität der Ergebnisse und der Methodik sinken würde. Darüber hinaus schränken diese Probleme, ob Implementationsfehler oder Designfehler, eine Einschränkung der User Experience dar und sollten erwähnt werden. Die folgenden Kapitel der Arbeit sind jedoch nicht auf die Betrachtung solcher Probleme, die als in dieser Weise uneindeutig erschienen, ausgerichtet. Dies ist möglich, da eine Betrachtung all der gefunden Usability-Probleme im Detail den Rahmen dieser Arbeit ohnehin übersteigen würde.
+ Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. In der Betrachtung der folgenden Daten ist zusätzlich zu beachten, dass einige der angemerkten Usability-Probleme vermutlich auch als reine Implementierungsfehler gesehen werden können. Sie wurden hier aber in keiner Weise ausgeschlossen. Das liegt darin begründet, dass eine Unterscheidung von schlechtem Design und schlechter Implementierung mangels Aussagekräftiger Systemspezifikation schwierig und potentiell willkürlich wäre, worunter die Qualität der Ergebnisse und der Methodik sinken würde. Darüber hinaus schränken diese Probleme, ob Implementationsfehler oder Designfehler, eine Einschränkung der User Experience dar und sollten erwähnt werden. Die folgenden Kapitel der Arbeit sind jedoch nicht auf die Betrachtung solcher Probleme, die als in dieser Weise uneindeutig erschienen, ausgerichtet. Dies ist möglich, da eine Betrachtung all der gefunden Usability-Probleme im Detail den Rahmen dieser Arbeit ohnehin übersteigen würde.
 
 
 
@@ -185,7 +186,7 @@ In @fig:rel-weights ist die relative Häufigkeit der einzelnen Gewichtungskatego
 
 Die Kategorie $0$ wurde in der finalen Ergebnisliste effektiv eliminiert, da diese aussagt, dass hier kein Problem vorliegt. Diese wurde zwar in den einzelnen Gewichtungen der Evaluatoren insgesamt 8 mal gewählt, jedoch kam es stets zu einer Einigung, welche die finale Gewichtung auf einen anderen Wert festgelegt hatte. Dabei wurde häufig die finale Gewichtung $1$ gewählt, da die Uneinigkeit darüber, ob ein Zustand überhaupt ein Problem ist, dafür spricht, dass dieses entsprechend der Definition der Gewichtung $1$ nutzergruppenabhängig sein könnte.
 
-Die anderen Kategorien sind weitesgehend ausgeglichen, auch wenn die Gewichtung $2$ am häufigsten auftritt. Dennoch spricht der Anteil von 30%, welcher auf die Gewichtung $3$ entfällt dafür, dass die Anwendung einige ernste Usability-Probleme hat.
+Die anderen Kategorien sind weitestgehend ausgeglichen, auch wenn die Gewichtung $2$ am häufigsten auftritt. Dennoch spricht der Anteil von 30%, welcher auf die Gewichtung $3$ entfällt dafür, dass die Anwendung einige ernste Usability-Probleme hat.
 
 
 

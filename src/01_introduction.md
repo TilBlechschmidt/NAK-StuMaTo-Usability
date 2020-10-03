@@ -1,6 +1,6 @@
 ---
-    header-title: Usabilityanalyse StuMaTo
-    title: Usabilityanalyse nach dem Scenario-based Development der Studentenverwaltungsplattform StuMaTo
+    header-title: Usability-Analyse StuMaTo
+    title: Usability-Analyse nach dem Scenario-based Development der Studentenverwaltungsplattform StuMaTo
 
     author: Til Blechschmidt, Hendrik Reiter, Hans Rißer 
     Zenturie: A17
