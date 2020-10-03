@@ -41,7 +41,7 @@ Die Studenten sind vor allem daran interessiert, dass sie interessante Aufgaben 
 Die Aufgabenbetreuer sind zunächst daran interessiert, dass die Studenten ihre Aufgaben bestmöglich abschließen (M1). DAzu ist es notwendig, dass sie einen Studenten mit ausreichenden Kenntnissen erhalten. In StuMaTo könnten Aufgaben eingestellt werden, jedoch sind viele Aufgaben nicht passend oder es fehlt Budget (M1). StuMaTo wird eher dazu verwendet Informationen über die aktuellen Studenten und ihren Ausbildungsstand zu erlangen (M1). Für diese Aufgabe wird StuMaTo gerne benutzt, weshalb die Einstellung auf porsitiv eingeschätzt wird. Bei der Vergabe der Studenten sind die Aufgabenbetreuer auch auf den Studentenbetreuer angewiesen. Deshalb wird der Einfluss auf den Prozess als Mittel eingestuft.  
 
 |    Name                         | Interessen                   | Art der Interaktion         | Einfluss | Einstellung |
-| ------------------------------- | ---------------------------- | --------------------------- | -------- | ----------- | 
+| ------------------------------- | ---------------------------- | --------------------------- | -------- | ----------- |
 | Studentenbetreuer | Große Breite in der Ausbildung sicherstellen | Sammeln und Zuordnen von Aufgaben | Hoch | Positiv |
 | Abteilungen/ Aufgabenbetreuer  | Aufgaben sollten bestmöglich abgeschlossen werden | Einstellen von Aufgaben, Überblick über Studenten | Mittel | Positiv |
 | Studenten | Interessante Aufgaben, Zuwachs von Wissen | Selbstdarstellung, Finden von Aufgaben | Mittel | Skeptisch |
@@ -87,7 +87,7 @@ Die Studenten unterstützen die Teams und Abteilungen zunächst in ihrer täglic
 Für die Vermittlung der Studentenaufgaben werden vor allem über Mail, Chatprogramme und Telefon abgewickelt (S1,S2,M1,B1). Die Benutzung des Mailprogrammes stößt vereinzeilt auf Unmut (S1). Dabei wird vor allem die langsame Kommunikation kritisiert (S2). Zudem sorgt die Verwendung von mehreren firmeninternen Chatprogrammen für Verwirrung (S2, M1). StuMaTo wird für die Vermittlung von Aufgaben kaum verwendet (S1,S3,M1). Dabei stiftet es Verwirrung, dass es aktuell zwei Versionen von StuMaTo gibt (S1). Zudem sind die Daten in StuMaTo nicht alle aktuell (S3). StuMaTo wird von den Studenten vor allem dazu genutzt, um ihr Profil zu pflegen, um den Mitarbeitern zu demonstrieren, was sie für Aufgaben in der Firma bearbeitet haben und welche Fähigkkeiten sie dabei erlernt haben. Dabei ist es den Studenten jedoch unklar, ob sich diese Profile überhaupt Mitarbeiter in der Firma ansehen. 
 Auf Betreuerseitige wird für das Zuordnen der Studenten zu den Projekten ein Confluence-Space verwendet. Eine Übersicht, wann die Studenten verfügbar sind, liefert eine Exceltabelle. Die Abschlussprotokolle werden mit Word erstellt und per Mail an die Studenten verschickt (B1). 
 
-### Aktuelle Verwendung StuMaTo
+### Aktuelle Verwendung StuMaTo {#sec:context:current}
 
 StuMaTo wird vor allem zum Pflegen des eigenen Profils verwendet. Dies dient vor allem zur Representation vor anderen Mitarbietern in der Firma (S2). Dabei werden vor allem die Skills, die die Studenten über die Einsätze hin erlangt haben, in die Profile mit aufgenommen (S3). 
 Zudem werden die Profile anderer Mitstudenten angesehen (S2, S3). Dabei werden sich gerne auch die Transferleistungen von höheren Jahrgängen angesehen (S3). Im neuen StuMaTo können einzelne Klausuren nicht mehr als bestanden angegeben werden (S3). Auch durch die Aufgaben werden gelegentlich angesehen (S1,S2), jedoch ist die Aufgabensuche häufig nicht erfolgreich, da zu wenige im System verfügbar sind (S1).Einzelne Mitarbeiter nutzen StuMaTo, um sich einen Überblick über die Studenten zu verschaffen (M1). 
@@ -95,7 +95,7 @@ Jedoch kennen nicht alle Mitarbeiter StuMaTo oder finden die Informationen darin
 StuMaTo wird von den Studenten etwa alle 2 Monate einmal benutzt oder einmal pro Semester (S1,S2,S3). Bei einigen Studenten hat die Nutzung von StuMaTo über die Zeit abgenommen und sie benutzen es kaum noch (S1). Durchschnittlich wird StuMaTo von einem Studenten dabei 10 bis 15 Minuten lang benutzt (S1, S3). Auch von Mitarbeiterseite werden nur maximal alle zwei Monate Informationen von StuMaTo abgerufen (M1).
 Die Studentenbetreuer verwenden StuMaTo hingegen häufiger. Am häufigsten wird es zum Quartalswechsel benutzt, da dann die Planungsphase für die Praxisphasen der Studenten beginnt. Dabei wird StuMaTo immer mal für eine bis fünf Minuten benutzt, ist aber über einen längeren Zeitraum geöffnet (B1).
 
-### Probleme in StuMaTo
+### Probleme in StuMaTo {#sec:context:problems}
 
 Das häufigstgenannte Problem von StuMaTo ist, dass es keine relevanten Informationen enthält (S1,S2). Dabei sind vor allem keine Aufgaben für Studenten in StuMaTo zu finden (S2). Zudem soll es kaum Mitarbeiter geben, die sich die gepflegten Profile von StuMaTo ansehen (S1). Die Mitarbeiter stellen keine Aufgaben in StuMatO ein, da sie kein Budget für Studenten oder einfach keine passende Aufgaben für sie haben (M1).
 Die Studentenbetreuer vermissen in StuMaTo eine Übersicht über die Verfügbarkeit aller Studenten. Zudem ist es in StuMaTo nicht möglich Zuteilungen in StuMaTo zu machen, die noch nicht final sind (B1).    

@@ -1,3 +1,5 @@
+\clearpage
+
 # Ergebnisse der Analysephase
 
 In den voranstehenden Abschnitten wurde eine Vielzahl an Problemen, Unzulänglichkeiten oder Verbesserungswünschen vorgestellt. Im Folgenden wird ein Teil davon, der als besonders wichtig empfunden und von den Nutzern ausgedrückt wurde, im Sinne des Scenario Based Development in der Form einer Persona und zwei Problemszenarien kanalisiert. Für die Entscheidungen, welche diesem Überblick zugrunde liegen und demnach die folgende Designphase bestimmen, wurden bereits teilweise Begründungen in den passenden Abschnitten dargelegt. Hier ist diese Grundlage jedoch noch einmal zusammengefasst:
@@ -30,14 +32,14 @@ Nachdem er in den Einzelaufgaben nicht fündig geworden ist, wechselt er widerwi
 
 Simon schließt den Browser, ingesamt etwas unbefriedigt, obwohl er eine Aufgabe gefunden hat, und ohne daran gedacht zu haben, den Einsatz einzutragen. "Dann melde ich mich mal bei dem Team."
 
-[^1]: Kontextanalyse zur Aktuellen Verwendung von StuMaTo
-[^2]: Nachbefragung der Nutzertests (P4)
-[^3]: Nachbefragung der Nutzertests (P4)
-[^4]: Kontextanalyse Probleme in StuMaTo, verifiziert in Heuristik EXPIRED TASKS
-[^5]: Ergebnisse der Nutzertests, UI, Aufgabe suchen
+[^1]: [Abschnitt @sec:context:current]; [Abschnitt @sec:labresult:ideas]
+[^2]: [Abschnitt @sec:labresult:workflow]; Nachbefragung der Nutzertests (P4)
+[^3]: [Abschnitt @sec:labresult:ideas]; Nachbefragung der Nutzertests (P4)
+[^4]: Kontextanalyse Probleme in StuMaTo in [Abschnitt @sec:context:problems], verifiziert in Heuristik EXPIRED TASKS
+[^5]: [Abschnitt @sec:labresult:component], Aufgabe aussuchen
 [^6]:Heuristik UNCLEAR MAIL
-[^7]:Nachbefragung der Nutzertests (P2)
-[^8]:Nachbefragung der Nutzertests (P4)
+[^7]:[Abschnitt @sec:labresult:ideas]; Nachbefragung der Nutzertests (P2)
+[^8]:[Abschnitt @sec:labresult:ideas]; Nachbefragung der Nutzertests (P4)
 
 
 
@@ -59,13 +61,13 @@ Simon macht weiter, navigiert zur Aufgabenübersicht und erstellt mit dem "Plus"
 
 Soweit fertig, schließt er den Browser und verlässt StuMaTo genervt. *Dass sein Profil immer noch 0 CP für Transferleistungen anzeigt, da er dies manuell hätte anpassen müssen, ist ihm nicht klar -- sie bleiben auf ihrem veralteten Wert.*[^17]
 
-[^9]: Nachbefragung der Nutzertests (P4), Ergebnisse der Nutzertests, UI, Umschauen
-[^10]: Ergebnisse der Nutzertests, Workflows, Einsatz eintragen 
-[^11]: Nachbefragung der Nutzertests (P2)
-[^12]: Ergebnisse der Nutzertests, Workflows, TFL eintragen
-[^13]: Nachbefragung der Nutzertests (P2)
-[^14]: Nachbefragung der Nutzertests (P2) | Ergebnisse der Nutzertests, Workflows, TFL eintragen
-[^15]: Ergebnisse der Nutzertests, Workflows, TFL eintragen
-[^16]:Nachbefragung der Nutzertests (P2, P4) | Ergebnisse der Nutzertests, Workflows, TFL eintragen
-[^17]: Nachbefragung der Nutzertests (P4)
+[^9]: Nachbefragung der Nutzertests (P4); [Abschnitt @sec:labresult:component], Umschauen
+[^10]: [Abschnitt @sec:labresult:workflow], TFL eintragen 
+[^11]: [Abschnitt @sec:labresult:workflow], TFL eintragen; Nachbefragung der Nutzertests (P2)
+[^12]: [Abschnitt @sec:labresult:workflow], TFL eintragen
+[^13]: [Abschnitt @sec:labresult:component], Umschauen;Nachbefragung der Nutzertests (P2)
+[^14]: [Abschnitt @sec:labresult:workflow], TFL eintragen; Nachbefragung der Nutzertests (P2)
+[^15]: [Abschnitt @sec:labresult:workflow], TFL eintragen
+[^16]:[Abschnitt @sec:labresult:component], TFL in Verfügbarkeit eintragen; [Abschnitt @sec:labresult:workflow], TFL eintragen; Nachbefragung der Nutzertests (P2, P4) 
+[^17]: [Abschnitt @sec:labresult:workflow], TFL eintragen; Nachbefragung der Nutzertests (P4)
 

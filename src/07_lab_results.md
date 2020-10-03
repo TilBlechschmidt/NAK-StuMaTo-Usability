@@ -4,7 +4,7 @@
 
 Im Folgenden werden die Erkenntnisse aus dem Usabilitytest näher erläutert. Es haben sich zwei Kategorien von Resultaten ergeben. Zuerst werden Probleme, die bei der Nutzung von einzelnen UI Komponenten aufgetreten sind, genauer beleuchtet. Diese wurden nach Aufgabenstellung gruppiert. Anschließend werden übergreifende Probleme betrachtet, die in verschiedenen Masken aufgetreten sind wo Komponenten wiederverwendet wurden. Dann wird ein Fokus auf die Workflows innerhalb der Anwendung gelegt mit denen die Probanden besondere Schwierigkeiten hatten. Die Probanden werden in den folgenden Unterabschnitten mit Proband 1 bis Proband 4 (abgekürzt mit P1 - P4) identifiziert.
 
-### Probleme mit UI Komponenten
+### Probleme mit UI Komponenten {#sec:labresult:component}
 
 **Einloggen:** Bei der Anmeldung sind keinerlei Schwierigkeiten aufgetreten.
 
@@ -26,6 +26,8 @@ Im Folgenden werden die Erkenntnisse aus dem Usabilitytest näher erläutert. Es
 
 Zusammenfassend waren Nutzereingaben das Hauptproblem. Zahlen-Felder haben bei jedem Teilnehmer zu Schwierigkeiten geführt, Textfelder mit Suchfunktionen wurden als Freitext-Felder wahrgenommen und Zeitraum-Felder haben zu unbemerkt inkorrekten Daten geführt. Des Weiteren wurde häufig nicht gespeichert obwohl dies stellenweise notwendig ist.
 
+
+
 ### Probleme mit Workflows {#sec:labresult:workflow}
 
 Die gestellten Aufgaben haben einige kritische Workflows in der Anwendung geprüft. Bei diesen sind mehrere Probleme aufgefallen, die im Folgenden näher beleuchtet werden.
@@ -38,7 +40,7 @@ Im abschließenden Interview wurde der Prozess des Eintragen der Transferleitung
 **Student suchen:** Der Workflow um den es sich hier befasst sich damit einen Studenten für eine Zusammenarbeit an einer Aufgabe zu finden. Um dieses Problem zu lösen gab es drei verschiedene Ansätze: Zuerst haben P2 und P4 die geforderten Kenntnisse in die Suchfunktion eingegeben. Da diese jedoch nur die Kenntnisse in Aufgaben durchsucht und nicht in Studenten sind hierbei keine relevanten Ergebnisse geliefert worden. Der zweite Ansatz umfasste eine manuelle Suche nach passenden Studenten. Dies wurde ebenfalls von P2 und P4 durchgeführt. Dabei stellte sich relativ schnell heraus, dass es keine einfache Möglichkeit gibt die relevanten Informationen auf einen Blick zu erlangen. Stattdessen musste mit vielen Klicks das Profil von jedem Studenten durchgeschaut werden. Dabei war teilweise unklar ob ein gegebener Student in dem geforderten Zeitraum überhaupt verfügbar sein wird (P4). Das Panel "Allgemeine Informationen" in dem Profil wurde dabei nie betrachtet. Der letzte Ansatz, welcher schlussendlich von allen Teilnehmern durchgeführt wurde, ist das Erstellen einer Aufgabe. Auch hier gab es einige Probleme wie z.B. übersehene und nicht optionale Eingabefelder (Ansprechpartner bei P2 und P4, Aufwand bei P4), Textfelder mit unklarer Suchfunktion (P1, P4) oder bekannte Probleme mit Datums- und Zahlen-Feldern. Außerdem stellte sich über verbales Feedback heraus, dass für fremde/neue Anwender (P4) das Konzept von Aufgaben und der Zuweisung von Studenten unklar ist. Hier wurde versucht ein Student, welcher zuvor durch manuelle Suche gefunden wurde, explizit einer Aufgabe zuzuordnen.
 In der Nachbetrachtung wurde an diesem Prozess kritisiert, dass es zu aufwändig ist, Studenten zu suchen. Dies hätte zu viele Klicks auf die einzelnen Studentenprofile erfordert (P2). Dabei wurde sich gewünscht, dass sich die Studenten besser sortieren und filtern lassen (P1, P4).
 
-### Gesamteindruck und Verbesserungsvorschläge
+### Gesamteindruck und Verbesserungsvorschläge {#sec:labresult:ideas}
 
 In der Nachbetrachtung des Usabilitytests sind die Probanden nach ihrem Gesamteindruck und nach Verbesserungsvorschlägen befragt worden. Diese Daten sind sehr relevant, da die Punkte, die dort genannt werden, die höchste Priorität für den Nutzer haben. Im folgenden werden nur diejenigen Verbesserungsvorschläge aufgenommen, die einen nicht nur ästethischer Natur sind, sondern eine Prozess betreffen, und welche schon Funktionalitäten betreffen, die schon existieren. Neue Funktionalitäten als Verbesserungsvorschlag werden daher ignoriert. 
 
