@@ -111,7 +111,7 @@ Somit wird das Problem aus der Kontextanalyse angegangen, dass die Daten in StuM
 Die Errungenschaften sind eine Möglichkeit erzeugte Artefakte der Praxisphase zuzuordnen. Diese Artefakte können Transferleistungen, Seminare und Weitere Errungenschaften sein. Dieser Prozess wurde als Vereinfachung des Transferleistungs-Workflows gestaltet. Bei dem Hinzufügen der Transferleistung muss nun auch kein Datum mehr hinzugefügt werden, bei denen den Nutzern nicht klar war, was es zu bedeuten hat. Zudem ist sie automatisch der Praxisphase zugeordnet und es muss keine abgeschlossene Aufgabe erstellt werden. Auch die Credit Points für die Transferleistung werden automatisch dem Profil hinzugefügt, um noch mehr Konsistenz herzustellen. Somit ist der Prozess deutlich verschlankt worden. Diese Möglichkeit wurde genutzt, um gleich andere Artefakte, die bei Praxisphasen entstehen direkt mit in das Profil hinzuzufügen.  
 
 - Herausforderungen oben
-	- Wichtigste Information für Headhunter
+	- Wichtigste Information für Auftraggeber
 - Bearbeiten / Löschen sind nur Nebenaktionen, daher klein
 - Errungenschaften explizit getrennt
 	- Fachlich getrennte Informationen
