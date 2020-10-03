@@ -10,50 +10,80 @@ Eine Analyse des neuen Systemdesigns wird mithilfe einer Gestaltungsbegründung 
 
 **Die im Folgenden verwendeten Prototypen sind in größerem Format in [Anhang @sec:app:prototypes] aufzufinden.**
 
-
 ## Informationsszenario Anfang Praxisphase
 
-![Vorschau auf den Prototyp Dashboard](src/images/mockups/Dashboard.jpeg){width=50%}
 
-Simon öffnet StuMaTo. Er gelangt auf das neu gestaltete Dashboard. Dort sieht er die Nachrichten seines Agenten. "Jetzt habe ich sogar einen eigenen Agenten!", freut sich Simon. Der Agent hat Simon zwei Nachrichten hinterlassen. Simon liest sich die erste Nachricht durch, in der sein Agent Simon zwei Aufgaben vorgeschlagen hat, die er in seiner nächsten Praxisphase bearbeiten kann. 
+Simon beginnt erneut nach einem schwierigen Semester und einem entspannten Urlaub seine nächste Praxisphase. Er ist erleichtert, denn er hat alle Klausuren bestanden und hat seine Theoriephase sogar schon in StuMaTo eingetragen! "Nun ja, nicht ganz", fällt ihm ein, und er macht sich prompt auf, das spannende Seminar Rhethorik II, welches er besucht hat, noch nachzutragen.
+
+In seiner Eile ignoriert er das Dashboard, indem nun alle wichtigen Informationen des Systems stehen, zunächst. Er findet seinen Agenten sehr praktisch und er teilt ihm viel nützliches mit -- aber er steht ihm nicht im Weg. Simon klickt auf sein Profil in der Navigation -- wie immer findet er hier alles, was ihn als Talent auszeichnet. Neu ist allerdings, wie diese Chronologie gegliedert ist. Nachdem er an seinen altbekannten Kenntnissen vorbeigescrollt ist, schaut er sich schnell seine neue Phasenübersicht an, in der er all seine Semester und Praxisphasen geordnet sieht. Er findet das sinnvoll, weil ihm die Gliederung in Semester praktischer und intuitiver erscheint, als die vorherige Gliederung, die bloß nach dem Datum gerichtet war. Er klickt schnell los und "Huch", erwischt aus Versehen die aktuelle Praxisphase. Hier sieht er alle Herausforderungen, die ihn hier erwarten. Dieser Dialog ist in zwei Abschnitte eingeteilt, Herausforderungen und Errungenschaften. Unter Herausforderungen würde seine Aufgabe angezeigt, aber er hat bisher noch keine -- soweit ist er noch nicht. Simon navigiert zurück und wählt diesmal die abgeschlossene Theoriephase aus. Die Darstellung der Theoriephase folgt demselben Konzept, sie ist aufgeteilt in Herausforderungen und Errungenschaften. In der oberen Ansicht, bei den Herausforderungen sieht er hier seine Studienmodule, alle bereits bestanden und könnte sich deren Details ansehen. Simon konnte über ein Element in der Übersicht auswählen, dass er die Klausur bestanden hat, was er auch getan hat.
+
+Diese sind ihm jetzt aber nicht wichtig und durch die klare Trennung kann er sich direkt auf die untere Hälfte der Auflistung konzentrieren, wo als Errungenschaften bereits eine anderes Seminar eingetragen ist. Unter der Übersicht gibt es drei weitere Elemente. Hier können Transferleistungen, Seminare und Weiteres hinzugefügt werden. 
+
+Simon betätigt die Schaltfläche, mit der er ein Seminar hinzufügen kann. Hier muss er nur das Nötigste eintragen. Der Dialog ist kompakt, wie Simon findet und hat schlauerweise schon den Typ "Seminar" vorausgewählt und die unwichtigen Felder "Dateianhang" und "Link" in diesem Fall ausgeblendet. Er macht seine Eintragungen und bestätigt. Schon ist das Seminar als weitere Errungenschaft des Theoriesemesters ersichtlich.
+
+
+
+![Vorschau auf den Prototyp Phasen-Übersicht](src/images/mockups/Missionsuebersicht.jpeg){width=50%}\ ![Vorschau auf den Prototyp Erstellen einer Errungenschaft](src/images/mockups/ErrungenschaftErstellen.jpeg){width=50%}
+
+![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}\ ![Vorschau auf den Prototyp Theoriephasen-Zusammenfassung](src/images/mockups/Phase - Theorie.jpeg){width=50%}
+
+
+
+Nun widmet sich Simon aber wieder seiner eigentlichen Aufgabe: sich eine neue Herausforderung zu suchen. Er erinnert sich, dass der Agent dazu meist praktische Tips auf dem Dashboard anbietet, auf dem alle wichtigen Ereignisse abgebildet werden. Er navigiert zurück zu seinem Agenten. Der Agent hat Simon zwei Nachrichten hinterlassen. Simon liest sich die erste Nachricht durch, in der sein Agent Simon zwei Aufgaben vorgeschlagen hat, die er in seiner nächsten Praxisphase bearbeiten kann. 
+
+
+
+![Vorschau auf den Prototyp Dashboard](src/images/mockups/Dashboard.jpeg){width=100%}\
+
+
 
 Er betätigt das Element "Anzeigen" und wird in die Aufgabenübersicht weitergeleitet. In der Aufgabenübersicht sind nun die beiden Aufgaben, die vom Agenten vorgeschlagen worden sind von den anderen Aufgaben abgesetzt. Simon findet das sehr viel übersichtlicher. Die beiden Aufgaben passen nun auch zu seinen Interessen und in den Zeitraum seiner Praxisphase. 
+
+
+Nun bewirbt sich Simon auf die Aufgabe, in dem er auf "Interesse bekunden" klickt. An diesem Prozess hat sich nichts geändert. In dem Dialog Interesse bekunden kann Simon jetzt den Text zum Interesse bekunden sogar bearbeiten. Simon mag dieses neue Feature, da er davor nicht wusste, was überhaupt im Hintergrund passiert, wenn er diesen Button in der alten Version gedrückt hat. Entspannt kann Simon StuMaTo wieder schließen.
+
+
 
 ![Vorschau auf den Prototyp Verfügbare Herausforderungen](src/images/mockups/HerausforderungenListe.jpeg){width=50%}\ ![Vorschau auf den Prototyp Mailvorschau Interessensbekundung](src/images/mockups/InteresseHerausforderung.jpeg){width=50%}
 
 
-Nun bewirbt sich Simon auf die Aufgabe, in dem er auf "Interesse bekunden" klickt. An diesem Prozess hat sich nichts geändert. In dem Dialog Interesse bekunden kann Simon jetzt den Text zum Interesse bekunden sogar bearbeiten. 
+Eine gute Woche später öffnet Simon sein Profil erneut. Im Dashboard fällt ihm sofort die neue Aufgabe seines Agenten auf, die ihm sagt, dass er eine der Aufgaben bekommen hat, auf die er sich beworben hat und das diese in sein Profil hinzugefügt worden ist. Er klickt auf das Element Ansicht der Nachricht und gelangt, wie zu Beginn aus Versehen, in den neu gestalteten Dialog für seine aktuell laufende Praxisphase. Inzwischen sieht er hier seine Aufgabe. Neben dem Aufgabentitel sieht nur noch die Elemente Ansicht und Löschen. Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die neue Übersicht etwas aufgeräumter und übersichtlicher.
 
-Simon mag dieses neue Feature, da er davor nicht wusste, was überhaupt im Hintergrund passiert, wenn er diesen Button in der alten Version gedrückt hat. Entspannt kann Simon StuMaTo wieder schließen.
-Eine gute Woche später öffnet Simon sein Profil erneut. Im Dashboard fällt ihm sofort die neue Aufgabe seines Agenten auf, die ihm sagt, dass er eine der Aufgaben bekommen hat, auf die er sich beworben hat und das diese in sein Profil hinzugefügt worden ist. Er klickt auf das Element Ansicht der Nachricht und gelangt in einen neu gestalteten Dialog für seine aktuell laufende Praxisphase. Dieser Dialog ist in zwei Abschnitte eingeteilt, Herausforderungen und Errungenschaften. Unter Herausforderungen wird die Aufgabe angezeigt, auf die sich Simon beworben hat. Neben dem Aufgabentitel sieht nur noch die Elemente Ansicht und Löschen. 
-
-![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}\ ![Vorschau auf den Prototyp Theoriephasen-Zusammenfassung](src/images/mockups/Phase - Theorie.jpeg){width=50%}
-
-Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die neue Übersicht etwas aufgeräumter und übersichtlicher.
-Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Als nächstes fällt Simons Blick auf die Übersicht seiner Errungenschaften. Diese ist jedoch noch leer. Unter der leeren Übersicht gibt es drei weitere Elemente. Hier können Transferleistungen, Seminare und Weiteres hinzugefügt werden. Bis jetzt kann Simon noch nichts hinzufügen und verlässt die Seite wieder und landet zurück im Dashboard. 
-Simon liest sich nun die zweite Nachricht seines Agenten durch. Darin wird er darauf aufmerksam gemacht, dass er seine Theoriephase abgeschlossen hat und er seine Daten eintragen soll. Auch hier bedient Simon wieder das Ansichtselement und landet in einer ähnlichen Ansicht wie schon bei der Praxisphase, bloß für seine Theoriephasen. Bei den Herausforderungen sind die drei Fächer, in denen Simon eine Klausur geschrieben hat aufgeführt. Simon kann über ein Element in der Übersicht auswählen, dass er die Klausur bestanden hat.
-
-Da fällt Simon seine Datenbankklausur ein, die er geschrieben hat. Er stellt die Datenbankklausur auf bestanden. Dabei öffnet sich ein Dialog, welche weiteren Errungenschaften er bei der Klausur erreicht hat. Dabei ist schon die Kenntnis SQL Datenbanken ausgewählt. Simon erhöht sein Fähigkeitslevel in Datenbanken um zwei Stufen. Simon ist fasziniert, wie viel die Anwendung ihm jetzt abnimmt. In der Kategorie Errungenschaften ist jetzt die Steigerung des Skills Datenbanken mit aufgeführt. Simon drückt auf Speichern und verlässt das Formular. Er befindet sich jetzt in seinem Profil wieder. Nun sind die Credit-Points für die bestandene Klausur sowie der Erweiterung seiner Kenntnisse automatisch in seinem Profil übernommen worden.    
-
-![Vorschau auf den Prototyp Erstellen einer Errungenschaft](src/images/mockups/ErrungenschaftErstellen.jpeg){width=50%}\ ![Vorschau auf den Prototyp Phasen-Übersicht](src/images/mockups/Missionsuebersicht.jpeg){width=50%}
+In Sicherheit, dass alles in StuMaTo dokumentiert ist, schließt er den Browsertab.
 
 ## Informationsszenario Ende Praxisphase
 
-Nach seinem Jahresgespräch öffnet Simon wieder StuMaTo, um seinen Praxiseinsatz dokumentieren zu können. In seinem Dashboard sieht Simon wieder eine Nachricht seines Agenten.
+Nach seinem Jahresgespräch, in welchem er Lob für den erfolgreichen Abschluss seiner herausfordernden Aufgabe erhalten hat, öffnet Simon wieder StuMaTo, um seinen Praxiseinsatz, der sich nun dem Ende zuneigt, dokumentieren zu können. In seinem Dashboard sieht Simon wieder eine Nachricht seines Agenten, der ihm vorschlägt, Daten zu seinem neuen Praxiseinsatz hinzuzufügen. Genau das wollte Simon. Simon aktiviert die Nachricht und hierfür öffnet sich ein dedizierter Dialog. Hier stellt ihm der Agent in drei Schritten alle nötigen Fragen, um seinen Einsatz ideal dokumentieren zu können. 
 
-![Vorschau auf den Prototyp Dashboard](src/images/mockups/Dashboard.jpeg){width=50%}
+Zunächst werden dabei alle offenen Herausforderungen angezeigt, sowie die Möglichkeit, neue zu erstellen. Im nächsten Schritt sind lediglich die Errungenschaften der aktuellen Phase zu sehen. Auch hier könnte er neue Errungenschaften hinzufügen. Im letzten Schritt kann Simon auch noch seine Kenntnisse verändern. Währenddessen kann Simon stets verfolgen, wie weit er fortgeschritten ist.
 
- Dieser schlägt ihm vor, dass Simon Daten zu seinem neuen Praxiseinsatz hinzufügen solle. Genau das wollte Simon. Mit dem Ansichtselement der Nachricht gelangt Simon wieder in der Ansicht Praxisphase. 
+![Vorschau auf den Prototyp Phasen-Revue Schritt 1](src/images/mockups/PhasePflegenStep1.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 2](src/images/mockups/PhasePflegenStep2.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 3](src/images/mockups/PhasePflegenStep3.jpeg){width=33%}
 
-![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}\ ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 3](src/images/mockups/HerausforderungErstellenStep3.jpeg){width=50%}
 
-Hier wurde, wie Simon bereits festgestellt hatte, seine Aufgabe direkt in das Profil hinzugefügt. Nun wählt Simon in der Herausforderungsübersicht aus, dass er seine Herausforderung abgeschlossen hat. Dabei öffnet sich ein Dialog.
 
-Bei den Kenntnissen werden alle Kenntnisse angegeben, die in der Aufgabe angegeben waren, die Simon bearbeitet hat. Hier kann Simon  auswählen, in welchen der Kenntnisse er sich wie sehr verbessert hat. Im Abschnitt Transferleistungen kann Simon zudem eine Transferleistung hochladen. Da Simon in dieser Praxisphase eine Transferleistung geschrieben hat, findet er diese Funktion sehr praktisch und lädt die Transferleistung direkt hoch. Er muss nur noch einen Titel angeben und schon ist es geschafft. Simon drückt im Dialog auf bestätigen und der Dialog schließt sich wieder. Die angepassten Kenntnisse und die Transferleistung findet er jetzt im der Übersicht Errungenschaften wieder. Nun fällt Simon ein, dass er in er in seiner Praxisphase noch das ISTQB Testerzertifikat gemacht hat. Unter der Übersicht der Errungenschaften befindet sich ein Element mit der Aufschrift Weitere Errungenschaft hinzufügen. Simon betätigt diesen. Es öffnet sich ein Dialog in dem er den Namen der Errungenschaft eintragen kann, sowie eine kurze Beschreibung. Hier gibt er ein, dass er das Testerzertifikat bestanden hat. Der Name der Errungenschaft ist nun in der Errungenschaftsübersicht mit aufgenommen worden. Die Kurzbeschreibung findet Simon wieder als er auf das Element Ansicht in der Errungenschaftsübersicht drückt. Simon hat nun alle Daten eingegeben. Er drückt ganz unten in diesem Formular das Element speichern. Er landet wieder in seinem Profil und sieht wie seine Kenntnisse aktualisiert wurden und seine Transferleistung in der Transferleistungsübersicht mit aufgeführt worden ist. Ohne sich groß weiter mit seinem Profil befassen zu müssen, kann Simon StuMaTo wieder verlassen. 
+Simon beginnt natürlich mit dem Pflegen seiner Herausforderungen. Hier sieht er die Aufgabe, die, wie Simon bereits festgestellt hatte, direkt in das Profil hinzugefügt wurde. Doch plötzlich fällt ihm auf, dass er zwischendurch noch eine kleine Aufgabe bearbeitet hat, die gar nicht in StuMaTo eingetragen war! Er fügt sie mit dem entsprechenden Button hinzu. Der Dialog, der die hierfür notwendigen Informationen aufnimmt, ist ebenfalls dreigeteilt. Zunächst kann er eine Aufgabe suchen oder erstellen - er erstellt sie hier neu und füllt den Titel aus. Anschließend beschreibt er die Aufgabe. 
+
+
+
 ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 1](src/images/mockups/HerausforderungErstellenStep1.jpeg){width=50%}\ ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 2](src/images/mockups/HerausforderungErstellenStep2.jpeg){width=50%}
 
 
-![Vorschau auf den Prototyp Phasen-Revue Schritt 1](src/images/mockups/PhasePflegenStep1.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 2](src/images/mockups/PhasePflegenStep2.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 3](src/images/mockups/PhasePflegenStep3.jpeg){width=33%}
+
+Zuletzt kann er eintragen, ob er auf der Grundlage der Aufgabe weitere Kenntnisse oder andere Errungenschaften erreicht hat. Die Kenntnisse sind dabei zentral und wiederholen, welche Kenntnisse in der Aufgabe benötigt waren, damit auf diese direkt zugegriffen werden kann. Nachdem er bestätigt, ist die Aufgabe abgeschlossen und die ausgewählten Kenntnisse könnte er wie gehabt in seinem Profil nachverfolgen. Wieder im Herausforderungsteil der vom Agenten geführten Phasendokumentation wählt Simon in der Herausforderungsübersicht aus, dass er seine Herausforderung abgeschlossen hat. Dabei öffnet sich nur der letzte Teil des gleichen Herausforderungsdialogs, da die Informationen über den Titel und die Beschreibung bereits von der Aufgabe befüllt sind.
+
+
+
+![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 3](src/images/mockups/HerausforderungErstellenStep3.jpeg){width=50%}\ ![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}
+
+
+
+Simon schreitet nun voran auf den "Errungenschaften-Dialog". Dieser enthält die Liste der Errungenschaften dieser Praxisphase und die Möglichkeit, solche hinzuzufügen. Er erkennt diese Übersicht von seinem Profil wieder, da er in diesem, wenn auch für eine Theoriephase, bereits Einträge vorgenommen hat. Dementsprechend lädt er schnell eine Transferleistung hoch und fügt sein neues ISTQB Testerzertifikat, welches er in der Praxisphase erhalten hat, hinzu. Dies geht schnell und die Übersicht ist beschränkt sich auf das Nötigste. Als er den "Ansehen"-Button betätigt findet er die eingegebenen Informationen wieder, falls er sie benötigt. 
+
+
+
+Zuletzt fragt der Agent Simon nach seinen Kenntnissen. "Ah genau", erinnert er sich. Durch die Eintragungen bei den Aufgaben und den Errungenschaften hatte er dies aus den Augen verloren. "Gut, dass mich der Agent erinnert." Auf diesem Dialog sieht Simon seine Kenntnisse, wie er sie aus dem Profil kennt und kann sie ohne weitere Ablenkung editieren, oder neue hinzufügen. Nachdem dies erledigt ist, beendet Simon auch den letzten Teil der Dokumentation. Er hat das Gefühl, wirklich etwas geschafft zu haben und musste sich dabei keinen Schritt merken: Stets konnte er sich unmittelbar auf die Informationen auf seinem Bildschirm konzentrieren.
+
+Er begutachtet die fertige Profilseite. Hier werden nun alle Informationen zu seiner Praxisphase auf einen Blick angezeigt, die vorherige Aufteilung diente besonders dem Editieren. Das findet er praktisch. Wenn man nur ein Profil betrachten will, ist diese Zusammenfassung viel besser. Simon sieht, wie seine Kenntnisse aktualisiert wurden und seine Transferleistung in der Transferleistungsübersicht mit aufgeführt worden ist. Ohne sich groß weiter mit seinem Profil befassen zu müssen, kann Simon StuMaTo wieder verlassen. 
 
 
 ## Gestaltungsbegründung
