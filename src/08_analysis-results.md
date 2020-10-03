@@ -2,7 +2,7 @@
 
 # Ergebnisse der Analysephase
 
-In den voranstehenden Abschnitten wurde eine Vielzahl an Problemen, Unzulänglichkeiten oder Verbesserungswünschen vorgestellt. Im Folgenden wird ein Teil davon, der als besonders wichtig empfunden und von den Nutzern ausgedrückt wurde, im Sinne des Scenario Based Development in der Form einer Persona und zwei Problemszenarien kanalisiert. Für die Entscheidungen, welche diesem Überblick zugrunde liegen und demnach die folgende Designphase bestimmen, wurden bereits teilweise Begründungen in den passenden Abschnitten dargelegt. Hier ist diese Grundlage jedoch noch einmal zusammengefasst:
+In den voranstehenden Abschnitten wurde eine Vielzahl an Problemen, Unzulänglichkeiten oder Verbesserungswünschen vorgestellt. Im Folgenden wird ein Teil davon, der als besonders wichtig empfunden und von den Nutzern ausgedrückt wurde, im Sinne des Scenario-based Development in der Form einer Persona und zwei Problemszenarien kanalisiert. Für die Entscheidungen, welche diesem Überblick zugrunde liegen und demnach die folgende Designphase bestimmen, wurden bereits teilweise Begründungen in den passenden Abschnitten dargelegt. Hier ist diese Grundlage jedoch noch einmal zusammengefasst:
 
 Eine Beschränkung auf eine einzige Persona eines Studenten deckt sich mit der zuvor getroffenen Entscheidung, bereits ab der Nutzertests diese in den Mittelpunkt der Arbeit zu stellen, da sie den Kern von StuMaTo -- einem **Studenten**-Management-Tool darstellen.
 
