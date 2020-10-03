@@ -45,7 +45,7 @@ Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen
 | Gestaltungsbegründung des Informationsdesigns                | Til Blechschmidt, ...                   |
 | Beschreibung und Reflexion der Methodik in der Designphase (x2) | Hans Peter Rißer                        |
 | Formulierung des Fazits                                      | Til Blechschmidt                        |
-
+Table: Einzelleistungen der Autoren {#tab:workload}
 
 
 ### Firmenkontext und Umgang mit dem Dualen Studium im Unternehmen
