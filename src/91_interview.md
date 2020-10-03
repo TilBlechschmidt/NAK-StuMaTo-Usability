@@ -302,7 +302,7 @@ Ich gehe auf StuMaTo. Dann öhne ich mein Profil, trage weiteren Skill ein, verl
 
 16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
-Ich sehe StuMaTo potentiell als das Tool, was der Student jeden Tag benutzen könnte. Dazu braucht es eine Anbindungen mit Arbeitszeitbuchungssystem. Auch Urlaub sollte man über StuMaTo beantragen können, um das es noch mehr in den Alltag zu integrieren. Zudem wäre eine vernünftige Kalendarfunktion hilfreich.
+Ich sehe StuMaTo potentiell als das Tool, was der Student jeden Tag benutzen könnte. Dazu braucht es eine Anbindungen mit Arbeitszeitbuchungssystem. Auch Urlaub sollte man über StuMaTo beantragen können, um das es noch mehr in den Alltag zu integrieren. Zudem wäre eine vernünftige Kalenderfunktion hilfreich.
 
 17. Hast du Zeitdruck, wenn du StuMaTo benutzt?
 
