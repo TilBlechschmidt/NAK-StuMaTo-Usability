@@ -4,7 +4,7 @@
 
 Mit dem Aktivitätsdesign beginnt im Folgenden die Designphase des SBD. Dazu sollen den beiden dargestellten Problemszenarien Aktivitätsszenarien dargestellt werden, welche sich darauf konzentrieren, die Nutzererfahrung der enthaltenen Prozesse zu optimieren.
 
-Dazu haben wir uns entschieden, die Begrifflichkeit und das Selbstverständnis der Anwendung zu verändern und gleichzeitig zu präzisieren. Dies geschieht unter der Erstellung eines Leitbildes, welches in der Folge Metaphern für die Anwendung gebiert und somit greifbarere Begrifflichkeiten zur Transportation eines Selbstverständnisses ermöglicht. Daraufhin wird unter der Verwendung dieser neuen Begrifflichkeiten das Aktivitätsszenario zur Darstellung der veränderten Prozesse dargestellt. Das Aktivitätsszenario orientiert sich stark anhand der kursiv markierten Nachteile der Problemszenarien, die dagegen stehenden Veränderungen des Aktivitätsdesigns sind ebenso gekennzeichnet.
+Dazu wird die Begrifflichkeit und das Selbstverständnis der Anwendung selbst verändert und gleichzeitig präzisiert. Dies geschieht unter der Erstellung eines Leitbildes, welches in der Folge Metaphern für die Anwendung gebiert und somit greifbarere Begrifflichkeiten zur Transportation eines Selbstverständnisses ermöglicht. Daraufhin wird unter der Verwendung dieser neuen Begrifflichkeiten das Aktivitätsszenario zur Darstellung der veränderten Prozesse dargestellt. Das Aktivitätsszenario orientiert sich stark anhand der kursiv markierten Nachteile der Problemszenarien, die dagegen stehenden Veränderungen des Aktivitätsdesigns sind ebenso gekennzeichnet.
 
 Abschließend erfolgt hierfür eine Gestaltungsbegründung, welche mithilfe einer Claims Analysis durchgeführt wird.  
 

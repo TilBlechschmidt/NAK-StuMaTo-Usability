@@ -42,7 +42,7 @@ Aufgabe sechs "In der nächsten Praxisphase möchtest du ein Marketingprojekt f�
 
 ### Auswahl der Fragen für das anschließende Interview
 
-Das Interview, welches direkt anschließend an die Nutzertests durchgeführt wird, soll den Nutzern die Möglichkeit geben, den Gesamteindruck von StuMaTo auszudrücken und Punkte, welche im Thinking Aloud nur teilweise angesprochen wurden nach ihrer eigenen Gewichtung erneut ansprechen zu können. Wir versprechen uns hiervon eine reflektiertere Sicht, die in der Interpretation der Handlungen hilfreich ist.
+Das Interview, welches direkt anschließend an die Nutzertests durchgeführt wird, soll den Nutzern die Möglichkeit geben, den Gesamteindruck von StuMaTo auszudrücken und Punkte, welche im Thinking Aloud nur teilweise angesprochen wurden nach ihrer eigenen Gewichtung erneut ansprechen zu können. Dies verspricht eine reflektiertere Sicht, die in der Interpretation der Handlungen hilfreich ist.
 
 Darum werden zunächst die folgenden beiden Fragen gestellt: 
 

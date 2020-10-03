@@ -68,7 +68,7 @@ Punkt 9 dient der Rückkopplung an die Bewertung und kann dazu dienen, die in Pu
 
 Die Heuristiken, welche zur Bewertung in dieser Phase der Analyse verwendet werden, werden durch eine Verbindung der Kriterien nach Nielsen und der Kriterien nach Shneiderman festgelegt. Diese sind publiziert und anerkannt und haben dadurch eine kanonische Beschreibung. Die Verbindung beider Kriterienmengen dient dabei der Vergrößerung des Bewertungsspektrums und der Verringerung der Abhängigkeit zu einer Person, die diese publiziert hat. 
 
-Diese Kriterien werden zunächst von uns definiert, sehr ähnliche miteinander verbunden und redundante Kriterien werden eliminiert. Anschließend erfolgt eine Darstellung aller Kriterien in ihrem finalen Zustand.
+Diese Kriterien werden zunächst definiert, sehr ähnliche miteinander verbunden und redundante Kriterien werden eliminiert. Anschließend erfolgt eine Darstellung aller Kriterien in ihrem finalen Zustand.
 
 Die Synthese der Kriterien erfolgt gemeinschaftlich, um allen eine Mitsprache zu erteilen und dennoch einen einheitlichen Konsens zu erreichen. Eine noch größere Unabhängigkeit der Evaluationen durch die Erstellung eigener Kriterien je Evaluator wurde vermieden, da diese die subjektiven Ansichten des Evaluators nicht nur in die Bewertung des Ist- sondern auch die Festlegung des Sollzustandes einbezogen hätte. Dies könnte entgegen zu den Zielen des parallelen Konzeptes eine Erhöhung der Subjektivität zur Folge haben und könnte ebenfalls durch Meinungsverschiedenheiten zwischen den Evaluatoren zu einem späteren Zeitpunkt die Auswertung erschweren.
 
