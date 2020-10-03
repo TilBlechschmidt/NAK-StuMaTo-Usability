@@ -13,11 +13,7 @@
 \addcontentsline{toc}{section}{Appendix}
 \renewcommand{\thesubsection}{\Alph{subsection}}
 
-## Interviewfragen
-
-
-
-### Einzelleistungen der Autoren
+## Einzelleistungen der Autoren
 
 Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen, ein jeder hat Kritik ausgeübt und Verbesserungen vorgenommen. In der nachfolgenden Auflistung steht jedoch die Nennung bestimmter Autoren dafür, dass diese eine Leistung hauptsächlich erbracht haben.
 
@@ -27,7 +23,7 @@ Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen
 | Einleitung / SBD                                             | Hans Peter Rißer                        |
 | Auswertung der Kontextanalyse und Formulierung des gesamten Abschnittes | Hendrik Ken Reiter                      |
 | Konzeptionierung der Kontextanalyse                          | Alle Autoren                            |
-| Durchführung der Interviews                                  | Hendrik Ken Reiter und Til Blechschmidt |
+| Durchführung der Interviews                                  | Hendrik Ken Reiter, Til Blechschmidt |
 | Auswertung der Heuristischen Evaluation und Formulierung des gesamten Abschnittes | Hans Peter Rißer                        |
 | Konzeptionierung und Durchführung der Heuristischen Evaluation | Alle Autoren                            |
 | Konzeptionierung, Planung und Durchführung der Nutzertests   | Alle Autoren                            |
@@ -43,9 +39,12 @@ Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen
 | Erstellung der Prototypen                                    | Til Blechschmidt, Hendrik Ken Reiter    |
 | Erstellung des Informationsszenarios                         | Hendrik Ken Reiter, Hans Peter Rißer    |
 | Gestaltungsbegründung des Informationsdesigns                | Til Blechschmidt, ...                   |
-| Beschreibung und Reflexion der Methodik in der Designphase (x2) | Hans Peter Rißer                        |
+| Beschreibung und Reflexion der Methodik in der Aktivitäts-/Informationsdesign-Phase | Hans Peter Rißer                        |
 | Formulierung des Fazits                                      | Til Blechschmidt                        |
 Table: Einzelleistungen der Autoren {#tbl:workload}
+
+
+## Interviewfragen
 
 
 ### Firmenkontext und Umgang mit dem Dualen Studium im Unternehmen
