@@ -32,15 +32,47 @@ Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die ne
 Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Als nächstes fällt Simons Blick auf die Übersicht seiner Errungenschaften. Diese ist jedoch noch leer. Unter der leeren Übersicht gibt es vier weitere Elemente. Hier können Transferleistungen, Kenntnisse, Seminare und Weitere Errungenschaften hinzugefügt werden. Bis jetzt kann Simon noch nichts hinzufügen und verlässt die Seite wieder und landet zurück im Dashboard. 
 Simon liest sich nun die zweite Nachricht seines Agenten durch. Darin wird er darauf aufmerksam gemacht, dass er seine Theoriephase abgeschlossen hat und er seine Daten eintragen soll. Auch hier bedient Simon wieder das Ansichtselement und landet in einer ähnlichen Ansicht wie schon bei der Praxisphase, bloß für seine Theoriephasen. Bei den Herausforderungen sind die drei Fächer, in denen Simon eine Klausur geschrieben hat aufgeführt. Simon kann über ein Element in der Übersicht auswählen, dass er die Klausur bestanden hat.
 
-![Mockup Theoriephase](src/images/mockups/Phase - Praxis.jpeg)
+![Mockup Theoriephase](src/images/mockups/Phase - Theorie.jpeg)
 
-Da fällt Simon seine Datenbankklausur ein, die er geschrieben hat. Er stellt die Datenbankklausur auf bestanden. Dabei öffnet sich ein Dialog, welche weiteren Errungenschaften er bei der Klausur erreicht hat. Dabei ist schon die Kenntnis SQL Datenbanken ausgewählt. Simon erhöht sein Fähigkeitslevel in Datenbanken um zwei Stufen. Simon ist fasziniert, wie viel die Anwendung ihm jetzt abnimmt. In der Kategorie Errungenschaften ist jetzt die Steigerung des Skills Datenbanken mit aufgeführt. Simon drückt auf Speichern und verlässt das Formular. Er befindet sich jetzt in seinem Profil wieder. Nun sind die CreditPoints für die bestandene Klausur sowie der Erweiterung seiner Kenntnisse automatisch in seinem Profil übernommen worden.    
+Da fällt Simon seine Datenbankklausur ein, die er geschrieben hat. Er stellt die Datenbankklausur auf bestanden. Dabei öffnet sich ein Dialog, welche weiteren Errungenschaften er bei der Klausur erreicht hat. Dabei ist schon die Kenntnis SQL Datenbanken ausgewählt. Simon erhöht sein Fähigkeitslevel in Datenbanken um zwei Stufen. Simon ist fasziniert, wie viel die Anwendung ihm jetzt abnimmt. In der Kategorie Errungenschaften ist jetzt die Steigerung des Skills Datenbanken mit aufgeführt. Simon drückt auf Speichern und verlässt das Formular. Er befindet sich jetzt in seinem Profil wieder. Nun sind die Credit-Points für die bestandene Klausur sowie der Erweiterung seiner Kenntnisse automatisch in seinem Profil übernommen worden.    
 
 ## Informationsszenario Ende Praxisphase
 
-Nach seinem Jahresgespräch öffnet Simon wieder StuMaTo, um seinen Praxiseinsatz dokumentieren zu können. In seinem Dashboard sieht Simon wieder eine Nachricht seines Agenten. Dieser schlägt ihm vor, dass Simon Daten zu seinem neuen Praxiseinsatz hinzufügen solle. Genau das wollte Simon. Mit dem Ansichtselement der Nachricht gelangt Simon wieder in der Ansicht Praxisphase. Hier wurde, wie Simon bereits festgestellt hatte, seine Aufgabe direkt in das Profil hinzugefügt. Nun wählt Simon in der Aufgabenübersicht aus, dass er seine Aufgabe abgeschlossen hat. Dabei öffnet sich ein Dialog. Diese ist in drei Teile geteilt: Kenntnisse, Transferleistungen und Weitere Errungenschaften. Bei den Kenntnissen werden alle Kenntnisse angegeben, die in der Aufgabe angegeben waren, die Simon bearbeitet hat. Hier kann Simon wieder auswählen, in welchen der Kenntnisse er sich wie sehr verbessert hat. Im Abschnitt TFL kann Simon zudem eine Transferleistung hochladen. Da Simon in dieser Praxisphase eine Transferleistung geschrieben hat, findet er diese Funktion sehr praktisch und lädt die Transferleistung direkt hoch. Er muss nur noch einen Titel angeben und schon ist es geschafft. Simon drückt im Dialog auf bestätigen und der Dialog schließt sich wieder. Die angepassten Kenntnisse und die Transferleitung findet er jetzt im der Übersicht Errungenschaften wieder. Nun fällt Simon ein, dass er in er in seiner Praxisphase noch das ISTQB Testerzertifikat gemacht hat. Unter der Übersicht der Errungenschaften befindet sich ein Element mit der Aufschrift Weitere Errungenschaft hinzufügen. Simon betätigt diesen. Es öffnet sich ein Dialog in dem er den Namen der Errungenschaft eintragen kann, sowie eine kurze Beschreibung. Hier gibt er ein, dass er das Testerzertifikat bestanden hat. Der Name der Errungenschaft ist nun in der Errungenschaftsübersicht mit aufgenommen worden. Die Kurzbeschreibung findet Simon wieder als er auf das Element Ansicht in der Errungenschaftsübersicht drückt. Simon hat nun alle Daten eingegeben. Er drückt ganz unten in diesem Formular das Element speichern. Er landet wieder in seinem Profil und sieht wie seine Kenntnisse aktualisiert wurden und seine Transferleistung in der Transferleitungsübersicht mit aufgeführt worden ist. Ohne sich groß weiter mit seinem Profil befassen zu müssen, kann Simon StuMaTo wieder verlassen. 
+Nach seinem Jahresgespräch öffnet Simon wieder StuMaTo, um seinen Praxiseinsatz dokumentieren zu können. In seinem Dashboard sieht Simon wieder eine Nachricht seines Agenten.
 
-   
+![Mockup Dashboard](src/images/mockups/Dashboard.jpeg)
+
+ Dieser schlägt ihm vor, dass Simon Daten zu seinem neuen Praxiseinsatz hinzufügen solle. Genau das wollte Simon. Mit dem Ansichtselement der Nachricht gelangt Simon wieder in der Ansicht Praxisphase. 
+
+![Mockup Praxisphase](src/images/mockups/Phase - Praxis.jpeg)
+
+Hier wurde, wie Simon bereits festgestellt hatte, seine Aufgabe direkt in das Profil hinzugefügt. Nun wählt Simon in der Aufgabenübersicht aus, dass er seine Aufgabe abgeschlossen hat. Dabei öffnet sich ein Dialog. Diese ist in drei Teile geteilt: Kenntnisse, Transferleistungen und Weitere Errungenschaften. 
+
+![Mockup Herausforderung abschließen](src/images/mockups/HerausforderungErstellenStep3.jpeg)
+
+Bei den Kenntnissen werden alle Kenntnisse angegeben, die in der Aufgabe angegeben waren, die Simon bearbeitet hat. Hier kann Simon wieder auswählen, in welchen der Kenntnisse er sich wie sehr verbessert hat. Im Abschnitt TFL kann Simon zudem eine Transferleistung hochladen. Da Simon in dieser Praxisphase eine Transferleistung geschrieben hat, findet er diese Funktion sehr praktisch und lädt die Transferleistung direkt hoch. Er muss nur noch einen Titel angeben und schon ist es geschafft. Simon drückt im Dialog auf bestätigen und der Dialog schließt sich wieder. Die angepassten Kenntnisse und die Transferleistung findet er jetzt im der Übersicht Errungenschaften wieder. Nun fällt Simon ein, dass er in er in seiner Praxisphase noch das ISTQB Testerzertifikat gemacht hat. Unter der Übersicht der Errungenschaften befindet sich ein Element mit der Aufschrift Weitere Errungenschaft hinzufügen. Simon betätigt diesen. Es öffnet sich ein Dialog in dem er den Namen der Errungenschaft eintragen kann, sowie eine kurze Beschreibung. Hier gibt er ein, dass er das Testerzertifikat bestanden hat. Der Name der Errungenschaft ist nun in der Errungenschaftsübersicht mit aufgenommen worden. Die Kurzbeschreibung findet Simon wieder als er auf das Element Ansicht in der Errungenschaftsübersicht drückt. Simon hat nun alle Daten eingegeben. Er drückt ganz unten in diesem Formular das Element speichern. Er landet wieder in seinem Profil und sieht wie seine Kenntnisse aktualisiert wurden und seine Transferleistung in der Transferleistungsübersicht mit aufgeführt worden ist. Ohne sich groß weiter mit seinem Profil befassen zu müssen, kann Simon StuMaTo wieder verlassen. 
+
+
+
+<!-- TODO einarbeiten -->
+
+![TODO](src/images/mockups/HerausforderungErstellenStep1.jpeg)
+
+![TODO](src/images/mockups/HerausforderungErstellenStep2.jpeg)
+
+![TODO](src/images/mockups/Missionsuebersicht.jpeg)
+
+
+
+## Gestaltungsbegründung
+
+| Designentscheidung | Hypothetische Vor-/Nachteile |
+| ------------------ | ---------------------------- |
+|                    |                              |
+|                    |                              |
+|                    |                              |
+
+   Table: TODO {#tbl:claims:info}
 
 ## Reflexion des Informationdesigns
 

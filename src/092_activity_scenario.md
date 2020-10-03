@@ -28,9 +28,14 @@ Keine zwei Minuten später kann Simon StuMaTo mit einem guten Gefühl schließen
 
 ## Gestaltungsbegründung
 
+| Problem des Problemszenarios | Designentscheidung | Hypothetische Vor-/Nachteile |
+| ---------------------------- | ------------------ | ---------------------------- |
+|                              |                    |                              |
+|                              |                    |                              |
+|                              |                    |                              |
+|                              |                    |                              |
 
-
-
+Table: TODO {#tbl:claims:activity}
 
 ## Reflexion des Aktivitätsdesigns
 
