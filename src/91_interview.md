@@ -321,7 +321,7 @@ Sehr angenehm.
 
 3. Wie läuft das Studium für einen Studenten hier ab
 
-Die Studenten kommen in regelmäßigen Abständen aus der Uni in das Unternehmen zurück. Neben ihren Aufgaben müssen diese noch Transferleistungen schreiben und Urlaub neben. Ansonsten brauchen die Studenten passende Aufgaben.
+Das Studium an der Nordakademie dauert insgesamt dreieinhalb Jahre oder sieben Semester. In einem Semester ist man dann zehn Wochen an der Uni, in der letzten werden Klausuren geschrieben. Ansonsten ist man im Unternehmen und berabeitet da seine Aufgaben. Neben ihren Aufgaben müssen die Studenten noch Transferleistungen schreiben und Urlaub neben. Im letzten Semester schreibt man dann seine Bachelorarbeit für diese zeit ist man dann auch im Unternehmen freigestellt. Auch für die Transferleistungen kann man bis zu einer Woche freigestellt werden.
 
 4. Welche hierarchischen Strukturen existieren in der Firma und wie beeinflussen sie die Studenten?
 
