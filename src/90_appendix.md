@@ -13,6 +13,30 @@
 \addcontentsline{toc}{section}{Appendix}
 \renewcommand{\thesubsection}{\Alph{subsection}}
 
+## Eidesstattliche Erklärung
+
+Hiermit erklären wir, dass wir die vorliegende Hausarbeit selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel benutzt haben.
+Die Stellen der Hausarbeit, die andere Quellen im Wortlaut oder dem Sinn nach entnommen wurden, sind durch Angabe der Herkunft kenntlich gemacht. Dies gilt auch für Zeichnungen, Skizzen, bildliche Darstellungen sowie für Quellen aus dem Internet.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{src/images/signatures/tilb.png}\\
+        Til Blechschmidt
+    \end{minipage}%
+    \begin{minipage}{.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{src/images/signatures/hansr.png}\\
+        Hans Peter Rißer
+    \end{minipage}%
+    \begin{minipage}{.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{src/images/signatures/hendrikr.png}\\
+        Hendrik Ken Reiter
+    \end{minipage}
+\end{figure}
+
 ## Einzelleistungen der Autoren
 
 Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen, ein jeder hat Kritik ausgeübt und Verbesserungen vorgenommen. In der nachfolgenden Auflistung steht jedoch die Nennung bestimmter Autoren dafür, dass diese eine Leistung hauptsächlich erbracht haben.
