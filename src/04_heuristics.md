@@ -254,9 +254,13 @@ Bei diesen kritischen Problemen fällt besonders die Häufigkeit der Fundorte ST
 
 Obgleich der Umfang der in der heuristischen Evaluation gefunden Probleme sehr groß war, konnte hier eine Teilmenge dieser als unmittelbar interessant für die weitere Betrachtung in der Arbeit charakterisiert werden.
 
-Für die weitere Untersuchung in den Nutzertests haben sich hier der Umgang mit Fehlern nach den Heuristiken ERR-PREV, ERR-HANDLE und UNDO aufgrund ihrer problematischen und wenig umstrittenen Natur herauskristallisiert. Dabei sollte aufmerksam auch auf Probleme entsprechend der Heuristiken RELEV und CONTROL geachtet werden, welche noch problematischer, aber auch umstrittener waren. Auch wurden in +@tbl:critical-problems besonders kritische Probleme aufgeführt, welche sich zu großen Teilen in den Studentenprofilen wiederfinden. Diese Profile sollten deshalb der Kern der Nutzertests sein und der Design-Bestrebungen sein.
+Für eine Implementierung von positiv wirkenden Veränderungen ohne grobe Änderungen am Design wurde besonders +@tbl:cosmetical-problems herausgearbeitet, welche jedoch im weiteren Verlauf aufgrund des geringen Design-Interesses keine große Rolle mehr zufällt.
 
-Für eine Implementierung von positiv wirkenden Veränderungen ohne grobe Änderungen am Design wurde besonders +@tbl:cosmetical-problems herausgearbeitet.
+Für die weitere Untersuchung in den Nutzertests haben sich hier der Umgang mit Fehlern nach den Heuristiken ERR-PREV, ERR-HANDLE und UNDO aufgrund ihrer problematischen und wenig umstrittenen Natur herauskristallisiert. Dabei sollte aufmerksam auch auf Probleme entsprechend der Heuristiken RELEV und CONTROL geachtet werden, welche noch problematischer, aber auch umstrittener waren. Auch wurden in +@tbl:critical-problems besonders kritische Probleme aufgeführt, welche sich zu großen Teilen in den Studentenprofilen wiederfinden. 
+
+Die Interaktion mit dem Profil zum Eintragen neuer Daten, erscheint fehlerbehaftet (z.B. Probleme UNSEEN-DIRTY, ADD-SKILL-WITH-DIRTY, DIRTY-PROFILE-LEAVE) zu sein und darüber hinaus einige konzeptuelle Probleme aufzuweisen (ENDLESS-PROFILE, TASK-FOR-CALENDAR), welche zu einer schlechten Pflege zu von Profilen (PROFILES) führt.
+
+Die Studentenprofile, bzw. die Interaktion, welche zur Pflege von Profilen führt, sollten deshalb der Kern der Nutzertests sein und der Design-Bestrebungen sein.
 
 
 

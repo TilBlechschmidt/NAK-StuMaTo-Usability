@@ -20,13 +20,13 @@ Im Folgenden werden die Erkenntnisse aus dem Usabilitytest näher erläutert. Es
 
 **TFL in Profil eintragen:** Die bereits mehrfach genannten Zahlen-Felder haben bei P1 zu Schwierigkeiten geführt als die Credit-Points eingetragen wurden. Probanden 2 und 3 haben die Credit-Points gar nicht aktualisiert. Keiner der Probanden hat die Transferleistung in der Verfügbarkeitsübersicht eingepflegt.
 
-**TFL in Verfügbarkeit eintragen:** Hier war zunächst unklar wie eine TFL als Einsatz eingetragen werden kann, da die Datengrundlage für das Aufgabe-Feld P1, P2 und P4 unklar war. Nachdem dieses Problem durch Hilfestellung des Interviewer umgangen wurde traten die bereits bekannten Probleme mit der Überschneidung bei P2 und P4 auf. Dies wurde umgangen, indem die  TFL an ein "falsches" Datum verschoben wurde. Dazu in Abschnitt [TODO REF WORKFLOW SECTION] mehr. Die Eingabe des Zeitraums hat erneut bei P3 und P4 zu den bekannten Problemen geführt.
+**TFL in Verfügbarkeit eintragen:** Hier war zunächst unklar wie eine TFL als Einsatz eingetragen werden kann, da die Datengrundlage für das Aufgabe-Feld P1, P2 und P4 unklar war. Nachdem dieses Problem durch Hilfestellung des Interviewer umgangen wurde traten die bereits bekannten Probleme mit der Überschneidung bei P2 und P4 auf. Dies wurde umgangen, indem die  TFL an ein "falsches" Datum verschoben wurde. Dazu in [Abschnitt @sec:labresult:workflow] mehr. Die Eingabe des Zeitraums hat erneut bei P3 und P4 zu den bekannten Problemen geführt.
 
 **Idee für Praxisphase eintragen:** Proband 1 hat den Hinzufügen-Knopf in der Aufgabenübersicht als abhängig von dem ausgewählten Tab wahrgenommen (was nicht der Fall ist) und sich gewundert, dass eine erneute Abfrage stattfand. Bei der Eingabe der PT haben P1 und P4 erneut Probleme mit dem Zahlen-Feld gehabt. P1 hatte zusätzlich das bekannte Problem mit der Validierung des Zeitraums. Das Eingabefeld für die vorangegangene Aufgabe wurde von P1 und P4 als Freitext wahrgenommen und von P2 ignoriert. P4 hat zusätzlich den Aufwand und Ansprechpartner ignoriert worauf durch eine Fehlermeldung hingewiesen wurde, welche hilfreich war.
 
 Zusammenfassend waren Nutzereingaben das Hauptproblem. Zahlen-Felder haben bei jedem Teilnehmer zu Schwierigkeiten geführt, Textfelder mit Suchfunktionen wurden als Freitext-Felder wahrgenommen und Zeitraum-Felder haben zu unbemerkt inkorrekten Daten geführt. Des Weiteren wurde häufig nicht gespeichert obwohl dies stellenweise notwendig ist.
 
-### Probleme mit Workflows
+### Probleme mit Workflows {#sec:labresult:workflow}
 
 Die gestellten Aufgaben haben einige kritische Workflows in der Anwendung geprüft. Bei diesen sind mehrere Probleme aufgefallen, die im Folgenden näher beleuchtet werden.
 
@@ -40,12 +40,22 @@ In der Nachbetrachtung wurde an diesem Prozess kritisiert, dass es zu aufwändig
 
 ### Gesamteindruck und Verbesserungsvorschläge
 
-In der Nachbetrachtung des Usabilitytests sind die Probanden nach ihrem Gesamteindruck und nach Verbesserungsvorschlägen befragt worden. Diese Daten sind sehr relevant, da die Punkte, die dort genannt werden, die höchste Priorität für den Nutzer haben. Im folgenden werden nur diejenigen Verbesserungsvorschläge aufgenommen, die einen nicht nur ästehtischer Natur sind, sondern eine Prozess betreffen, und welche schon Funktionalitäten betreffen, die schon existieren. Neue Funktionalitäten als Verbesserungsvorschlag werden daher ignoriert. 
+In der Nachbetrachtung des Usabilitytests sind die Probanden nach ihrem Gesamteindruck und nach Verbesserungsvorschlägen befragt worden. Diese Daten sind sehr relevant, da die Punkte, die dort genannt werden, die höchste Priorität für den Nutzer haben. Im folgenden werden nur diejenigen Verbesserungsvorschläge aufgenommen, die einen nicht nur ästethischer Natur sind, sondern eine Prozess betreffen, und welche schon Funktionalitäten betreffen, die schon existieren. Neue Funktionalitäten als Verbesserungsvorschlag werden daher ignoriert. 
 
 Im Gesamteindruck wurde positiv beurteilt, dass StuMaTo als übersichtlich (P2,P1) und gut bedienbar (P2) sind. Die Dialoge sind einfach gehalten und alle Informationen gut verfügbar (P1). Den Gesamteindruck trüben lange Wartezeiten (P3), zu komplizierte Prozesse (P2) und einzelne Bugs (P1). 
 Es wurden zwei Hauptprobleme ausgemacht, die Workflows des Eintragens der Transferleistung und das Finden von Studenten. Diese beiden Probleme wurden bereits im Detail analysiert.
 Weitere Verbesserungsvorschläge wurden bei dem Bewerben auf eine Aufgabe gewünscht. Hier sollte es mehr Feedback geben, wenn man sich auf eine Aufgabe beworben hat (P2). Dabei soll es zudem möglich sein, über den Umfang einer Aufgabe verhandeln zu können und somit die Aufgabe kleinteiliger einteilen zu können (P4). Auch der Unterschied zwischen Einzelaufgaben und Daueraufgaben wurde nicht jedem Nutzer klar (P4). 
 Ein weiterer Wunsch ist es, dass Klausurergebnisse in das Profileingetragen werden können. Dabei sollen sich die erlangten CreditPoints automatisch aktualisieren (P4). Die einzelnen Module sollten dabei aufgelistet werden und angehakt werden, wenn diese bestanden worden sind (P4). Somit kann das Eintragen der CreditPoints vereinfacht werden.  
+
+
+
+### Fazit
+
+Mithilfe der Nutzertests konnten viele spezifische Probleme der UI-Elemente selbst festgestellt und beschrieben werden. Diese decken sich sehr stark mit den erwarteten Problematiken im Umgang mit Eingabefehlern, welche bereits in der Heuristischen Analyse angemerkt wurden. Diese sind von Wert für die Beachtung in der zukünftigen Entwicklung der Anwendung, für die weitere Betrachtung in der Designphase aber lediglich peripher zu betrachten.
+
+Deutlich signifikanter sind dafür die entdeckten Probleme mit den Workflows. Die vermuteten Probleme im Hinzufügen von Einsätzen (Heuristisches Problem TASK-FOR-CALENDAR) haben sich mehr als bestätigt und wurden von den Nutzern, wie zuvor ausgeführt, bestätigt. Der Prozess zur Integration von Transferleistungen in das Profil hat sich allerdings als noch problematischer herausgestellt und hat die Nutzer nicht nur in seiner Komplexität überrascht, sondern es musste sogar ein Hinweis auf die Notwendigkeit darauf, dass ein Eintrag als Einsatz notwendig ist, erfolgen. Darin wird ersichtlich, dass dieser Prozess unintuitiv und komplex ist, obwohl er in der Kontextanalyse als regelmäßiger Workflow gefunden wurde. Die Probleme in der Interaktion mit dem Profil haben zur Frustration bei den Nutzern geführt, weshalb die mangelnde Motivation zur Pflege der Datengrundlage von StuMaTo im Produktivsystem nicht überraschend ist. Es gilt, diesen Motivationsmangel zu bekämpfen und die Aktivitäten, die den hauptsächlichen Use-Case seitens der Studenten, die Pflege ihres Profils und die Suche von Aufgaben, zu verbessern. 
+
+
 
 ### Reflexion der Methodik
 
@@ -55,6 +65,6 @@ Die nächste eingesetzte Methodik war der Face Reader. Während der Aufzeichnung
 
 Die externen Videoaufzeichnungen durch die vorhandenen Kameras im Raum wurden ebenfalls verworfen, da auf den Videos keine signifikanten Informationen vorhanden waren. Gestik und Mimik waren entweder nicht vorhanden oder nicht erkennbar bzw. haben keinen nennenswerten Rückschluss auf die Nutzbarkeit der Anwendung gegeben.
 
-Zusätzlich zu den Audioaufzeichnungen durch die externen Kameras wurde eine sekundäre Audioaufzeichnung durchgeführt. Dies stellte sich als sehr nützlich heraus, da die Qualität signifikant besser war und auch unterschwellige Geräusche wie z.B. ein Säufzen des Nutzers hörbar gemacht hat. Diese Aufzeichnungen wurden mit den Videos des Eye Tracker zusammengefasst und dann ausgewertet. Dabei wurden die Notizen des Interviewers referenziert. Die zusätzliche Audio-Spur ermöglichte es eine direkte Verbindung von den Notizen zu dem Bildschirminhalt herzustellen.
+Zusätzlich zu den Audioaufzeichnungen durch die externen Kameras wurde eine sekundäre Audioaufzeichnung durchgeführt. Dies stellte sich als sehr nützlich heraus, da die Qualität signifikant besser war und auch unterschwellige Geräusche wie z.B. ein Seufzen des Nutzers hörbar gemacht hat. Diese Aufzeichnungen wurden mit den Videos des Eye Tracker zusammengefasst und dann ausgewertet. Dabei wurden die Notizen des Interviewers referenziert. Die zusätzliche Audio-Spur ermöglichte es eine direkte Verbindung von den Notizen zu dem Bildschirminhalt herzustellen.
 
 Die Interviews nach den Nutzertests sind als sehr positiv zu bewerten. Sie haben nochmal neue Punkte geliefert, wie die Nutzer die Anwendung wahrgenommen haben und welche Probleme sie am meisten gestört haben. So konnte die Schwere der Probleme besser eingeschätzt werden. Zudem war es sinnvoll, die Nutzer nach Verbesserungsvorschlägen zu fragen, da aus ihnen nun Anhaltspunkte generiert wurden, die im kommenden Gestaltungsprozess der Anwendung verwendet werden können.
