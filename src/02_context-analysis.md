@@ -97,7 +97,7 @@ Die Studentenbetreuer verwenden StuMaTo hingegen häufiger. Am häufigsten wird 
 
 ### Probleme in StuMaTo {#sec:context:problems}
 
-Das häufigstgenannte Problem von StuMaTo ist, dass es keine relevanten Informationen enthält (S1,S2). Dabei sind vor allem keine Aufgaben für Studenten in StuMaTo zu finden (S2). Zudem soll es kaum Mitarbeiter geben, die sich die gepflegten Profile von StuMaTo ansehen (S1). Die Mitarbeiter stellen keine Aufgaben in StuMatO ein, da sie kein Budget für Studenten oder einfach keine passende Aufgaben für sie haben (M1).
+Das häufigstgenannte Problem von StuMaTo ist, dass es keine relevanten Informationen enthält (S1,S2). Dabei sind vor allem keine Aufgaben für Studenten in StuMaTo zu finden (S2). Zudem soll es kaum Mitarbeiter geben, die sich die gepflegten Profile von StuMaTo ansehen (S1). Die Mitarbeiter stellen keine Aufgaben in StuMaTo ein, da sie kein Budget für Studenten oder einfach keine passende Aufgaben für sie haben (M1).
 Die Studentenbetreuer vermissen in StuMaTo eine Übersicht über die Verfügbarkeit aller Studenten. Zudem ist es in StuMaTo nicht möglich Zuteilungen in StuMaTo zu machen, die noch nicht final sind (B1).    
 
 ### Ideen für StuMaTo
