@@ -151,7 +151,8 @@ Auch die **Aufgabenübersicht** hat einige Updates bekommen. Das Suchen einer Au
 ## Reflexion des Informationsdesigns
 
 Das Informationsdesign hat eine große Änderung in der Anwendung hervorgerufen. Es sind viele neue Ideen und Prototypen dabei entstanden. Das verwenden der Papierprototypen hat den Prozess dabei sehr vereinfacht, da diese sehr schnell zu produzieren waren. Zudem konnten im Designprozess schnell Änderungen an ihnen durchgeführt werden, sodass am Ende bestmögliche Prototypen entstehen konnten. Aufgrund der grundlegenden Umgestaltung der Dialoge sind teilweise schon Komponenten des Interaktionsdesigns mit in diesen Schritt des Informationsdesigns eingeflossen. Jedoch wurde versucht, diesen Anteil möglichst gering zu halten.
-Insgesamt sind die Informationsszenarien leicht von den Aktivitätsszenarien abgewichen, da der Fokus des Informationsszenarios nun war jeden neu gestalteten Dialog im Szenario vorstellen zu können.  
+Insgesamt sind die Informationsszenarien leicht von den Aktivitätsszenarien abgewichen, da der Fokus des Informationsszenarios nun war jeden neu gestalteten Dialog im Szenario vorstellen zu können. 
+Die recht lange Begründung des Designentscheidung ist zudem ein gutes Mittel, um dem Leser nochmals zu vermitteln, warum Prototypen genaus so gestaltet worden sind. So mit konnten das Szenario sowie die Prototypen auf eine fundiertere Basis gestellt werden und auf Probleme, die in vorherigen Teilen der Arbeit herausgearbeitet worden, referenziert werden.  
 
 
 
