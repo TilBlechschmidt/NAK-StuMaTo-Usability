@@ -28,5 +28,4 @@
 
 ![Prototyp Mailvorschau Interessensbekundung](src/images/mockups/InteresseHerausforderung.jpeg)
 
-
 \clearpage
