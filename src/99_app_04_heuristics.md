@@ -179,7 +179,7 @@ Table: Problemfunde Hendrik {#tbl:heur:hendrik}
 | CONTROL         | Einsatze können nicht direkt gelöscht werden                 | STUDENT.WORK              |
 | CONTROL / ADAPT | Neuanordnung von Einsätzen ist nicht einfach möglich         | STUDENT.WORK              |
 | CONTROL / RECOG | Bei Einsätzen können nur existierende Aufgaben eingetragen werden. | STUDENT.WORK              |
-| ERR-HANDLE      | Keine Fehlermeldung beim Scheitern des Hochladens von TFLs   | STUDENT.UNI               |
+| ERR-HANDLE      | Keine Fehlermeldung beim Scheitern des Hochladens von Transferleistungen   | STUDENT.UNI               |
 | ERR-PREV        | Der "Speichern"-Button / -Prozess ist nicht offensichtlich und kann übersehen werden. | STUDENT.WORK              |
 | ERR-PREV        | Wenn man eine Kenntnis verändert, nicht speichert und dann eine neue Kenntnis hinzufügt dann werden die Änderungen an der ersten Kenntnis verworfen. | STUDENT.WORK              |
 | ERR-PREV        | Wenn während des Editierens per Navigation die Seite gewechselt wird, werden Änderungen nicht gespeichert und es erfolgt keine Warnung. | TASK.EDIT                 |

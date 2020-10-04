@@ -157,7 +157,7 @@ Selten. Eine Aufgabe wurde aus StuMaTo übernommen.
 
 17. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
-Mehr Personen sollten Aufgaben in StuMaTo  einstellen, dabei sollte die Aufgabe gleich ins Profil übernommen werden. Zudem funktioniert das Bereitstellen der TFLs darüber ganz gut.
+Mehr Personen sollten Aufgaben in StuMaTo  einstellen, dabei sollte die Aufgabe gleich ins Profil übernommen werden. Zudem funktioniert das Bereitstellen der Transferleistungen darüber ganz gut.
 
 18. Hast du Zeitdruck, wenn du StuMaTo benutzt?
 
@@ -275,9 +275,9 @@ Manchmal informiere ich mich im Intranet über Teams und Abteilungen. Ansonsten 
 
 10. Wofür verwendest du StuMaTo?
 
-Ich habe StuMaTo als firmeneigenes XING verwendet. Man kann sein Skills präsentieren und zeigen, was man in den Praxisphasen gemacht hat. Zudem konnte man  Klausurergebnisse für den Betreuer hochladen und seine TFLs Verlinken. Seit dem neuen StuMaTo geht das mit dem Hochladen der Klausurergebnissen leider nicht mehr.
+Ich habe StuMaTo als firmeneigenes XING verwendet. Man kann sein Skills präsentieren und zeigen, was man in den Praxisphasen gemacht hat. Zudem konnte man  Klausurergebnisse für den Betreuer hochladen und seine Transferleistungen Verlinken. Seit dem neuen StuMaTo geht das mit dem Hochladen der Klausurergebnissen leider nicht mehr.
 Ein weiteres Problem ist, dass viele StuMaTo nicht kennen. Auch die Mitarbeiter, die es kennen sehen die Informationen häufig nicht als verlässlich an, da sie häufig schlecht gepflegt sind. 
-Ich habe früher gerne die TFLs aus höheren Jahrgängen gerne mal gelesen, um mir Inspiration für meine eigenen zu holen.
+Ich habe früher gerne die Transferleistungen aus höheren Jahrgängen gerne mal gelesen, um mir Inspiration für meine eigenen zu holen.
 
 11. Wie häufig verwendest du StuMaTo?
 
