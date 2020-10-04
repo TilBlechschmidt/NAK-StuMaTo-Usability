@@ -242,11 +242,11 @@ Table: Problemfunde Til {#tbl:heur:til}
 |     UNCLEAR-MAIL     |    ERR-PREV, CONTROL    | Ich weiß nicht, was für eine Mail versendet wird, wenn ich auf Interesse drücke. |                         TASK.VIEW                         |  1   |    4     |
 |    SKILLS-UNCLEAR    |          HELP           | Bei Skills ist nicht klar, bei welchem Skill ich mich selber einordnen soll, es existiert keine Dokumentation als Vergleichsreferenz. |                       STUDENT.WORK                        |  1   |    0     |
 |        HOVER         |          HELP           |              Es fehlen des Öfteren Hover-Texte               |            \*, bspw. TASK.\* für Icon-Buttons             |  2   |    0     |
-|     CONSEQUENCES     |          HELP           | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. |                             *                             |  1   |    2     |
+|    CONSE-QUENCES     |          HELP           | Es ist nicht immer klar beschrieben, welche Konsequenzen eine Aktion hat. |                             *                             |  1   |    2     |
 |         FAQ          |          HELP           | FAQ ist vorhanden, Inhalt ist in Ordnung aber der Umfang ist zu gering. |                            FAQ                            |  1   |    0     |
 |       ALUMNAE        |          REAL           | Alumni & Alumnae ist ein selten verwendeter Begriff, neue Studenten können damit vielleicht nicht viel anfangen. |                       STUDENT.LIST                        |  1   |    2     |
 |      TASK-TABS       |          REAL           | Die Bezeichnungen der Aufgabenkategorien haben keine klare Beziehung zum echten Leben. Wie lange dauern Einzel- vs. Daueraufgaben? Warum werden nur offene Aufgaben angezeigt? Wo ist das Archiv? (AW: in "Alle Aufgaben") |                          TASK.*                           |  2   |    2     |
-|   MISLEADING-YOUR    |          REAL           | Deine Aufgaben ist irreführend, da hier eingestellte Aufgaben aufgeführt sind und nicht die, die ein User bearbeitet. |                         TASK.YOUR                         |  2   |    4     |
+|   MIS-LEADING-YOUR   |          REAL           | Deine Aufgaben ist irreführend, da hier eingestellte Aufgaben aufgeführt sind und nicht die, die ein User bearbeitet. |                         TASK.YOUR                         |  2   |    4     |
 |      CP-MEANING      |          REAL           | Credit Points für "Hausarbeiten" stimmen nicht überein, da z.B. für NAK-Studenten hier TFLs gemeint sind. |                        STUDENT.UNI                        |  1   |    0     |
 |   TASK-STATUS-ICON   |          REAL           | Icons für offene / angefangen Aufgaben sind unbekannt und transportieren keine klare Nachricht. |                         TASK.VIEW                         |  2   |    2     |
 |    WHICH-PROFILE     |          RECOG          | Es ist z.B. nicht mehr klar, welches Profil gerade editiert wird, wenn ein Editierdialog offen ist. |                         STUDENT.*                         |  2   |    2     |
@@ -256,7 +256,7 @@ Table: Problemfunde Til {#tbl:heur:til}
 |    USELESS-LABELS    |          RELEV          | Teilweise sind unnütze UI Elemente vorhanden. (z.B. Labels "Kenntnisse" oder "Standort", obwohl dort keine Daten hinterlegt sind.) |                         TASK.VIEW                         |  2   |    2     |
 |      CP-USELESS      |          RELEV          | Die genaue Anzahl von Credit Points sind schwer zu pflegen und liefern vermutlich keinen sinnvollen Nutzen. |                         TASK.VIEW                         |  3   |    4     |
 |     TAKS-DENSITY     |          RELEV          |             Die Informationsdichte ist zu gering             |                  TASK.EDIT, STUDENT.WORK                  |  1   |    4     |
-|   TFL-DESCRIPTION    |          RELEV          | Die potentiell etwas längere Kurzbeschreibung von wissenschaftlichen Arbeiten bläht das Layout auf. Der Titel würde hier reichen. |                        STUDENT.UNI                        |  2   |    2     |
+|   TFL-DESCRIP-TION   |          RELEV          | Die potentiell etwas längere Kurzbeschreibung von wissenschaftlichen Arbeiten bläht das Layout auf. Der Titel würde hier reichen. |                        STUDENT.UNI                        |  2   |    2     |
 |       EMPTY-CP       |          RELEV          | Credit Points werden auch dann angezeigt, wenn keine Daten vorhanden sind (auch auf fremden Profilen) |                        STUDENT.UNI                        |  2   |    2     |
 |    EMPTY-TIMELINE    |          RELEV          | Leere Timeline, leere Kenntnisse etc. werden angezeigt, ohne Mehrwert zu erbringen. |                        STUDENT.UNI                        |  2   |    0     |
 |     SKILL-FILTER     |          RELEV          | Aufgaben können nicht nach (eigenen) Kenntnissen gefiltert werden |                      TASK.*, SEARCH                       |  3   |    2     |
@@ -268,9 +268,9 @@ Table: Problemfunde Til {#tbl:heur:til}
 |        NO-TFL        |        UPTODATE         |    Es sind wenige Daten zu Transferleistungen verfügbar.     |                        STUDENT.UNI                        |  2   |    2     |
 |       NO-TASKS       |        UPTODATE         |         Keine Aufgaben sind im Startbereich zu sehen         |                         TASK.ALL                          |  3   |    0     |
 |       PROFILES       |        UPTODATE         |        Profile sind wenig gepflegt und nicht aktuell.        |                         STUDENT.*                         |  3   |    0     |
-|   SEMESTERS-WRONG    |        UPTODATE         | Semesterangaben sind bei einigen Studenten um ein Semester versetzt. |                        STUDENT.UNI                        |  2   |    2     |
+|   SEMES-TERS-WRONG   |        UPTODATE         | Semesterangaben sind bei einigen Studenten um ein Semester versetzt. |                        STUDENT.UNI                        |  2   |    2     |
 |       LOCATION       |        UPTODATE         |       Standort von Aufgabe ist schlecht dokumentiert.        |                          TASK.*                           |  2   |    2     |
-| IMPOSSIBLE-STUDENTS  |   UPTODATE, ERR-PREV    | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. |                         STUDENT.*                         |  2   |    2     |
+| IM-POSSIBLE-STUDENTS |   UPTODATE, ERR-PREV    | Es existieren unmögliche Nutzerdaten, wie zum Beispiel ein Nutzer, der seit 2017 Student, aber im 2. Semester ist, oder noch gravierender seit 2021 aber Student aber im 20. Semester. Hier fehlen Validierungen. |                         STUDENT.*                         |  2   |    2     |
 |    EXPIRED-TASKS     |   UPTODATE, ERR-PREV    | Zeitlich abgelaufene Aufgaben wurden als verfügbar angezeigt, auch wenn sie dezent als abgelaufen gekennzeichnet waren. |                          TASK.*                           |  2   |    0     |
 
 Table: Finales Ergebnis der heuristischen Analyse {#tbl:heur:final}
@@ -329,7 +329,7 @@ Table: Finales Ergebnis der heuristischen Analyse {#tbl:heur:final}
 | TASK-STATUS-ICON     | 2            | 1               | 2           | 2          | 2            |
 | WHICH-PROFILE        | 3            | 2               | 2           | 2          | 2            |
 | UNSEEN-DIRTY         | 3            | 3               | 3           | 3          | 0            |
-| DASH-REDUNDANT       | 2            | 2               | 2           | 2          | 0            |
+| DASH-REDUN-DANT      | 2            | 2               | 2           | 2          | 0            |
 | SEARCH-FUZZY         | 1            | 3               | 3           | 3          | 4            |
 | USELESS-LABELS       | 2            | 1               | 2           | 2          | 2            |
 | CP-USELESS           | 3            | 1               | 3           | 3          | 4            |

@@ -26,27 +26,28 @@ Keine zwei Minuten später kann Simon StuMaTo mit einem guten Gefühl schließen
 
 ## Gestaltungsbegründung
 
-\begin{table}
+\clearpage
+
+\begin{table}[h]
 \begin{tabularx}{\textwidth}{XX>{\hsize=0.4\textwidth}X}
     Problem & Designentscheidung   & Hypothetische Vor-/Nachteile\\\midrule
-Unsicherheit im Umgang mit StuMaTo & Dashboard mit Agent & + Nutzer erhält wichtige Informationen auf einen Blick\newline + Nutzer wird angehalten, sein Profil aktuell zu halten\newline + Nutzer wird durch die Möglichkeiten der Anwendung geführt\newline  - Könnte als Bevormundung  empfunden können\\
+Unsicherheit im Umgang mit StuMaTo & Dashboard mit Agent & + Nutzer erhält wichtige Informationen auf einen Blick\newline + Nutzer wird angehalten, sein Profil aktuell zu halten\newline + Nutzer wird durch die Möglichkeiten der Anwendung geführt\newline  - Evtl. Gefühl der Bevormundung\\
 Studienmodule nicht enthalten; Unklarer Unterschied zwischen Einzel und Daueraufgaben & Herausforderungen ersetzen Einzel- und Daueraufgaben und enthalten z.B. auch Studienmodule & + Verallgemeinerter Ablauf\newline + Studienergebnisse eintragbar\newline - Begriff zu Beginn weniger konkret\\
-Ungepflegte Daten & Abschluss von Phasen mithilfe des Agenten & + Eintragungen werden seltener vergessen\newline + Unklare Begriffe werden durch das Beispiel der Eintragung aufgeklärt\newline + Aufwand durch z.B. vorgeschlagene Module je Studiengang und Semester reduziert\newline - Extra Prozess zusätzlich zur Eintragung direkt über das eigene Prozess (Soll diesen allerdings selten machen)\\ 
+Ungepflegte Daten & Abschluss von Phasen mithilfe des Agenten & + Eintragungen seltener vergessen\newline + Unklare Begriffe werden durch das Beispiel der Eintragung aufgeklärt\newline + Aufwand durch z.B. vorgeschlagene Module je Semester reduziert\newline - Extra Prozess zusätzlich zur Eintragung direkt über das eigene Prozess (Soll diesen allerdings selten machen)\\ 
 Viel zu komplexer Eintragungsprozess für Transferleistungen, FAQ notwendig, Überschneidung mit Aufgabe nicht erlaubt & Transferleistungen, Seminare, beliebige Zertifikate etc. werden als Errungenschaften eingetragen & + Stark vereinfachter Prozess\newline + Ermöglicht allgemeinere Eintragungen\newline + Keine redundanten Eintragungen mehr\newline - Begriff zu Beginn weniger konkret\\
 Credit Points müssen manuell aufaddiert werden & Credit Points werden aus Herausforderungen und Errungenschaften befüllt & + Vergessen nicht möglich\newline + Geringerer Aufwand \\
-Manuelles "Wühlen" durch veraltete oder uninteressante Aufgaben & Der Agent schlägt vorgefilterte Aufgaben nach Standort, Zeit, Fähigkeiten und Interesse vor & + "Wühlen" entfällt\newline + Vereinfachte Suche wenn Vorschläge passend\newline - komplizierterer Weg zu anderen Aufgaben\\
-Unklarheit über den Inhalt der Interessenbekundung, fehlende Kommunikationsmöglichkeiten & Bei Interesse für eine Aufgabe wird dem Nutzer eine Mailvorlage angezeigt, die editiert werden kann & + Mehr Kontrolle\newline + Kann als zur Erklärung besonderer Umstände als Kommunikationsmittel verwendet werden\newline - Als Kommunikationsmittel immer noch begrenzt\\
+Manuelles "Wühlen" durch veraltete oder uninteressante Aufgaben & Der Agent schlägt vorgefilterte Aufgaben nach Standort, Zeit, Fähigkeiten und Interesse vor & + "Wühlen" entfällt\newline + Passende Vorschläge vereinfachen Suche\newline - längerer Weg zu anderen Aufgaben\\
+Unklarheit über den Inhalt der Interessenbekundung, fehlende Kommunikationsmöglichkeiten & Bei Interesse für eine Aufgabe wird dem Nutzer eine Mailvorlage angezeigt, die editiert werden kann & + Mehr Kontrolle\newline + Kann als zur Erklärung besonderer Umstände als Kommunikationsmittel verwendet werden\newline - Eingeschränktes Kommunikationsmedium\\
 Fehlende Rückmeldung zu Aufgaben; Unverständlicher Workflow zum Eintragen von Einsätzen, redundante Eintragungen & Das System meldet Ergebnisse der Bewerbung an den Nutzer und trägt Einsätze automatisch in das Profil ein  & + Nutzer versteht den Status seiner Bewerbung / seiner Aufgabe\newline + Manuelles Übernehmen von Daten oder das Suchen der Aufgabe entfällt\\
 \end{tabularx}
-\label{tbl:test}
-\caption{test}
+\label{tbl:claims:activity}
+\caption{Gestaltungsbegründung des Aktivitätsdesigns}
 \end{table}
+
+\clearpage
 
 ## Reflexion des Aktivitätsdesigns
 
 Positiv ist anzumerken, dass die entwickelten Leitbilder und Metaphern zu einer deutlich klareren Darstellung der Intention der Anwendung und des erneuerten Workflows beigetragen haben. Diese konnten zudem sehr gut in den beiden Aktivitätsszenarien dargestellt werden. Leitbild und Metaphern wurden jedoch noch nicht bis ins letzte Detail der Anwendung entwickelt, nicht zuletzt auch deshalb, weil der Fokus der Analyse auf die Problemszenarien begrenzt ist.
 
- Es ist kritisch anzumerken, dass der Umfang der Veränderung, welcher in dem vorgeschlagenen Re-Design vorhanden ist, das Risiko mit sich bringt, das Nutzerverständnis zu verfehlen. Die Claims-Analysis und die Gestaltungsbegründung als solches stellt dar, warum diese Änderungen dennoch guten Gewissens vorgeschlagen werden. Das Szenario ist zusätzlich eng an die ermittelten Probleme aus der Analysephase gekoppelt. Nichtsdestotrotz wäre in einer umfangreicheren Analyse eine Rückkopplung mit den relevanten Stakeholdern deshalb unerlässlich. Diese ist hier nicht geschehen. 
-
-
-
+Es ist kritisch anzumerken, dass der Umfang der Veränderung, welcher in dem vorgeschlagenen Re-Design vorhanden ist, das Risiko mit sich bringt, das Nutzerverständnis zu verfehlen. Die Claims-Analysis und die Gestaltungsbegründung als solches stellt dar, warum diese Änderungen dennoch guten Gewissens vorgeschlagen werden. Das Szenario ist zusätzlich eng an die ermittelten Probleme aus der Analysephase gekoppelt. Nichtsdestotrotz wäre in einer umfangreicheren Analyse eine Rückkopplung mit den relevanten Stakeholdern deshalb unerlässlich. Diese ist hier nicht geschehen. 
