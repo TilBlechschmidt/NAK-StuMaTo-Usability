@@ -31,7 +31,7 @@ Es ist hierdurch möglich, mit gering gehaltenem Zeitaufwand eine Basis für fol
 
 Das Verfahren der heuristischen Evaluation erlaubt des Weiteren eine Abdeckung von formalen Kriterien mit begrenztem Expertenwissen und das sowohl in der Form einer summativen, als auch einer formativen Analyse. Alternative Expertenverfahren wären zum Beispiel das Walkthrough-Verfahren und das DaTech-Prüfverfahren. Diese wurden jedoch unter Bevorzugung der heuristischen Evaluation nicht gewählt. 
 
-Das Walkthrough-Verfahren wird nicht durchgeführt, da die starke Vertrautheit zweier der Autoren mit dem System die explorative Untersuchung des Systems eingeschränkt hätte. Eine Einbeziehung von Nutzern wird zu diesem Zeitpunkt aufgrund des Mehraufwandes noch nicht in Betracht, da der Mehrwert zu den späteren Usability-Tests vergleichsweise gering ist. Bei diesem Verfahren fehlt zudem der Fokus auf formale Kriterien, welcher nicht von Nutzern ersetzt werden kann,.
+Das Walkthrough-Verfahren wird nicht durchgeführt, da die starke Vertrautheit zweier der Autoren mit dem System die explorative Untersuchung des Systems eingeschränkt hätte. Eine Einbeziehung von Nutzern wird zu diesem Zeitpunkt aufgrund des Mehraufwandes noch nicht in Betracht gezogen, da der Mehrwert zu den späteren Usability-Tests vergleichsweise gering ist. Bei diesem Verfahren fehlt zudem der Fokus auf formale Kriterien, welcher nicht von Nutzern ersetzt werden kann,.
 
 Auch das DaTech-Prüfverfahren ist nicht zielführend, da die notwendige Erfahrung der Experten mit diesem nicht gegeben ist, ein Zertifizierungsverfahren nicht angestrebt ist und die grundlegenden Prinzipien des Verfahrens bei geringerem Aufwand in einer Heuristischen Analyse überprüft werden können.
 
@@ -98,14 +98,14 @@ Von den Kriterien nach Shneiderman werden folgende Kriterien übernommen:
 
 Darüber hinaus wird eine Reihe von Kriterien von Shneiderman und Nielsen aufgrund auftretender Redundanz oder thematischer Ähnlichkeit kombiniert:
 
-- "Visibility of system status" und "Offer informative feedback." berühren ähnliche Themenkomplexe. Ersteres Kriterium beinhaltet dabei über das letztere hinaus auch die Sichtbarkeit länger anhaltenden Zustandes, während letzteres sich vor allem auf Zustände als Reaktion auf Aktionen bezieht. Diese beiden wurden darum als "Sichtbarer Systemstatus und Statusmeldungen" zusammengefasst.
+- "Visibility of system status" und "Offer informative feedback" berühren ähnliche Themenkomplexe. Ersteres Kriterium beinhaltet dabei über das letztere hinaus auch die Sichtbarkeit länger anhaltenden Zustandes, während letzteres sich vor allem auf Zustände als Reaktion auf Aktionen bezieht. Diese beiden wurden darum als "Sichtbarer Systemstatus und Statusmeldungen" zusammengefasst.
 -  "User control and freedom " und "Permit easy reversal of actions" als "Reversibilität und Abbruchmöglichkeiten", da ersteres Kriterium das letztere in seiner Beschreibung enthält, aber besonders auch die Möglichkeit des Abbruchs zu jeder Zeit hervorhebt.
-- "Consistency and standards" und "Strive for consistency." als "Konsistenz und Standardtreue", da sie sich sehr ähneln. Im Detail fokussiert sich ersteres eher auf die Konsistenz zu anderen Anwendungen und letzteres auf die interne Konsistenz, für den Nutzer stellt dies jedoch ein nahezu identisches Problem dar.
+- "Consistency and standards" und "Strive for consistency" als "Konsistenz und Standardtreue", da sie sich sehr ähneln. Im Detail fokussiert sich ersteres eher auf die Konsistenz zu anderen Anwendungen und letzteres auf die interne Konsistenz, für den Nutzer stellt dies jedoch ein nahezu identisches Problem dar.
 
 - "Error prevention" und "Prevent errors." sind als identische Kriterien in "Fehlerprävention" zusammengefasst.
 
-- "Recognition rather than recall" und "Reduce short-term memory load." sind ebenfalls in ihrer Intention identisch und wurden nach [@heur:brau/sarodnick] als "Erkennen vor Erinnern" kombiniert
-- "Flexibility and efficiency of use" und "Seek universal usability.", da ersteres in letzterem Kriterium enthalten ist. Dies ist als "Universelle Benutzbarkeit und Anpassbarkeit" bezeichnet.
+- "Recognition rather than recall" und "Reduce short-term memory load" sind ebenfalls in ihrer Intention identisch und wurden nach [@heur:brau/sarodnick] als "Erkennen vor Erinnern" kombiniert
+- "Flexibility and efficiency of use" und "Seek universal usability", da ersteres in letzterem Kriterium enthalten ist. Dies ist als "Universelle Benutzbarkeit und Anpassbarkeit" bezeichnet.
 
 Eine tabellarische Übersicht des Prozesses ist in +@tbl:mergecriteria (in [Anhang @sec:heur-merge]) ersichtlich, das Ergebnis dieses Verfahrens ist in +@tbl:criteria aufgeführt.
 
@@ -167,7 +167,7 @@ Eine höhere Abweichung ist demnach mit einer höheren "Kontroverse" zwischen de
 
 Der Ablauf nach [Abschnitt @sec:heuristic:plan] ist im [Anhang @sec:heuristik-rohergebnisse] gewissentlich dokumentiert. Die gemeinsame Problemliste ohne Gewichtung, welche zur Durchführung der Gewichtung verwendet wurde, ist nicht aufgeführt, da diese redundant zur finalen Ergebnisliste in +@tbl:heur:final ist. Stattdessen werden die einzelnen Gewichtungen anhand der Problembezeichner in der +@tbl:heur:weighted aufgeführt.
 
- Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. In der Betrachtung der folgenden Daten ist zusätzlich zu beachten, dass einige der angemerkten Usability-Probleme vermutlich auch als reine Implementierungsfehler gesehen werden können. Sie wurden hier aber in keiner Weise ausgeschlossen. Das liegt darin begründet, dass eine Unterscheidung von schlechtem Design und schlechter Implementierung mangels aussagekräftiger Systemspezifikation schwierig und potentiell willkürlich wäre, worunter die Qualität der Ergebnisse und der Methodik sinken würde. Darüber hinaus schränken diese Probleme, ob Implementationsfehler oder Designfehler, eine Einschränkung der User Experience dar und sollten erwähnt werden. Die folgenden Kapitel der Arbeit sind jedoch nicht auf die Betrachtung solcher Probleme, die als in dieser Weise uneindeutig erschienen, ausgerichtet. Dies ist sinnvoll, da eine Betrachtung aller gefundenen Usability-Probleme im Detail den Rahmen dieser Arbeit ohnehin übersteigen würde.
+ Aus Gründen der Übersichtlichkeit wird an dieser Stelle jedoch nicht mit diesen Rohdaten gearbeitet, sondern lediglich mit aggregierten oder besonders interessanten Teildaten. In der Betrachtung der folgenden Daten ist zusätzlich zu beachten, dass einige der angemerkten Usability-Probleme vermutlich auch als reine Implementierungsfehler gesehen werden können. Sie wurden hier aber in keiner Weise ausgeschlossen. Das liegt darin begründet, dass eine Unterscheidung von schlechtem Design und schlechter Implementierung mangels aussagekräftiger Systemspezifikation schwierig und potentiell willkürlich wäre, worunter die Qualität der Ergebnisse und der Methodik leiden würde. Darüber hinaus stellen diese Probleme, ob Implementationsfehler oder Designfehler, eine Einschränkung der User Experience dar und sollten erwähnt werden. Die folgenden Kapitel der Arbeit sind jedoch nicht auf die Betrachtung solcher Probleme, die als in dieser Weise uneindeutig erschienen, ausgerichtet. Dies ist sinnvoll, da eine Betrachtung aller gefundenen Usability-Probleme im Detail den Rahmen dieser Arbeit ohnehin übersteigen würde.
 
 ### Quantitative Gesamtkennzahlen
 
@@ -190,7 +190,7 @@ Die anderen Kategorien sind weitestgehend ausgeglichen, auch wenn die Gewichtung
 
 ### Quantitativer Vergleich der Problemkategorien
 
-Ein quantitativer Vergleich der einzelnen Problemkategorien ist in @fig:weight-per-category und @fig:delta-per-category ersichtlich. Hier können zum einen die Häufigkeit, mit der Gewichtungen im finalen Ergebnis aufgetaucht sind, pro Kategorie nachverfolgt werden und gleichzeitig der Konsens zwischen den Evaluatoren bezüglich einer Kategorie betrachtet werden. 
+Ein quantitativer Vergleich der einzelnen Problemkategorien ist in @fig:weight-per-category und @fig:delta-per-category ersichtlich. Hier können zum einen die Häufigkeit, mit der Gewichtungen im finalen Ergebnis aufgetaucht sind, pro Kategorie nachverfolgt und gleichzeitig der Konsens zwischen den Evaluatoren bezüglich einer Kategorie betrachtet werden. 
 
 In der Häufigkeit der Problemgewichtungen sticht die Kategorie CONTROL mit einem besonders hohen Anteil von schweren Problemen heraus. Eben diese wird jedoch auch mit einem vergleichsweise hohen durchschnittlichen Abweichungswert heraus. Scheinbar scheinen hier also potentiell schwere Probleme aufzutreten, die jedoch nicht besonders klar verstanden sind. Das Kriterium CONSIST ist ebenfalls ein sehr umstrittenes Kriterium, welches zudem die größte absolute Problemhäufigkeit aufweist, wobei diese Probleme jedoch überwiegend kosmetischer Art oder sogar nutzergruppenabhängig sind. Noch umstrittener, wenn auch leicht weniger häufig sind die Probleme der Kategorie RELEV.
 
@@ -222,7 +222,7 @@ Diese Aggregation zeigt jedoch keine Kriterien, welche besonders für ein Extrak
 
  Aufgrund der Beschränkungen dieser Arbeit, können nicht alle Probleme in gleicher Art analysiert und für die weitere Betrachtung verwendet werden. Sehr wohl können jedoch bestimmte Probleme genauer betrachtet werden. Im vorangehenden Abschnitt wurden bereits einige Kriterien genannt, welche eine besonders geringe Abweichung zwischen den Evaluatoren vorwiesen. Hier wird auf diese Aggregation nach Kriterien verzichtet und es werden als Auszug der Gesamtdaten stattdessen Probleme betrachtet, welche einstimmig mit der Gewichtung $3$ oder $2$ versehen wurden.
 
-Die Probleme mit der Gewichtung 2 Probleme können sehr simpel und ohne die Veränderung von bestehenden Prozessen bearbeitet werden und stellen eine Liste von Problemen entsprechend Ziel Nr. 1 dar. Für diese Arbeit sind sie deshalb allerdings von geringerem Interesse und in +@tbl:cosmetical-problems im [Anhang @sec:heur:cosmetic] dargestellt.
+Die Probleme mit der Gewichtung 2 können sehr simpel und ohne die Veränderung von bestehenden Prozessen bearbeitet werden und stellen eine Liste von Problemen entsprechend Ziel Nr. 1 dar. Für diese Arbeit sind sie deshalb allerdings von geringerem Interesse und in +@tbl:cosmetical-problems im [Anhang @sec:heur:cosmetic] dargestellt.
 
 In +@tbl:critical-problems sind im Gegensatz dazu jene Probleme, welche eine einstimmige Gewichtung von $3$ erhalten haben, aufgelistet. 
 
@@ -259,7 +259,7 @@ Für die weitere Untersuchung in den Nutzertests haben sich hier der Umgang mit 
 
 Die Interaktion mit dem Profil zum Eintragen neuer Daten, erscheint fehlerbehaftet (z.B. Probleme UNSEEN-DIRTY, ADD-SKILL-WITH-DIRTY, DIRTY-PROFILE-LEAVE) zu sein und darüber hinaus einige konzeptuelle Probleme aufzuweisen (ENDLESS-PROFILE, TASK-FOR-CALENDAR), welche zu einer schlechten Pflege zu von Profilen (PROFILES) führt.
 
-Die Studentenprofile, bzw. die Interaktion, welche zur Pflege von Profilen führt, sollten deshalb der Kern der Nutzertests sein und der Design-Bestrebungen sein.
+Die Studentenprofile, bzw. die Interaktion, welche zur Pflege von Profilen führt, sollten deshalb der Kern der Nutzertests und der Design-Bestrebungen sein.
 
 
 
@@ -271,7 +271,7 @@ Ein großes Problem dieser Methodik ist der erhöhte Aufwand, welche durch die A
 
 Des Weiteren kam es zu Missverständnissen bezüglich der Bedeutung der Heuristiken, weshalb diese erneut geklärt und Teile der Analyse wiederholt werden mussten um eine Vergleichbarkeit zu ermöglichen. Hierin ist eine Schwäche der heuristischen Analyse, besonders mit mehreren Evaluatoren, zu sehen. Auch kann trotz der Maßnahmen zur Reduktion des Einflusses der subjektiven Ansichten der Evaluatoren keine Garantie für die Objektivität der Problemfunde gegeben werden. Hierbei ist eine Schwäche und Stärke zugleich, dass zwei der Evaluatoren bereits breite Vorkenntnisse durch ihre Mitarbeit in der Entwicklung der Anwendung hatten. Dadurch können sie sich als Experten bereits tiefer in die Anforderungen der Anwendung hineinversetzen, allerdings besteht auch das Risiko, dass sie durch ihre enge Involvierung mit dem Projekt bereits blind gegenüber einem Teil der existierenden Probleme geworden sind und es ihnen schwieriger fällt, sich in einen neuen Nutzer hineinzuversetzen. Dies ist jedoch in diesem Verfahren weniger drastisch als es z.B. in Walkthrough-Verfahren wäre.
 
-Ein weiteres Problem der Methodik ist der verstärkte Einsatz der Quantifizierung der Problemfunde in der Auswertung. Diese ist sehr hilfreich im Umgang mit der beachtlichen Problemmenge, aber auch problematisch, da die genutzten Metriken in ihrer Bestimmung auf mehreren subjektiven Einschätzungen fußten und des Weiteren in ihrer Art nicht unbedingt vergleichbar sind, zumal die Fundorte nur begrenzt Teil der Auswertung und kein Teil der Gewichtung eines Problems waren. Besonders offensichtlich wurde dies in der Betrachtung des Kriteriums UNDO, welches lediglich mit einem Problem beschrieben wurde, aber dennoch ein sehr wichtiges Problem darstellen kann. Hier wurde dementsprechende auf den qualitativen Unterschied aufmerksam gemacht.
+Ein weiteres Problem der Methodik ist der verstärkte Einsatz der Quantifizierung der Problemfunde in der Auswertung. Diese ist sehr hilfreich im Umgang mit der beachtlichen Problemmenge, aber auch problematisch, da die genutzten Metriken in ihrer Bestimmung auf mehreren subjektiven Einschätzungen fußten und des Weiteren in ihrer Art nicht unbedingt vergleichbar sind, zumal die Fundorte nur begrenzt Teil der Auswertung und kein Teil der Gewichtung eines Problems waren. Besonders offensichtlich wurde dies in der Betrachtung des Kriteriums UNDO, welches lediglich mit einem Problem beschrieben wurde, aber dennoch ein sehr wichtiges Problem darstellen kann. Hier wurde dementsprechend auf den qualitativen Unterschied aufmerksam gemacht.
 
 Auch die Definition der Gewichtungen selbst ist schwierig und kann aufgrund von Uneindeutigkeiten zu Missverständnissen führen. Sie waren hier auf die Ziele der Analyse zugeschnitten, aber die Unterscheidung von "eindeutig nutzerunfreundliche Elemente" von zu untersuchenden Problemfeldern ist nicht unproblematisch.
 
