@@ -80,3 +80,5 @@ Im folgenden sind zu den vorab katalogisierten Sichten Bildschirmabzüge zu find
 ![Ansicht FAQ](src/images/image-20200919103804907.png)
 
 ![Ansicht SEARCH](src/images/image-20200919103915084.png)
+
+\clearpage
