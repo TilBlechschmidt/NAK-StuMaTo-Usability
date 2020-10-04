@@ -24,28 +24,33 @@ Simon betätigt die Schaltfläche, mit der er ein Seminar hinzufügen kann. Hier
 
 
 ![Vorschau auf den Prototyp Phasen-Übersicht](src/images/mockups/Missionsuebersicht.jpeg){width=50%}\ ![Vorschau auf den Prototyp Erstellen einer Errungenschaft](src/images/mockups/ErrungenschaftErstellen.jpeg){width=50%}
+\begin{figure}[H]
+\caption{Vorschau auf die Prototypen "Phasen-Übersicht" und "Erstellen einer Errungenschaft"}
+\end{figure}
+
 
 ![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}\ ![Vorschau auf den Prototyp Theoriephasen-Zusammenfassung](src/images/mockups/Phase - Theorie.jpeg){width=50%}
-
+\begin{figure}[H]
+\caption{Vorschau auf die Prototypen zur Zusammenfassung von Theorie- und Praxisphasen}
+\end{figure}
 
 
 Nun widmet sich Simon aber wieder seiner eigentlichen Aufgabe: sich eine neue Herausforderung zu suchen. Er erinnert sich, dass der Agent dazu meist praktische Tips auf dem Dashboard anbietet, auf dem alle wichtigen Ereignisse abgebildet werden. Er navigiert zurück zu seinem Agenten. Der Agent hat Simon zwei Nachrichten hinterlassen. Simon liest sich die erste Nachricht durch, in der sein Agent Simon zwei Aufgaben vorgeschlagen hat, die er in seiner nächsten Praxisphase bearbeiten kann. 
 
-
-
 ![Vorschau auf den Prototyp Dashboard](src/images/mockups/Dashboard.jpeg){width=100%}\
-
-
+\begin{figure}[H]
+\caption{Vorschau auf den Prototyp "Dashboard"}
+\end{figure}
 
 Er betätigt das Element "Anzeigen" und wird in die Aufgabenübersicht weitergeleitet. In der Aufgabenübersicht sind nun die beiden Aufgaben, die vom Agenten vorgeschlagen worden sind von den anderen Aufgaben abgesetzt. Simon findet das sehr viel übersichtlicher. Die beiden Aufgaben passen nun auch zu seinen Interessen und in den Zeitraum seiner Praxisphase. 
 
 
 Nun bewirbt sich Simon auf die Aufgabe, in dem er auf "Interesse bekunden" klickt. An diesem Prozess hat sich nichts geändert. In dem Dialog Interesse bekunden kann Simon jetzt den Text zum Interesse bekunden sogar bearbeiten. Simon mag dieses neue Feature, da er davor nicht wusste, was überhaupt im Hintergrund passiert, wenn er diesen Button in der alten Version gedrückt hat. Entspannt kann Simon StuMaTo wieder schließen.
 
-
-
-![Vorschau auf den Prototyp Verfügbare Herausforderungen](src/images/mockups/HerausforderungenListe.jpeg){width=50%}\ ![Vorschau auf den Prototyp Mailvorschau Interessensbekundung](src/images/mockups/InteresseHerausforderung.jpeg){width=50%}
-
+![Vorschau auf den Prototyp Verfügbare Herausforderungen](src/images/mockups/HerausforderungenListe.jpeg){width=50%}\ ![Vorschau auf den Prototyp Mailvorschau Interessenbekundung](src/images/mockups/InteresseHerausforderung.jpeg){width=50%}
+\begin{figure}[H]
+\caption{Vorschau auf die Prototypen "Verfügbare Herausforderungen" und "Mailvorschau Interessenbekundung"}
+\end{figure}
 
 Eine gute Woche später öffnet Simon sein Profil erneut. Im Dashboard fällt ihm sofort die neue Aufgabe seines Agenten auf, die ihm sagt, dass er eine der Aufgaben bekommen hat, auf die er sich beworben hat und das diese in sein Profil hinzugefügt worden ist. Er klickt auf das Element Ansicht der Nachricht und gelangt, wie zu Beginn aus Versehen, in den neu gestalteten Dialog für seine aktuell laufende Praxisphase. Inzwischen sieht er hier seine Aufgabe. Neben dem Aufgabentitel sieht nur noch die Elemente Ansicht und Löschen. Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die neue Übersicht etwas aufgeräumter und übersichtlicher.
 
@@ -58,15 +63,17 @@ Nach seinem Jahresgespräch, in welchem er Lob für den erfolgreichen Abschluss 
 Zunächst werden dabei alle offenen Herausforderungen angezeigt, sowie die Möglichkeit, neue zu erstellen. Im nächsten Schritt sind lediglich die Errungenschaften der aktuellen Phase zu sehen. Auch hier könnte er neue Errungenschaften hinzufügen. Im letzten Schritt kann Simon auch noch seine Kenntnisse verändern. Währenddessen kann Simon stets verfolgen, wie weit er fortgeschritten ist.
 
 ![Vorschau auf den Prototyp Phasen-Revue Schritt 1](src/images/mockups/PhasePflegenStep1.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 2](src/images/mockups/PhasePflegenStep2.jpeg){width=33%}\ ![Vorschau auf den Prototyp Phasen-Revue Schritt 3](src/images/mockups/PhasePflegenStep3.jpeg){width=33%}
-
+\begin{figure}[H]
+\caption{Vorschau auf die Prototypen der "Phasen-Revue"}
+\end{figure}
 
 
 Simon beginnt natürlich mit dem Pflegen seiner Herausforderungen. Hier sieht er die Aufgabe, die, wie Simon bereits festgestellt hatte, direkt in das Profil hinzugefügt wurde. Doch plötzlich fällt ihm auf, dass er zwischendurch noch eine kleine Aufgabe bearbeitet hat, die gar nicht in StuMaTo eingetragen war! Er fügt sie mit dem entsprechenden Button hinzu. Der Dialog, der die hierfür notwendigen Informationen aufnimmt, ist ebenfalls dreigeteilt. Zunächst kann er eine Aufgabe suchen oder erstellen - er erstellt sie hier neu und füllt den Titel aus. Anschließend beschreibt er die Aufgabe. 
 
-
-
 ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 1](src/images/mockups/HerausforderungErstellenStep1.jpeg){width=50%}\ ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 2](src/images/mockups/HerausforderungErstellenStep2.jpeg){width=50%}
-
+\begin{figure}[H]
+\caption{Vorschau auf zwei der drei Prototypen zum Erstellen einer Herausforderung}
+\end{figure}
 
 
 Zuletzt kann er eintragen, ob er auf der Grundlage der Aufgabe weitere Kenntnisse oder andere Errungenschaften erreicht hat. Die Kenntnisse sind dabei zentral und wiederholen, welche Kenntnisse in der Aufgabe benötigt waren, damit auf diese direkt zugegriffen werden kann. Nachdem er bestätigt, ist die Aufgabe abgeschlossen und die ausgewählten Kenntnisse könnte er wie gehabt in seinem Profil nachverfolgen. Wieder im Herausforderungsteil der vom Agenten geführten Phasendokumentation wählt Simon in der Herausforderungsübersicht aus, dass er seine Herausforderung abgeschlossen hat. Dabei öffnet sich nur der letzte Teil des gleichen Herausforderungsdialogs, da die Informationen über den Titel und die Beschreibung bereits von der Aufgabe befüllt sind.
@@ -74,7 +81,9 @@ Zuletzt kann er eintragen, ob er auf der Grundlage der Aufgabe weitere Kenntniss
 
 
 ![Vorschau auf den Prototyp Erstellen einer Herausforderung Schritt 3](src/images/mockups/HerausforderungErstellenStep3.jpeg){width=50%}\ ![Vorschau auf den Prototyp Praxisphasen-Zusammenfassung](src/images/mockups/Phase - Praxis.jpeg){width=50%}
-
+\begin{figure}[H]
+\caption{Vorschau auf die Prototypen "Erstellen einer Herausforderung Schritt 3" und "Praxisphasenphasen-Zusammenfassung"}
+\end{figure}
 
 
 Simon schreitet nun voran auf den "Errungenschaften-Dialog". Dieser enthält die Liste der Errungenschaften dieser Praxisphase und die Möglichkeit, solche hinzuzufügen. Er erkennt diese Übersicht von seinem Profil wieder, da er in diesem, wenn auch für eine Theoriephase, bereits Einträge vorgenommen hat. Dementsprechend lädt er schnell eine Transferleistung hoch und fügt sein neues ISTQB Testerzertifikat, welches er in der Praxisphase erhalten hat, hinzu. Dies geht schnell und die Übersicht ist beschränkt sich auf das Nötigste. Als er den "Ansehen"-Button betätigt findet er die eingegebenen Informationen wieder, falls er sie benötigt. 
@@ -153,12 +162,4 @@ Auch die **Aufgabenübersicht** hat einige Updates bekommen. Das Suchen einer Au
 Das Informationsdesign hat eine große Änderung in der Anwendung hervorgerufen. Es sind viele neue Ideen und Prototypen dabei entstanden. Das verwenden der Papierprototypen hat den Prozess dabei sehr vereinfacht, da diese sehr schnell zu produzieren waren. Zudem konnten im Designprozess schnell Änderungen an ihnen durchgeführt werden, sodass am Ende bestmögliche Prototypen entstehen konnten. Aufgrund der grundlegenden Umgestaltung der Dialoge sind teilweise schon Komponenten des Interaktionsdesigns mit in diesen Schritt des Informationsdesigns eingeflossen. Jedoch wurde versucht, diesen Anteil möglichst gering zu halten.
 Insgesamt sind die Informationsszenarien leicht von den Aktivitätsszenarien abgewichen, da der Fokus des Informationsszenarios nun war jeden neu gestalteten Dialog im Szenario vorstellen zu können. 
 Die recht lange Begründung des Designentscheidung ist zudem ein gutes Mittel, um dem Leser nochmals zu vermitteln, warum Prototypen genaus so gestaltet worden sind. So mit konnten das Szenario sowie die Prototypen auf eine fundiertere Basis gestellt werden und auf Probleme, die in vorherigen Teilen der Arbeit herausgearbeitet worden, referenziert werden.  
-
-
-
-
-
-
-
-
 
