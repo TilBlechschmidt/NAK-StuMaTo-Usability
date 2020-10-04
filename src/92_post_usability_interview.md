@@ -33,7 +33,7 @@ Schlecht fand ich, dass wenn man vom Profil auf Aufgabe geklickt hat und dann au
 3. Wie findest du die Workflows?
 Das Eintragen der TFL war sehr aufwändig und auch deutlich aufwändiger als alles andere. Insgesamt war das viel zu kompliziert,
 einmal als Transferleistung eintragen, dann als Aufgabe und dann als Praxiseinsatz. Und warum können sich Praxiseinsatz und TFL nicht überschneiden? Ich hätte es gerne parallel eingetragen, aber das ging nicht.
-Zudem finde ich es unglücklich eine Aufgabe für TFL einzutragen, obwohl gar nicht alle Attribute zutreffend sind. Der ganze Prozess ist unintuitiv, aber im FAQ beschrieben. Hätte mich der versuchsbetreuer nicht darauf hingewiesen, hätte ich das nicht gelesen. Zudem war das Suchen eines Studenten sehr schwierig, langsam und hat zu viele einzelne Klicks erfordert. Da musste ich mich durch jeden Studenten einzeln durchklicken.
+Zudem finde ich es unglücklich eine Aufgabe für TFL einzutragen, obwohl gar nicht alle Attribute zutreffend sind. Der ganze Prozess ist unintuitiv, aber im FAQ beschrieben. Hätte mich der Versuchsbetreuer nicht darauf hingewiesen, hätte ich das nicht gelesen. Zudem war das Suchen eines Studenten sehr schwierig, langsam und hat zu viele einzelne Klicks erfordert. Da musste ich mich durch jeden Studenten einzeln durchklicken.
 
 4. Wie hat die Testsituation dich beeinflusst?
 
@@ -56,7 +56,7 @@ Gut gefallen haben mir Ladeindikatoren und das Feedback wenn etwas fertig ist. S
 
 3. Wie findest du die Workflows?
 
-Aufgaben erstellen und sie selbst zuzuordnen ist unnötig redundant. Sie sollten direkt im Kalender auftauchen. Man muss die Aufgabe erst erstellen und dann noch ins Profil eintragen, das ist sehr anstregend.
+Aufgaben erstellen und sie selbst zuzuordnen ist unnötig redundant. Sie sollten direkt im Kalender auftauchen. Man muss die Aufgabe erst erstellen und dann noch ins Profil eintragen, das ist sehr anstrengend.
 
 4. Wie hat die Testsituation dich beeinflusst?
 
@@ -64,13 +64,13 @@ Ich habe die Aufgaben weniger gepflegt als echt und so die Profilpflege nur rudi
 
 5. Verbesserungsvorschläge für Prozesse?
 
-Mir fallen kaum welche ein. Ein Drag and Drop für die Transferleistungen wäre noch nett. Statt dem Dateinamen könnte auch eine Preview angezeigt werden. Zudem sollte eine Transferleistung als Kalendereintrag zur Verfügung stehen, auch innerhalb der Praxisphase sollte eine eine Transferleistung geschrieben werden können. 
+Mir fallen kaum welche ein. Ein Drag and Drop für die Transferleistungen wäre noch nett. Statt dem Dateinamen könnte auch eine Preview angezeigt werden. Zudem sollte eine Transferleistung als Kalendereintrag zur Verfügung stehen, auch innerhalb der Praxisphase sollte eine Transferleistung geschrieben werden können. 
 
 ### Interview Proband 4
 
 1. Wie war dein Gesamteindruck?
 
-Ich finde die Anwendung ist eine gute Idee, aber sie ist noch nicht so toll umgesetzt. Sie macht nur wohl nur Sinn bei vielen Studenten.Am Ende der Nutzung war ich schon gervt. In der Realität wäre ich richtig genervt gewesen.
+Ich finde die Anwendung ist eine gute Idee, aber sie ist noch nicht so toll umgesetzt. Sie macht nur wohl nur Sinn bei vielen Studenten. Am Ende der Nutzung war ich schon genervt. In der Realität wäre ich richtig genervt gewesen.
 
 2. Was waren die größten Störfaktoren und was waren positive Momente?
 
@@ -87,6 +87,6 @@ Ich hätte wohl meine Kollegen gefragt, bevor ich die Aktionen durchgeführt hä
 5. Verbesserungsvorschläge für Prozesse?
 
 Auf jeden Fall sollten Aufgaben parallel bearbeitbar sein. Zudem muss der Transferleistungsprozess einfacher. Auch der Kalender ist unverständlich, wenn keine Daten eingetragen sind. Hier fehlt eine Legende. Zudem waren die Studentenprofile zu wenig gepflegt. Auch die Aufgabenübersicht finde ich nicht ansprechend. Des Weiteren ist mir der Unterschied zwischen Aufgaben und Daueraufgaben nicht klar. 
-Einige Fehler sind unverständlich und auf Englisch. Ich finde auch, dass das Kontaktieren der Studenten möglich sein sollte. Zudem sollte man wenn man sich auf eine Aufgabe bewirbt über Umfang der Aufgabe verhandeln verhandeln können. Zudem sollten die Aufgaben kleinteiliger aufgeteilt werden können.
+Einige Fehler sind unverständlich und auf Englisch. Ich finde auch, dass das Kontaktieren der Studenten möglich sein sollte. Zudem sollte man wenn man sich auf eine Aufgabe bewirbt über Umfang der Aufgabe verhandeln können. Zudem sollten die Aufgaben kleinteiliger aufgeteilt werden können.
 Auch das Finden von Studenten fand ich schwierig. Hier sollten die Studenten sortiert und gefiltert werden können.
 Zudem sollten Credit Points automatisch erhöht werden können und bei hochgeladenen Transferleistungen oder bestandenen Klausuren erhöht werden. Zudem wäre eine Modulübersicht bei den Klausuren sinnvoll. Bei Seminaren sollten zudem auch halbe Credit Points eingetragen werden können.

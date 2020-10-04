@@ -39,7 +39,7 @@ Die Stellen der Hausarbeit, die andere Quellen im Wortlaut oder dem Sinn nach en
 
 ## Einzelleistungen der Autoren
 
-Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und probegelesen, ein jeder hat Kritik ausgeübt und Verbesserungen vorgenommen. In der nachfolgenden Auflistung steht jedoch die Nennung bestimmter Autoren dafür, dass diese eine Leistung hauptsächlich erbracht haben.
+Die gesamte Arbeit wurde teilweise von allen Autoren bearbeitet und Probe gelesen, ein jeder hat Kritik ausgeübt und Verbesserungen vorgenommen. In der nachfolgenden Auflistung steht jedoch die Nennung bestimmter Autoren dafür, dass diese eine Leistung hauptsächlich erbracht haben.
 
 | Leistung                                                     | Autoren                                 |
 | ------------------------------------------------------------ | --------------------------------------- |

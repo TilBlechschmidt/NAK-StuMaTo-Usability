@@ -175,7 +175,7 @@ Table: Problemfunde Hendrik {#tbl:heur:hendrik}
 | CONSIST         | Layout von Suchergebnissen ist nicht einheitlich.            | SEARCH                    |
 | CONSIST         | Kein Such-Button, wenn ein vorherige Query noch drin steht   | SEARCH                    |
 | CONSIST         | Suchfeld wird von Passwort Managern als Password Feld erkannt | SEARCH                    |
-| CONTROL         | Suchergebnis wird beim erstellen eines neuen Skills nicht übernommen. | TASK.EDIT, STUDENT.WORK   |
+| CONTROL         | Suchergebnis wird beim Erstellen eines neuen Skills nicht übernommen. | TASK.EDIT, STUDENT.WORK   |
 | CONTROL         | Einsatze können nicht direkt gelöscht werden                 | STUDENT.WORK              |
 | CONTROL / ADAPT | Neuanordnung von Einsätzen ist nicht einfach möglich         | STUDENT.WORK              |
 | CONTROL / RECOG | Bei Einsätzen können nur existierende Aufgaben eingetragen werden. | STUDENT.WORK              |
