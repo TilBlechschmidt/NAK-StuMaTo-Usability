@@ -8,7 +8,7 @@ Ich bin ziemlich breit aufgestellt. Ich habe getestet, entwickelt, Teams geleite
 Zudem bin ich als Studentenbetreuer aktiv. In dieser Rolle habe ich viel mit StuMaTo zu tun.
 Es ist das wesentliche Tool zur Verwaltung von Infos rund um Studis. Insgesamt umfasst das Betreuen der Studenten 30% bis 40% der Arbeitszeit.
 Manchmal ist es eine schwierige Abwägung, was wichtiger ist, meine Tagesgeschäftsaufgaben oder die Betreuung der Studenten. Die Studi-Aufgaben sind meist nicht zeitkritisch, haben aber Deadlines.
-So stellt die Studentenverwaltung immer mal Ablenkung dar.
+So stellt die Studentenverwaltung gelegentlich eine Ablenkung dar.
 
 2. Wie ist das Betriebsklima in der Firma?
 
@@ -17,68 +17,62 @@ persönliche Probleme mit einzelnen Personen, in meinem Umfeld war aber immer al
 
 3. Wie läuft das Studium für einen Studenten hier ab?
 
-Das Studium läuft quartalsweise ab. Dabei wechseln sich Praxiszeit im Unternehmen und Theorie in der  Hochschule ab
-Der Studentenbetreuer, also ich, gestalte die Zeit der Studis im Unternehmen.
-Dabei bin ich bemüht eine möglichst große Breite in der Ausbildung sicherzustellen.
+Das Studium läuft quartalsweise ab. Dabei wechseln sich Praxiszeit im Unternehmen und Theorie in der Hochschule ab
+Ich gestalte die Zeit der Studis im Unternehmen. Dabei bin ich bemüht eine möglichst große Breite in der Ausbildung der Studenten sicherzustellen.
 
 4. Welche hierarchischen Strukturen existieren in der Firma und wie beeinflussen sie die Studenten?
 
-Natürlich gibt es Hierarchien in der Firma, es kann ja
-nicht jeder Leute einstellen. Insgesamt gibt es vier Hierarchiestufen, Vorstand, Bereichsleiter, Team/Abteilungsleiter und die Mitarbeiter. 
-Im Tagesgeschäft sollen diese Hierarchien aber nicht sichtbar sein. Direkter Kontakt sollte zwischen allen im Unternehmen möglich sein. Zudem duzen sich alle im Unternehmen. Dies soll die Schwelle zu den Vorgesetzten herabzusetzen. Zudem gibt es die Open-Door-Politik, die Besagt, dass jeder zu jedem ins Büro kommen kann, um mit ihm zu reden. Auch die Vorstandsbüros sind immer offen. 
-Auch ich versuche immer offen für die Anliegen meiner Studis zu sein. Der Kontakt zu ihnen soll vertrauensgeprägt sein. Sie sollen mit Sorgen, Ängsten und Noten zum Betreuer kommen ohne Angst zu haben. Aufgaben werden trotzdem verteilt und Studis können zwar Wünsche äußern, aber es ist kein Wunschkonzert.
+Natürlich gibt es Hierarchien in der Firma, es kann ja nicht jeder Leute einstellen. Insgesamt gibt es vier Hierarchiestufen, Vorstand, Bereichsleiter, Team/Abteilungsleiter und die Mitarbeiter. 
+Im Tagesgeschäft sollen diese Hierarchien aber nicht sichtbar sein. Direkter Kontakt sollte zwischen allen Mitarbeitern im Unternehmen möglich sein. Zudem duzen sich alle im Unternehmen. Dies soll die Schwelle zu den Vorgesetzten herabzusetzen. Zudem gibt es die Open-Door-Politik, die besagt, dass jeder zu jedem ins Büro kommen kann, um mit ihm zu reden. Auch die Vorstandsbüros sind immer offen. 
+Auch ich versuche immer offen für die Anliegen meiner Studis zu sein. Der Kontakt zu ihnen soll vertrauensgeprägt sein. Sie sollen mit Sorgen, Ängsten und Noten zum Betreuer kommen, ohne dabei Angst haben zu müssen. Aufgaben werden trotzdem verteilt und Studis können zwar Wünsche äußern, aber es ist kein Wunschkonzert.
 
 5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
 
 Das Ziel ist es, die Ausbildung so breit wie möglich über die Ausbildung hinweg zu staffeln. Dabei versuche ich 
 Aufgaben zu finden, die zum Studi und Ausbildungsstand passen. Dabei möchte ich
 den Wünschen der Studis soweit wie möglich gerecht werden. 
-Dabei bin ich auf die Projekte angewiesen, dass diese mit Aufgaben auf mich zu kommen.  
-In einigen Projekten ist es bekannter, dass es Studenten gibt, in anderen weniger.
+Dazu bin ich auf die Projekte angewiesen, dass diese mit Aufgaben auf mich zu kommen.  
+In einigen Projekten ist es bekannter, dass es Studenten gibt, in anderen ist es weniger bekannt.
 Ab und zu ist es aber auch umgekehrt der Fall und ich gehe auf die Projekte zu.
 Eigentlich kommen beide Fälle gleich häufig vor.
 
 6. Wie werden Studenten in ihren Abteilungen betreut?
 
 Den Erstkontakt zwischen Abteilung und Studi stelle ich per Mail her. Dabei gibt es in für den Studenten immer genau einen fachlichen Betreuer. 
-Es gab schlechte Erfahrungen, wenn mehrere Betreuer zugeordnet waren, da sich keiner  verantwortlich gefühlt hat.
+Es gab schlechte Erfahrungen, wenn mehrere Betreuer zugeordnet waren, da sich keiner verantwortlich gefühlt hat.
 Vor dem Anfang der Praxisphase geht der Studi auf den Betreuer zu. 
 
 7. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
 
-Ich she Keinen großen Optimierungsbedarf, auch wenn es immer etwas zum Optimieren gibt. 
-Ich denke nichts läuft völlig falsch.
+Ich sehe keinen großen Optimierungsbedarf, auch wenn es immer etwas zum Optimieren gibt. Ich denke nichts läuft völlig falsch.
 
 8. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
 
-Für das Sammeln von Aufgaben nutze ich
-StuMaTo. Zudem gibt es in Confluence  einen Sammeltopf von eigenen Ideen. Für die Verteilung der Aufgaben gibt es eine 
-Excel Tabelle und auch hier wird der 
-Confluencespace genutzt.
+Für das Sammeln von Aufgaben nutze ich StuMaTo. Zudem gibt es in Confluence einen Sammeltopf von eigenen Ideen. Für die Verteilung der Aufgaben gibt es eine Excel Tabelle und auch hier wird der Confluence-Space genutzt.
 Die Abschlussprotokolle werden in Word geschrieben und per Mail an die Studis versandt.
 
 9. Wofür verwendest du StuMaTo?
 
-Ich benutze StuMaTo vor allem als Sammeltopf für Aufgaben von extern. Zudem tracke ich die Studis, was sie wie wo wann gemacht haben.
-Um den Studienstand zu überprüfen nutze ich es eher selten, da nutze ich eher Abschlussgespräche und deren Protokoll.
+Ich benutze StuMaTo vor allem als Sammeltopf für Aufgaben von extern. Zudem tracke ich die Studis, was sie wie, wo und wann gemacht haben.
+Um den Studienstand zu überprüfen nutze ich es eher selten, da nutze ich eher Abschlussgespräche und deren Protokolle.
 
 10. Wie häufig verwendest du StuMaTo?
 
 Die Verwendung ist saisonal schwankend. In Planungsphasen, um den Quartalswechsel herum, nutze ich es am meisten ansonsten eher selten.
-Insgesamt nutze ich es zehn bis fünfzehnmal pro Quartal. Durchschnittliche Nutzungszeit ist zwischen ein und fünf Minuten. Meistens habe ich dann aber im Hintergrund für ein bis zwei Stunden offen.
+Insgesamt nutze ich es zehn bis fünfzehnmal pro Quartal. Durchschnittliche Nutzungszeit ist zwischen ein und fünf Minuten. Meistens habe ich es dann aber im Hintergrund für ein bis zwei Stunden offen.
 
 11. Benutzt du StuMaTo gerne?
 
-Ja, mich stört daran nicht. Jedoch ist häufig nicht klar, welche Aufgaben noch aktuell sind.
+Ja, mich stört daran nichts. Jedoch ist häufig nicht klar, welche Aufgaben noch aktuell sind.
 
 12. Erleichtert StuMaTo das Finden von Aufgaben?
 
 Ja, definitiv. Es erzwingt eine Struktur von Aufgaben, die die Leute einstellen.
-Es werden jedoch nicht genügend hochwertige Aufgaben eingestellt, weshalb der Prozentsatz der Aufgaben, die über StuMaTo vermittelt werden recht gering ist. 
+Es werden jedoch nicht genügend hochwertige Aufgaben eingestellt, weshalb der Prozentsatz der Aufgaben, die über StuMaTo vermittelt werden, recht gering ist. 
 
 13. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
 
-Ich gucke in StuMaTo und sammle Aufgaben, die über StuMaTo verteilbar sind. Die Aufgaben, die geeignet sind übernehme ich in mein Backlog. Zudem sehe ich mir die Studis an und gucke nach deren Kenntnissen und Wünschen.
+Ich gucke in StuMaTo und sammle Aufgaben, die über StuMaTo verteilbar sind. Die Aufgaben, die geeignet sind, übernehme ich in mein Backlog. Zudem sehe ich mir die Studis an und gucke nach deren Kenntnissen und Wünschen.
 
 14. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
@@ -88,11 +82,11 @@ Man könnte den Workflow mit dem Zuordnen aus dem Confluence-Space übernehmen. 
 
 1. Welche Aufgabe übernimmst du im Unternehmen?
 
-Ich bin Dualer Student. Dabei habe ich in der Softwareentwicklung und -test gearbeitet. Dabei habe ich Softwareentwicklungsaufgaben aus dem Tagesgeschäft ausgeführt sowie Forschungsaufgaben, in denen es darum ging neue Techniken auszuprobieren.
+Ich bin Dualer Student. Dabei habe ich in der Softwareentwicklung und und im Softwaretest gearbeitet. So habe ich Softwareentwicklungsaufgaben aus dem Tagesgeschäft ausgeführt sowie Forschungsaufgaben, in denen es darum ging, neue Techniken auszuprobieren.
 
 2. Wie ist das Betriebsklima in der Firma?
 
-Das Betriebsklima ist sehr gut. Die Kollegen sind sehr nett und es gibt viele Veranstaltungen mit ihnen auf der Arbeit sowie außerhalb.
+Das Betriebsklima ist sehr gut. Die Kollegen sind sehr nett und es gibt viele Veranstaltungen mit ihnen auf wie neben der Arbeit.
 
 3. Wie läuft das Studium für einen Studenten hier ab?
 
@@ -105,26 +99,26 @@ Die Hierarchie bei PPI ist flach, obwohl sie insgesamt vier Ebenen hat. Als Stud
 
 5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
 
-Über meinen Studentenbetreuer Hans-Dirk. Bei ihm hinterlege ich meine Interessen und er sucht dann eine Aufgabe für mich.
+Aufgaben erhalte ich über meinen Studentenbetreuer. Bei ihm hinterlege ich meine Interessen und er sucht dann eine Aufgabe für mich.
 
 6. Wie werden Studenten in ihren Abteilungen betreut?
 
-Es gibt immer einen Aufgabenbetreuer bzw. Hauptansprechpartner, über den vor allem die Kommunikation läuft. Der Ansprechpartner ist wenn benötigt immer verfügbar gewesen. Eine Kleine Ausnahme gab es bei einer Aufgabe unter einem  Bereichsleiter.
+Es gibt immer einen Aufgabenbetreuer bzw. Hauptansprechpartner, über den vor allem die Kommunikation läuft. Der Ansprechpartner ist, wenn benötigt, immer verfügbar gewesen. Eine Kleine Ausnahme gab es bei einer Aufgabe unter einem  Bereichsleiter.
 
 7. Welche Art von Aufgaben erhalten Studenten und wie erhalten sie diese?
 
 Aufgaben aus dem Tagesgeschäft und Forschungsaufgaben.
 Unter den Forschungsaufgaben waren die Entwicklung eines neuen Reportings für Jenkins sowie das Durchführen eines Penetrationtest.
-Im Tagesgeschäft sind das Aufgaben aus Softwaretest und -entwicklung.
-Erhalten tue ich meine Aufgaben über persönlichen Kontakt zu meinem Studentenbetreuer. Eine Aufgabe habe ich aus StuMaTo bekommen, jedoch habe ich mich auf diese nicht selber beworben. 
+Im Tagesgeschäft bearbeite ich Aufgaben aus Softwaretest und -entwicklung.
+Ich erhalten meine Aufgaben über persönlichen Kontakt zu meinem Studentenbetreuer. Eine Aufgabe habe ich aus StuMaTo bekommen, jedoch habe ich mich auf diese nicht selber beworben. 
 
 8. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
 
-Ja, die Betreuung zwar sehr gut. Jedoch werden die Studenten oftmals als günstige oder kostenlose Arbeitskräfte gesehen, worunter die Aufgabenqualität teilweise etwas leidet.
+Ja, die Betreuung ist zwar sehr gut, jedoch werden die Studenten oftmals als günstige oder kostenlose Arbeitskräfte gesehen, worunter die Aufgabenqualität teilweise leidet.
 
 9. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
 
-Ich benutze am häufigsten unser nerviges Mailprogramm. Ich habe StuMaTo benutzt um mein Profil zu pflegen. Seitdem es das neue StuMaTo gibt, nutze ich dieses nicht mehr.
+Ich benutze am häufigsten unser nerviges Mailprogramm. Ich habe StuMaTo benutzt, um mein Profil zu pflegen. Seitdem es das neue StuMaTo gibt, nutze ich dieses nicht mehr.
 
 10. Wofür verwendest du StuMaTo?
 
@@ -132,7 +126,7 @@ Ich benutze es, um mein Profil zu pflegen, um einen guten Eindruck zu machen. Di
 
 11. Wie häufig verwendest du StuMaTo?
 
-Einmal im Jahr, früher etwa einmal pro Praxisphase. Jetzt kaum noch.
+Einmal im Jahr, früher etwa einmal pro Praxisphase. Jetzt nutze ich es kaum noch.
 
 12. Benutzt du StuMaTo gerne?
 
@@ -140,7 +134,7 @@ Nein, da darin keine relevanten Informationen verfügbar sind. Kaum jemand sieht
 
 13. Wie lange bist du auf StuMaTo, wen du es nutzt?
 
-Ich brauche 10min bis 15min Profil aktualisieren. Dann nutze ich fünf Minuten für Aufgabenrecherche. Danach bin ich aber meistens enttäuscht.
+Ich brauche 10min bis 15min zum Aktualisieren meines Profils. Dann nutze ich fünf Minuten für die Aufgabenrecherche. Danach bin ich aber meistens enttäuscht.
 
 14. Erleichtert StuMaTo das Finden von Aufgaben?
 
@@ -148,8 +142,8 @@ Nein!
 
 15. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
 
-Nach einem Abschlussgespräch werde ich dazu aufgefordert mein Profil zu aktualisieren. Dann pflege ich meinen Praxiseinsätze ein und mache StuMaTo wieder zu.
-Bei einer neuen Praxisphase versuche ich eine  Aufgabe über StuMaTo suchen. Jedoch hat sich meistens seit letztem Versuch nichts verändert und es gibt keine neuen Aufgaben im System.
+Nach einem Abschlussgespräch werde ich dazu aufgefordert, mein Profil zu aktualisieren. Dann pflege ich meinen Praxiseinsätze ein und mache StuMaTo wieder zu.
+Bei einer neuen Praxisphase versuche ich, eine Aufgabe über StuMaTo zu suchen. Jedoch hat sich meistens seit letztem Versuch nichts verändert und es gibt keine neuen Aufgaben im System.
 
 16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
@@ -157,7 +151,7 @@ Selten. Eine Aufgabe wurde aus StuMaTo übernommen.
 
 17. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
-Mehr Personen sollten Aufgaben in StuMaTo  einstellen, dabei sollte die Aufgabe gleich ins Profil übernommen werden. Zudem funktioniert das Bereitstellen der Transferleistungen darüber ganz gut.
+Mehr Personen sollten Aufgaben in StuMaTo einstellen, dabei sollte die Aufgabe gleich ins Profil übernommen werden. Zudem funktioniert das Bereitstellen der Transferleistungen darüber ganz gut.
 
 18. Hast du Zeitdruck, wenn du StuMaTo benutzt?
 
@@ -205,24 +199,24 @@ Ich benutze die Kommunkationstools Jabber und Zulip. Dabei verläuft die Kommuni
 
 10. Wofür verwendest du StuMaTo?
 
-Ich benutze es zur Präsentation gegenüber anderen Mitarbeitern. Ob sich das jemand anschaut ist mir unbekannt.
+Ich benutze es zur Präsentation gegenüber anderen Mitarbeitern. Es ist mir unbekannt, ob es sich jemand anschaut.
 
 11. Wie häufig verwendest du StuMaTo?
 
-Etwa alle 2 Monate
+Etwa alle 2 Monate.
 
 12. Benutzt du StuMaTo gerne?
 
-Jein. Mich stört das neben den Mitarbeiter-Master-Profilen auch noch das StuMaTo-Profil gepflegt werden muss.
+Jein. Mich stört, dass neben den Mitarbeiter-Master-Profilen auch noch das StuMaTo-Profil gepflegt werden muss.
 
 13. Wie lange bist du auf StuMaTo, wen du es nutzt?
 
 Ich pflege mein eigenes Profil und sehe mir Angebote gelegentlich an. Manchmal schaue ich auf die Profile anderer Studenten.
-Wenn ich es benutze, dann doch sehr intensiv.
+Wenn ich es benutze, dann nutze ich es auch sehr intensiv.
 
 14. Erleichtert StuMaTo das Finden von Aufgaben?
 
-Bei Aufgaben ein klares nein, da keine sinnvollen Aufgaben eingetragen sind. Andere Studenten kann man jedoch gut finden.
+Bei Aufgaben ein klares "Nein", da keine sinnvollen Aufgaben eingetragen sind. Andere Studenten kann man jedoch gut finden.
 
 15. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
@@ -241,11 +235,11 @@ Ich bin ein Dualer Student. Dabei habe ich mehrere Funktionen. Ich habe in der S
 
 2. Wie ist das Betriebsklima in der Firma?
 
-Das Klima ist überwiegend positiv und konstruktiv. Wir haben gute Mitarbeiter,die sich proaktiv einbringen
+Das Klima ist überwiegend positiv und konstruktiv. Wir haben gute Mitarbeiter, die sich proaktiv einbringen.
 
 3. Wie läuft das Studium für einen Studenten hier ab
 
-Das Studium teilt sich in Semesterblöcke von zehn Wochen auf. Ein Semester habe ich im Ausland verbracht, eines von zuhause aus. Im Studium schreibe ich Hausarbeiten, Klausuren und gestalte  Vorträge. Die Transferleistungen werden manchmal in der Arbeitszeit geschrieben, aber diese sind  aj auch Synthese aus Arbeits- und Studienleistung. Zudem konnte ich die Koordination meiner Bachelorarbeit auch in Arbeitszeit absolvieren.
+Das Studium teilt sich in Semesterblöcke von zehn Wochen auf. Ein Semester habe ich im Ausland verbracht, eines von zuhause aus. Im Studium schreibe ich Hausarbeiten, Klausuren und gestalte Vorträge. Die Transferleistungen werden manchmal in der Arbeitszeit geschrieben, aber diese sind ja auch Synthese aus Arbeits- und Studienleistung. Zudem konnte ich die Koordination meiner Bachelorarbeit auch in Arbeitszeit absolvieren.
 
 4. Welche hierarchischen Strukturen existieren in der Firma und wie beeinflussen sie die Studenten?
 
@@ -253,17 +247,16 @@ In der Praxis spielen die Strukturen keine große Rolle für mich. Es gibt zwar 
 
 5. Wie findet die Vermittlung zwischen Studenten und Abteilungen ab?
 
-Die Vermittlung läuft über den Betreuer des Studenten. Der Student kann sich Aufgabe auch selber suchen, muss das dann aber mit dem Betreuer absprechen. StuMaTo habe ich für das Finden von noch nicht wirklich benutzt. Ich habe es zwar versucht, aber ich habe die Aufgabe nicht bekommen, da die Aufgabe zu dem Zeitpunkt nicht aktuell war.
+Die Vermittlung läuft über den Betreuer des Studenten. Der Student kann sich eine Aufgabe auch selber suchen, muss das aber mit dem Betreuer absprechen. StuMaTo habe ich für das Finden von Aufgaben noch nicht wirklich benutzt. Ich habe es zwar versucht, aber ich habe die Aufgabe nicht bekommen, da sie zu dem Zeitpunkt nicht mehr aktuell war.
 
 6. Wie werden Studenten in ihren Abteilungen betreut?
 
-Die Qualität der Betreuung ist sehr unterschiedlich. In einigen Abteilungen wird versucht die Studenten nach Wissenstand einzubinden. Dabei erhält der Student sehr spezifische Aufgaben. So ist es Ideal. Manchmal war es aber auch nicht wirklich klar, was der Student tun soll. Manchmal sind Aufgaben nicht angemessen. Man ist entweder zu schnell mit der Aufgabe fertig oder kann sie mit den aktuellen Fähigkeiten nicht lösen.
+Die Qualität der Betreuung ist sehr unterschiedlich. In einigen Abteilungen wird versucht die Studenten nach Wissenstand einzubinden. Dabei erhält der Student sehr spezifische Aufgaben. So ist es ideal. Manchmal war es aber auch nicht wirklich klar, was der Student tun soll. Manchmal sind Aufgaben nicht angemessen. Man ist entweder zu schnell mit der Aufgabe fertig oder kann sie mit den aktuellen Fähigkeiten nicht lösen.
 
 7. Welche Art von Aufgaben erhalten Studenten und wie erhalten sie diese?
 
-Eine Aufgabe war die Projektleitung eines Studentenprojekts. Des Weiteren habe ich viele Entwicklungsaufgaben übernommen. Darunter waren der Export von Cucumber-Dateien nach Testlink, die Entwicklung und Einbindung eines Webservice-Client für automatisierte Tests, die Entwicklung eines  Workshopkonzepts, der die Grundlagen agiler Methoden vermittelt sowie Marktforschung.
+Eine Aufgabe war die Projektleitung eines Studentenprojekts. Des Weiteren habe ich viele Entwicklungsaufgaben übernommen. Darunter waren der Export von Cucumber-Dateien nach Testlink, die Entwicklung und Einbindung eines Webservice-Client für automatisierte Tests, die Entwicklung eines Workshopkonzepts, der die Grundlagen agiler Methoden vermittelt sowie Marktforschung.
 Die Aufgaben habe ich durch meinen Betreuer erhalten. Einige Aufgaben entstehen auch aus anderen Aufgaben heraus, Eigeninitiative ist dabei gefragt.
-
 
 8. Wo siehst du Verbesserungspotentiale innerhalb des Umgangs mit Studenten im Unternehmen?
 
@@ -271,13 +264,13 @@ Ja, definitiv. Studenten sollten mehr Feedback bekommen. Dafür sollte es klare 
 
 9. Benutzt du Software-Tools zur Unterstützung dieser Prozesse? Wenn ja, welche Probleme hast mit diesen?
 
-Manchmal informiere ich mich im Intranet über Teams und Abteilungen. Ansonsten mache ich vieles über den Studentenbetreuer, aber auch über persönliche Kontakte. Aber StuMaTo verwende ich eher selten. Ansonsten nutze ich natürlich Mailprogramm und Telefon.
+Manchmal informiere ich mich im Intranet über Teams und Abteilungen. Ansonsten mache ich vieles über den Studentenbetreuer, aber auch über persönliche Kontakte. StuMaTo verwende ich dafür eher selten. Ansonsten nutze ich natürlich Mailprogramm und Telefon.
 
 10. Wofür verwendest du StuMaTo?
 
-Ich habe StuMaTo als firmeneigenes XING verwendet. Man kann sein Skills präsentieren und zeigen, was man in den Praxisphasen gemacht hat. Zudem konnte man  Klausurergebnisse für den Betreuer hochladen und seine Transferleistungen Verlinken. Seit dem neuen StuMaTo geht das mit dem Hochladen der Klausurergebnissen leider nicht mehr.
-Ein weiteres Problem ist, dass viele StuMaTo nicht kennen. Auch die Mitarbeiter, die es kennen sehen die Informationen häufig nicht als verlässlich an, da sie häufig schlecht gepflegt sind. 
-Ich habe früher gerne die Transferleistungen aus höheren Jahrgängen gerne mal gelesen, um mir Inspiration für meine eigenen zu holen.
+Ich habe StuMaTo als firmeneigenes XING verwendet. Man kann seine Fä präsentieren und zeigen, was man in den Praxisphasen gemacht hat. Zudem konnte man  Klausurergebnisse für den Betreuer hochladen und seine Transferleistungen verlinken. Seit dem neuen StuMaTo geht das Hochladen der Klausurergebnissen leider nicht mehr.
+Ein weiteres Problem ist, dass viele StuMaTo nicht kennen. Auch die Mitarbeiter, die es kenne,n sehen die Informationen häufig nicht als verlässlich an, da sie häufig schlecht gepflegt sind. 
+Ich habe früher gerne die Transferleistungen aus höheren Jahrgängen gelesen, um mir Inspiration für meine eigenen zu holen.
 
 11. Wie häufig verwendest du StuMaTo?
 
@@ -289,16 +282,16 @@ Das alte StuMaTo benutzte ich gerne. Vor allem am Anfang ist es interessant, was
 
 13. Wie lange bist du auf StuMaTo, wen du es nutzt?
 
-Circa 10 bis 15 Minuten
+Circa zehn bis fünfzehn Minuten.
 
 14. Erleichtert StuMaTo das Finden von Aufgaben?
 
-Aus meiner Sicht nicht, da es beim dem Projekt, auf das ich mich in StuMaTo beworben habe, nicht geklappt hat. StuMaTo wird nicht in den Prozess der Aufgabenverteilung eingebunden.
+Aus meiner Sicht nicht, da es bei dem Projekt, auf das ich mich in StuMaTo beworben habe, nicht geklappt hat. StuMaTo wird nicht in den Prozess der Aufgabenverteilung eingebunden.
 Potentiell kann es aber das Finden erleichtern, wenn es mehr in der Firma kennen und Nutzen, auch kleinere Aufgaben könnten vermittelt werden und auch andere Geschäftsbereiche könnten kennengelernt werden.
 
 15. Beschreibe eine typische Interaktion zwischen dir und StuMaTo!
 
-Ich gehe auf StuMaTo. Dann öffne ich mein Profil, trage weiteren Skill ein, verlasse Profil, scrolle Liste der Studenten runter, gucke mir bei anderen Studenten an, was die so gemacht haben.
+Ich gehe auf StuMaTo. Dann öffne ich mein Profil, trage einen weiteren Skill ein, verlasse mein Profil, scrolle die Liste der Studenten nach unten, gucke mir bei anderen Studenten an, was die so gemacht haben.
 
 16. Welche weiteren Prozesse könnten mit StuMaTo vereinfacht werden?
 
@@ -361,7 +354,7 @@ Nicht so oft, vielleicht zweimal im Monat, nur um mal reinzugucken. Aber insgesa
 
 12. Benutzt du StuMaTo gerne?
 
-Ja, es bietet einen netten Überblick über alle Studenten. Zudem ist es schön Infos zu bekommen über andere Aufgaben.
+Ja, es bietet einen netten Überblick über alle Studenten. Zudem ist es schön, Infos über andere Aufgaben zu bekommen.
 
 13. Wie lange bist du auf StuMaTo, wen du es nutzt?
 
