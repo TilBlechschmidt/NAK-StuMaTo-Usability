@@ -38,8 +38,6 @@ Aufgabe fünf "In dieser Praxisphase hast du eine Transferleistung geschrieben. 
 
 Aufgabe sechs "In der nächsten Praxisphase möchtest du ein Marketingprojekt für StuMaTo machen, finde über StuMaTo einen Mitstudenten mit dem du dieses Projekt durchführen kannst!" hat keinen großen Bezug zur Kontextanalyse. Das Einstellen der Aufgaben und das Finden von Studenten ist keine Aufgabe der Studenten selber, sondern eher der Aufgaben- und Studentenbetreuer. Jedoch ist in der Kontext- und Heuristischen Analyse aufgefallen, dass es sehr wenige relevante Aufgaben im System gibt, und wenige Aufgabe. Wenn dies darauf zurückzuführen ist, dass es eklatante Fehler im Prozess vom Finden von Studenten für Aufgaben gibt, ist dies auch für die Nutzung aus Studentensicht eine relevante Erkenntnis. 
 
-
-
 ### Auswahl der Fragen für das anschließende Interview
 
 Das Interview, welches direkt anschließend an die Nutzertests durchgeführt wird, soll den Nutzern die Möglichkeit geben, den Gesamteindruck von StuMaTo auszudrücken und Punkte, welche im Thinking Aloud nur teilweise angesprochen wurden nach ihrer eigenen Gewichtung erneut ansprechen zu können. Dies verspricht eine reflektiertere Sicht, die in der Interpretation der Handlungen hilfreich ist.
