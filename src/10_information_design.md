@@ -122,7 +122,7 @@ Im folgenden wird nur auf das Agentensystem der Praxisphase eingegangen. Das Age
 In Schritt eins werden alle Herausforderungen aufgelistet, die in der Praxis angegangen wurden. Dabei können Aufgaben, die schon im System gelistet sind, gesucht und jene, die es nicht sind, erstellt werden. Die explizite Trennung von Suchen und Erstellen, soll verdeutlichen, wo die Aufgabe herkommt. Durch das Erstellen wird dem Nutzer eine einfache Möglichkeit gegeben eingene Aufgaben in das System zu integrieren ohne einen UI-Wechsel durchführen zu müssen.
 In Schritt zwei kann eine Kurzbeschreibung zu der Aufgabe hinzugefügt werden. Diese Funktionalität wurde aus dem alten System beibehalten. Hier wird der Nutzer animiert weitere Informationen über die Bearbeitung seiner Aufgabe preiszugeben.
 In Schritt drei sollen die Errungenschaften, die bei der Bewältigung der Herausforderungen entstanden sind, einzugeben. Somit soll das Profil des Nutzers weiter gepflegt werden. So werden dem Nutzer schon die Kenntnisse, die mit der Aufgabe verbunden waren, in diesem Dialog angezeigt. Es ist wahrscheinlich, dass der Nutzer bei dem Bearbeiten einer Augfabe in den Bereichen seine Kenntnisse erweitert hat, an der er gerade gearbeitet hat. Somit findet der Nutzer die für ihn relevanten Informationen schnell und kann sofort mit ihnen interagieren. Zudem können in diesem Dialog die anderen üblichen Errungenschaften wie Seminare, TFLs oder weiteres hinzugefügt werden.
-Nachdem diese drei Schritte durchlaufen sind, wird der Nutzer zu einem Review seiner eingetragenen Daten geführt. Dies dient dazu, dass der Nutzer einmal Feedback bekommt, dass der Prozess des Eintragens von Daten jetzt beendet ist. Zudem kann der Nutzer seine Daten noch einmal prüfen, um Fehler zu vermeiden.
+Nachdem diese drei Schritte durchlaufen sind, wird der Nutzer zu einem Review seiner eingetragenen Daten geführt. Dies dient dazu, dass der Nutzer einmal Feedback bekommt, dass der Prozess des Eintragens von Daten jetzt beendet ist. Dies behebt auch den ENDLESS-PROFILE Fehler aus der Heuristischen Analyse. Zudem kann der Nutzer seine Daten noch einmal prüfen, um Fehler zu vermeiden.
 
 **Claims:**
 
@@ -148,15 +148,11 @@ Auch die **Aufgabenübersicht** hat einige Updates bekommen. Das Suchen einer Au
 
 **\-** Durch die Trennung kann eine geringere Anzahl von Aufgaben auf einem Blick gezeigt werden
 
-
-
-<!-- TODO: vor allem der Agenten-Workflow zum Dokumentieren der Phasen ist wichtig, dabei geht es hauptsächlich um die Reduktion der vorhandenen Informationen auf die aktuell wichtigen. -> Vermeiden vom Information Overload, Erinnerung an jeden Schritt, Vorgabe einer Reihenfolge. -> Hat außerdem jederzeit die Info über den Fortschritt. Potentiell: man kann hier die Heuristik ENDLESS-PROFILE referenzieren, allerdings könnte das zu Interaktionsfokussiert sein -->
-
-
-
 ## Reflexion des Informationsdesigns
 
-<!-- TODO: Sehr umfangreich, erstellung vieler Prototypen, war mit Papierprototypen gut möglich. Wegen der dynamischen Umgestaltung sind Elemente des Interaktionsdesigns leicht in das Informationsdesign eingeflossen, auch weil kein Interaktionsdesign stattfindet, Claims mussten zur detaillierteren Darstellung noch   begründet werden; Informationsszenarien sind leicht von den Aktivitätsszenarien abgewichen, weil jetzt Fokus auf "alle geänderte Dialoge zeigen"; Spätere Verfeinerung des Designs erforderte Überarbeitung des Szenarios -->
+Das Informationsdesign hat eine große Änderung in der Anwendung hervorgerufen. Es sind viele neue Ideen und Prototypen dabei entstanden. Das verwenden der Papierprototypen hat den Prozess dabei sehr vereinfacht, da diese sehr schnell zu produzieren waren. Zudem konnten im Designprozess schnell Änderungen an ihnen durchgeführt werden, sodass am Ende bestmögliche Prototypen entstehen konnten. Aufgrund der grundlegenden Umgestaltung der Dialoge sind teilweise schon Komponenten des Interaktionsdesigns mit in diesen Schritt des Informationsdesigns eingeflossen. Jedoch wurde versucht, diesen Anteil möglichst gering zu halten.
+Insgesamt sind die Informationsszenarien leicht von den Aktivitätsszenarien abgewichen, da der Fokus des Informationsszenarios nun war jeden neu gestalteten Dialog im Szenario vorstellen zu können.  
+
 
 
 
