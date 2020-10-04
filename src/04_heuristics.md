@@ -3,7 +3,7 @@
 
 ## Methodik
 
-Diese Arbeit verwendet eine heuristische Analyse als Expertenreview-Verfahren um formale Abweichungen von Erfahrungswerten der Usability festzustellen.
+Diese Arbeit verwendet eine heuristische Analyse als Expertenreview-Verfahren, um formale Abweichungen von Erfahrungswerten der Usability festzustellen.
 
 Dies wirkt einerseits ergänzend zu den späteren Nutzerverfahren, welche tatsächliche Probleme unvoreingenommener Nutzer hervorheben sollen und andererseits dient es dazu, potentielle Problemfelder zu identifizieren, welche der Direktion ebenjener Nutzerverfahren dienen können.
 
@@ -56,9 +56,9 @@ Diese parallele heuristische Analyse befolgt diesen Ablauf:
 
 Die Vorbedingung dieses Ablaufes ist die vorangegangene Kontextanalyse.
 
-Punkt 1 bis 5 des dargestellten Ablaufes formen eine klassische heuristische Analyse dar, welche besonders darauf gerichtet ist, Beeinflussungen zwischen den Evaluatoren zu vermeiden, indem stets erst am letzten möglichen Zeitpunkt ein Vergleich der Ergebnisse stattfindet. So werden zur Vereinheitlichung der Analyse und zur Sicherstellung auswertbarer Ergebnisse zwar dieselben Kriterien verwendet, die Bewertung der Anwendung anhand dieser erfolgt jedoch parallel. Nach der Zusammenführung der gefundenen Probleme erfolgt auch die Gewichtung dieser wieder parallel.
+Punkt 1 bis 5 des dargestellten Ablaufes stellen eine klassische heuristische Analyse dar, welche besonders darauf gerichtet ist, Beeinflussungen zwischen den Evaluatoren zu vermeiden, indem stets erst am letzten möglichen Zeitpunkt ein Vergleich der Ergebnisse stattfindet. So werden zur Vereinheitlichung der Analyse und zur Sicherstellung auswertbarer Ergebnisse zwar dieselben Kriterien verwendet, die Bewertung der Anwendung anhand dieser erfolgt jedoch parallel. Nach der Zusammenführung der gefundenen Probleme erfolgt auch die Gewichtung dieser wieder parallel.
 
-Punkt 6 bist 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen eine sinnvolle Verarbeitung innerhalb des vorgestellten Analyserahmens.
+Punkt 6 bis 8 sind an das Format der Zielstellung gerichtet. Diese ermöglichen eine sinnvolle Verarbeitung innerhalb des vorgestellten Analyserahmens.
 
 Punkt 9 dient der Rückkopplung an die Bewertung und kann dazu dienen, die in Punkt 8 erstellten Problemfelder zu bewerten und Fehler in der Bestimmung von Problemen in Punkt 6 zu erkennen. Letzteres ist besonders wichtig, um in der späteren Gestaltungsphase nicht fehlgeleitete, sich negativ auswirkende Änderungen vorzunehmen. Ersteres hingegen ist die Grundlage für größere Veränderungen in der Gestaltungsphase.
 
