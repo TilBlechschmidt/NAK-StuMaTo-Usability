@@ -124,5 +124,17 @@
   "title": "Usability engineering: Scenario-based development of human-computer interaction",
   "title-short": "Usability engineering",
   "type": "book"
-}
+}, 
+  {
+    "author": [
+      {
+        "family": "PPI AG",
+        "given": ""
+      }
+    ],
+    "id": "ppi",
+    "publisher": "https://karriere.ppi.de/duales-studium.html",
+    "title": "Duales Studium bei PPI",
+    "type": "no-type"
+  }
 ]
