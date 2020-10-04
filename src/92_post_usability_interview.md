@@ -24,16 +24,16 @@ Gefallen hat mir die Einfachheit der Einrichtung. Ich würde mir in der Zukunft 
 
 1. Wie war dein Gesamteindruck?
 
-Nach meinem ersten Eindruck ist die Anwendung sehr übersichtlich und konsistent. Dieser Eindruck hat sich aber beim Eintragen der Transferleistung gewandelt. Die Konsistenz war dann weg, da ich die Daten dreimal eingetragen habe und es unklar war wofür. Es musste bei TFL und Einsatz eingetragen werden und dazu sollte noch eine Aufgabe erstellt werden. Das ist alles zu viel. Außerdem war nicht wirklich verständlich, warum alles bearbeitbar war, außer der Transferleistung. Die Bedienung ging meistens ganz gut, aber es gab kein Feedback beim Interesse bekunden.
+Nach meinem ersten Eindruck ist die Anwendung sehr übersichtlich und konsistent. Dieser Eindruck hat sich aber beim Eintragen der Transferleistung gewandelt. Die Konsistenz war dann weg, da ich die Daten dreimal eingetragen habe und es unklar war wofür. Es musste bei Transferleistung und Einsatz eingetragen werden und dazu sollte noch eine Aufgabe erstellt werden. Das ist alles zu viel. Außerdem war nicht wirklich verständlich, warum alles bearbeitbar war, außer der Transferleistung. Die Bedienung ging meistens ganz gut, aber es gab kein Feedback beim Interesse bekunden.
 
 2. Was waren die größten Störfaktoren und was waren positive Momente?
 Ich fand die Aufgaben gut integriert. Es kann von überall auf die Aufgaben zugegangen werden.
 Schlecht fand ich, dass wenn man vom Profil auf Aufgabe geklickt hat und dann auf den Zurück-Button, dass man dann nicht wieder auf dem Profil, sondern auf Aufgabenübersicht war. Daran habe ich mich sehr oft gestört.
 
 3. Wie findest du die Workflows?
-Das Eintragen der TFL war sehr aufwändig und auch deutlich aufwändiger als alles andere. Insgesamt war das viel zu kompliziert,
-einmal als Transferleistung eintragen, dann als Aufgabe und dann als Praxiseinsatz. Und warum können sich Praxiseinsatz und TFL nicht überschneiden? Ich hätte es gerne parallel eingetragen, aber das ging nicht.
-Zudem finde ich es unglücklich eine Aufgabe für TFL einzutragen, obwohl gar nicht alle Attribute zutreffend sind. Der ganze Prozess ist unintuitiv, aber im FAQ beschrieben. Hätte mich der Versuchsbetreuer nicht darauf hingewiesen, hätte ich das nicht gelesen. Zudem war das Suchen eines Studenten sehr schwierig, langsam und hat zu viele einzelne Klicks erfordert. Da musste ich mich durch jeden Studenten einzeln durchklicken.
+Das Eintragen der Transferleistung war sehr aufwändig und auch deutlich aufwändiger als alles andere. Insgesamt war das viel zu kompliziert,
+einmal als Transferleistung eintragen, dann als Aufgabe und dann als Praxiseinsatz. Und warum können sich Praxiseinsatz und Transferleistung nicht überschneiden? Ich hätte es gerne parallel eingetragen, aber das ging nicht.
+Zudem finde ich es unglücklich eine Aufgabe für Transferleistung einzutragen, obwohl gar nicht alle Attribute zutreffend sind. Der ganze Prozess ist unintuitiv, aber im FAQ beschrieben. Hätte mich der Versuchsbetreuer nicht darauf hingewiesen, hätte ich das nicht gelesen. Zudem war das Suchen eines Studenten sehr schwierig, langsam und hat zu viele einzelne Klicks erfordert. Da musste ich mich durch jeden Studenten einzeln durchklicken.
 
 4. Wie hat die Testsituation dich beeinflusst?
 
@@ -41,7 +41,7 @@ Da ich nie in der Firma gearbeitet habe, konnte ich anfangs in mein Profil nicht
 
 5. Verbesserungsvorschläge für Prozesse?
 
-Das eigentliche TFL eintragen ist sinnvoll, auch wenn mir die Bedeutung des Datums unklar war. Die anderen Dinge drumherum waren aber redundant. Sie hätte sofort in der Timeline auftauchen sollen.
+Das eigentliche Transferleistung eintragen ist sinnvoll, auch wenn mir die Bedeutung des Datums unklar war. Die anderen Dinge drumherum waren aber redundant. Sie hätte sofort in der Timeline auftauchen sollen.
 
 ### Interview Proband 3
 
