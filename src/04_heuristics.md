@@ -31,7 +31,7 @@ Es ist hierdurch möglich, mit gering gehaltenem Zeitaufwand eine Basis für fol
 
 Das Verfahren der heuristischen Evaluation erlaubt des Weiteren eine Abdeckung von formalen Kriterien mit begrenztem Expertenwissen und das sowohl in der Form einer summativen, als auch einer formativen Analyse. Alternative Expertenverfahren wären zum Beispiel das Walkthrough-Verfahren und das DaTech-Prüfverfahren. Diese wurden jedoch unter Bevorzugung der heuristischen Evaluation nicht gewählt. 
 
-Das Walkthrough-Verfahren wird nicht durchgeführt, da die starke Vertrautheit zweier der Autoren mit dem System die explorative Untersuchung des Systems eingeschränkt hätte. Eine Einbeziehung von Nutzern wird zu diesem Zeitpunkt aufgrund des Mehraufwandes noch nicht in Betracht gezogen, da der Mehrwert zu den späteren Usability-Tests vergleichsweise gering ist. Bei diesem Verfahren fehlt zudem der Fokus auf formale Kriterien, welcher nicht von Nutzern ersetzt werden kann,.
+Das Walkthrough-Verfahren wird nicht durchgeführt, da die starke Vertrautheit zweier der Autoren mit dem System die explorative Untersuchung des Systems eingeschränkt hätte. Eine Einbeziehung von Nutzern wird zu diesem Zeitpunkt aufgrund des Mehraufwandes noch nicht in Betracht gezogen, da der Mehrwert zu den späteren Usability-Tests vergleichsweise gering ist. Bei diesem Verfahren fehlt zudem der Fokus auf formale Kriterien, welcher nicht von Nutzern ersetzt werden kann.
 
 Auch das DaTech-Prüfverfahren ist nicht zielführend, da die notwendige Erfahrung der Experten mit diesem nicht gegeben ist, ein Zertifizierungsverfahren nicht angestrebt ist und die grundlegenden Prinzipien des Verfahrens bei geringerem Aufwand in einer Heuristischen Analyse überprüft werden können.
 
