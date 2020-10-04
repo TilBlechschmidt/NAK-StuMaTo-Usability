@@ -52,9 +52,9 @@ Nun bewirbt sich Simon auf die Aufgabe, in dem er auf "Interesse bekunden" klick
 \caption{Vorschau auf die Prototypen "Verfügbare Herausforderungen" und "Mailvorschau Interessenbekundung"}
 \end{figure}
 
-Eine gute Woche später öffnet Simon sein Profil erneut. Im Dashboard fällt ihm sofort die neue Aufgabe seines Agenten auf, die ihm sagt, dass er eine der Aufgaben bekommen hat, auf die er sich beworben hat und das diese in sein Profil hinzugefügt worden ist. Er klickt auf das Element Ansicht der Nachricht und gelangt, wie zu Beginn aus Versehen, in den neu gestalteten Dialog für seine aktuell laufende Praxisphase. Inzwischen sieht er hier seine Aufgabe. Neben dem Aufgabentitel sieht nur noch die Elemente Ansicht und Löschen. Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die neue Übersicht etwas aufgeräumter und übersichtlicher.
+Eine gute Woche später öffnet Simon sein Profil erneut. Im Dashboard fällt ihm sofort die neue Aufgabe seines Agenten auf, die ihm sagt, dass er eine der Aufgaben bekommen hat, auf die er sich beworben hat und das diese in sein Profil hinzugefügt worden ist. Er klickt auf das Element Ansicht der Nachricht und gelangt, wie zu Beginn aus Versehen, in den neu gestalteten Dialog für seine aktuell laufende Praxisphase. Inzwischen sieht er hier seine Aufgabe. Neben dem Aufgabentitel sieht er nur noch die Elemente Ansicht und Löschen. Darunter hat er die Möglichkeit eine neue Herausforderung hinzuzufügen. Die Felder Datum und Kurzbeschreibung fehlen jetzt komplett. Simon findet die neue Übersicht etwas aufgeräumter und übersichtlicher.
 
-In Sicherheit, dass alles in StuMaTo dokumentiert ist, schließt er den Browsertab.
+In Sicherheit, dass alles in StuMaTo dokumentiert ist, schließt er den Browser.
 
 ## Informationsszenario Ende Praxisphase
 
