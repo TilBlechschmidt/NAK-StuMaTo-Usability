@@ -25,7 +25,7 @@ Die PPI AG ist ein mittelständisches Unternehmen im Bereich Softwareconsulting 
 
 Um das Studium der Studenten besser managen zu können wurde StuMaTo ins Leben gerufen. StuMaTo steht dabei für Student Management Tool. Dabei ist StuMaTo als Webseite umgesetzt, die sich nur aus dem internen Netzwerk der PPI AG erreichbar ist. Es wurde von den Studenten selber entwickelt.
 
-Im Jahr 2018 wurde eine Gruppe von drei aktiven Studenten mit der Neuentwicklung von StuMaTo beauftragt, um StuMaTo sowohl technisch auf den neusten Stand zu bringen als auch nutzerfreundlicher werden zu lassen. Diese zweite Version von StuMaTo soll in dieser Arbeit anhand des Scenario-based Development auf ihre Usability hin analysiert werden.
+Im Jahr 2018 wurde eine Gruppe von drei aktiven Studenten mit der Neuentwicklung von StuMaTo beauftragt, um StuMaTo sowohl technisch auf den neusten Stand zu bringen als auch nutzerfreundlicher werden zu lassen. Diese zweite Version von StuMaTo soll in dieser Arbeit anhand des Scenario-based Development analysiert werden. Dabei wird der Fokus der Analyse auf der Sicht der Studenten liegen, die an der Nordakademie studieren. Andere Nutzergruppen sollen zwar auch thematisiert werden, jedoch eher am Rande.
 
 ## Vorgehen nach dem Scenario-based Development
 
