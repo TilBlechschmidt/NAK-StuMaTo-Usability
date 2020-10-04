@@ -11,7 +11,7 @@ Gestört hat mich, dass ich eine Aufgabe erst erstellt musste, bevor ich sie in 
 
 Mich haben die Bugs in den UI-Komponenten gestört. Kenntnisse sind nicht gespeichert worden und die Null in Zahleninputs ist nicht verschwunden. Zudem fand ich das Filtern nach Aufgaben und Studenten schwierig.
 
-3. Wie fandest du die Workflows?
+3. Wie findest du die Workflows?
 Der Prozess für das Hinzufügen der Transferleistung ist viel zu komplex. Bei einer Aufgabe, die noch nicht im System ist, hätte ich eine neue Aufgabe erstellt, aber sicher nicht bei einer Transferleistung.
 
 4. Wie hat die Testsituation dich beeinflusst?
@@ -30,7 +30,7 @@ Nach meinem ersten Eindruck ist die Anwendung sehr übersichtlich und konsistent
 Ich fand die Aufgaben gut integriert. Es kann von überall auf die Aufgaben zugegangen werden.
 Schlecht fand ich, dass wenn man vom Profil auf Aufgabe geklickt hat und dann auf den Zurück-Button, dass man dann nicht wieder auf dem Profil, sondern auf Aufgabenübersicht war. Daran habe ich mich sehr oft gestört.
 
-3. Wie fandest du die Workflows?
+3. Wie findest du die Workflows?
 Das Eintragen der TFL war sehr aufwändig und auch deutlich aufwändiger als alles andere. Insgesamt war das viel zu kompliziert,
 einmal als Transferleistung eintragen, dann als Aufgabe und dann als Praxiseinsatz. Und warum können sich Praxiseinsatz und TFL nicht überschneiden? Ich hätte es gerne parallel eingetragen, aber das ging nicht.
 Zudem finde ich es unglücklich eine Aufgabe für TFL einzutragen, obwohl gar nicht alle Attribute zutreffend sind. Der ganze Prozess ist unintuitiv, aber im FAQ beschrieben. Hätte mich der versuchsbetreuer nicht darauf hingewiesen, hätte ich das nicht gelesen. Zudem war das Suchen eines Studenten sehr schwierig, langsam und hat zu viele einzelne Klicks erfordert. Da musste ich mich durch jeden Studenten einzeln durchklicken.
@@ -54,7 +54,7 @@ Die Ladezeiten sind nicht gut, somit wirkt die Anwendung nicht perfekt performan
 
 Gut gefallen haben mir Ladeindikatoren und das Feedback wenn etwas fertig ist. Schlecht fand ich, dass beim Eintragen einer Aufgabe ins Profil das Datum nicht richtig ausgefüllt wird. Zudem sind mir einige Fehler in einzelnen Komponenten aufgefallen. Bei den Skills dauert es eine Weile, bis sie im Profil erscheinen. Bei der Suche setzen sich die Filter zurück.
 
-3. Wie fandest du die Workflows?
+3. Wie findest du die Workflows?
 
 Aufgaben erstellen und sie selbst zuzuordnen ist unnötig redundant. Sie sollten direkt im Kalender auftauchen. Man muss die Aufgabe erst erstellen und dann noch ins Profil eintragen, das ist sehr anstregend.
 
@@ -76,7 +76,7 @@ Ich finde die Anwendung ist eine gute Idee, aber sie ist noch nicht so toll umge
 
 Gestört hat mich, dass man kann keine zwei Aufgaben auf einmal machen kann. Zudem haben sich die Daten der Credit Points und bei den Aufgaben nach einer Zeit gelöscht. 
 
-3. Wie fandest du die Workflows?
+3. Wie findest du die Workflows?
 
 Ich finde die Prozesse zu lang und unübersichtlich. Auch die Transleistung habe ich nicht verstanden. Ich dachte man kann sie annehmen.
 

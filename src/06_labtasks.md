@@ -51,7 +51,7 @@ Darum werden zunächst die folgenden beiden Fragen gestellt:
 
 Anschließend gilt es, eine Meinung zu den durchlaufenen Workflows zu erhalten, und dabei eventuell gescheiterte Aufgaben aufzuklären, damit der Nutzer sie und sein eventuelles Scheitern informiert beurteilen kann.
 
-3. Wie fandest du die Workflows?
+3. Wie findest du die Workflows?
 
 Daraufhin soll der Nutzer selbst einschätzen, ob er nach seinen eigenen Verhältnissen realistisch gehandelt hat, um eventuelle Beeinflussungen durch das Testszenario besser abschätzen zu können.
 

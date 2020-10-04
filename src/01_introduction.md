@@ -29,7 +29,7 @@ Im Jahr 2018 wurde eine Gruppe von drei aktiven Studenten mit der Neuentwicklung
 
 ## Vorgehen nach dem Scenario-based Development
 
-Das Vorgehen des Scenario-based Development wird in [@sbd] dargestellt und ist in in [Abbildung @fig:sbd] nachverfolgbar.
+Das Vorgehen des Scenario-based Development wird in [@sbd] dargestellt und ist in [Abbildung @fig:sbd] nachverfolgbar.
 
 In dieser Arbeit erfolgt dementsprechend zunächst eine Analyse des vorgestellten Projekts. Diese ist aufgeteilt in die Kontextanalyse in [Abschnitt @sec:context], eine heuristische Evaluation als Expertenverfahren in [Abschnitt @sec:heur-anal] und einen Labortest unter Einbeziehung potentieller Nutzer in [Abschnitt @sec:lab]. Diese ermöglichen die Erstellung von Problemszenarios, auf welche sich in der Designphase konzentriert wird. Dieses Szenario repräsentiert die aktuelle Situation, geht dabei aber verstärkt auf negative Eigenschaften dieser ein. Es begründet sich in den Erkenntnissen der zuvor beschriebenen Analysephasen. Die Einschränkung der weiteren Analyse auf die vorgestellten Problemszenario liegt im Rahmen der Arbeit begründet.
 
