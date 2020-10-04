@@ -32,7 +32,7 @@ Die Stellen der Hausarbeit, die andere Quellen im Wortlaut oder dem Sinn nach en
     \end{minipage}%
     \begin{minipage}{.33\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{src/images/signatures/hendrikr.png}\\
+        \includegraphics[width=\textwidth]{src/images/signatures/hendrikr.jpg}\\
         Hendrik Ken Reiter
     \end{minipage}
 \end{figure}
