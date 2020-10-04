@@ -33,6 +33,3 @@ Der Begriff des Agenten hingegen beeinflusst weniger die Begrifflichkeit der Anw
 <!-- TODO evtl. Berufungen -->
 
 <!-- evtl. Integration von Datenquellen? Jira, git, cis, inhalte theorie?-->
-
-
-

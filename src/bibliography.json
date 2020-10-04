@@ -19,7 +19,7 @@
         ]
       ]
     },
-    "title": "Methoden der usability evaluation: Wissenschaftliche grundlagen und praktische anwendung.",
+    "title": "Methoden der Usability Evaluation: Wissenschaftliche Grundlagen und praktische Anwendung",
     "title-short": "Methoden der usability evaluation",
     "type": "article-journal"
   },
@@ -39,7 +39,7 @@
       ]
     },
     "publisher": "Pearson Studium München",
-    "title": "Grundlagen der mensch-computer-interaktion",
+    "title": "Grundlagen der Mensch-Computer-Interaktion",
     "type": "book"
   },
   {
@@ -53,13 +53,24 @@
     "issued": {
       "date-parts": [
         [
-          2005
+          1994,
+          4,
+          24
         ]
       ]
     },
-    "publisher": "http://www.nngroup.com/articles/ten-usability-heuristics/",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          4
+        ]
+      ]
+    },
+    "URL": "http://www.nngroup.com/articles/ten-usability-heuristics/",
     "title": "Ten usability heuristics",
-    "type": "no-type"
+    "type": "webpage"
   },
   {
     "author": [
@@ -101,30 +112,31 @@
     "title-short": "Designing the user interface",
     "type": "book"
   },
-  {"author": [
-    {
-      "family": "Rosson",
-      "given": "Mary Beth"
-    },
-    {
-      "family": "Carroll",
-      "given": "John M."
-    }
-  ],
-  "id": "sbd",
-  "issued": {
-    "date-parts": [
-      [
-        2001
+  {
+    "author": [
+      {
+        "family": "Rosson",
+        "given": "Mary Beth"
+      },
+      {
+        "family": "Carroll",
+        "given": "John M."
+      }
+    ],
+    "id": "sbd",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
       ]
-    ]
+    },
+    "publisher": "Morgan Kaufmann Publishers Inc.",
+    "publisher-place": "San Francisco, CA, USA",
+    "title": "Usability engineering: Scenario-based development of human-computer interaction",
+    "title-short": "Usability engineering",
+    "type": "book"
   },
-  "publisher": "Morgan Kaufmann Publishers Inc.",
-  "publisher-place": "San Francisco, CA, USA",
-  "title": "Usability engineering: Scenario-based development of human-computer interaction",
-  "title-short": "Usability engineering",
-  "type": "book"
-}, 
   {
     "author": [
       {
@@ -133,8 +145,17 @@
       }
     ],
     "id": "ppi",
-    "publisher": "https://karriere.ppi.de/duales-studium.html",
+    "URL": "https://karriere.ppi.de/duales-studium.html",
     "title": "Duales Studium bei PPI",
-    "type": "no-type"
+    "type": "webpage",
+    "accessed": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          4
+        ]
+      ]
+    }
   }
 ]
