@@ -9,7 +9,6 @@ Nach dem Usability-Test wird noch ein Interview mit dem Probanden geführt. Hier
 
 Bei der Auswahl der Probanden wird darauf geachtet, dass alle möglichen Erfahrungslevel abgebildet werden können, und außerdem wurde ein ausgeglichenes Verhältnis (2:2) von männlichen und weiblichen Probanden erreicht. Insgesamt sollen vier Probanden den Usability-Test absolvieren. Ein Proband (P3) nutzt StuMaTo schon über sein ganzes Studium hinweg und hat sogar an der Entwicklung mitgearbeitet. Er kann als Experte für das Programm eingeschätzt werden. Ein weiterer Proband (P1) hat etwa ein Jahr Erfahrung mit der Nutzung von StuMaTo und ist somit als durchschnittlicher Nutzer einzuschätzen. Die anderen beiden Probanden (P2,P4) haben gar keine Erfahrungen mit dem Programm. Hiermit werden Studenten simuliert, der erst neu in die Firma kommen.
 
-Dadurch ist zu beachten, dass für Erkenntnisse über die Erlernbarkeit der Anwendung P2 und P4 besonders zu beachten ist, für langfristige Entwicklungen und Erfahrungsberichte, sind allerdings auch die erfahreneren Stimmen von P1 und P3 sehr interessant.
 
 ## Aufgaben im Usability-Test
 

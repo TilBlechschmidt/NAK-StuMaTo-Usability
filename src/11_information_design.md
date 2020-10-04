@@ -127,10 +127,14 @@ Es ist auch ein neue **Theoriephasen-Ansicht** entstanden. Dieser wurde mit ders
 **\-** Zusätzliche Dialoge, die der Nutzer erlernen muss
 
 Das neue **Agentensystem** unterstützt den Nutzer beim Befüllen der Theorie- und Praxisphasen. Es wird aufgerufen, wenn der Nutzer im Dashboard auf den Vorschlag seines Agenten klickt die Daten für Theorie oder Praxisphase einzutragen. Hiermit soll ein einfacher Prozess geschaffen werden, der den Nutzer durch den Prozess des Anlegens der Theorie und Praxisphase begleitet. Somit soll vermieden werden, dass der Nutzer vergisst Daten einzutragen. Somit wird das Problem aus der Kontextanalyse angegangen, dass die Daten in StuMaTo nicht aktuell seien. Der Agent ist in drei Schritte aufgeteilt. Die Einteilung in Schritten wurde vorgenommen, um eine konkretere und übersichtlichere Informationsdarstellung zu erhalten.
+
 Im folgenden wird nur auf das Agentensystem der Praxisphase eingegangen. Das Agentensystem der Theoriephase funktioniert analog.
 In Schritt eins werden alle Herausforderungen aufgelistet, die in der Praxis angegangen wurden. Dabei können Aufgaben, die schon im System gelistet sind, gesucht und jene, die es nicht sind, erstellt werden. Die explizite Trennung von Suchen und Erstellen, soll verdeutlichen, wo die Aufgabe herkommt. Durch das Erstellen wird dem Nutzer eine einfache Möglichkeit gegeben eingene Aufgaben in das System zu integrieren ohne einen UI-Wechsel durchführen zu müssen.
+
 In Schritt zwei kann eine Kurzbeschreibung zu der Aufgabe hinzugefügt werden. Diese Funktionalität wurde aus dem alten System beibehalten. Hier wird der Nutzer animiert weitere Informationen über die Bearbeitung seiner Aufgabe preiszugeben.
+
 In Schritt drei sollen die Errungenschaften, die bei der Bewältigung der Herausforderungen entstanden sind, einzugeben. Somit soll das Profil des Nutzers weiter gepflegt werden. So werden dem Nutzer schon die Kenntnisse, die mit der Aufgabe verbunden waren, in diesem Dialog angezeigt. Es ist wahrscheinlich, dass der Nutzer bei dem Bearbeiten einer Augfabe in den Bereichen seine Kenntnisse erweitert hat, an der er gerade gearbeitet hat. Somit findet der Nutzer die für ihn relevanten Informationen schnell und kann sofort mit ihnen interagieren. Zudem können in diesem Dialog die anderen üblichen Errungenschaften wie Seminare, Transferleistungen oder Weiteres hinzugefügt werden.
+
 Nachdem diese drei Schritte durchlaufen sind, wird der Nutzer zu einem Review seiner eingetragenen Daten geführt. Dies dient dazu, dass der Nutzer einmal Feedback bekommt, dass der Prozess des Eintragens von Daten jetzt beendet ist. Dies behebt auch den ENDLESS-PROFILE Fehler aus der Heuristischen Analyse. Zudem kann der Nutzer seine Daten noch einmal prüfen, um Fehler zu vermeiden.
 
 **Claims:**
